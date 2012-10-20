@@ -1,0 +1,117 @@
+<sburb description="lab section 1">
+
+  <dependencies>
+	<dependency>chars/karkat.xml</dependency>
+	<dependency>chars/dave.xml</dependency>
+  </dependencies>
+
+  <classes>
+    <animation class='karkat-dialog' frameInterval='6' x='-180' y='-454'/>
+    <animation class='dave-dialog' frameInterval='6' x='-230' y='-454'/>
+  </classes>
+
+  <assets>
+    <asset name='karkatSheet' type='graphic'>chars/karkat.png</asset>
+    <asset name='daveSheet'   type='graphic'>chars/dave.png</asset>
+
+    <asset name='hallwayWalkable' type='graphic'>backgrounds/hallwayWalkable.png</asset>
+    <asset name='hallwayBG'       type='graphic'>backgrounds/hallway.png</asset>
+    <asset name='hallwayFG'       type='graphic'>backgrounds/hallwayFG3.png</asset>
+    <asset name='staircase'       type='path'>1715,1900;1715,2100;2280,1480;2280,1400</asset>
+
+    <asset name='dave_smug'     type='graphic'>dialogs/dave_smug.png</asset>
+    <asset name='dave_talk'     type='graphic'>dialogs/dave_talk.png</asset>
+    <asset name='dave_huh'      type='graphic'>dialogs/dave_huh.png</asset>
+    <asset name='dave_huhtalk'  type='graphic'>dialogs/dave_huhtalk.png</asset>
+
+    <asset name='karkat_talk'     type='graphic'>dialogs/karkat_talk.png</asset>
+    <asset name='karkat_facepalm' type='graphic'>dialogs/karkat_facepalm.png</asset>
+    <asset name='karkat_shout'    type='graphic'>dialogs/karkat_shout.png</asset>
+    <asset name='karkat_yell'     type='graphic'>dialogs/karkat_yell.png</asset>
+    <asset name='karkat_eyeroll2'  type='graphic'>dialogs/karkat_eyeroll2.png</asset>
+  </assets>
+
+  <hud>
+    <dialogsprites>
+      <animation name='dave_smug' class='dave-dialog' sheet='dave_smug' length='2'/>
+      <animation name='dave_talk' class='dave-dialog' sheet='dave_talk' length='2'/>
+      <animation name='dave_huh' class='dave-dialog' sheet='dave_huh'/>
+      <animation name='dave_huhtalk' class='dave-dialog' sheet='dave_huhtalk' length='2'/>
+
+      <animation name='karkat_talk' class='karkat-dialog' sheet='karkat_talk' length='2'/>
+      <animation name='karkat_facepalm' class='karkat-dialog' sheet='karkat_facepalm' length='2'/>
+      <animation name='karkat_shout' class='karkat-dialog' sheet='karkat_shout' length='2'/>
+      <animation name='karkat_yell' class='karkat-dialog' sheet='karkat_yell' length='2'/>
+      <animation name='karkat_eyeroll2' class='karkat-dialog' sheet='karkat_eyeroll2' length='1'/>
+    </dialogsprites>
+  </hud>
+
+  <effects>
+    <animation name='karkatWalk' sheet='karkatSheet' x='-37' y='-65' rowSize='75' colSize='75' length='3' followUp='idleFront'/> 
+  </effects>
+
+  <rooms>
+    <room name='hallwayBG' width='2400' height='2200' walkableMap='hallwayWalkable'>
+  
+      <paths>
+        <motionpath path="staircase" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+      </paths>
+  
+        
+        <!--
+      <triggers>
+          <trigger>spriteProperty,char,y&gt;1980
+            <trigger>spriteProperty,dave,x&lt;1595
+              <action command='moveSprite' noDelay='true'>
+                <args>char,1650,2000</args>
+                  <action command='changeFocus' noDelay='true'>
+                    <args>dave</args>
+                    <action command='deltaSprite' noDelay='true'>
+                      <args>dave,4,0</args>
+                      <trigger detonate='true'>spriteProperty,dave,x&gt;1590
+                        <action class='daveTalk' command='talk' noDelay='true' >
+                        </action>
+
+                          <action command='changeFocus' noDelay='true'>
+                          <args>char</args>
+                          <action command='follow' noDelay='true'>
+                            <args>dave,char</args>
+                          </action>
+                          </action>
+                      </trigger>
+                    </action>
+                  </action>
+              </action>
+            </trigger>
+       </trigger>
+      </triggers> -->
+
+
+
+<triggers>
+          <trigger detonate='true'>spriteProperty,char,y&gt;1950
+            <action command='follow'>
+              <args>dave,char</args>
+              <action class='daveTalk' command='talk' noDelay='true'>
+                  </action>
+            </action>
+       </trigger>
+      </triggers>
+
+      <character name='karkat' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='karkatSheet' state='walkFront' facing='Front'>
+      </character>
+      <character name='dave' x='1595' y='2000' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='daveSheet' state='walkRight' facing='Right'>
+      </character>
+
+      <sprite name='hallwayBG'>
+        <animation sheet='hallwayBG'/> 
+      </sprite>
+      <sprite name='hallwayFG' x='0' y='0' depthing='2'>
+       <animation sheet='hallwayFG'/>
+      </sprite>
+       
+    </room>
+  </rooms>
+</sburb>
+ 
+
