@@ -96,6 +96,12 @@
                   </action>
             </action>
        </trigger>
+    
+    <trigger>
+        <args>inBox2,char,1890,1340,2400,2200</args>
+        <action command='changeRoomRemote'>roof.xml,roof,530,560</action>
+    </trigger>
+    
       </triggers>
 
       <character name='karkat' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='karkatSheet' state='walkFront' facing='Front'>
