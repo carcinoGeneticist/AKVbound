@@ -1,0 +1,21 @@
+<sburb desc="Standard Template Resources">
+	<dependencies>
+	</dependencies>
+	<assets>
+		<asset name='preloaderBG' type='graphic'>backgrounds/load.png</asset>
+		<asset name='volumeControl' type='graphic'>interface/volumeControl.png</asset>
+		<asset name='saveControl' type='graphic'>interface/captcha.png</asset>
+  		<asset name='helpControl' type='graphic'>interface/helpControl.png</asset>
+  		
+  
+	</assets>
+
+	<classes>
+	
+		
+	 
+	</classes>
+	
+	<effects>
+	</effects>
+</sburb>

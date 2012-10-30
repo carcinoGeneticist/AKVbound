@@ -1,0 +1,10 @@
+<sburb>
+	<classes>
+       <action class='daveTalk' sprite='dave' command='talk'>
+         <args>
+         
+         <!--  -->
+         </args>
+      </action>
+   </classes>
+</sburb>
