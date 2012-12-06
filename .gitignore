@@ -5,8 +5,6 @@ Jterniabound.wiki*
 *.zip
 utils/*/*output*/
 utils/*/*input*/
-.DS_Store
-
 # OS generated files #
 ######################
 .DS_Store
