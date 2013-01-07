@@ -1,0 +1,130 @@
+<sburb description='eridan logs'>
+	<classes>
+		 <action class='eridanTalk1' sprite='eridan' command='talk'>
+			 <args>
+			 	@eridan_huh ERIDAN: so kar are you all alivve
+				@eridan_talk ERIDAN: like actually alivve
+				
+				@karkat_what KARKAT: YEAH...
+				
+				@eridan_talk ERIDAN: wwhat a fuckin relief for once
+				@eridan_madtalk ERIDAN: all the other bubbles i cross through wwent through timelines so different
+				@eridan_madtalk ERIDAN: and they all don’t remember jack shit about wwhat happened
+				
+				@karkat_talk KARKAT: IT’S THE SAME WITH THE FEW VERSIONS OF YOU THAT I’VE MET. I DOUBT WE WENT THROUGH ANY OF THE SAME FUCKING STUFF YOU DID.
+				
+				@eridan_huh ERIDAN: i don’t knoww
+				@eridan_talk ERIDAN: i guess it just feels more genuine or something
+				@eridan_huh ERIDAN: you look older though
+				
+				@karkat_talk KARKAT: WE’VE BEEN OUT HERE FOR OVER HALF A SWEEP.
+				@karkat_what KARKAT: I THINK THAT’S ABOUT A YEAR AND A FEW MONTHS IN HUMAN TIME.
+				
+				@eridan_huh ERIDAN: wwhats a human
+				
+				@karkat_facepalm KARKAT: UGH...
+				
+				@karkat_yell KARKAT: THESE PALE MOTHERFUCKERS LIKE THE GUY IN THE RED GEAR PAJAMAS.
+				
+				@eridan_talk ERIDAN: are they game constructs or
+				
+				@karkat_talk KARKAT: NO, THEY’RE FROM A DIFFERENT UNIVERSE.
+				
+				@karkat_talk KARKAT: THE ONE WE FUCKING CREATED WHEN WE WON THE GAME.
+				
+				@karkat_talk KARKAT: BUT THROUGH A COMBINATION OF ME FUCKING UP AND THEM FUCKING UP...
+				
+				@karkat_eyeroll2 KARKAT: WE NEVER REALLY FULLY WON.
+				
+				@karkat_talk KARKAT: SO WE’VE BEEN WORKING WITH THEM ON CHEATING THE SYSTEM.
+				
+				@karkat_talk KARKAT: IT’S A LONG AND INCREDIBLY CONVOLUTED STORY THAT WOULD PROBABLY TAKE NEARLY 2 SWEEPS AND EIGHT THOUSAND PAGES TO TELL ACCURATELY.
+				
+				@eridan_talk ERIDAN: i think i get it
+				
+				@karkat_talk KARKAT: GOOD, BECAUSE I DON’T.
+				
+				@! You start to wonder if Terezi’s noticed Eridan’s arrival. If anything is going to interrupt her RP streak, this will.
+			 </args>
+		 </action>
+		 
+		 <action class='eridanTalk2' sprite='eridan' command='talk'>
+			 <!-- triggered at the end of tereziTalk¿ -->
+			 <args>
+			 	@karkat_facepalm KARKAT: ...
+				@karkat_facepalm FUCK...
+				
+				@eridan_huh ERIDAN: so... wwalk around time?
+
+				@karkat_talk KARKAT: MIGHT AS WELL BE.
+			 </args>
+		 </action>
+		 
+		 <action class='eridanTalk3' sprite='eridan' command='talk'>
+			 <!-- trigger in top room. -->
+			 <args>
+				@eridan_madtalk ERIDAN: wwhat wwas up back there wwith aquablood?
+				
+				@karkat_yell KARKAT: DO YOU REALIZE HOW EMBARASSING YOU ARE?
+				
+				@eridan_huh ERIDAN: wwhat?
+				
+				@karkat_yell KARKAT: YOU’VE BEEN DEAD FOR I DON’T KNOW HOW LONG, A FUCKING SWEEP MAYBE, AND YOU JUST START ACTING LIKE WE’RE BEST FRIENDS OR SOMETHING.
+				@karkat_talk KARKAT: FIRST OFF, IT’S KIND OF...
+				@karkat_sullen KARKAT: TRAUMATIZING?
+				@karkat_sullen KARKAT: TO SEE SOMEONE TALKING TO ME HERE AND NOW WHEN I’VE SEEN THEIR MUTILATED CORPSE UP CLOSE BEFORE.
+				@karkat_talk KARKAT: SECONDLY-
+				@eridan_huh ERIDAN: mutilated??
+				@eridan_madtalk ERIDAN: howw wwas i killed in your timeline
+				
+				@karkat_eyeroll1 KARKAT: ...
+				@karkat_eyeroll1 KARKAT: KANAYA SAWED YOU IN HALF...
+				
+				@eridan_growl ERIDAN: that jadeblooded bitch
+				@eridan_madtalk ERIDAN: i knoww i might a annoyed her with the ashen requests but she didn’t have to-
+				
+				@karkat_shout KARKAT: WOW, ARE YOU REALLY THAT FUCKING SHALLOW THAT YOU THINK SOMEONE ELSE WOULD KILL YOU OVER SOMETHING LIKE THAT?
+				
+				@karkat_shout KARKAT: YOU WERE PRETTY FUCKING INSANE, YOU KNOW. YOU TRIED TO KILL HER BY BLASTING A HOLE THROUGH HER CHEST WITH SOME BEEFED UP MAGIC WAND. AND ON TOP OF THAT-
+				
+				@eridan_madtalk ERIDAN: magic wwand kar really
+				
+				@eridan_madtalk ERIDAN: i must a been pretty fuckin stupid in your timeline too
+				
+				@eridan_talk ERIDAN: since wwhen wwould i try to use magic for anythin
+				
+				@karkat_horror KARKAT: I
+				@karkat_what KARKAT: ...
+				@karkat_sullen KARKAT: ...
+				@karkat_talk KARKAT: NO COMMENT.
+				
+				@karkat_talk KARKAT: BY THE WAY, IS THERE ANYONE IN THIS THING OTHER THAN YOU?
+				
+				@eridan_talk Eridan: wwell not right noww
+				@eridan_talk ERIDAN: but i havve run into others a feww times before
+				@eridan_fingers ERIDAN: its not really anythin special usually
+				@eridan_fingers ERIDAN: i still get pretty lonely out here
+				@eridan_lip ERIDAN: vvery lonely an vvery cold
+				@eridan_lip ERIDAN: i didnt evven know ghosts could feel cold
+				@eridan_lip ERIDAN: youre lucky you at least havve people to interract with
+				@eridan_huh ERIDAN: 
+				@eridan_huh ERIDAN: hey kar
+				@eridan_huh ERIDAN: wwhats that thing youre holding
+				
+				@karkat_what KARKAT: OH THIS
+				@karkat_shout KARKAT: OH FUCK I NEVER STOPPED RECORDING DID I?
+				@karkat_facepalm KARKAT: AGH...
+				@karkat_talk KARKAT: WELL AT LEAST THIS CAN PROVIDE SOME INSIGHT ON HOW MUCH IDIOTIC AND SPORADIC BULLSHIT I HAVE TO PUT UP  WITH BETWEEN RECORDING THINGS.
+				
+				@eridan_talk ERIDAN: recordin wwhat 
+				
+				@karkat_talk KARKAT: IGNORE IT.
+				
+				@! You hear footsteps and decide to see if anyone else could be around, with Eridan tagging along.
+			 </args>
+			 
+			<!-- Dave removed, Tavros shows up in far right room. -->
+		 </action>
+		 
+		 </classes>
+</sburb>

@@ -1,0 +1,214 @@
+<sburb description='terezi logs'>
+	<classes>
+		  <action class='tereziTalk1' sprite='terezi' command='talk'>
+			 <!-- triggered automatically, exiting onto observation deck -->
+			 <args>
+				@! TEREZI: CH3RRYB3RRY! C4NDYSP1C3! TH3R3 YOU 4R3! 
+				@! TEREZI: G3T YOUR D1SGUST1NGLY S3DUCT1V3 C4NDY 4SS3S OV3R H3R3 R1GHT NOW B3FOR3 1 D3C1D3 TO S3ND MY P4RTN3R 4FT3R YOU!
+				
+				@! TEREZI: 4ND TRUST M3YOU DO NOT W4NT TO G3T ON H3R B4D S1D3 >:]
+				
+				@dave_concern DAVE: (oh shit she sees us)
+				
+				@dave_huh DAVE: (wait a second why are there scalemates laid out like this?)
+				
+				@dave_concern DAVE: (this could mean one of two things karkat)
+				
+				@dave_talk DAVE: (weve walked into a setup to a roleplay or theres some kind of weird troll tribal raindance ritual that you didnt tell me about)
+				
+				@dave_talk DAVE: (am i getting sacrificed or some shit come on you gotta warn a brother about this stuff)
+				
+				@karkat_talk KARKAT: (first off i’m actually somewhat offended you think our culture is that fucking primitive, and second, why the fuck would anyone try to wish rain from a matterless fucking void?)
+				
+				@dave_smug DAVE: (dude you havent seen the space rain?)
+				@dave_smug DAVE: (im pretty surprised but then again id wager its kinda hard to see it or hear it over your dane cook marathons)
+				
+				@karkat_yell KARKAT: HEY! MY TASTE IN MOVIES IS FUCKING GREAT AND YOU-
+				
+				@! TEREZI: G3NTL3M3N! 
+				@! TEREZI: YOU 4R3 HOLD1NG UP 4N 4CT1V3 1NV3ST1G4T1ON!
+				@! 1 W1LL NOT OFF3R YOU 4NOTH3R CH4NC3 G3T OV3R H3R3 NOW!
+				
+				
+				@karkat_eyeroll2 KARKAT: GAH...
+				@karkat_talk KARKAT: WELL OBVIOUSLY IT LOOKS LIKE WE’VE WALKED INTO A ROLEPLAY.
+				
+				@dave_huhtalk DAVE: i say we just let her talk pretend we know what shes talking about and vaguely play along
+				
+				@dave_huhtalk DAVE: faster we just go with it the faster we leave and then shell probably forget about it
+				
+				@karkat_idle KARKAT: SURE, WHATEVER.
+	
+			 </args>
+			 <!-- spits players back out into gameplay. observation deck exit blocked off -->
+		 </action>
+		 
+		 
+		 <action class='tereziTalk2' sprite='terezi' command='talk'>
+			 <!-- triggered when near terezi on deck -->
+			 <args>
+				@terezi_talk TEREZI: NOW TH3N THR3SH3CUT1ON3R CH3RRYB3RRY OUR F1RST ORD3R OF BUS1N3SS MUST B3 4 D1SCUSS1ON OF YOUR WH3R34BOUTS ON TH3 D4Y OF TH3 MURD3R
+				
+				@terezi_talk TEREZI: 4CCORD1NG TO COURT R3CORDS OBT41N3D BY OP3R4TOR HORS D’OVR3S YOU CL41M TH4T YOU L3FT YOUR R3SP1T3BLOCK 4T 4PPROX1M4T3LY 7:45 PM TO R41D TH3 TH3RM4L HULL FOR 4ND 1 QUOT3
+				
+				@terezi_talk TEREZI: “SN4CKS FOR 4 FUCK1NG 1NCR3D1BL3 JOHN CUS4CK FLICK M4R4THON”
+				
+				@terezi_talk TEREZI: YOU R3TURN3D TO YOUR R3SP1T3BLOCK 4T 4PPROX1M4T3LY 8:05 PM UPON YOUR R3TURN YOU W3R3 GR33T3D W1TH 4 GR1SLY MURD3R SC3N3!
+				
+				@terezi_talk TERZI: DO YOU W1SH TO 4DD 4NY D3T41LS TO YOUR T3ST1MONY
+				
+				@karkat_idle KARKAT: 
+				@karkat_talk KARKAT: IS THIS SERIOUSLY WHAT YOU WANTED US HERE FOR?
+				
+				@dave_huh DAVE: i suddenly understand everything
+				
+				@karkat_talk KARKAT: IS THAT SUPPOSED TO BE “PLAYING ALONG”, DAVE?
+				
+				@dave_talk DAVE: what i just said i understand everything
+				
+				@terezi_madtalk TEREZI: YOU ST1LL H4V3 NOT 4NSW3R3D MY QU3ST1ON! MR C4NDYSP1C3 1F YOU CONT1NU3 TO B4DG3R TH3 W1TN3SS 1 W1LL B3 FORC3D TO-
+				
+				@terezi_huh TEREZI: >:?
+				@terezi_laugh TEREZI: OH SP34K1NG OF W1TN3SS3S!
+				
+				@terezi_talk TEREZI: 1T SM3LLS L1K3 W3 M4Y B3 JO1N3D BY SOM3 N3W BYST4ND3RS SOON >:]
+				
+				@karkat_what KARKAT: WHAT DO YOU MEAN MORE BYSTANDERS?
+				
+				@terezi_talk TEREZI: LOOK!
+				@terezi_laugh TEREZI: D34R J3GUS K4RK4T 4R3 YOU R34LLY WORS3 4T S331NG TH1NGS COM1NG TH4N TH3 BL1ND G1RL
+				
+				@! A quick 180 degree turn reveals this in your sight...
+				
+				@!~drbubble
+				
+				@! Well would you look at that shit.
+				
+				@dave_smug DAVE: haha well would you look at that shit saved by the bubble
+				
+				@karkat_eyeroll2 KARKAT: (please let it be something really fucking distracting. fucking please...)
+	
+			 </args>
+		 </action>
+		 
+		 
+		 
+		 
+		 <action class='tereziTalk3' sprite='terezi' command='talk'>
+			 <!-- right after warping into lowaa -->
+			 <args>
+			 	@karkat_talk KARKAT: I GUESS YOUR ROLEPLAY PLANS CAN’T REALLY GO THROUGH NOW, HUH?
+
+				@terezi_madtalk TEREZI: DR34MBUBBL3S NOTW1THST4ND1NG M4Y 1 R3M1ND YOU BOTH TH4T W3 4R3 ST1LL 1N TH3 M1DDL3 OF 4N 1MPORT4NT 1NT3RV13W!
+
+				@terezi_talk TEREZI: NOW CH3RRYB3RRY COULD YOU PL34S3 D3SCR1B3 TH3-
+
+				@karkat_talk KARKAT: I’D RATHER NOT.
+
+				@terezi_mad TEREZI: >:/
+
+				@karkat_talk KARKAT: SORRY.
+
+				@terezi_mad TEREZI: >:/
+			 </args>
+		 </action>
+		 
+		 
+		 
+		 
+		 <action class='tereziTalk4' sprite='terezi' command='talk'>
+		 	<!-- available after eridan shows up -->
+			<args>	
+				@terezi_talk TEREZI: HOW K1ND OF YOU TO JO1N US DOOM3D D34D 3R1D4N!
+				
+				@terezi_talk TEREZI: 1 4M RUNN1NG SHORT ON M3MB3RS OF TH3 JURY, 4ND 4T TH3 R4T3 W3 4R3 GO1NG W3 4R3 1N D4NG3R OF N3V3R C4TCH1NG D3T3CT1V3 DULC3’S MURD3R3R!
+				
+				@terezi_talk TEREZI: 1 4M 4FR41D TH4T 1 W1LL SOON N33D TO BYP4SS TH3 CURR3NT D1SCUSS1ON 1N ORD3R TO D1SP3NS3 SOM3...
+				
+				@terezi_laugh TEREZI: H34V13R 1NT3RROG4T1ON M3THODS!
+				
+				@eridan_talk ERIDAN: despite this afterlife thing bein a wwhole eternity-long deal
+				
+				@eridan_madtalk ERIDAN: i dont havve time for your outlandish make-believe court dramas
+				
+				@eridan_talk ERIDAN: hey kar while they’re busy RPing and stuff how about I show you around my planet
+				@eridan_fingers ERIDAN: i remember most of the cool parts so it should all be here
+				@eridan_fingers ERIDAN: maybe wwe could finally catch up for real
+				
+				@karkat_eyeroll2 KARKAT: THAT ACTUALLY SOUNDS A LOT MORE EXCITING THAN LISTENING TO FAKE JUDICIAL BABBLE...
+				
+				@terezi_madtalk TEREZI: 1 4M GROW1NG QU1T3 1MP4T13NT 4ND 4NGRY!
+				@terezi_madtalk TEREZI: 1 4M W4RN1NG YOU, DO NOT CROSS TH3 COURTBLOCK MR THR3SH3CUT1ON3R!
+				
+				@karkat_talk KARKAT: REALLY, TEREZI, YOU KEPT ANNOYING DAVE AND I INTO COMING UP HERE TODAY, AND THIS IS ONE OF THE MOST LACKLUSTER INCENTIVES YOU COULD HAVE GIVEN US TO DO SO.
+				
+				@karkat_yell KARKAT: AND SERIOUSLY, WE’RE NOT EVEN IN A COURT, WE’RE IN THE LAND OF WRATH AND ANGELS.
+				
+				@karkat_shout KARKAT: EXCEPT WE’RE NOT EVEN IN THE LAND OF WRATH AND ANGELS WE’RE ON THE FUCKING ROOF OF A BUILDING ON THIS FUCK FORSAKEN ASTEROID.
+				
+				@karkat_yell KARKAT: YOU COULD TRY TO CONSIDER THAT POSSIBLY I’D LIKE TO TALK TO A NON-HOMOCIDAL AND NON-SHITHIVE MAGGOTS VERSION OF ONE OF MY OLD FRIENDS INSTEAD OF CATERING TO YOUR FUCKED UP JUDGEMURDER ROLEPLAY NEEDS?
+				
+				@terezi_mad TEREZI: >:/
+				@terezi_madtalk TEREZI: YOU KNOW WH4T?
+				
+				@terezi_madtalk TEREZI: 4T TH1S PO1NT YOU C4N 4LL DO WH4T3V3R TH3 FUCK YOU W4NT
+				
+				@karkat_yell KARKAT: ARE YOU SERIOUSLY MAD THAT WE DIDN’T WANT TO BE FORCED INTO ROLEPLAYING?
+				
+				@karkat_yell KARKAT: WHAT DID YOU EVEN WANT TO DO THIS FOR?
+				
+				@terezi_madtalk TEREZI: WHY SHOULD YOU C4R3?
+				
+				@karkat_talk KARKAT: WELL IF YOU WANTED TO DO SOMETHING YOU COULD HAVE AT LEAST PLANNED IT BETTER.
+				
+				@karkat_talk KARKAT: OR GIVEN US NOTICE.
+				
+				@karkat_talk KARKAT: WE’RE NOT REALLY THE FUCKING ECCENTRIC ROLEPLAYING TYPE LIKE YOU ARE.
+				
+				@terezi_mad TEREZI: WH4T3V3R
+				
+				@karkat_what KARKAT: ...
+				
+				@karkat_talk KARKAT: WELL SORRY.
+				
+				@eridan_madtalk ERIDAN: you tell her kar
+				@eridan_madtalk ERIDAN: don’t let some blind psychopath and her pretend games get betwween us
+				
+				@karkat_facepalm KARKAT: ERIDAN OF THE AMOUNT OF WORD COMBINATIONS YOU COULD FORCE OUT OF YOUR CHITINOUS WINDTUBE THAT WAS POSSIBLY THE WORST POSSIBLE THING.
+				
+				@eridan_huh ERIDAN: wwhat
+				@eridan_fingers ERIDAN: i just meant-
+				
+				@karkat_yell KARKAT: AND WHAT DO YOU MEAN, BETWEEN US?
+				
+				@karkat_talk KARKAT: DUDE, WE WERE NEVER EVEN _THAT_ CLOSE, OK?
+				
+				@karkat_yell KARKAT: I DON’T WANT TO GET INTO A FUCKING SPLIT DIMENSION ANTICONFESSION EMOTIONAL BULLSHITCIRCUS, SO CAN YOU JUST NOT SOUND SO STRANGELY ATTATCHED FOR ONCE?
+				
+				@karkat_shout KARKAT: ESPECIALY IN FRONT OF OTHER PEOPLE?
+				
+				@dave_concern DAVE: what the fuck is even happening over there
+				@dave_huhtalk DAVE: of all the awkward things thats happened on this asteroid
+				
+				@karkat_shout KARKAT: CAN YOU BLUBBERING COCKHEADS JUST CAN IT FOR A SECOND? I’M TRYING TO GET A MESSAGE ACROSS HERE!
+				
+				@terezi_madtalk TEREZI: K4RK4T 1 R3GR3T TO 1NFORM YOU TH4T TH3 ONLY “BLUBB3R1NG COCKH34D” 1N TH3 1MM3D14T3 V1C1N1TY 1S YOU
+				
+				@karkat_shout KARKAT: SWEET SLUDGESPEWING FUCK WHY AM I THE FUCKING BAD GUY HERE?
+				
+				@terezi_madtalk TEREZI: 1 DON’T KNOW BUT S1NC3 4PP4R3NTLY 1’M NOT 1NT3R3ST1NG 3NOUGH, 1 TH1NK 1’LL JUST GO.
+				
+				@karkat_eyeroll1 KARKAT: TEREZI, COME ON...
+				
+				@terezi_mad TEREZI: NO
+		 	</args>
+			<!-- terezi leaves -->
+		 </action>
+		 
+		 
+		 
+		 
+		 
+		 
+		</classes>
+</sburb>
