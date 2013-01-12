@@ -1,10 +1,10 @@
-<sburb name="AKVbound" version="1.2" char='meenah' bgm='hateYouSong' description="first area" scale='2' levelPath='levels/AKVbound' resourcePath='resources/AKVbound'>
+<sburb name="AKVbound" version="1.2" char='karkat' bgm='karkatSong' description="first area" scale='2' levelPath='levels/AKVbound' resourcePath='resources/AKVbound'>
 
 	<dependencies>
 		<dependency>etc/ui.xml</dependency>
 		<dependency>etc/standardTemplates.xml</dependency>
 		<dependency>etc/sfx.xml</dependency>
-		<dependency>rooms/hallway.xml</dependency>
+		<dependency>rooms/lab1.xml</dependency>
 	</dependencies>
 
 	

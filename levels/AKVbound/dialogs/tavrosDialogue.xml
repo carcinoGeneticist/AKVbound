@@ -1,0 +1,75 @@
+<sburb description='tavros logs'>
+	<classes>
+		  <action class='tavrosTalk1' sprite='tavros' command='talk'>
+			 <!-- triggered automatically when entering far right room-->
+			 <args>
+			 <!-- TAVROS: hEY,,,
+
+KARKAT: FUCK!
+
+KARKAT: TAVROS WHERE THE FUCK DID YOU COME FROM?
+
+TAVROS: i,,, tHINK MY BUBBLE MUST HAVE SWEPT THROUGH THIS ONE,,,
+
+TAVROS: aND, nOW I’M HERE I GUESS,
+
+KARKAT: THIS IS THE DUMBEST FUCKING CLUSTERFUCK REUNION EVER.
+
+KARKAT: WAIT TAVROS, WHERE THE FUCK ARE YOUR PANTS?
+
+ERIDAN: yeah wwhat the hell kind of getup is that dirtblood
+ERIDAN: that looks so ridiculous
+
+TAVROS: oH, iT’S MY GOD TIER OUTFIT,
+TAVROS: wHEN I GOT TO IT I GOT LEGS AGAIN, aND I GUESS THE GAME WANTED ME TO NOTICE OR SOMETHING,
+TAVROS: pANTS WOULD BE, nICE THOUGH,
+
+KARKAT: I’M SORRY BUT I CAN’T EVEN LOOK AT YOU, YOU’RE JUST EMBARRASSING.
+
+TAVROS: yEAH, i KNOW,
+
+KARKAT: THIS JUST KEEPS GETTING MORE AND MORE AWKWARD.
+
+KARKAT: I’LL JUST CATCH THE NEXT DEAD ERIDAN THAT DRIFTS BY, I’M GOING BACK DOWNSTAIRS.
+
+ERIDAN: no kar
+ERIDAN: you don’t havve to be like that
+
+KARKAT: Yes I do.
+KARKAT: WATCH ME, MAGICALLY BECOME ABSENT FROM THIS SHITTY DREAM PLANET WITH PANTLESS DEAD FRIENDS. LATER, FUCKERS!
+-->
+				
+		 	</args>
+			<!-- control given back to player, observation deck stairs open again -->
+		 </action>
+		 
+		 
+		 <action class='tavrosTalk2' sprite='tavros' command='talk'>
+			 <!-- triggered automatically when entering far right room-->
+			 <args>
+		 <!-- [focus switches as you leave LOWAA]
+Eridan: wwell...
+
+TAVROS: uH,,,
+
+ERIDAN: oh he dropped that wweird thing he wwas holding
+
+TAVROS: wELL, uM, mAYBE WE SHOULD,, STOP IT FOR HIM,,,
+
+ERIDAN: wwait wwhy not try and go through it so wwe can see wwhat he’s been up to
+
+TAVROS: tHAT WOULDN’T BE A VERY COOL THING,, TO DO TO HIM,
+
+ERIDAN: i just wwant to see wwhat hes been recording
+ERIDAN: if its a public thing he probably wwouldn’t care if wwe saw
+ERIDAN: wwere dead anywway
+
+TAVROS: tHAT IS A GOOD POINT,
+		 -->
+		 	</args>
+			<!-- switch rooms -->
+		 </action>
+		 
+		 
+		</classes>
+</sburb>
