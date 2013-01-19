@@ -97,10 +97,10 @@
                 <action name='teleport' command='changeRoomRemote'><args>rooms/lab1.xml,lab1,75,3025</args>
                 </action>
             </sprite>
-           <!-- <sprite class='teleporter' name='teleporterPad2' x='1130' y='2630'>
-                <action name='teleport' command='changeRoomRemote'><args>rooms/labCG.xml,labCG,x,y</args>
+            <sprite class='teleporter' name='teleporterPad2' x='1130' y='2640'>
+                <action name='teleport' command='changeRoomRemote'><args>rooms/labCG.xml,labCG,215,1730</args>
                 </action>
-            </sprite>-->
+            </sprite>
             
             
             

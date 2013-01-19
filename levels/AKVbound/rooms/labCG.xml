@@ -1,7 +1,6 @@
 <sburb description="labCG">
     
     <dependencies>
-        <dependency>chars/karkat.xml</dependency>
     </dependencies>
     
     <assets>
@@ -94,12 +93,20 @@
         
         <room name='labCG' walkableMap='labCG_WM' scale='4'>
             
+            <sprite class='teleporter' name='teleporterPad9' x='215' y='1730'>
+                <action name='teleport' command='changeRoomRemote'><args>rooms/lab2.xml,lab2,1130,2640</args>
+                </action>
+            </sprite>
             
+            <sprite class='teleporter' name='teleporterPad10' x='2620' y='2015'>
+                <action name='teleport' command='changeRoom'><args>labCG,200,475</args>
+                </action>
+            </sprite>
+            <sprite class='teleporter' name='teleporterPad11' x='200' y='475'>
+                <action name='teleport' command='changeRoom'><args>labCG,2620,2015</args>
+                </action>
+            </sprite>
 
-            
-            <character class='karkat' x='215' y='1713'>
-                <action class='beKarkat'/>
-            </character>
             
             <sprite name='labCG_BG'>
                 <animation sheet='labCG_BG' sliced='true' numCols='6' numRows='5' colSize='500' rowSize='500'/>
