@@ -1,0 +1,241 @@
+<sburb description='dave logs'>
+	<classes>
+		 <action class='daveTalk1' sprite='dave' command='talk'>
+			 <args>
+				 @dave_talk DAVE: blogging on the go karkat?
+				 @karkat_talk KARKAT: YOU JUST HAD TO FUCKING GO THIS WAY DIDN'T YOU?
+				 @dave_talk DAVE: probably not but here i am either way
+				 @dave_talk DAVE: so where you off to mr sunshine?
+				 @karkat_yell KARKAT: ARE YOU TRYING TO TELL ME THAT DAVE FUCKING STRIDER, ALMIGHTY PAJAMA-WEARING NOBLE KNIGHT OF DOUCHEBAGGERY...
+				 @karkat_talk KARKAT: ACTUALLY CARES TO ASK WHERE I'M GOING?
+				 @dave_smug DAVE: maybe
+				 @dave_smug DAVE: maybe i dont
+				 @dave_smug DAVE: maybe im just trying to make small talk
+				 @dave_smug DAVE: maybe im only talking to avoid nose-diving into an awkward silence with you while you glance over at me randomly like 		youre trying to catch a sneak peek through the opaque sexual tension cloud that i just kind of assume is always surrounding you no matter who youre actually talking to
+						 
+				 @karkat_facepalm ...
+				 @karkat_talk KARKAT: I'M GOING UP TO THE OBSERVATION DECK.
+				 
+				 @dave_talk DAVE: oh then we are going the same way
+				 @dave_huhtalk DAVE: did terezi ask you to too
+				 
+				 @karkat_talk KARKAT: I WAS GOING TO AVOID SAYING THAT ON A RECORDING BUT…
+				 @karkat_eyeroll2 KARKAT: YES.
+				 
+				 @dave_huhtalk DAVE: why dont you just stop recording or edit it out
+				 @dave_huhtalk DAVE: come to think of it why dont all of us just do that when we say embarrasing shit
+				 @dave_talk DAVE: but seriously why dont you just deal with it later?
+				 @dave_talk DAVE: that shits got to be simple even for you
+				 
+				 @! A voice reverberates through the halls from an intercom speaker nearby.
+				 @! #0082824TT3NT1ON THR3SH3CUT1ON3R CH3RRYB3RRY 4ND MR C4NDYSP1C3!##
+				 @! #008282YOUR 1MM3D14T3 PR3S3NC3 1S R3QU1R3D ON TH3 OBS3RV4T1ON D3CK!##
+				 @! #008282F41LUR3 TO COMPLY W1TH TH3 4LM1GHTY COURTBLOCK’S 1NSTRUCT1ONS W1LL R3SULT 1N SW1FT 4ND D1R3 CONS3QU3NC3S FOR YOU BOTH!##
+				 @!:#notreally Oh man, this shit sounds serious.
+		
+				 @karkat_shout KARKAT: HOLY TAINTCHAFING FUCK HAVE SOME FUCKING PATIENCE!
+				 @karkat_shout KARKAT: AND STOP WITH THE PET NAMES!
+				 @dave_huh DAVE: dude you know she cant hear you right
+				 @karkat_yell KARKAT: WHAT? AM I NOT ALLOWED TO JUST FUCKING RAGE TO MYSELF?
+				 @dave_talk DAVE: its not really "to yourself" if i can hear it now is it?
+				 @! He stays close behind you as you continue on...
+			 <!--  -->
+			 </args>
+		</action>
+		
+		<action class='daveTalk2' sprite='dave' command='talk'>
+			<!--Encountered in lowaa, before eridan's arrival.-->
+			<args>
+			@dave_smug DAVE: so who the fuck’s memories are these? im kind of digging the set 
+			
+			@dave_talk DAVE: im gettin this hunchback of notre dame vibe except for gargoyles that come to life and completely ruin the movie its a bunch of weird black winged monster things.
+			
+			@dave_concern DAVE: hey have we been here before?
+			
+			@karkat_talk KARKAT: ACTUALLY WE HAVE. IT’S WHERE THE MAYOR WAS REVIVED.
+			
+			@dave_talk DAVE: ah right cool
+			
+			@dave_talk DAVE: for real though
+			
+			@dave_smug DAVE: these palaces or whatever are some legitimately class shit here
+			
+			@dave_smug DAVE: like some “i feel like i should be waiting for a science professor to show up” level of class
+			
+			@karkat_horror KARKAT: DON’T SAY THAT WORD TOO LOUD!
+			@karkat_yell KARKAT: IT COULD BE A FUCKING DUCK CALL AROUND HERE, YOU HAVE TO BE CAREFUL.
+			
+			@dave_huh DAVE: what class
+			
+			@karkat_shout KARKAT: NO, YOU IDIOT-
+			
+			@eridan_talk ERIDAN: i’m certainly no professor but i do knoww quite a bit about science
+			@eridan_talk ERIDAN: is there currently a discussion going on
+			@eridan_talk ERIDAN: i wwouldn’t mind joining in
+			
+			@karkat_facepalm KARKAT: TOO LATE...
+			
+			@dave_smug DAVE: oh yeah this douchebag
+			@dave_talk DAVE: hey weren’t you dressed like psyduck before 
+			@dave_concern DAVE: shit you probably dont remember do you
+			@dave_huhtalk DAVE: damn that wasn’t even technically you
+			@dave_huhtalk DAVE: i just confused myself there
+			@dave_mad DAVE: doomed timelines are stupid
+			
+			@karkat_eyeroll2 KARKAT: (like he'd even know what a fucking psyduck is...)
+			
+			@eridan_huh ERIDAN: wwait
+			@eridan_huh ERIDAN: wwho...
+			@eridan_madtalk ERIDAN: wwhat the hell kind of creature is that
+			
+			@dave_smug DAVE: oh right you assholes couldnt even all stay alive before you actually met any of us could you
+			
+			@karkat_talk KARKAT: YEAH, HE PROBABLY DIED BEFORE SGRUB ENDED.
+			
+			@dave_concern DAVE: alright then I got this
+			
+			@dave_smug DAVE: greetings dead alternate timeline alien whose name i dont care about
+			i am dave s obana and i will be your ambassador to my species
+			
+			@dave_smug DAVE: the pajama draped musclebreasted hollering phallus baboon
+			
+			@eridan_huh ERIDAN: pajama wwhat
+			@eridan_talk ERIDAN: hollerin wwhat
+			@eridan_talk ERIDAN: kar is this guy for real
+			
+			@karkat_talk KARKAT: HE’S A HUMAN, HE’S...
+			@karkat_what KARKAT: IT’S...
+			@karkat_talk KARKAT: IT’S NOT IMPORTANT, JUST IGNORE HIM.
+			
+			@dave_madtalk DAVE: dont try to undermine the importance of this inter-realm ambassadorship
+			@dave_madtalk DAVE: before you know it shits gonna go haywire and the afterlife is gonna explode or implode or crack apart or something and how are we gonna know about it? 
+			@dave_talk DAVE: gotta keep our shit tight with these white eyed folk
+			
+			@karkat_talk KARKAT: I COULD SIT HERE AND KEEP TELLING YOU HOW MUCH MORE IDIOTIC YOU KEEP SOUNDING, BUT YOU’D COME RIGHT BACK WITH EVEN MORE STUPID IRONIC RAMBLING AND I WOULD STILL THINK THE SAME THING BUT EVEN WORSE, AND IT WOULD BE A NO WIN SITUATION. 
+			
+			@karkat_talk KARKAT: SO I THINK WHAT I’M GOING TO DO IS WALK AWAY NOW, TO MAKE SURE I DON’T SPARK ANY MORE OF YOUR TIRED AND SARCASTIC VERBAL ESSAYS ON IRRELEVANCE.
+			
+			@dave_smug DAVE: suit yourself nubs
+			</args>
+			<!-- Eridan should now be nearby the 3 that were spawned, and available to talk to -->
+		
+		</action>
+		
+		<action class='daveTalk3' sprite='dave' command='talk'>
+			 <!-- After Eridan shows up. -->
+			 <args>
+			 @karkat_talk KARKAT: I'M NOT SURE WHAT TO DO NOW.
+			 @dave_huhtalk DAVE: well hes your friend isnt he
+			 @dave_huhtalk DAVE: why not talk to him
+			 @dave_talk DAVE: i dont give a shit im just waiting for an excuse to leave this awkward situation
+			 @karkat_what KARKAT: WELL, SAME HERE.
+			 @dave_talk DAVE: i cant help you bro im just trying to stand here contributing nothing and be the least animate thing present like i am in most non-davekat fanfics
+			 @karkat_what KARKAT: WAIT, YOU READ FANFICS?
+			 @dave_idle DAVE: not important
+			 @dave_talk DAVE: if you wanna deal with terezi or something you can do that but im pretty sure shes kinda pissed off right now and seeing her gritting those goddamn shark teeth is kind of intimidating
+			 @karkat_eyeroll1 KARKAT: FINE.
+			 @karkat_talk KARKAT: SURE, WHATEVER.
+			 </args>
+			 
+			 </action>
+		
+		
+		
+		<action class='daveTalkSec1' sprite='dave' command='talk'>
+			 <!-- Encountered in shitty wand room. -->
+			 <args>
+				@karkat_what KARKAT: DAVE?
+				@dave_idle DAVE: ...
+				@dave_huh DAVE: sup
+				@karkat_talk KARKAT: WHAT THE FUCK ARE YOU DOING HERE?
+				@dave_concern DAVE: this is like my place what the fuck are you talking about
+				@dave_talk DAVE: what do you come around this tiny teleporter room too? ive never seen you around like you cant just act you own every nook and cranny on this meteor dude
+				@karkat_what KARKAT: OWN EVERY WHAT?
+				@dave_talk DAVE: like secret easter egg room
+				@karkat_talk KARKAT: WHAT’S AN EASTER EGG?
+				@dave_talk DAVE: dude nevermind
+				@dave_talk DAVE: not in the mood to explain all this human slang shit right now
+				@dave_talk DAVE: read a book or something
+				@dave_smug DAVE: or watch more shitty earth movies
+				@dave_smug DAVE: those could tell way more than i can
+				@karkat_eyeroll2 KARKAT: OK WHATEVER SHUT UP.
+				@karkat_talk KARKAT: I HAVEN’T BEEN BACK HERE FOR A WHILE. 
+				@karkat_yell KARKAT: NOW THAT I THINK OF IT, WHAT THE FUCK WAS BACK HERE IN THE FIRST PLACE THAT I EVER WENT BACK HERE?
+				@dave_smug DAVE: probably the classy lounge area
+				@karkat_yell KARKAT: I DON’T EVEN REMEMBER ONE OF THOSE.
+				@dave_concern DAVE: whoa youve never been to the classy lounge area
+				@dave_huhtalk DAVE: are you trying to say youve never once pressed ctrl t
+				@karkat_yell KARKAT: NO I HAVEN’T. I DON’T EVEN-
+				@dave_smug DAVE: look at this guy doesnt even know how to do trickster mode
+				@dave_smug DAVE: well then check this out follow me
+				<!-- Dave should now hop through the telepad, then trigger daveTalkSecA -->
+			 <!--  -->
+			 </args>
+		</action>
+		
+	
+		<action class='daveTalkSec1A' sprite='dave' command='talk'>
+			 <args>
+				@karkat_eyeroll2 KARKAT: ...
+				<!-- Dave should now be gone. Return control to player. -->
+			 <!--  -->
+			 </args>
+		</action>
+		
+		<action class='daveTalkSec2' sprite='dave' command='talk'>
+			 <args>
+				@dave_smug DAVE: classy lounge area what did i tell you
+				@dave_smug DAVE: take it all in its pretty snazzy
+				@karkat_talk KARKAT: I’M REALLY NOT SURPRISED AT ALL THAT THIS PLACE EXISTS.
+				@dave_talk DAVE: cool place to just chill though
+				@dave_talk DAVE: i alchemized some songs i had into records
+				@dave_talk DAVE: theres some other cool stuff you can sample
+				@dave_smug DAVE: things do sound pretty great on vinyl i had to hear it to believe it
+				@karkat_idle KARKAT: ...
+				@dave_talk DAVE: you should listen to some of them
+				@karkat_talk KARKAT: NO.
+				@dave_huhtalk DAVE: dude come on branch out a bit
+				@karkat_yell KARKAT: NO.
+				@dave_smug DAVE: give it a chance
+				@karkat_yell KARKAT: WHY ARE YOU SO ADAMANT ABOUT THIS?
+				@dave_talk DAVE: because literally no one cares and youre the only one who really gives any shit about like expanding cultural ideas or whatever
+				@dave_huhtalk DAVE: i mean kanaya is but shes not very good at it
+				@dave_smug DAVE: and besides no ones gonna get to the easter eggs if you keep turning everything down like that
+				@karkat_talk KARKAT: MAYBE IT WOULD BE EASY TO ENJOY THIS “CLASSY LOUNGE AREA” IF YOU DIDN’T HYPERACTIVELY BADGER ME CONSTANTLY WHILE I’M HERE.
+				@dave_talk DAVE: im putting on music anyway
+				@karkat_what KARKAT: WHY
+				@dave_smug DAVE: because i was here first
+				@dave_smug DAVE: here pick something for me
+				<!-- presents song selection for gramophone -->
+			 </args>
+		</action>
+	
+		<action class='daveTalkSec3' sprite='dave' command='talk'>
+		<args>
+		@dave_talk DAVE: so how fast did it take you to ollie out of that bubble after we left
+		@karkat_talk KARKAT: LIKE 3 MINUTES.
+		@karkat_talk KARKAT: REUNIONS WITH DEAD FRIENDS ARE SO FUCKED UP.
+		@dave_talk DAVE: yeah i was looking for you after the bubble passed but you were gone
+		@dave_talk DAVE: some crazy shit went down up there
+		@karkat_talk KARKAT: WITH ERIDAN?
+		@dave_talk DAVE: no after the bubble was gone
+		@dave_talk DAVE: i swear to every universes jesus space literally cracked
+		@dave_talk DAVE: it was either that or my shades and im pretty sure my shades are still fine now so it was totally space
+		@dave_talk DAVE: i heard a lot of screams
+		@dave_talk DAVE: even from how far away it was
+		@dave_talk DAVE: it sounded like us like everyone
+		@dave_talk DAVE: i heard me
+		@dave_concern DAVE: i thought it was the no atmosphere outside screwing with my head so i went back inside and paced around trying to take my mind off it
+		@dave_talk DAVE: but it kept replaying itself in my head and i dont want to go back outside and look or tell anyone else because i wasnt even sure if it was just my head or not
+		@dave_concern DAVE: so either im hallucinating that i heard all of my friends get shattered far away in space or i really did hear everyone screaming in anguish from far away in space and i dont know what i want the answer to that question to be
+		@karkat_horror KARKAT: ...
+		@karkat_talk KARKAT: ARE YOU SURE IT WASN’T JUST A NIGHTMARE?
+		@dave_madtalk DAVE: did i look like i was fucking asleep back in that bubble are you kidding me you saw me as i was walking up the stairs i couldnt have been dreaming
+		@karkat_sullen KARKAT: ...
+		@karkat_talk KARKAT: I DON’T KNOW WHAT TO SAY TO THAT.
+		</args>
+		</action>
+		
+		
+	</classes>
+</sburb>
