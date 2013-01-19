@@ -1,123 +1,170 @@
-<sburb description="lab section 1">
-
-  <dependencies>
-	<dependency>chars/karkat.xml</dependency>
-	<dependency>chars/dave.xml</dependency>
-  </dependencies>
-
-  <classes>
-    <animation class='karkat-dialog' frameInterval='6' x='-180' y='-454'/>
-    <animation class='dave-dialog' frameInterval='6' x='-230' y='-454'/>
-  </classes>
-
-  <assets>
-    <asset name='karkatSheet' type='graphic'>chars/karkat.png</asset>
-    <asset name='daveSheet'   type='graphic'>chars/dave.png</asset>
-
-    <asset name='hallwayWalkable' type='graphic'>backgrounds/hallwayWalkable.png</asset>
-    <asset name='hallwayBG'       type='graphic'>backgrounds/hallway.png</asset>
-    <asset name='hallwayFG'       type='graphic'>backgrounds/hallwayFG3.png</asset>
-    <asset name='staircase'       type='path'>1715,1900;1715,2100;2280,1480;2280,1400</asset>
-
-    <asset name='dave_smug'     type='graphic'>dialogs/dave_smug.png</asset>
-    <asset name='dave_talk'     type='graphic'>dialogs/dave_talk.png</asset>
-    <asset name='dave_huh'      type='graphic'>dialogs/dave_huh.png</asset>
-    <asset name='dave_huhtalk'  type='graphic'>dialogs/dave_huhtalk.png</asset>
-
-    <asset name='karkat_talk'     type='graphic'>dialogs/karkat_talk.png</asset>
-    <asset name='karkat_facepalm' type='graphic'>dialogs/karkat_facepalm.png</asset>
-    <asset name='karkat_shout'    type='graphic'>dialogs/karkat_shout.png</asset>
-    <asset name='karkat_yell'     type='graphic'>dialogs/karkat_yell.png</asset>
-    <asset name='karkat_eyeroll2'  type='graphic'>dialogs/karkat_eyeroll2.png</asset>
-  </assets>
-
-  <hud>
-    <dialogsprites>
-      <animation name='dave_smug' class='dave-dialog' sheet='dave_smug' length='2'/>
-      <animation name='dave_talk' class='dave-dialog' sheet='dave_talk' length='2'/>
-      <animation name='dave_huh' class='dave-dialog' sheet='dave_huh'/>
-      <animation name='dave_huhtalk' class='dave-dialog' sheet='dave_huhtalk' length='2'/>
-
-      <animation name='karkat_talk' class='karkat-dialog' sheet='karkat_talk' length='2'/>
-      <animation name='karkat_facepalm' class='karkat-dialog' sheet='karkat_facepalm' length='2'/>
-      <animation name='karkat_shout' class='karkat-dialog' sheet='karkat_shout' length='2'/>
-      <animation name='karkat_yell' class='karkat-dialog' sheet='karkat_yell' length='2'/>
-      <animation name='karkat_eyeroll2' class='karkat-dialog' sheet='karkat_eyeroll2' length='1'/>
-    </dialogsprites>
-  </hud>
-
-  <effects>
-    <animation name='karkatWalk' sheet='karkatSheet' x='-37' y='-65' rowSize='75' colSize='75' length='3' followUp='idleFront'/> 
-  </effects>
-
-  <rooms>
-    <room name='hallwayBG' width='2400' height='2200' walkableMap='hallwayWalkable'>
-  
-      <paths>
-        <motionpath path="staircase" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
-      </paths>
-  
+<sburb description="lab1">
+    
+    <dependencies>
+        <dependency>chars/karkat.xml</dependency>
+    </dependencies>
+    
+    <assets>
         
-        <!--
-      <triggers>
-          <trigger>spriteProperty,char,y&gt;1980
-            <trigger>spriteProperty,dave,x&lt;1595
-              <action command='moveSprite' noDelay='true'>
-                <args>char,1650,2000</args>
-                  <action command='changeFocus' noDelay='true'>
-                    <args>dave</args>
-                    <action command='deltaSprite' noDelay='true'>
-                      <args>dave,4,0</args>
-                      <trigger detonate='true'>spriteProperty,dave,x&gt;1590
-                        <action class='daveTalk' command='talk' noDelay='true' >
-                        </action>
-
-                          <action command='changeFocus' noDelay='true'>
-                          <args>char</args>
-                          <action command='follow' noDelay='true'>
-                            <args>dave,char</args>
-                          </action>
-                          </action>
-                      </trigger>
-                    </action>
-                  </action>
-              </action>
-            </trigger>
-       </trigger>
-      </triggers> -->
-
-
-
-<triggers>
-          <trigger detonate='true'>spriteProperty,char,y&gt;1950
-            <action command='follow'>
-              <args>dave,char</args>
-              <action class='daveTalk' command='talk' noDelay='true'>
-                  </action>
-            </action>
-       </trigger>
+        <asset name='lab1_BG_0_0' type='graphic'>backgrounds/slices/lab1_BG_0_0.png</asset>
+        <asset name='lab1_BG_0_1' type='graphic'>backgrounds/slices/lab1_BG_0_1.png</asset>
+        <asset name='lab1_BG_0_2' type='graphic'>backgrounds/slices/lab1_BG_0_2.png</asset>
+        <asset name='lab1_BG_0_3' type='graphic'>backgrounds/slices/lab1_BG_0_3.png</asset>
+        <asset name='lab1_BG_0_4' type='graphic'>backgrounds/slices/lab1_BG_0_4.png</asset>
+        <asset name='lab1_BG_0_5' type='graphic'>backgrounds/slices/lab1_BG_0_5.png</asset>
+        <asset name='lab1_BG_0_6' type='graphic'>backgrounds/slices/lab1_BG_0_6.png</asset>
+        
+        <asset name='lab1_BG_1_0' type='graphic'>backgrounds/slices/lab1_BG_1_0.png</asset>
+        <asset name='lab1_BG_1_1' type='graphic'>backgrounds/slices/lab1_BG_1_1.png</asset>
+        <asset name='lab1_BG_1_2' type='graphic'>backgrounds/slices/lab1_BG_1_2.png</asset>
+        <asset name='lab1_BG_1_3' type='graphic'>backgrounds/slices/lab1_BG_1_3.png</asset>
+        <asset name='lab1_BG_1_4' type='graphic'>backgrounds/slices/lab1_BG_1_4.png</asset>
+        <asset name='lab1_BG_1_5' type='graphic'>backgrounds/slices/lab1_BG_1_5.png</asset>
+        <asset name='lab1_BG_1_6' type='graphic'>backgrounds/slices/lab1_BG_1_6.png</asset>
+        
+        <asset name='lab1_BG_2_0' type='graphic'>backgrounds/slices/lab1_BG_2_0.png</asset>
+        <asset name='lab1_BG_2_1' type='graphic'>backgrounds/slices/lab1_BG_2_1.png</asset>
+        <asset name='lab1_BG_2_2' type='graphic'>backgrounds/slices/lab1_BG_2_2.png</asset>
+        <asset name='lab1_BG_2_3' type='graphic'>backgrounds/slices/lab1_BG_2_3.png</asset>
+        <asset name='lab1_BG_2_4' type='graphic'>backgrounds/slices/lab1_BG_2_4.png</asset>
+        <asset name='lab1_BG_2_5' type='graphic'>backgrounds/slices/lab1_BG_2_5.png</asset>
+        <asset name='lab1_BG_2_6' type='graphic'>backgrounds/slices/lab1_BG_2_6.png</asset>
+        
+        <asset name='lab1_BG_3_0' type='graphic'>backgrounds/slices/lab1_BG_3_0.png</asset>
+        <asset name='lab1_BG_3_1' type='graphic'>backgrounds/slices/lab1_BG_3_1.png</asset>
+        <asset name='lab1_BG_3_2' type='graphic'>backgrounds/slices/lab1_BG_3_2.png</asset>
+        <asset name='lab1_BG_3_3' type='graphic'>backgrounds/slices/lab1_BG_3_3.png</asset>
+        <asset name='lab1_BG_3_4' type='graphic'>backgrounds/slices/lab1_BG_3_4.png</asset>
+        <asset name='lab1_BG_3_5' type='graphic'>backgrounds/slices/lab1_BG_3_5.png</asset>
+        <asset name='lab1_BG_3_6' type='graphic'>backgrounds/slices/lab1_BG_3_6.png</asset>
+        
+        <asset name='lab1_BG_4_0' type='graphic'>backgrounds/slices/lab1_BG_4_0.png</asset>
+        <asset name='lab1_BG_4_1' type='graphic'>backgrounds/slices/lab1_BG_4_1.png</asset>
+        <asset name='lab1_BG_4_2' type='graphic'>backgrounds/slices/lab1_BG_4_2.png</asset>
+        <asset name='lab1_BG_4_3' type='graphic'>backgrounds/slices/lab1_BG_4_3.png</asset>
+        <asset name='lab1_BG_4_4' type='graphic'>backgrounds/slices/lab1_BG_4_4.png</asset>
+        <asset name='lab1_BG_4_5' type='graphic'>backgrounds/slices/lab1_BG_4_5.png</asset>
+        <asset name='lab1_BG_4_6' type='graphic'>backgrounds/slices/lab1_BG_4_6.png</asset>
+        
+        <asset name='lab1_BG_5_0' type='graphic'>backgrounds/slices/lab1_BG_5_0.png</asset>
+        <asset name='lab1_BG_5_1' type='graphic'>backgrounds/slices/lab1_BG_5_1.png</asset>
+        <asset name='lab1_BG_5_2' type='graphic'>backgrounds/slices/lab1_BG_5_2.png</asset>
+        <asset name='lab1_BG_5_3' type='graphic'>backgrounds/slices/lab1_BG_5_3.png</asset>
+        <asset name='lab1_BG_5_4' type='graphic'>backgrounds/slices/lab1_BG_5_4.png</asset>
+        <asset name='lab1_BG_5_5' type='graphic'>backgrounds/slices/lab1_BG_5_5.png</asset>
+        <asset name='lab1_BG_5_6' type='graphic'>backgrounds/slices/lab1_BG_5_6.png</asset>
+        
+        <asset name='lab1_BG_6_0' type='graphic'>backgrounds/slices/lab1_BG_6_0.png</asset>
+        <asset name='lab1_BG_6_1' type='graphic'>backgrounds/slices/lab1_BG_6_1.png</asset>
+        <asset name='lab1_BG_6_2' type='graphic'>backgrounds/slices/lab1_BG_6_2.png</asset>
+        <asset name='lab1_BG_6_3' type='graphic'>backgrounds/slices/lab1_BG_6_3.png</asset>
+        <asset name='lab1_BG_6_4' type='graphic'>backgrounds/slices/lab1_BG_6_4.png</asset>
+        <asset name='lab1_BG_6_5' type='graphic'>backgrounds/slices/lab1_BG_6_5.png</asset>
+        <asset name='lab1_BG_6_6' type='graphic'>backgrounds/slices/lab1_BG_6_6.png</asset>
+        
+        
+        
+        <asset name='lab1_FG_0_0' type='graphic'>backgrounds/slices/lab1_FG_0_0.png</asset>
+        <asset name='lab1_FG_0_1' type='graphic'>backgrounds/slices/lab1_FG_0_1.png</asset>
+        <asset name='lab1_FG_0_2' type='graphic'>backgrounds/slices/lab1_FG_0_2.png</asset>
+        <asset name='lab1_FG_0_3' type='graphic'>backgrounds/slices/lab1_FG_0_3.png</asset>
+        <asset name='lab1_FG_0_4' type='graphic'>backgrounds/slices/lab1_FG_0_4.png</asset>
+        <asset name='lab1_FG_0_5' type='graphic'>backgrounds/slices/lab1_FG_0_5.png</asset>
+        <asset name='lab1_FG_0_6' type='graphic'>backgrounds/slices/lab1_FG_0_6.png</asset>
+        
+        <asset name='lab1_FG_1_0' type='graphic'>backgrounds/slices/lab1_FG_1_0.png</asset>
+        <asset name='lab1_FG_1_1' type='graphic'>backgrounds/slices/lab1_FG_1_1.png</asset>
+        <asset name='lab1_FG_1_2' type='graphic'>backgrounds/slices/lab1_FG_1_2.png</asset>
+        <asset name='lab1_FG_1_3' type='graphic'>backgrounds/slices/lab1_FG_1_3.png</asset>
+        <asset name='lab1_FG_1_4' type='graphic'>backgrounds/slices/lab1_FG_1_4.png</asset>
+        <asset name='lab1_FG_1_5' type='graphic'>backgrounds/slices/lab1_FG_1_5.png</asset>
+        <asset name='lab1_FG_1_6' type='graphic'>backgrounds/slices/lab1_FG_1_6.png</asset>
+        
+        <asset name='lab1_FG_2_0' type='graphic'>backgrounds/slices/lab1_FG_2_0.png</asset>
+        <asset name='lab1_FG_2_1' type='graphic'>backgrounds/slices/lab1_FG_2_1.png</asset>
+        <asset name='lab1_FG_2_2' type='graphic'>backgrounds/slices/lab1_FG_2_2.png</asset>
+        <asset name='lab1_FG_2_3' type='graphic'>backgrounds/slices/lab1_FG_2_3.png</asset>
+        <asset name='lab1_FG_2_4' type='graphic'>backgrounds/slices/lab1_FG_2_4.png</asset>
+        <asset name='lab1_FG_2_5' type='graphic'>backgrounds/slices/lab1_FG_2_5.png</asset>
+        <asset name='lab1_FG_2_6' type='graphic'>backgrounds/slices/lab1_FG_2_6.png</asset>
+        
+        <asset name='lab1_FG_3_0' type='graphic'>backgrounds/slices/lab1_FG_3_0.png</asset>
+        <asset name='lab1_FG_3_1' type='graphic'>backgrounds/slices/lab1_FG_3_1.png</asset>
+        <asset name='lab1_FG_3_2' type='graphic'>backgrounds/slices/lab1_FG_3_2.png</asset>
+        <asset name='lab1_FG_3_3' type='graphic'>backgrounds/slices/lab1_FG_3_3.png</asset>
+        <asset name='lab1_FG_3_4' type='graphic'>backgrounds/slices/lab1_FG_3_4.png</asset>
+        <asset name='lab1_FG_3_5' type='graphic'>backgrounds/slices/lab1_FG_3_5.png</asset>
+        <asset name='lab1_FG_3_6' type='graphic'>backgrounds/slices/lab1_FG_3_6.png</asset>
+        
+        <asset name='lab1_FG_4_0' type='graphic'>backgrounds/slices/lab1_FG_4_0.png</asset>
+        <asset name='lab1_FG_4_1' type='graphic'>backgrounds/slices/lab1_FG_4_1.png</asset>
+        <asset name='lab1_FG_4_2' type='graphic'>backgrounds/slices/lab1_FG_4_2.png</asset>
+        <asset name='lab1_FG_4_3' type='graphic'>backgrounds/slices/lab1_FG_4_3.png</asset>
+        <asset name='lab1_FG_4_4' type='graphic'>backgrounds/slices/lab1_FG_4_4.png</asset>
+        <asset name='lab1_FG_4_5' type='graphic'>backgrounds/slices/lab1_FG_4_5.png</asset>
+        <asset name='lab1_FG_4_6' type='graphic'>backgrounds/slices/lab1_FG_4_6.png</asset>
+        
+        <asset name='lab1_FG_5_0' type='graphic'>backgrounds/slices/lab1_FG_5_0.png</asset>
+        <asset name='lab1_FG_5_1' type='graphic'>backgrounds/slices/lab1_FG_5_1.png</asset>
+        <asset name='lab1_FG_5_2' type='graphic'>backgrounds/slices/lab1_FG_5_2.png</asset>
+        <asset name='lab1_FG_5_3' type='graphic'>backgrounds/slices/lab1_FG_5_3.png</asset>
+        <asset name='lab1_FG_5_4' type='graphic'>backgrounds/slices/lab1_FG_5_4.png</asset>
+        <asset name='lab1_FG_5_5' type='graphic'>backgrounds/slices/lab1_FG_5_5.png</asset>
+        <asset name='lab1_FG_5_6' type='graphic'>backgrounds/slices/lab1_FG_5_6.png</asset>
+        
+        <asset name='lab1_FG_6_0' type='graphic'>backgrounds/slices/lab1_FG_6_0.png</asset>
+        <asset name='lab1_FG_6_1' type='graphic'>backgrounds/slices/lab1_FG_6_1.png</asset>
+        <asset name='lab1_FG_6_2' type='graphic'>backgrounds/slices/lab1_FG_6_2.png</asset>
+        <asset name='lab1_FG_6_3' type='graphic'>backgrounds/slices/lab1_FG_6_3.png</asset>
+        <asset name='lab1_FG_6_4' type='graphic'>backgrounds/slices/lab1_FG_6_4.png</asset>
+        <asset name='lab1_FG_6_5' type='graphic'>backgrounds/slices/lab1_FG_6_5.png</asset>
+        <asset name='lab1_FG_6_6' type='graphic'>backgrounds/slices/lab1_FG_6_6.png</asset>
+        
+        
+        
+        <asset name='lab1_WM' type='graphic'>backgrounds/lab1_WM.png</asset>
+        
+        
+        
+        <asset name='staircase' type='path'>2580,2100;2580,2260;1715,2950;1715,3100</asset>
+        
+    </assets>
     
-    <trigger>
-        <args>inBox2,char,1890,1340,2400,2200</args>
-        <action command='changeRoomRemote'>roof.xml,roof,530,560</action>
-    </trigger>
     
-      </triggers>
-
-      <character name='karkat' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='karkatSheet' state='walkFront' facing='Front'>
-      </character>
-      <character name='dave' x='1595' y='2000' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='daveSheet' state='walkRight' facing='Right'>
-      </character>
-
-      <sprite name='hallwayBG'>
-        <animation sheet='hallwayBG'/> 
-      </sprite>
-      <sprite name='hallwayFG' x='0' y='0' depthing='2'>
-       <animation sheet='hallwayFG'/>
-      </sprite>
-       
-    </room>
-  </rooms>
+    
+   
+    
+    
+    <rooms>
+        
+        <room name='lab1' walkableMap='lab1_WM' scale='4'>
+            
+            
+            
+            <paths>
+                <motionpath path="staircase" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+            </paths>
+           
+            
+            <sprite class='teleporter' name='teleporterPad' x='75' y='3025'>
+                <action name='teleport' command='changeRoomRemote'><args>rooms/lab2.xml,lab2,1110,2050</args>
+                </action>
+                
+            </sprite> 
+                        
+            <character class='karkat' x='500' y='3020'>
+                <action class='beKarkat'/>
+            </character>
+            
+            <sprite name='lab1_BG'>
+                <animation sheet='lab1_BG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+            
+            <sprite name='lab1_FG'>
+                <animation sheet='lab1_FG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500' depthing='2'/>
+            </sprite>
+            
+            
+        </room>
+    </rooms>
 </sburb>
- 
-
