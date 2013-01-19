@@ -112,8 +112,8 @@
                 <animation sheet='labCG_BG' sliced='true' numCols='6' numRows='5' colSize='500' rowSize='500'/>
             </sprite>
             
-            <sprite name='labCG_FG'>
-                <animation sheet='labCG_FG' sliced='true' numCols='6' numRows='5' colSize='500' rowSize='500' depthing='2'/>
+            <sprite name='labCG_FG' depthing='2'>
+                <animation sheet='labCG_FG' sliced='true' numCols='6' numRows='5' colSize='500' rowSize='500'/>
             </sprite>
             
             

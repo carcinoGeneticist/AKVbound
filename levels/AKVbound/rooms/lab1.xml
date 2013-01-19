@@ -160,8 +160,8 @@
                 <animation sheet='lab1_BG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
             
-            <sprite name='lab1_FG'>
-                <animation sheet='lab1_FG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500' depthing='2'/>
+            <sprite name='lab1_FG' depthing ='2'>
+                <animation sheet='lab1_FG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
             
             

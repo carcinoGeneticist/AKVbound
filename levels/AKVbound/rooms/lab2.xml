@@ -147,8 +147,8 @@
                 <animation sheet='lab2_BG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
                         
-            <sprite name='lab2_FG'>
-                <animation sheet='lab2_FG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500' depthing='2'/>
+            <sprite name='lab2_FG' depthing='2'>
+                <animation sheet='lab2_FG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
         </room>
     </rooms>
