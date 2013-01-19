@@ -93,11 +93,57 @@
             
            
             
-            <sprite class='teleporter' name='teleporterPad' x='1110' y='2050'>
+            <sprite class='teleporter' name='teleporterPad1' x='1110' y='2050'>
                 <action name='teleport' command='changeRoomRemote'><args>rooms/lab1.xml,lab1,75,3025</args>
                 </action>
-                
-            </sprite>             <sprite name='lab2_BG'>
+            </sprite>
+           <!-- <sprite class='teleporter' name='teleporterPad2' x='1130' y='2630'>
+                <action name='teleport' command='changeRoomRemote'><args>rooms/labCG.xml,labCG,x,y</args>
+                </action>
+            </sprite>-->
+            
+            
+            
+            <sprite class='teleporter' name='teleporterPad3' x='1470' y='1030'>
+                <action name='teleport' command='changeRoom'><args>lab2,410,1450</args>
+                </action>
+            </sprite>
+            <sprite class='teleporter' name='teleporterPad4' x='410' y='1450'>
+                <action name='teleport' command='changeRoom'><args>lab2,1470,1030</args>
+                </action>
+            </sprite>
+            
+            
+            
+            <sprite class='teleporter' name='teleporterPad5' x='410' y='1250'>
+                <action name='teleport' command='changeRoom'><args>lab2,430,410</args>
+                </action>
+            </sprite>
+            <sprite class='teleporter' name='teleporterPad6' x='430' y='410'>
+                <action name='teleport' command='changeRoom'><args>lab2,410,1250</args>
+                </action>
+            </sprite>
+            
+            
+            <sprite class='teleporter' name='teleporterPad7' x='410' y='1050'>
+                <action name='teleport' command='changeRoom'><args>lab2,940,2700</args>
+                </action>
+            </sprite>
+            <sprite class='teleporter' name='teleporterPad8' x='940' y='2700'>
+                <action name='teleport' command='changeRoom'><args>lab2,410,1050</args>
+                </action>
+            </sprite>
+            
+            
+            
+            <!--
+            <sprite class='teleporter' name='teleporterPad_x' x='290' y='1995'>
+                <action name='teleport' command='changeRoom'><args>     ARGS     </args>
+                </action>
+            </sprite>
+            -->
+            
+            <sprite name='lab2_BG'>
                 <animation sheet='lab2_BG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
                         
