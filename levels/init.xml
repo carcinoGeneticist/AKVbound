@@ -24,7 +24,7 @@ levelPath and resourcePath specify where all resource and level path specificati
 should be relative to.-->
 
 <sburb name="AKVbound" version="1.0" description="initialization"
-	char='karkat' scale='2' 
+	char='karkat' scale='2' bgm='karkatSong' 
 	levelPath='levels/AKVbound' resourcePath='resources/AKVbound'>
 
 	<!-- We generally don't have any actual content in here. We just load in

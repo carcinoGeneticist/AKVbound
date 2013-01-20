@@ -21,7 +21,7 @@ description -->
 
 	<asset name='karkatSheet' type='graphic'>chars/karkat/karkat.png</asset>
 	
-	<asset name='karkatSong' type='audio'>audio/music/demoscene.oga;audio/music/demoscene.mp3</asset> <!-- loops to 0 -->
+	<asset name='karkatSong' type='audio'>audio/music/crstcn.ogg;audio/music/crstcn.mp3</asset> <!-- loops to 0 -->
 	
 	<asset name='karkat_idle' type='graphic'>dialogs/karkat/karkat_idle.png</asset>
 	<asset name='karkat_shout' type='graphic'>dialogs/karkat/karkat_shout.png</asset>

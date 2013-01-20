@@ -139,7 +139,7 @@
         
         <room name='lab1' walkableMap='lab1_WM' scale='4'>
             
-            
+            <!--<action command='playsong' song='karkatSong'/>-->
             
             <paths>
                 <motionpath path="staircase" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
@@ -147,9 +147,12 @@
            
             
             <sprite class='teleporter' name='teleporterPad' x='75' y='3025'>
-                <action name='teleport' command='changeRoomRemote'><args>rooms/lab2.xml,lab2,1110,2050</args>
+				<action name='Teleport' command='changeRoomRemote'>
+						<args>rooms/lab2.xml,lab2,1110,2050</args>
+						<!--<action command='changeRoomRemote'>
+							<args>rooms/lab2.xml,lab2,1110,2050</args>
+						</action>-->
                 </action>
-                
             </sprite> 
                         
             <character class='karkat' x='500' y='3020'>

@@ -31,7 +31,7 @@ unmodified. -->
 		</sprite>
         
         <sprite class='teleporter' width='110' height='60'>
-            <animation sheet='teleporterPad' x='-66' y='-120'/>
+            <animation sheet='teleporterPad' x='-66' y='-30'/>
             
 	  	</sprite>
   	
@@ -39,7 +39,7 @@ unmodified. -->
   	<action class='notForYou' command='goBack'>
 			<args>char</args>
 			<action command='talk'>
-				<args>@! Where do you think YOU'RE going!</args>
+				<args>@! Don't go that way! We haven't finished that area ye-I mean it could be dangerous! </args>
 			</action>
 		</action>
 

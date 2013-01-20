@@ -9,7 +9,7 @@ var Sburb = (function(Sburb){
 Sburb.Character = function(name,x,y,width,height,sx,sy,sWidth,sHeight,sheet,bootstrap){
 	Sburb.Sprite.call(this,name,x,y,width,height,null,null,Sburb.Sprite.prototype.MG_DEPTHING,true);
 
-	this.speed = 12;
+	this.speed = 10;
 	this.vx = 0;
 	this.vy = 0;
 	this.facing = "Front";

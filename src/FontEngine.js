@@ -53,22 +53,21 @@ Sburb.FontEngine = function(text){
 }
 
 Sburb.FontEngine.prototype.prefixColours = {	
-	aa : "#a10000",aradia : "#a10000",
-	ac : "#416600",nepeta : "#416600",
-	ag : "#005682",vriska : "#005682",
-	at : "#a15000",tavros : "#a15000",
-	ca : "#6a006a",eridan : "#6a006a",
-	cc : "#77003c",feferi : "#77003c",
-	cg : "#626262",karkat : "#626262",
-	ct : "#000056",equius : "#000056",
-	ga : "#008141",kanaya : "#008141",
-	gc : "#008282",terezi : "#008282",
-	ta : "#a1a100",sollux : "#a1a100",
-	tc : "#2b0057",gamzee : "#2b0057",
-	dave:"#e00707",meenah : "#77003c",
-	rose:"#b536da",aranea : "#005682",
-	kankri:"#ff0000",porrim: "#008141",
-	latula:"#008282"
+	aa : "#a10000",aradia : "#a10000",damara : "#a10000",
+	ac : "#416600",nepeta : "#416600",meulin : "#416600",
+	ag : "#005682",vriska : "#005682",aranea : "#005682",
+	at : "#a15000",tavros : "#a15000",rufioh : "#a15000",
+    ca : "#6a006a",eridan : "#6a006a",cronus : "#6a006a",
+	cc : "#77003c",feferi : "#77003c",meenah : "#77003c",
+	cg : "#626262",karkat : "#626262",kankri : "#ff0000",
+	ct : "#000056",equius : "#000056",horuss : "#000056",
+	ga : "#008141",kanaya : "#008141",porrim : "#008141",
+	gc : "#008282",terezi : "#008282",latula : "#008282",
+	ta : "#a1a100",sollux : "#a1a100",mituna : "#a1a100",
+	tc : "#2b0057",gamzee : "#2b0057",kurloz : "#2b0057",
+	john : "#0715cd",dave : "#e00707",
+	jade : "#4ac925",rose : "#b536da",
+	case : "#3050a0",voice : "#ff0000"
 };
 
 //set the style
