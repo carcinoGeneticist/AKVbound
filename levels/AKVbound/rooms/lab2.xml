@@ -94,33 +94,33 @@
            
             
             <sprite class='teleporter' name='teleporterPad1' x='1110' y='2050'>
-                <action name='teleport' command='changeRoomRemote'><args>rooms/lab1.xml,lab1,75,3025</args>
+                <action name='Teleport' command='changeRoomRemote'><args>rooms/lab1.xml,lab1,75,3025</args>
                 </action>
             </sprite>
             <sprite class='teleporter' name='teleporterPad2' x='1130' y='2640'>
-                <action name='teleport' command='changeRoomRemote'><args>rooms/labCG.xml,labCG,215,1730</args>
+                <action name='Teleport' command='changeRoomRemote'><args>rooms/labCG.xml,labCG,215,1730</args>
                 </action>
             </sprite>
             
             
             
             <sprite class='teleporter' name='teleporterPad3' x='1470' y='1030'>
-                <action name='teleport' command='changeRoom'><args>lab2,410,1450</args>
+                <action name='Teleport' command='changeRoom'><args>lab2,410,1450</args>
                 </action>
             </sprite>
             <sprite class='teleporter' name='teleporterPad4' x='410' y='1450'>
-                <action name='teleport' command='changeRoom'><args>lab2,1470,1030</args>
+                <action name='Teleport' command='changeRoom'><args>lab2,1470,1030</args>
                 </action>
             </sprite>
             
             
             
             <sprite class='teleporter' name='teleporterPad5' x='410' y='1250'>
-                <action name='teleport' command='changeRoom'><args>lab2,430,410</args>
+                <action name='Teleport' command='changeRoom'><args>lab2,430,410</args>
                 </action>
             </sprite>
             <sprite class='teleporter' name='teleporterPad6' x='430' y='410'>
-                <action name='teleport' command='changeRoom'><args>lab2,410,1250</args>
+                <action name='Teleport' command='changeRoom'><args>lab2,410,1250</args>
                 </action>
             </sprite>
             
@@ -130,7 +130,7 @@
                 </action>
             </sprite>
             <sprite class='teleporter' name='teleporterPad8' x='940' y='2700'>
-                <action name='teleport' command='changeRoom'><args>lab2,410,1050</args>
+                <action name='Teleport' command='changeRoom'><args>lab2,410,1050</args>
                 </action>
             </sprite>
             
