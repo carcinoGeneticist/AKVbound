@@ -75,9 +75,9 @@
         
         <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM.png</asset>
         
-        
-        
-        
+        <asset name='staircase1' type='path'>1035,1616;1035,1745;1275,1990;1275,1860</asset>
+        <asset name='staircase2' type='path'>1060,1238;1060,1360;1300,1615;1300,1485</asset>
+        <asset name='staircase3' type='path'>1055,1100;1055,1230;1180,1100;1180,975</asset>
         
     </assets>
     
@@ -90,8 +90,11 @@
         
         <room name='lab2' walkableMap='lab2_WM' scale='4'>
           
-            
-           
+            <paths>
+                <motionpath path="staircase1" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+                <motionpath path="staircase2" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+                <motionpath path="staircase3" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+            </paths>
             
             <sprite class='teleporter' name='teleporterPad1' x='1110' y='2050'>
                 <action name='Teleport' command='changeRoomRemote'><args>rooms/lab1.xml,lab1,75,3025</args>
