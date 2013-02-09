@@ -1,0 +1,67 @@
+<sburb description="lowaa">
+    
+    <dependencies>
+        <dependency>chars/karkat.xml</dependency>
+    </dependencies>
+    
+    <assets>
+        
+        <asset name='lowaa_BG_0_0' type='graphic'>backgrounds/lowaa_BG.png</asset>
+        <asset name='lowaa_BG_0_1' type='graphic'>backgrounds/slices/lowaa_BG_0_1.png</asset>
+        <asset name='lowaa_BG_0_2' type='graphic'>backgrounds/slices/lowaa_BG_0_2.png</asset>
+        <asset name='lowaa_BG_0_3' type='graphic'>backgrounds/slices/lowaa_BG_0_3.png</asset>
+
+        <asset name='lowaa_BG_1_0' type='graphic'>backgrounds/slices/lowaa_BG_1_0.png</asset>
+        <asset name='lowaa_BG_1_1' type='graphic'>backgrounds/slices/lowaa_BG_1_1.png</asset>
+        <asset name='lowaa_BG_1_2' type='graphic'>backgrounds/slices/lowaa_BG_1_2.png</asset>
+        <asset name='lowaa_BG_1_3' type='graphic'>backgrounds/slices/lowaa_BG_1_3.png</asset>
+
+        <asset name='lowaa_BG_2_0' type='graphic'>backgrounds/slices/lowaa_BG_2_0.png</asset>
+        <asset name='lowaa_BG_2_1' type='graphic'>backgrounds/slices/lowaa_BG_2_1.png</asset>
+        <asset name='lowaa_BG_2_2' type='graphic'>backgrounds/slices/lowaa_BG_2_2.png</asset>
+        <asset name='lowaa_BG_2_3' type='graphic'>backgrounds/slices/lowaa_BG_2_3.png</asset>
+        
+        <asset name='lowaa_BG_3_0' type='graphic'>backgrounds/slices/lowaa_BG_3_0.png</asset>
+        <asset name='lowaa_BG_3_1' type='graphic'>backgrounds/slices/lowaa_BG_3_1.png</asset>
+        <asset name='lowaa_BG_3_2' type='graphic'>backgrounds/slices/lowaa_BG_3_2.png</asset>
+        <asset name='lowaa_BG_3_3' type='graphic'>backgrounds/slices/lowaa_BG_3_3.png</asset>
+        
+        <asset name='lowaa_BG_4_0' type='graphic'>backgrounds/slices/lowaa_BG_4_0.png</asset>
+        <asset name='lowaa_BG_4_1' type='graphic'>backgrounds/slices/lowaa_BG_4_1.png</asset>
+        <asset name='lowaa_BG_4_2' type='graphic'>backgrounds/slices/lowaa_BG_4_2.png</asset>
+        <asset name='lowaa_BG_4_3' type='graphic'>backgrounds/slices/lowaa_BG_4_3.png</asset>
+
+        
+        
+        <asset name='lowaa_WM' type='graphic'>backgrounds/lowaa_WM.png</asset>
+        
+        
+        
+        
+    </assets>
+    
+    
+    
+    
+    
+    
+    <rooms>
+        
+        <room name='lowaa' walkableMap='lowaa_WM' scale='4'>
+            
+             
+            <character class='karkat' x='500' y='920'>
+                <action class='beKarkat'/>
+            </character>
+          
+            
+            <sprite name='lowaa_BG'>
+                <animation sheet='lowaa_BG' sliced='true' numCols='5' numRows='4' colSize='500' rowSize='500'/>
+            </sprite>
+            
+
+            
+            
+        </room>
+    </rooms>
+</sburb>
