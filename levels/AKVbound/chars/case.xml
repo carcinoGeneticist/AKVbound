@@ -1,0 +1,41 @@
+<sburb description='case'>
+    
+    <classes>
+        <animation class='case-dialog' frameInterval='6' x='-180' y='-454'/>
+        
+        <character class='case' name='case' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='caseSheet' state='walkFront' facing='Front'>
+        </character>
+        
+        
+        <action class='beCase' name='Be Case.' command='changeChar'>
+            <args>case</args>
+            
+        </action><!--something else instead of beCase probably? idk right now.  this might be a requirement...-->
+    </classes>
+    
+    <assets>
+        
+        <asset name='caseSheet' type='graphic'>chars/esac/case.png</asset> <!--still need-->
+        
+        
+        <asset name='case_huh' type='graphic'>dialogs/esac/case_huh.png</asset>
+        <asset name='case_huhtalk' type='graphic'>dialogs/esac/case_huhtalk.png</asset>
+        <asset name='case_idle' type='graphic'>dialogs/esac/case_idle.png</asset>
+        <asset name='case_mad' type='graphic'>dialogs/esac/case_mad.png</asset>
+        <asset name='case_madtalk' type='graphic'>dialogs/esac/case_madtalk.png</asset>
+        <asset name='case_slytalk' type='graphic'>dialogs/esac/case_slytalk.png</asset>
+        <asset name='case_talk' type='graphic'>dialogs/esac/case_talk.png</asset>
+    </assets>
+    
+    <hud>
+        <dialogsprites>
+			<animation name='case_huh' class='case-dialog' sheet='case_huh' />
+			<animation name='case_huhtalk' class='case-dialog' sheet='case_huhtalk' />
+			<animation name='case_idle' class='case-dialog' sheet='case_idle' />
+			<animation name='case_mad' class='case-dialog' sheet='case_mad' />
+			<animation name='case_madtalk' class='case-dialog' sheet='case_madtalk' />
+			<animation name='case_slytalk' class='case-dialog' sheet='case_slytalk' />
+			<animation name='case_talk' class='case-dialog' sheet='case_talk' />
+        </dialogsprites>
+    </hud>
+</sburb>
