@@ -1,0 +1,63 @@
+<sburb description='Interaction Dialogue'>
+	<classes>
+	
+	<!-- Easter Egg Dialogue -->
+	
+		        <action class='computer1' command="talk">
+           <args>
+               @! This looks familiar...
+               @! wrigglerbase, hemoglobin, hemogoblin (avoiid at all co2t2), redgrub, nubhub (ha2 omorashi 2tuff)...
+               @! This is from that one time sollux asked you if you knew any porn sites that were easy to get to.
+               @! What the fuck does omorashi mean?
+               @! Probably best you leave that unanswered.
+           </args>
+        </action>
+       
+       <action class='computer2' command="talk">
+           <args>
+               @! There appear to be some lyrics written on this one.
+               @! WHEN I WAS A YOUNG GRUB...
+               @! I'D ALWAYS IMAGINED THAT I'D GROW UP-
+               @! You've heard these before.
+           </args>
+       </action>
+       
+       <action class='computer3' command="talk">
+           <args>
+               @! More lyrics on this one, it looks like.
+               @! Some indie shit about insomnia or something.
+               @! Pass.
+           </args>
+       </action>
+	          
+		<action class='computer3a' command="talk">
+           <args>
+               @! There's reasons why we fell so far so fast. There's reasons why the plusses never last. I take my own thoughts with a grain of salt, when I tell myself that this is all my fault.
+			   @! There's reasons for these bags under my eyes. It's the effort I don't give except in lies. Maybe it's the weight of all the promises we couldn't keep.
+			   @! But the universe will not let me sleep.
+           </args>
+       </action>
+       
+       
+       <action class='computer4' command='talk'>
+           <args>
+               @! There is an IM conversation open...
+            @!~gameplan
+               @! ANDREW: if you don't want there to be a loading time inbetween lowaa happening, just put it on the same image as the roof.
+               @! CASE: I wouldn't mind a loading time really
+               @! ANDREW: also what are the little red arrows?
+               @! CASE: the red arrows are the opposing team attacking the linebacker
+               @! CASE: obvs
+               @! ANDREW: oh. how ever did i miss that.
+               @! ANDREW: this is some a+ strategy you got going on there.  we're sure to win in the playoffs with your brilliance on our side.
+               @! Dumb.
+               
+            </args>
+        </action>
+		
+		<!-- Lab 1 Object Dialogue -->
+			
+			<action class='crabphone' command='talk'>
+				<args>
+	</classes>
+</sburb>
