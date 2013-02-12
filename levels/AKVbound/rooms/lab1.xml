@@ -3,6 +3,7 @@
     <dependencies>
         <dependency>chars/karkat.xml</dependency>
         <dependency>chars/dave.xml</dependency>
+        <dependency>chars/terezi.xml</dependency>
     </dependencies>
     
     <assets>
@@ -145,6 +146,27 @@
             <paths>
                 <motionpath path="staircase" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
             </paths>
+            
+            
+            
+            <triggers>
+                    <trigger>spriteProperty,karkat,x=2050
+                        <action command='moveSprite'>
+                            <args>char,2600,2150</args>
+                            <args>dave,2500,2200</args>
+                        </action>
+                    </trigger>
+                    <trigger detonate='true'>spriteProperty,karkat,y&gt;2980
+                        <action command='follow'>
+                            <args>dave,char</args>
+                            <action class='daveTalk1' command='talk' noDelay='true'>
+                            </action>
+                        </action>
+                    </trigger>
+
+                
+                
+            </triggers>
            
             
             <sprite class='teleporter' name='teleporterPad' x='75' y='3025'>
@@ -156,11 +178,13 @@
                 </action>
             </sprite> 
                         
-            <character class='karkat' x='500' y='3020'>
+            <character class='karkat' x='500' y='1500'>
                 <action class='beKarkat'/>
             </character>
-            <character class='dave' x='1000' y='3020'>
+            <character class='dave' x='1560' y='3030'>
             </character>
+            <character class='terezi' x='2737' y='1767'>
+                </character>
             
             <sprite name='lab1_BG'>
                 <animation sheet='lab1_BG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
