@@ -2,6 +2,7 @@
     
     <dependencies>
         <dependency>chars/karkat.xml</dependency>
+        <dependency>chars/dave.xml</dependency>
     </dependencies>
     
     <assets>
@@ -157,6 +158,8 @@
                         
             <character class='karkat' x='500' y='3020'>
                 <action class='beKarkat'/>
+            </character>
+            <character class='dave' x='1000' y='3020'>
             </character>
             
             <sprite name='lab1_BG'>
