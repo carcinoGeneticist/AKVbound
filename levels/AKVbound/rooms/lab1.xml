@@ -4,6 +4,7 @@
         <dependency>chars/karkat.xml</dependency>
         <dependency>chars/dave.xml</dependency>
         <dependency>chars/terezi.xml</dependency>
+        <dependency>rooms/lowaa.xml</dependency>
     </dependencies>
     
     <assets>
@@ -150,19 +151,44 @@
             
             
             <triggers>
-                    <trigger>spriteProperty,karkat,x=2050
-                        <action command='moveSprite'>
-                            <args>char,2600,2150</args>
-                            <args>dave,2500,2200</args>
+                
+                <trigger detonate='true'>spriteProperty,karkat,x&gt;2050
+                    <action command='moveSprite'>
+                        <args>char,2600,2150</args>
+                    </action>
+                </trigger>
+                
+                <trigger detonate='true'>spriteProperty,karkat,y&gt;2980
+                    <action command='follow'>
+                        <args>dave,char</args>
+                        <action class='daveTalk1' command='talk' noDelay='true'>
                         </action>
-                    </trigger>
-                    <trigger detonate='true'>spriteProperty,karkat,y&gt;2980
-                        <action command='follow'>
-                            <args>dave,char</args>
-                            <action class='daveTalk1' command='talk' noDelay='true'>
+                    </action>
+                </trigger>
+                
+                <trigger detonate='true'>spriteProperty,karkat,x&gt;2712
+                    <action class='tereziTalk1' command='talk' noDelay='true'/>
+                </trigger>
+                
+                <trigger>spriteProperty,karkat,x&gt;2712
+                    <trigger detonate='true'>spriteProperty,karkat,y&lt;1900
+                        <action class='tereziTalk2' command='talk' noDelay='true'>
+                            
+                                <action command='removeSprite'>
+                                    <args>terezi,lab1</args>
+                                    <action command='unfollow'>
+                                        <args>dave</args>
+                                        <action command='removeSprite'>
+                                            <args>dave,lab1</args>
+                                            <action command='changeRoomRemote'>
+                                                <args>rooms/lowaa.xml,lowaa,830,860</args>
+                                        </action>
+                                    </action>
+                                </action>
                             </action>
                         </action>
                     </trigger>
+                </trigger>
 
                 
                 
@@ -172,9 +198,6 @@
             <sprite class='teleporter' name='teleporterPad' x='75' y='3025'>
 				<action name='Teleport' command='changeRoomRemote'>
 						<args>rooms/lab2.xml,lab2,1110,2050</args>
-						<!--<action command='changeRoomRemote'>
-							<args>rooms/lab2.xml,lab2,1110,2050</args>
-						</action>-->
                 </action>
             </sprite> 
                         
@@ -184,6 +207,7 @@
             <character class='dave' x='1560' y='3030'>
             </character>
             <character class='terezi' x='2737' y='1767'>
+                <action class='tereziTalk2'/>
                 </character>
             
             <sprite name='lab1_BG'>

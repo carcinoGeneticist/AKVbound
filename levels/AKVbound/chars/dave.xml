@@ -9,6 +9,9 @@
         <character class='dave' name='dave' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='daveSheet' state='walkFront' facing='Front'>
         </character>
         
+        <action class='daveTalk2' name='Talk to Dave' command='talk'>
+        </action>
+        
         
             </classes>
     

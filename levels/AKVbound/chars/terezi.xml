@@ -1,4 +1,7 @@
 <sburb description='terezi'>
+    <dependencies>
+        <dependency>dialogs/tereziDialogue.xml</dependency>
+        </dependencies>
     
     <classes>
         <animation class='terezi-dialog' frameInterval='6' x='-180' y='-454'/>

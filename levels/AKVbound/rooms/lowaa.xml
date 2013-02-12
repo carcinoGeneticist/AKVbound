@@ -49,10 +49,27 @@
         
         <room name='lowaa' walkableMap='lowaa_WM' scale='4'>
             
+            
+            <triggers>
+                <trigger detonate='true'>spriteProperty,char,x&gt;1
+                    <action class='tereziTalk3' command='talk' noDelay='true'>
+                    </action>
+                </trigger>
+                
+                
+            </triggers>
+            
              
             <character class='karkat' x='500' y='920'>
                 <action class='beKarkat'/>
             </character>
+            
+            <character class='terezi' x='869' y='771'/>
+            <character class='dave' x='918' y='841'>
+                <action class='daveTalk2' command='talk' name='talk to dave.'>
+                    </action>
+            </character>
+
           
             
             <sprite name='lowaa_BG'>
