@@ -59,5 +59,84 @@
 			
 			<action class='crabphone' command='talk'>
 				<args>
+				@! A crabphone. Look at this piece of shit. 
+				@! You swear you're one away from your 70th iteration of these things with how much alchemizing and scapping you've had to do. Even after your crabtop started working again you still feel the urge to get something else working for some redundant and unecessary reason.
+				</args>
+			</action>
+			
+			<action class='alchemizer' command='talk'>
+				<args>
+				@! Oh look, the all in one alchemizer machine. You've used this thing countless times to duplicate food and technical items and the like. You've even attempted to create new movies to watch by fuzing your obviously not horrible chick flicks together. Some of them turned out alright, though with some confusing plots. "50 lucky First Dates with Chuck" was probably the most overwhelming. You still don't know how you feel about seeing Dane Cook and Adam Sandler in the same twisted story and you think their interractions in this romcom amalgamation monstrosity were a bit too unruly.
+				@! You don't really have anything to alchemize right now. 
+				</args>
+			</action>
+			
+			<action class='freezerFrozen' command='talk' name='Examine'>
+				<args>
+				@! This is one of the human freezers. It looks to be completely frosted over and frozen shut. Insolent humans.
+				</args>
+			</action>
+			
+			<action class='freezer' command='talk' name='Examine'>
+				<args>
+				@! This is one of the human freezers. This one looks to be functional and probably has some crazy alien delectables inside.
+				</args>
+			</action>
+			
+			<action class='freezerOpen' command='talk' name='Open'>
+				<args>
+				@! You got TAB!
+				@! That's really all that's in these things. How does anyone even survive on this meteor if all of this has zero calories?
+				</args>
+			</action>
+			
+			<action class='telepadClosed' command='talk' name='Teleport'>
+			<args>
+			@! Hey, hey, slow down! You can't go through here yet! Aren't you needed somewhere else?
+			</args>
+			</action>
+			
+			<!-- Lab 2 Object Dialogue -->
+			
+			<action class='EEpath' command='talk'>
+			<args>
+			@! What’s that sound? Is that a voice?
+			</args>
+			</action>
+			
+			<action class='coffee' command='talk' name='Get Coffee'>
+			<args>
+			@! You have the machine make you some cheap coffee. You’ve kept trying to drink coffee to keep you up but usually it doesn’t wake you up at all. It just multiplies your inferiority complex with anxious jittering. Never the less you occasionally still drink it to try to build tolerance.
+			@! You still hang around the place as you drink it.
+			</args>
+			</action>
+			
+			<action class='bookshelf' command='talk' name='Examine'>
+			<args>
+			@! So many titles you haven’t heard of. So many textbooks. 
+That third shelf though... All romance novels. Hey, those two on the end! You were wondering where they went. Oh well, re-reading them isn’t really a priority right now.
+			</args>
+			</action>
+			
+			<action class='labComp' command='talk' name='Examine'>
+			<args>
+			@! It’s currently just a browser on dave_ebubbles. You’re not looking through that shit. It’s terrible and reading its posts is an experience you would not reccomend to anyone, living or dead.
+			</args>
+			</action>
+			
+			<action class='flowers' command='talk' name='Examine'>
+			<args>
+			@! Roses are red.\nThose bottles are blue.\nMost your friends are dead.\nGet over it.
+			</args>
+			</action>
+			
+			<action class='labRecord' command='talk' name='Examine'>
+			<args>
+			@! You look at the iGrub to check what songs are on it. Maybe listening to something else will get this strange synthetic tune out of your head.
+			</args>
+			</action>
+			
+			
+			
 	</classes>
 </sburb>
