@@ -25,6 +25,8 @@
         <asset name='case_madtalk' type='graphic'>dialogs/esac/case_madtalk.png</asset>
         <asset name='case_slytalk' type='graphic'>dialogs/esac/case_slytalk.png</asset>
         <asset name='case_talk' type='graphic'>dialogs/esac/case_talk.png</asset>
+		<asset name='voice_idle' type='graphic'>dialogs/esac/voice_idle.png</asset>
+		<asset name='voice_talk' type='graphic'>dialogs/esac/voice_talk.png</asset>
     </assets>
     
     <hud>
@@ -36,6 +38,8 @@
 			<animation name='case_madtalk' class='case-dialog' sheet='case_madtalk' />
 			<animation name='case_slytalk' class='case-dialog' sheet='case_slytalk' />
 			<animation name='case_talk' class='case-dialog' sheet='case_talk' />
+			<animation name='voice_idle' class='case-dialog' sheet='voice_idle' />
+			<animation name='voice_talk' class='case-dialog' sheet='voice_talk' />
         </dialogsprites>
     </hud>
 </sburb>

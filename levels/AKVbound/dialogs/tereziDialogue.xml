@@ -3,10 +3,10 @@
 		  <action class='tereziTalk1' sprite='terezi' command='talk'>
 			 <!-- triggered automatically, exiting onto observation deck -->
 			 <args>
-				@! TEREZI: CH3RRYB3RRY! C4NDYSP1C3! TH3R3 YOU 4R3! 
-				@! TEREZI: G3T YOUR D1SGUST1NGLY S3DUCT1V3 C4NDY 4SS3S OV3R H3R3 R1GHT NOW B3FOR3 1 D3C1D3 TO S3ND MY P4RTN3R 4FT3R YOU!
+				@! #008282TEREZI: CH3RRYB3RRY! C4NDYSP1C3! TH3R3 YOU 4R3!##
+				@! #008282TEREZI: G3T YOUR D1SGUST1NGLY S3DUCT1V3 C4NDY 4SS3S OV3R H3R3 R1GHT NOW B3FOR3 1 D3C1D3 TO S3ND MY P4RTN3R 4FT3R YOU!##
 				
-				@! TEREZI: 4ND TRUST M3YOU DO NOT W4NT TO G3T ON H3R B4D S1D3 >:]
+				@! #008282TEREZI: 4ND TRUST M3YOU DO NOT W4NT TO G3T ON H3R B4D S1D3 >:]##
 				
 				@dave_concern DAVE: (oh shit she sees us)
 				
@@ -25,9 +25,8 @@
 				
 				@karkat_yell KARKAT: HEY! MY TASTE IN MOVIES IS FUCKING GREAT AND YOU-
 				
-				@! TEREZI: G3NTL3M3N! 
-				@! TEREZI: YOU 4R3 HOLD1NG UP 4N 4CT1V3 1NV3ST1G4T1ON!
-				@! 1 W1LL NOT OFF3R YOU 4NOTH3R CH4NC3 G3T OV3R H3R3 NOW!
+				@! #008282TEREZI: G3NTL3M3N! ##
+				@! #008282TEREZI: YOU 4R3 HOLD1NG UP 4N 4CT1V3 1NV3ST1G4T1ON! 1 W1LL NOT OFF3R YOU 4NOTH3R CH4NC3 G3T OV3R H3R3 NOW!##
 				
 				
 				@karkat_eyeroll2 KARKAT: GAH...
@@ -86,7 +85,7 @@
 				
 				@dave_smug DAVE: haha well would you look at that shit saved by the bubble
 				
-				@karkat_eyeroll2 KARKAT: (please let it be something really fucking distracting. fucking please...)
+				@karkat_facepalm KARKAT: (please let it be something really fucking distracting. fucking please...)
 	
 			 </args>
 		 </action>

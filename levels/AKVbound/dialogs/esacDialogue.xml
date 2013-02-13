@@ -68,7 +68,6 @@
 
 	<action class='AKVEGG2' command='talk' name='Ask Case for credits'>
 	<args>
-	[Ask Case to take Credit]
 @karkat_talk KARKAT: DON’T YOU WANT TO TAKE ANY CREDIT AFTER A YEAR OF DOING THIS?
 @case_slytalk CASE: How about instead I just name drop everyone else.
 @case_slytalk CASE: I already mentioned Zanney, but I will again. Zanney was the first person I met through the Homestuck fandom and I am very glad I did. In addition to being a talented vocalist, you’ll never meet a more passionate and dedicated vocalist and person in general.
