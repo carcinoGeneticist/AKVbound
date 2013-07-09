@@ -4,6 +4,7 @@
         <dependency>chars/karkat.xml</dependency>
         <dependency>chars/dave.xml</dependency>
         <dependency>chars/terezi.xml</dependency>
+        <dependency>chars/eridan.xml</dependency>
         <dependency>rooms/lowaa.xml</dependency>
     </dependencies>
     
@@ -209,6 +210,8 @@
             <character class='terezi' x='2737' y='1767'>
                 <action class='tereziTalk2'/>
                 </character>
+
+            
             
             <sprite name='lab1_BG'>
                 <animation sheet='lab1_BG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>

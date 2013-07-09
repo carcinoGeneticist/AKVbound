@@ -1,0 +1,36 @@
+<sburb description='tavros'>
+    <dependencies>
+        <dependency>dialogs/tavrosDialogue.xml</dependency>
+        </dependencies>
+    
+    <classes>
+        <animation class='tavros-dialog' frameInterval='6' x='-180' y='-454'/>
+        
+        <character class='tavros' name='tavros' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='tavrosSheet' state='walkFront' facing='Front'>
+        </character>
+        
+        
+        <action class='beTavros' name='Be Tavros.' command='changeChar'>
+            <args>tavros</args>
+           
+        </action>
+    </classes>
+    
+    <assets>
+        
+        <asset name='tavrosSheet' type='graphic'>chars/tavros/tavros.png</asset>
+        
+        
+   
+
+    </assets>
+    
+    <hud>
+        <dialogsprites>
+            
+			
+        
+
+        </dialogsprites>
+    </hud>
+</sburb>

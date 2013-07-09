@@ -2,6 +2,7 @@
     
     <dependencies>
         <dependency>chars/karkat.xml</dependency>
+        <dependency>chars/eridan.xml</dependency>
     </dependencies>
     
     <assets>
@@ -59,16 +60,19 @@
                 
             </triggers>
             
-             
+             <!--
             <character class='karkat' x='500' y='920'>
                 <action class='beKarkat'/>
             </character>
-            
+            -->
             <character class='terezi' x='869' y='771'/>
+
             <character class='dave' x='918' y='841'>
                 <action class='daveTalk2' command='talk' name='talk to dave.'>
                     </action>
             </character>
+
+            <charaacter class='eridan' x='1000' y='800'/>
 
           
             

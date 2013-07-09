@@ -27,6 +27,12 @@ description -->
 	<asset name='karkat_shout' type='graphic'>dialogs/karkat/karkat_shout.png</asset>
 	<asset name='karkat_sullen' type='graphic'>dialogs/karkat/karkat_sullen.png</asset>
 	<asset name='karkat_talk' type='graphic'>dialogs/karkat/karkat_talk.png</asset>
+	<asset name='karkat_eyeroll1' type='graphic'>dialogs/karkat/karkat_eyeroll1.png</asset>
+	<asset name='karkat_eyeroll2' type='graphic'>dialogs/karkat/karkat_eyeroll2.png</asset>
+	<asset name='karkat_facepalm' type='graphic'>dialogs/karkat/karkat_facepalm.png</asset>
+	<asset name='karkat_horror' type='graphic'>dialogs/karkat/karkat_horror.png</asset>
+	<asset name='karkat_what' type='graphic'>dialogs/karkat/karkat_what.png</asset>
+	<asset name='karkat_yell' type='graphic'>dialogs/karkat/karkat_yell.png</asset>
 </assets>
 
 <hud>
@@ -35,6 +41,12 @@ description -->
 			<animation name='karkat_shout' class='karkat-dialog' sheet='karkat_shout'  length='2'/>
 			<animation name='karkat_sullen' class='karkat-dialog' sheet='karkat_sullen' />
 			<animation name='karkat_talk' class='karkat-dialog' sheet='karkat_talk'  length='2'/>
+			<animation name='karkat_eyeroll1' class='karkat-dialog' sheet='karkat_eyeroll1' />
+			<animation name='karkat_eyeroll2' class='karkat-dialog' sheet='karkat_eyeroll2' />
+			<animation name='karkat_facepalm' class='karkat-dialog' sheet='karkat_facepalm' length='2'/>
+			<animation name='karkat_horror' class='karkat-dialog' sheet='karkat_horror' />
+			<animation name='karkat_what' class='karkat-dialog' sheet='karkat_what' />
+			<animation name='karkat_yell' class='karkat-dialog' sheet='karkat_yell' length='2'/>
   </dialogsprites>
 </hud>
 </sburb>

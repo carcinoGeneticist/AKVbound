@@ -1,0 +1,97 @@
+<sburb description='eridan'>
+    <dependencies>
+        <dependency>dialogs/eridanDialogue.xml</dependency>
+        </dependencies>
+    
+    <classes>
+        <animation class='eridan-dialog' frameInterval='6' x='-230' y='-454'/>
+        
+        <character class='eridan' name='eridan' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='eridanSheet' state='walkFront' facing='Front'>
+        </character>
+        
+        
+        
+        
+            </classes>
+    
+    <assets>
+        
+        <asset name='eridanSheet' type='graphic'>chars/eridan/eridan.png</asset>
+        
+        
+
+        <asset name='eridan_fingers' type='graphic'>dialogs/eridan/eridan_fingers.gif</asset>
+        <asset name='eridan_growl' type='graphic'>dialogs/eridan/eridan_growl.gif</asset>
+        <asset name='eridan_huh' type='graphic'>dialogs/eridan/eridan_huh.gif</asset>
+        <asset name='eridan_idle' type='graphic'>dialogs/eridan/eridan_idle.gif</asset>
+        <asset name='eridan_lip' type='graphic'>dialogs/eridan/eridan_lip.gif</asset>
+        <asset name='eridan_madtalk' type='graphic'>dialogs/eridan/eridan_madtalk.gif</asset>
+        <asset name='eridan_talk' type='graphic'>dialogs/eridan/eridan_talk.gif</asset>
+
+
+
+
+    </assets>
+    
+    <hud>
+        <dialogsprites>
+           
+
+            <animation name='eridan_fingers' class='eridan-dialog' sheet='eridan_fingers'   length='2'/>
+            <animation name='eridan_growl' class='eridan-dialog' sheet='eridan_growl'   length='2'/>
+            <animation name='eridan_huh' class='eridan-dialog' sheet='eridan_huh' />
+            <animation name='eridan_idle' class='eridan-dialog' sheet='eridan_idle' />
+            <animation name='eridan_lip' class='eridan-dialog' sheet='eridan_lip'   length='4'/>
+            <animation name='eridan_madtalk' class='eridan-dialog' sheet='eridan_madtalk'   length='2'/>
+            <animation name='eridan_talk' class='eridan-dialog' sheet='eridan_talk'   length='2'/>
+        </dialogsprites>
+    </hud>
+</sburb>
+
+
+<!--<sburb description='eridan'>
+    <dependencies>
+        <dependency>dialogs/eridanDialogue.xml</dependency>
+        </dependencies>
+    
+    <classes>
+        <animation class='eridan-dialog' frameInterval='6' x='-180' y='-454'/>
+        
+        <character class='eridan' name='eridan' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='eridanSheet' state='walkFront' facing='Front'>
+        </character>
+
+        <action class='beEridan' name='Be Eridan.' command='changeChar'>
+            <args>eridan</args>
+           
+        </action>
+        
+        
+    </classes>
+    
+    <assets>
+        
+        <asset name='eridanSheet' type='graphic'>chars/eridan/eridan.png</asset>
+
+        <asset name='eridan_fingers' type='graphic'>dialogs/eridan/eridan_fingers.png</asset>
+        <asset name='eridan_growl' type='graphic'>dialogs/eridan/eridan_growl.png</asset>
+        <asset name='eridan_huh' type='graphic'>dialogs/eridan/eridan_huh.png</asset>
+        <asset name='eridan_idle' type='graphic'>dialogs/eridan/eridan_idle.png</asset>
+        <asset name='eridan_lip' type='graphic'>dialogs/eridan/eridan_lip.png</asset>
+        <asset name='eridan_madtalk' type='graphic'>dialogs/eridan/eridan_madtalk.png</asset>
+        <asset name='eridan_talk' type='graphic'>dialogs/eridan/eridan_talk.png</asset>
+
+    </assets>
+    
+    <hud>
+        <dialogsprites>
+            <animation name='eridan_fingers' class='eridan-dialog' sheet='eridan_fingers'   length='2'/>
+            <animation name='eridan_growl' class='eridan-dialog' sheet='eridan_growl'   length='2'/>
+            <animation name='eridan_huh' class='eridan-dialog' sheet='eridan_huh' />
+            <animation name='eridan_idle' class='eridan-dialog' sheet='eridan_idle' />
+            <animation name='eridan_lip' class='eridan-dialog' sheet='eridan_lip'   length='4'/>
+            <animation name='eridan_madtalk' class='eridan-dialog' sheet='eridan_madtalk'   length='2'/>
+            <animation name='eridan_talk' class='eridan-dialog' sheet='eridan_talk'   length='2'/>
+
+        </dialogsprites>
+    </hud>
+</sburb> -->
