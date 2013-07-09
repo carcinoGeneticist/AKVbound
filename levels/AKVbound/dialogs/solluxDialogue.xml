@@ -1,59 +1,114 @@
 <sburb description='Easter Egg logs'>
 	<classes>
 	
-	
-	
-		 
-		        <action class='computer1' command="talk">
+		        <action class='sollux1' command="Ask where you are">
            <args>
-               @! This looks familiar...
-               @! wrigglerbase, hemoglobin, hemogoblin (avoiid at all co2t2), redgrub, nubhub (ha2 omorashi 2tuff)...
-               @! This is from that one time sollux asked you if you knew any porn sites that were easy to get to.
-               @! What the fuck does omorashi mean?
-               @! Probably best you leave that unanswered.
+				@sollux_pun SOLLUX: 2up kk, welcome two the fandom room.
+				@karkat_talk KARKAT: WHAT THE HELL DOES THAT EVEN MEAN?
+				@sollux_lisp SOLLUX: iit mean2 that ba2iically, nothiing iin here could be con2iidered canon. iit’2 kiind of like a...
+				@karkat_talk KARKAT: WHAT ABOUT CANNONS?
+				@karkat_yell KARKAT: WHAT IN THE FUCK ARE YOU TALKING ABOUT?
+				@karkat_talk KARKAT: ACTUALLY, WAIT A SECOND. DIDN’T YOU LOSE YOUR EYES AND TEETH?
+				@karkat_talk KARKAT: HAVE YOU BEEN IN THIS LAB THE WHOLE TIME?
+				
+				@sollux_talk SOLLUX: kk ii ju2t fuckiing told you.
+				@karkat_yell KARKAT: I DON’T EVEN REMEMBER THIS ROOM EXISTING.
+				@sollux_madtalk SOLLUX: hey maybe you 2hould 2hut your flutteriing 2eedflap and let me 2peak.
+				@karkat_shout KARKAT: NO, I HAVE TOO MANY QUESTIONS.
+				@sollux_shock SOLLUX: THEN LET ME FUCKIING AN2WER THEM, 2HIIT2PONGE
+				@karkat_yell KARKAT: FUCK, OK, FINE!
+				@karkat_eyeroll2 KARKAT: FINE... GO ON.
+				@sollux_madtalk SOLLUX: alriight, what ii was tryiing two 2ay......
+				@! They proceeded to have the most 4th wall breaking discussion in the history of walkaround games.
+				@karkat_talk KARKAT: OH WOW. THAT’S ALL KIND OF FASCINATING ACTUALLY. IT CLEARS UP A LOT.
+				@sollux_pun SOLLUX: there, 2ee? iit’2 not that hard two get. the down2iide ii2 that you won’t remember anythiing about what ii told you once you leave thii2 room.
+				@karkat_what KARKAT: ... WHAT?
+				@sollux_talk SOLLUX: thii2 room doe2n’t exii2t iin canon, kk.
+				@karkat_talk KARKAT: ... SO ALL THE TIME I JUST SPENT HERE WAS POINTLESS?
+				@sollux_lisp SOLLUX: no tiime ha2 pa22ed iin canon 2iince you got here.
+				@karkat_what KARKAT: ...
+				@sollux_talk SOLLUX: iif you 2omehow wander back here you’ll 2tiill remember what went on here though.
+				@sollux_lisp SOLLUX: but what happen2 iin the fandom, 2tay2 iin the fandom.
+				@sollux_talk SOLLUX: unle22 that orange guy hu22iie deciide2 two iintegrate iit iintwo canon.
+				@sollux_talk SOLLUX: but like that wiill ever be the _ca2e_ wiith thii2 room.
+				@karkat_what KARKAT: ...
+				@karkat_talk KARKAT: I GUESS I’ll KEEP THAT IN MIND?
+				@karkat_idle KARKAT: ONE MORE QUESTION.
+				@karkat_talk KARKAT: WHY THE FUCK ARE YOU THE ONE EXPLAINING THIS TO ME?
+				@sollux_pun SOLLUX: becau2e iim the voiice’2 favoriite character.
+				@karkat_what KARKAT: WAIT, THE VOICES OR THE VOICE’S?
+				@sollux_pun SOLLUX: he thiink2 iim 2exy and he probably 2hiip2 u2.
+				@sollux_talk SOLLUX: for all you know thii2 room miight be ba2ed off 2omethiing from a 2olkat rp.
+				@sollux_talk SOLLUX: thiink about that for a whiile, kk.
+				@sollux_lisp SOLLUX: 2omeone out there ii2 gonna 2ee thii2 conver2atiion and be liike “thii2 ii2 liike the rp ii had where they made out and diid 2tuff”
+				@sollux_lisp SOLLUX: “oh man ii drew 2o many comiic2 of that.”
+				@sollux_talk SOLLUX: “ii 2tiill have the log2 2aved.”
+				@sollux_pun SOLLUX: what do you thiink of that, kk?
+				@karkat_horror KARKAT:
+				@karkat_horror KARKAT: FUCK, I...
+				@! You need a second to let your mind rest.
            </args>
         </action>
-       
-       <action class='computer2' command="talk">
-           <args>
-               @! There appear to be some lyrics written on this one.
-               @! WHEN I WAS A YOUNG GRUB...
-               @! I'D ALWAYS IMAGINED THAT I'D GROW UP-
-               @! You've heard these before.
-           </args>
-       </action>
-       
-       <action class='computer3' command="talk">
-           <args>
-               @! More lyrics on this one, it looks like.
-               @! Some indie shit about insomnia or something.
-               @! Pass.
-           </args>
-       </action>
-	          
-		<action class='computer3a' command="talk">
-           <args>
-               @! There's reasons why we fell so far so fast. There's reasons why the plusses never last. I take my own thoughts with a grain of salt, when I tell myself that this is all my fault.
-			   @! There's reasons for these bags under my eyes. It's the effort I don't give except in lies. Maybe it's the weight of all the promises we couldn't keep.
-			   @! But the universe will not let me sleep.
-           </args>
-       </action>
-       
-       
-       <action class='computer4' command='talk'>
-           <args>
-               @! There is an IM conversation open...
-            @!~gameplan
-               @! ANDREW: if you don't want there to be a loading time inbetween lowaa happening, just put it on the same image as the roof.
-               @! CASE: I wouldn't mind a loading time really
-               @! ANDREW: also what are the little red arrows?
-               @! CASE: the red arrows are the opposing team attacking the linebacker
-               @! CASE: obvs
-               @! ANDREW: oh. how ever did i miss that.
-               @! ANDREW: this is some a+ strategy you got going on there.  we're sure to win in the playoffs with your brilliance on our side.
-               @! Dumb.
-               
-            </args>
-        </action>
+		
+		<!-- after this conversation others open up -->
+		 <action class='sollux2' command="Get Hints">
+		   <args>
+				@karkat_talk KARKAT: OK, SO IS THIS THE ONLY PLACE THAT IS JUST MAGICALLY NOT CANON?
+				@sollux_talk SOLLUX: ii know ii 2aiid you won’t remember anythiing that happen2 out2iide thii2 room 2o iiiit would not even matter iif ii told you.
+				@sollux_lisp SOLLUX: but no, there’2 another 2ecret nearby.
+				@sollux_pun SOLLUX: and two fiind iit you have two tell the diifference between goiing _up_ and goiing _up_.
+				@sollux_talk SOLLUX: there you may fiind a voiice.
+				@karkat_talk KARKAT: THIS IS WAY TOO CRYPTIC FOR ME TO UNDERSTAND.
+				@sollux_madtalk SOLLUX: well iif ii gave iit away, iit wouldn’t be a 2ecret, would iit?
+				@sollux_talk SOLLUX: iit’2 a 2ecret two everyone.
+				@karkat_what KARKAT: I CAN’T ASK FOR ANY MORE HINTS?
+				@sollux_talk SOLLUX: maybe, maybe not...
+				@sollux_pun SOLLUX: let'2 ju2t 2ay you’ve been warned.
+			</args>
+		</action>
+		
+			 <action class='sollux3' command="Ask about style">
+		   <args>
+					@sollux_talk SOLLUX: 밤에는 따사로운 인간적인 여자. 커피 한잔의 여유를 아는 품격 있는 여자. 낮이 오면 심장이 뜨거워지는 여자. 그런 반전 있는 여자.
+					@karkat_what KARKAT: WHAT? I’M NOT SURE I UNDERSTOOD THAT.
+					@sollux_talk SOLLUX: 나는 트롤이. 낮에는 너만큼 따사로운 그런 트롤이. 커피 식기도 전에 원샷 때리는 트롤이. 밤이 오면 심장이 터져버리는 트롤이. 그런 트롤이.
+					@karkat_talk KARKAT: DUDE I’M NOT GETTING ANY OF THIS, SLOW DOWN!
+					@sollux_talk SOLLUX: 아름다워 사랑스러워. 
+					@karkat_talk KARKAT: SOLLUX ARE YOU EVEN LISTENING TO ME?
+					@sollux_talk SOLLUX: 그래 너.
+					@karkat_yell KARKAT: HEY.
+					@sollux_talk SOLLUX: 그래 바로 너.
+					@karkat_shout KARKAT: HEY!
+					@sollux_talk SOLLUX: 아름다워 사랑스러워.
+					@karkat_shout KARKAT: YOU’RE DOING THIS JUST TO FUCK WITH ME AREN’T YOU?
+					@sollux_talk SOLLUX: 그래 너.
+					@karkat_yell KARKAT: NO.
+					@sollux_pun SOLLUX:그래 바로 너.
+					@karkat_shout KARKAT: FUCKING STOP!
+					@sollux_pun SOLLUX: 지금부터 갈 데까지 가볼까...
+					@sollux_pun SOLLUX: ...
+					@karkat_idle KARKAT: ...
+					@karkat_what KARKAT: ARE YOU DONE?
+					@sollux_pun SOLLUX: 오빠 캎톨남스타일!
+					@karkat_shout KARKAT: SOLLUX, SHUT THE FUCK UP!
+					@sollux_talk SOLLUX: thii2 i2 the 2ong of my people kk.
+					@karkat_yell KARKAT: WHAT?
+					@sollux_talk SOLLUX: iit i2 the holy anthem of 2wag.
+					@karkat_yell KARKAT: WHAT IN HOLY BULGEMUNCHING FUCK IS SWAG?
+					@sollux_talk SOLLUX: eh, nevermiind.
+			</args>
+		</action>
+		
+		<action class='sollux4' command="Ask personal question">
+		   	<args>
+		   		@karkat_idle KARKAT: SO... 
+				@sollux_talk SOLLUX: ... yeah?
+				@karkat_talk KARKAT: CAN I ASK YOU A SERIOUS QUESTION?
+				@sollux_talk SOLLUX: ii don't have two bulge2, kk.
+				@karkat_idle KARKAT: OH. OK.
+		   
+		   	</args>
+		</action>
+
 	</classes>
 </sburb>

@@ -15,10 +15,10 @@
        
        <action class='computer2' command="talk">
            <args>
-               @! There appear to be some lyrics written on this one.
-               @! WHEN I WAS A YOUNG GRUB...
-               @! I'D ALWAYS IMAGINED THAT I'D GROW UP-
-               @! You've heard these before.
+               @! It appears to be a script for something.
+               @! "May the sweep carry you to great heights."
+               @! "Don't look down."
+               @! Lame.
            </args>
        </action>
        
@@ -106,7 +106,8 @@
 			
 			<action class='coffee' command='talk' name='Get Coffee'>
 			<args>
-			@! You have the machine make you some cheap coffee. You’ve kept trying to drink coffee to keep you up but usually it doesn’t wake you up at all. It just multiplies your inferiority complex with anxious jittering. Never the less you occasionally still drink it to try to build tolerance.
+			@! You got some COFFEE!
+			@! Man, this is some cheap coffee. You’ve kept trying to drink coffee to keep you awake but usually it doesn’t wake you up at all. It just multiplies your inferiority complex and adds some anxious jittering. Never the less you occasionally still drink it to try to build tolerance.
 			@! You still hang around the place as you drink it.
 			</args>
 			</action>
@@ -133,8 +134,60 @@ That third shelf though... All romance novels. Hey, those two on the end! You we
 			<action class='labRecord' command='talk' name='Examine'>
 			<args>
 			@! You look at the iGrub to check what songs are on it. Maybe listening to something else will get this strange synthetic tune out of your head.
+			@! You can't figure out the unlock code, though. Damn. There's got to be somewhere else to listen to music.
 			</args>
 			</action>
+			
+			<!-- Chest Object Dialogue -->
+			
+			<action class='chest1' command='talk' name='Examine'>
+			<args>
+			@! You got a THING!
+			</args>
+			</action>
+			
+			<action class='chest2' command='talk' name='Examine'>
+			<args>
+			@! You got a THING!
+			</args>
+			</action>
+			
+			<action class='chest3' command='talk' name='Examine'>
+			<args>
+			@! You got a THING!
+			</args>
+			</action>
+			
+			<action class='chest4' command='talk' name='Examine'>
+			<args>
+			@! You got a THING!
+			</args>
+			</action>
+			
+			<action class='chest5' command='talk' name='Examine'>
+			<args>
+			@! You got a THING!
+			</args>
+			</action>
+			
+			<action class='chest6' command='talk' name='Examine'>
+			<args>
+			@! You got a THING!
+			</args>
+			</action>
+			
+			<action class='chest7' command='talk' name='Examine'>
+			<args>
+			@! You got a THING!
+			</args>
+			</action>
+			
+			<action class='chest8' command='talk' name='Examine'>
+			<args>
+			@! You got a THING!
+			</args>
+			</action>
+			
 			
 			
 			
