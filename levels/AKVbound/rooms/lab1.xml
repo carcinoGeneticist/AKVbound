@@ -4,8 +4,8 @@
         <dependency>chars/karkat.xml</dependency>
         <dependency>chars/dave.xml</dependency>
         <dependency>chars/terezi.xml</dependency>
-        <dependency>chars/eridan.xml</dependency>
         <dependency>rooms/lowaa.xml</dependency>
+        <dependency>chars/eridan.xml</dependency>
     </dependencies>
     
     <assets>
@@ -210,6 +210,7 @@
             <character class='terezi' x='2737' y='1767'>
                 <action class='tereziTalk2'/>
                 </character>
+
 
             
             

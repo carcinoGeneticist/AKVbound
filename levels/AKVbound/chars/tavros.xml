@@ -19,6 +19,13 @@
     <assets>
         
         <asset name='tavrosSheet' type='graphic'>chars/tavros/tavros.png</asset>
+
+        <asset name='tavros_blink' type='graphic'>dialogs/tavros/tavros_blink.png</asset>
+        <asset name='tavros_idle' type='graphic'>dialogs/tavros/tavros_idle.png</asset>
+        <asset name='tavros_sad' type='graphic'>dialogs/tavros/tavros_sad.png</asset>
+        <asset name='tavros_sadtalk' type='graphic'>dialogs/tavros/tavros_sadtalk.png</asset>
+        <asset name='tavros_talk' type='graphic'>dialogs/tavros/tavros_talk.png</asset>
+        <asset name='tavros_talk2' type='graphic'>dialogs/tavros/tavros_talk2.png</asset>
         
         
    
@@ -27,6 +34,13 @@
     
     <hud>
         <dialogsprites>
+
+            <animation name='tavros_blink' class='tavros-dialog' sheet='tavros_blink'   length='8'/>
+            <animation name='tavros_idle' class='tavros-dialog' sheet='tavros_idle' />
+            <animation name='tavros_sad' class='tavros-dialog' sheet='tavros_sad' />
+            <animation name='tavros_sadtalk' class='tavros-dialog' sheet='tavros_sadtalk'   length='2'/>
+            <animation name='tavros_talk' class='tavros-dialog' sheet='tavros_talk'   length='2'/>
+            <animation name='tavros_talk2' class='tavros-dialog' sheet='tavros_talk2'   length='2'/>
             
 			
         

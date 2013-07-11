@@ -2,7 +2,13 @@
     
     <dependencies>
         <dependency>chars/karkat.xml</dependency>
+
+        <!-- get rid of those -->
+        <dependency>chars/dave.xml</dependency>
+        <dependency>chars/terezi.xml</dependency>
         <dependency>chars/eridan.xml</dependency>
+        <dependency>chars/tavros.xml</dependency>
+
     </dependencies>
     
     <assets>
@@ -60,11 +66,11 @@
                 
             </triggers>
             
-             <!--
+             
             <character class='karkat' x='500' y='920'>
                 <action class='beKarkat'/>
             </character>
-            -->
+            
             <character class='terezi' x='869' y='771'/>
 
             <character class='dave' x='918' y='841'>
@@ -72,7 +78,16 @@
                     </action>
             </character>
 
-            <charaacter class='eridan' x='1000' y='800'/>
+
+            <!-- eridan 950 x 810 -->
+            <character class='eridan' x='980' y='790'/>
+
+
+
+            <!-- tavros 1650 x 1050 -->
+
+            <character class='tavros' x='1680' y='1020'/>
+
 
           
             
