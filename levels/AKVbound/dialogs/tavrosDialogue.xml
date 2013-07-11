@@ -3,41 +3,41 @@
 		  <action class='tavrosTalk1' sprite='tavros' command='talk'>
 			 <!-- triggered automatically when entering far right room-->
 			 <args>
-			 <!-- TAVROS: hEY,,,
+			  		@tavros_blink TAVROS: hEY,,,
 
-KARKAT: FUCK!
+					@karkat_horror KARKAT: FUCK!
+					
+					@karkat_yell KARKAT: TAVROS WHERE THE FUCK DID YOU COME FROM?
+					
+					@tavros_talk TAVROS: i,,, tHINK MY BUBBLE MUST HAVE SWEPT THROUGH THIS ONE,,,
+					
+					@tavros_blink TAVROS: aND, nOW I’M HERE I GUESS,
+					
+					@karkat_facepalm KARKAT: THIS IS THE DUMBEST FUCKING CLUSTERFUCK REUNION EVER.
+					
+					@karkat_what KARKAT: WAIT TAVROS, WHERE THE FUCK ARE YOUR PANTS?
+					
+					@eridan_huh ERIDAN: yeah wwhat the hell kind of getup is that dirtblood
+					@eridan_talk ERIDAN: that looks so ridiculous
+					
+					@tavros_talk TAVROS: oH, iT’S MY GOD TIER OUTFIT,
+					@tavros_talk2 TAVROS: wHEN I GOT TO IT I GOT LEGS AGAIN, aND I GUESS THE GAME WANTED ME TO NOTICE OR SOMETHING,
+					@tavros_sadtalk TAVROS: pANTS WOULD BE, nICE THOUGH,
+					
+					@karkat_facepalm KARKAT: I’M SORRY BUT I CAN’T EVEN LOOK AT YOU, YOU’RE JUST EMBARRASSING.
+					
+					@tavros_sadtalk TAVROS: yEAH, i KNOW,
+					
+					@karkat_eyeroll1 KARKAT: THIS JUST KEEPS GETTING MORE AND MORE AWKWARD.
+					
+					@karkat_eyeroll2 KARKAT: I’LL JUST CATCH THE NEXT DEAD ERIDAN THAT DRIFTS BY, I’M GOING BACK DOWNSTAIRS.
+					
+					@eridan_fingers ERIDAN: no kar
+					@eridan_fingers ERIDAN: you don’t havve to be like that
+					
+					@karkat_talk KARKAT: YES I DO.
+					@karkat_yell KARKAT: WATCH ME, MAGICALLY BECOME ABSENT FROM THIS SHITTY DREAM PLANET WITH PANTLESS DEAD FRIENDS. LATER, FUCKERS!
 
-KARKAT: TAVROS WHERE THE FUCK DID YOU COME FROM?
-
-TAVROS: i,,, tHINK MY BUBBLE MUST HAVE SWEPT THROUGH THIS ONE,,,
-
-TAVROS: aND, nOW I’M HERE I GUESS,
-
-KARKAT: THIS IS THE DUMBEST FUCKING CLUSTERFUCK REUNION EVER.
-
-KARKAT: WAIT TAVROS, WHERE THE FUCK ARE YOUR PANTS?
-
-ERIDAN: yeah wwhat the hell kind of getup is that dirtblood
-ERIDAN: that looks so ridiculous
-
-TAVROS: oH, iT’S MY GOD TIER OUTFIT,
-TAVROS: wHEN I GOT TO IT I GOT LEGS AGAIN, aND I GUESS THE GAME WANTED ME TO NOTICE OR SOMETHING,
-TAVROS: pANTS WOULD BE, nICE THOUGH,
-
-KARKAT: I’M SORRY BUT I CAN’T EVEN LOOK AT YOU, YOU’RE JUST EMBARRASSING.
-
-TAVROS: yEAH, i KNOW,
-
-KARKAT: THIS JUST KEEPS GETTING MORE AND MORE AWKWARD.
-
-KARKAT: I’LL JUST CATCH THE NEXT DEAD ERIDAN THAT DRIFTS BY, I’M GOING BACK DOWNSTAIRS.
-
-ERIDAN: no kar
-ERIDAN: you don’t havve to be like that
-
-KARKAT: Yes I do.
-KARKAT: WATCH ME, MAGICALLY BECOME ABSENT FROM THIS SHITTY DREAM PLANET WITH PANTLESS DEAD FRIENDS. LATER, FUCKERS!
--->
 				
 		 	</args>
 			<!-- control given back to player, observation deck stairs open again -->
@@ -45,27 +45,27 @@ KARKAT: WATCH ME, MAGICALLY BECOME ABSENT FROM THIS SHITTY DREAM PLANET WITH PAN
 		 
 		 
 		 <action class='tavrosTalk2' sprite='tavros' command='talk'>
-			 <!-- triggered automatically when entering far right room-->
+			 <!-- [focus switches as you leave LOWAA]-->
 			 <args>
-		 <!-- [focus switches as you leave LOWAA]
-Eridan: wwell...
-
-TAVROS: uH,,,
-
-ERIDAN: oh he dropped that wweird thing he wwas holding
-
-TAVROS: wELL, uM, mAYBE WE SHOULD,, STOP IT FOR HIM,,,
-
-ERIDAN: wwait wwhy not try and go through it so wwe can see wwhat he’s been up to
-
-TAVROS: tHAT WOULDN’T BE A VERY COOL THING,, TO DO TO HIM,
-
-ERIDAN: i just wwant to see wwhat hes been recording
-ERIDAN: if its a public thing he probably wwouldn’t care if wwe saw
-ERIDAN: wwere dead anywway
-
-TAVROS: tHAT IS A GOOD POINT,
-		 -->
+		 
+				@eridan_idle ERIDAN: wwell...
+				
+				@tavros_sad TAVROS: uH,,,
+				
+				@eridan_huh ERIDAN: oh he dropped that wweird thing he wwas holdin
+				
+				@tavros_talk TAVROS: wELL, uM, mAYBE WE SHOULD,, STOP IT FOR HIM,,,
+				
+				@eridan_talk ERIDAN: wwait wwhy not try and go through it so wwe can see wwhat he’s been up to
+				
+				@tavros_sadtalk TAVROS: tHAT WOULDN’T BE A VERY COOL THING,, TO DO TO HIM,
+				
+				@eridan_talk ERIDAN: i just wwant to see wwhat hes been recordin
+				@eridan_talk ERIDAN: if its a public thing he probably wwouldn’t care if wwe saw
+				@eridan_huh ERIDAN: wwere dead anywway
+				
+				@tavros_sadtalk TAVROS: tHAT IS A GOOD POINT,
+		 
 		 	</args>
 			<!-- switch rooms -->
 		 </action>
