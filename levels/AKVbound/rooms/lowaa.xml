@@ -1,5 +1,5 @@
 <sburb description="lowaa">
-    
+
     <dependencies>
         <dependency>chars/karkat.xml</dependency>
 
@@ -12,7 +12,7 @@
     </dependencies>
     
     <assets>
-        
+
         <asset name='lowaa_BG_0_0' type='graphic'>backgrounds/lowaa_BG.png</asset>
         <asset name='lowaa_BG_0_1' type='graphic'>backgrounds/slices/lowaa_BG_0_1.png</asset>
         <asset name='lowaa_BG_0_2' type='graphic'>backgrounds/slices/lowaa_BG_0_2.png</asset>
@@ -53,10 +53,10 @@
     
     
     <rooms>
-        
+
         <room name='lowaa' walkableMap='lowaa_WM' scale='4'>
-            
-            
+
+
             <triggers>
                 <trigger detonate='true'>spriteProperty,char,x&gt;1
                     <action class='tereziTalk3' command='talk' noDelay='true'>
@@ -66,21 +66,167 @@
                 
             </triggers>
             
-             
+
             <character class='karkat' x='500' y='920'>
                 <action class='beKarkat'/>
             </character>
-            
+
+            <!-- eridan 980 x 790 -->
+            <character class='eridan' x='50' y='50'>
+                <action name='Talk to Eridan.' command='talk'>
+                    <args>
+                        @eridan_huh ERIDAN: so kar are you all alivve
+                        @eridan_talk ERIDAN: like actually alivve
+
+                        @karkat_what KARKAT: YEAH...
+
+                        @eridan_talk ERIDAN: wwhat a fuckin relief for once
+                        @eridan_madtalk ERIDAN: all the other bubbles i cross through wwent through timelines so different
+                        @eridan_madtalk ERIDAN: and they all don’t remember jack shit about wwhat happened
+
+                        @karkat_talk KARKAT: IT’S THE SAME WITH THE FEW VERSIONS OF YOU THAT I’VE MET. I DOUBT WE WENT THROUGH ANY OF THE SAME FUCKING STUFF YOU DID.
+
+                        @eridan_huh ERIDAN: i don’t knoww
+                        @eridan_talk ERIDAN: i guess it just feels more genuine or something
+                        @eridan_huh ERIDAN: you look older though
+
+                        @karkat_talk KARKAT: WE’VE BEEN OUT HERE FOR OVER HALF A SWEEP.
+                        @karkat_what KARKAT: I THINK THAT’S ABOUT A YEAR AND A FEW MONTHS IN HUMAN TIME.
+
+                        @eridan_huh ERIDAN: wwhats a human
+
+                        @karkat_facepalm KARKAT: UGH...
+
+                        @karkat_yell KARKAT: THESE PALE MOTHERFUCKERS LIKE THE GUY IN THE RED GEAR PAJAMAS.
+
+                        @eridan_talk ERIDAN: are they game constructs or
+
+                        @karkat_talk KARKAT: NO, THEY’RE FROM A DIFFERENT UNIVERSE.
+
+                        @karkat_talk KARKAT: THE ONE WE FUCKING CREATED WHEN WE WON THE GAME.
+
+                        @karkat_talk KARKAT: BUT THROUGH A COMBINATION OF ME FUCKING UP AND THEM FUCKING UP...
+
+                        @karkat_eyeroll2 KARKAT: WE NEVER REALLY FULLY WON.
+
+                        @karkat_talk KARKAT: SO WE’VE BEEN WORKING WITH THEM ON CHEATING THE SYSTEM.
+
+                        @karkat_talk KARKAT: IT’S A LONG AND INCREDIBLY CONVOLUTED STORY THAT WOULD PROBABLY TAKE NEARLY 2 SWEEPS AND EIGHT THOUSAND PAGES TO TELL ACCURATELY.
+
+                        @eridan_talk ERIDAN: i think i get it
+
+                        @karkat_talk KARKAT: GOOD, BECAUSE I DON’T.
+
+                        @! You start to wonder if Terezi’s noticed Eridan’s arrival. If anything is going to interrupt her RP streak, this will.
+                    </args>
+                    <action command='follow'>
+                        <args>eridan,char</args>
+                        <action command='removeAction'>
+                            <args>eridan,Talk to Eridan.</args>
+                        </action>
+                    </action>
+                </action>
+
+            </character>
+
             <character class='terezi' x='869' y='771'/>
 
             <character class='dave' x='918' y='841'>
-                <action class='daveTalk2' command='talk' name='talk to dave.'>
+                <action class='daveTalk2' command='talk' name='Talk to Dave.'>
+
+                    <args>
+                        @dave_smug DAVE: so who the fuck’s memories are these? im kind of digging the set 
+
+                        @dave_talk DAVE: im gettin this hunchback of notre dame vibe except for gargoyles that come to life and completely ruin the movie its a bunch of weird black winged monster things.
+
+                        @dave_concern DAVE: hey have we been here before?
+
+                        @karkat_talk KARKAT: ACTUALLY WE HAVE. IT’S WHERE THE MAYOR WAS REVIVED.
+
+                        @dave_talk DAVE: ah right cool
+
+                        @dave_talk DAVE: for real though
+
+                        @dave_smug DAVE: these palaces or whatever are some legitimately class shit here
+
+                        @dave_smug DAVE: like some “i feel like i should be waiting for a science professor to show up” level of class
+
+                        @karkat_horror KARKAT: DON’T SAY THAT WORD TOO LOUD!
+                        @karkat_yell KARKAT: IT COULD BE A FUCKING DUCK CALL AROUND HERE, YOU HAVE TO BE CAREFUL.
+
+                        @dave_huh DAVE: what class
+
+                        @karkat_shout KARKAT: NO, YOU IDIOT-
+
+                        @eridan_talk ERIDAN: i’m certainly no professor but i do knoww quite a bit about science
+                        @eridan_talk ERIDAN: is there currently a discussion going on
+                        @eridan_talk ERIDAN: i wwouldn’t mind joining in
+
+                        @karkat_facepalm KARKAT: TOO LATE...
+
+                        @dave_smug DAVE: oh yeah this douchebag
+                        @dave_talk DAVE: hey weren’t you dressed like psyduck before 
+                        @dave_concern DAVE: shit you probably dont remember do you
+                        @dave_huhtalk DAVE: damn that wasn’t even technically you
+                        @dave_huhtalk DAVE: i just confused myself there
+                        @dave_mad DAVE: doomed timelines are stupid
+
+                        @karkat_eyeroll2 KARKAT: (like he'd even know what a fucking psyduck is...)
+
+                        @eridan_huh ERIDAN: wwait
+                        @eridan_huh ERIDAN: wwho...
+                        @eridan_madtalk ERIDAN: wwhat the hell kind of creature is that
+
+                        @dave_smug DAVE: oh right you assholes couldnt even all stay alive before you actually met any of us could you
+
+                        @karkat_talk KARKAT: YEAH, HE PROBABLY DIED BEFORE SGRUB ENDED.
+
+                        @dave_concern DAVE: alright then I got this
+
+                        @dave_smug DAVE: greetings dead alternate timeline alien whose name i dont care about
+                        i am dave s obana and i will be your ambassador to my species
+
+                        @dave_smug DAVE: the pajama draped musclebreasted hollering phallus baboon
+
+                        @eridan_huh ERIDAN: pajama wwhat
+                        @eridan_talk ERIDAN: hollerin wwhat
+                        @eridan_talk ERIDAN: kar is this guy for real
+
+                        @karkat_talk KARKAT: HE’S A HUMAN, HE’S...
+                        @karkat_what KARKAT: IT’S...
+                        @karkat_talk KARKAT: IT’S NOT IMPORTANT, JUST IGNORE HIM.
+
+                        @dave_madtalk DAVE: dont try to undermine the importance of this inter-realm ambassadorship
+                        @dave_madtalk DAVE: before you know it shits gonna go haywire and the afterlife is gonna explode or implode or crack apart or something and how are we gonna know about it? 
+                        @dave_talk DAVE: gotta keep our shit tight with these white eyed folk
+
+                        @karkat_talk KARKAT: I COULD SIT HERE AND KEEP TELLING YOU HOW MUCH MORE IDIOTIC YOU KEEP SOUNDING, BUT YOU’D COME RIGHT BACK WITH EVEN MORE STUPID IRONIC RAMBLING AND I WOULD STILL THINK THE SAME THING BUT EVEN WORSE, AND IT WOULD BE A NO WIN SITUATION. 
+
+                        @karkat_talk KARKAT: SO I THINK WHAT I’M GOING TO DO IS WALK AWAY NOW, TO MAKE SURE I DON’T SPARK ANY MORE OF YOUR TIRED AND SARCASTIC VERBAL ESSAYS ON IRRELEVANCE.
+
+                        @dave_smug DAVE: suit yourself nubs
+                    </args>
+
+                    <action command='removeAction' >
+                        <args>dave,Talk to Dave.</args>
+                        <action command='moveSprite'> 
+                            <args>eridan,980,790</args>
+                           <!-- <action command='addAction' class='tereziTalk4' sprite='terezi'>
+                                
+                                fuuuuuck me this isnt working
+
+                            </action>-->
+                        </action>
                     </action>
+
+                    
+                    
+
+                </action>
             </character>
 
 
-            <!-- eridan 950 x 810 -->
-            <character class='eridan' x='980' y='790'/>
+
 
 
 
@@ -89,15 +235,15 @@
             <character class='tavros' x='1680' y='1020'/>
 
 
-          
-            
+
+
             <sprite name='lowaa_BG'>
                 <animation sheet='lowaa_BG' sliced='true' numCols='5' numRows='4' colSize='500' rowSize='500'/>
             </sprite>
-            
 
-            
-            
+
+
+
         </room>
     </rooms>
 </sburb>
