@@ -59,7 +59,7 @@
 
 
             <triggers>
-
+<!--
                 <trigger>spriteProperty,karkat,x&lt;780
                     <trigger detonate='true'>spriteProperty,karkat,y&gt;1090
         
@@ -74,15 +74,15 @@
                     </trigger>
                 </trigger>
 
-
+-->
 
                 <trigger detonate='true'>spriteProperty,char,x&gt;1
                     <action class='tereziTalk3' command='talk' noDelay='true'>
                     </action>
                 </trigger>
 
-                <trigger>spriteProperty,eridan,x&lt;1000
-                    <trigger detonate='true'>spriteProperty,eridan,y&gt;1100
+                <trigger>spriteProperty,eridan,x&lt;1100
+                    <trigger detonate='true'>spriteProperty,eridan,y&lt;400
                         <action command='talk' noDelay='true'>
                             <args>
                                 @eridan_madtalk ERIDAN: wwhat wwas up back there wwith aquablood?
@@ -153,12 +153,14 @@
                 
                 
             </triggers>
-<!--            
+
+        
+          
 
             <character class='karkat' x='500' y='920'>
                 <action class='beKarkat'/>
             </character>
--->
+
             <!-- eridan 980 x 790 -->
             <character class='eridan' x='2000' y='50'>
                 <action name='Talk to Eridan.' command='talk'>

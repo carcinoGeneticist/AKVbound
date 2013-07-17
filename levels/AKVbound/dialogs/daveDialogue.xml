@@ -3,6 +3,7 @@
 		 <action class='daveTalk1' sprite='dave' command='talk'>
 			 <args>
 				 @dave_talk DAVE: blogging on the go karkat?
+				 <!--
 				 @karkat_talk KARKAT: YOU JUST HAD TO FUCKING GO THIS WAY DIDN'T YOU?
 				 @dave_talk DAVE: probably not but here i am either way
 				 @dave_talk DAVE: so where you off to mr sunshine?
@@ -39,6 +40,7 @@
 				 @karkat_yell KARKAT: WHAT? AM I NOT ALLOWED TO JUST FUCKING RAGE TO MYSELF?
 				 @dave_talk DAVE: its not really "to yourself" if i can hear it now is it?
 				 @! He stays close behind you as you continue on...
+				-->
 			 <!--  -->
 			 </args>
 		</action>

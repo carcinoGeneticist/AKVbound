@@ -1,0 +1,82 @@
+<sburb description="lab2">
+    
+    <dependencies>
+                <dependency>chars/karkat.xml</dependency>
+
+    </dependencies>
+    
+    <assets>
+        
+        <asset name='lab2_BG_0_0' type='graphic'>backgrounds/lab2_BG.png</asset>
+
+<!--
+
+
+        <asset name='lab2_BG_0_0' type='graphic'>backgrounds/slices/lab2_BG_0_0.png</asset>
+        <asset name='lab2_BG_0_1' type='graphic'>backgrounds/slices/lab2_BG_0_1.png</asset>
+        <asset name='lab2_BG_0_2' type='graphic'>backgrounds/slices/lab2_BG_0_2.png</asset>
+        <asset name='lab2_BG_0_3' type='graphic'>backgrounds/slices/lab2_BG_0_3.png</asset>
+        <asset name='lab2_BG_0_4' type='graphic'>backgrounds/slices/lab2_BG_0_4.png</asset>
+        <asset name='lab2_BG_0_5' type='graphic'>backgrounds/slices/lab2_BG_0_5.png</asset>
+        <asset name='lab2_BG_0_6' type='graphic'>backgrounds/slices/lab2_BG_0_6.png</asset>
+        
+        <asset name='lab2_BG_1_0' type='graphic'>backgrounds/slices/lab2_BG_1_0.png</asset>
+        <asset name='lab2_BG_1_1' type='graphic'>backgrounds/slices/lab2_BG_1_1.png</asset>
+        <asset name='lab2_BG_1_2' type='graphic'>backgrounds/slices/lab2_BG_1_2.png</asset>
+        <asset name='lab2_BG_1_3' type='graphic'>backgrounds/slices/lab2_BG_1_3.png</asset>
+        <asset name='lab2_BG_1_4' type='graphic'>backgrounds/slices/lab2_BG_1_4.png</asset>
+        <asset name='lab2_BG_1_5' type='graphic'>backgrounds/slices/lab2_BG_1_5.png</asset>
+        <asset name='lab2_BG_1_6' type='graphic'>backgrounds/slices/lab2_BG_1_6.png</asset>
+        
+        <asset name='lab2_BG_2_0' type='graphic'>backgrounds/slices/lab2_BG_2_0.png</asset>
+        <asset name='lab2_BG_2_1' type='graphic'>backgrounds/slices/lab2_BG_2_1.png</asset>
+        <asset name='lab2_BG_2_2' type='graphic'>backgrounds/slices/lab2_BG_2_2.png</asset>
+        <asset name='lab2_BG_2_3' type='graphic'>backgrounds/slices/lab2_BG_2_3.png</asset>
+        <asset name='lab2_BG_2_4' type='graphic'>backgrounds/slices/lab2_BG_2_4.png</asset>
+        <asset name='lab2_BG_2_5' type='graphic'>backgrounds/slices/lab2_BG_2_5.png</asset>
+        <asset name='lab2_BG_2_6' type='graphic'>backgrounds/slices/lab2_BG_2_6.png</asset>
+        
+        <asset name='lab2_BG_3_0' type='graphic'>backgrounds/slices/lab2_BG_3_0.png</asset>
+        <asset name='lab2_BG_3_1' type='graphic'>backgrounds/slices/lab2_BG_3_1.png</asset>
+        <asset name='lab2_BG_3_2' type='graphic'>backgrounds/slices/lab2_BG_3_2.png</asset>
+        <asset name='lab2_BG_3_3' type='graphic'>backgrounds/slices/lab2_BG_3_3.png</asset>
+        <asset name='lab2_BG_3_4' type='graphic'>backgrounds/slices/lab2_BG_3_4.png</asset>
+        <asset name='lab2_BG_3_5' type='graphic'>backgrounds/slices/lab2_BG_3_5.png</asset>
+        <asset name='lab2_BG_3_6' type='graphic'>backgrounds/slices/lab2_BG_3_6.png</asset>
+        
+        -->
+
+
+
+        
+        <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM.png</asset>
+        
+    </assets>
+    
+    
+  
+    
+    
+    
+    <rooms>
+        
+        <room name='lab2' walkableMap='lab2_WM' scale='4'>
+
+
+            <character class='karkat' x='1250' y='2130'>
+                <action class='beKarkat'/>
+            </character>
+            
+            <sprite name='lab2_BG'>
+                <animation sheet='lab2_BG' sliced='true' numCols='1' numRows='1' colSize='1680' rowSize='3320'/>
+            </sprite>
+
+            <!--
+                <sprite name='lab2_BG'>
+                <animation sheet='lab2_BG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+        -->
+                      
+        </room>
+    </rooms>
+</sburb>

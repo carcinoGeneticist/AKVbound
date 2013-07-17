@@ -1,4 +1,4 @@
-<sburb description="lab1">
+<sburb description="lab2">
     
     <dependencies>
     </dependencies>
@@ -91,10 +91,13 @@
         <room name='lab2' walkableMap='lab2_WM' scale='4'>
           
             <paths>
+                <!--
                 <motionpath path="staircase1" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
                 <motionpath path="staircase2" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
                 <motionpath path="staircase3" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+            -->
             </paths>
+            <!--
             
             <sprite class='teleporter' name='teleporterPad1' x='1110' y='2050'>
                 <action name='Teleport' command='changeRoomRemote'><args>rooms/lab1.xml,lab1,75,3025</args>
@@ -136,7 +139,7 @@
                 <action name='Teleport' command='changeRoom'><args>lab2,410,1050</args>
                 </action>
             </sprite>
-            
+            -->
             
             
             <!--
@@ -149,10 +152,11 @@
             <sprite name='lab2_BG'>
                 <animation sheet='lab2_BG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
-                        
+                        <!--
             <sprite name='lab2_FG' depthing='2'>
                 <animation sheet='lab2_FG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
+        -->
         </room>
     </rooms>
 </sburb>

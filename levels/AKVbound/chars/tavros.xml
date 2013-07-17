@@ -4,7 +4,7 @@
         </dependencies>
     
     <classes>
-        <animation class='tavros-dialog' frameInterval='6' x='-180' y='-454'/>
+        <animation class='tavros-dialog' frameInterval='6' x='-295' y='-506'/>
         
         <character class='tavros' name='tavros' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='tavrosSheet' state='walkFront' facing='Front'>
         </character>

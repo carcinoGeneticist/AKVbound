@@ -198,7 +198,7 @@
             
             <sprite class='teleporter' name='teleporterPad' x='75' y='3025'>
 				<action name='Teleport' command='changeRoomRemote'>
-						<args>rooms/lab2.xml,lab2,1110,2050</args>
+						<args>rooms/lab2debug.xml,lab2,1250,2130</args>
                 </action>
             </sprite> 
                         
