@@ -63,7 +63,7 @@
         <room name='lab2' walkableMap='lab2_WM' scale='4'>
 
 
-            <character class='karkat' x='1250' y='2130'>
+            <character class='karkat' x='397' y='345'>
                 <action class='beKarkat'/>
             </character>
             
