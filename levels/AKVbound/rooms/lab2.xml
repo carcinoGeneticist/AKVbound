@@ -70,10 +70,14 @@
         <asset name='lab2_FG_3_4' type='graphic'>backgrounds/slices/lab2_FG_3_4.png</asset>
         <asset name='lab2_FG_3_5' type='graphic'>backgrounds/slices/lab2_FG_3_5.png</asset>
         <asset name='lab2_FG_3_6' type='graphic'>backgrounds/slices/lab2_FG_3_6.png</asset>
+
+<!--
+        <asset name='coffMachOpenSheet' type='graphic'>objects/chests/coffMacho.png</asset>
+        <asset name='coffMachClosedSheet' type='graphic'>objects/chests/coffMach.png</asset>
         
+    -->    
         
-        
-        <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM.png</asset>
+        <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM-25.png</asset>
         
         <asset name='staircase1' type='path'>1035,1616;1035,1745;1275,1990;1275,1860</asset>
         <asset name='staircase2' type='path'>1060,1238;1060,1360;1300,1615;1300,1485</asset>
@@ -148,6 +152,13 @@
                 </action>
             </sprite>
             -->
+
+            <!--
+        <sprite class='coffMach' width='' height='' depthing='1' collidable='true'>
+            <animation name='closed' sheet='coffMachClosedSheet' x='' y='' />
+            <animation name='open' sheet='coffMachOpenSheet' x='' y='' loopNum='0' followUp='opened'/>
+            <animation name='opened' sheet='coffMachOpenSheet' x='' y='' loopNum='0'/>
+        </sprite> -->
             
             <sprite name='lab2_BG'>
                 <animation sheet='lab2_BG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
