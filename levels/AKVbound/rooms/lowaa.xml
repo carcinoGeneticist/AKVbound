@@ -14,7 +14,7 @@
     
     <assets>
 
-        <asset name='lowaa_BG_0_0' type='graphic'>backgrounds/lowaa_BG.png</asset>
+        <asset name='lowaa_BG_0_0' type='graphic'>backgrounds/slices/lowaa_BG_0_0.png</asset>
         <asset name='lowaa_BG_0_1' type='graphic'>backgrounds/slices/lowaa_BG_0_1.png</asset>
         <asset name='lowaa_BG_0_2' type='graphic'>backgrounds/slices/lowaa_BG_0_2.png</asset>
         <asset name='lowaa_BG_0_3' type='graphic'>backgrounds/slices/lowaa_BG_0_3.png</asset>
@@ -38,6 +38,31 @@
         <asset name='lowaa_BG_4_1' type='graphic'>backgrounds/slices/lowaa_BG_4_1.png</asset>
         <asset name='lowaa_BG_4_2' type='graphic'>backgrounds/slices/lowaa_BG_4_2.png</asset>
         <asset name='lowaa_BG_4_3' type='graphic'>backgrounds/slices/lowaa_BG_4_3.png</asset>
+
+        <asset name='lowaa_FG_0_0' type='graphic'>backgrounds/slices/lowaa_FG_0_0.png</asset>
+        <asset name='lowaa_FG_0_1' type='graphic'>backgrounds/slices/lowaa_FG_0_1.png</asset>
+        <asset name='lowaa_FG_0_2' type='graphic'>backgrounds/slices/lowaa_FG_0_2.png</asset>
+        <asset name='lowaa_FG_0_3' type='graphic'>backgrounds/slices/lowaa_FG_0_3.png</asset>
+
+        <asset name='lowaa_FG_1_0' type='graphic'>backgrounds/slices/lowaa_FG_1_0.png</asset>
+        <asset name='lowaa_FG_1_1' type='graphic'>backgrounds/slices/lowaa_FG_1_1.png</asset>
+        <asset name='lowaa_FG_1_2' type='graphic'>backgrounds/slices/lowaa_FG_1_2.png</asset>
+        <asset name='lowaa_FG_1_3' type='graphic'>backgrounds/slices/lowaa_FG_1_3.png</asset>
+
+        <asset name='lowaa_FG_2_0' type='graphic'>backgrounds/slices/lowaa_FG_2_0.png</asset>
+        <asset name='lowaa_FG_2_1' type='graphic'>backgrounds/slices/lowaa_FG_2_1.png</asset>
+        <asset name='lowaa_FG_2_2' type='graphic'>backgrounds/slices/lowaa_FG_2_2.png</asset>
+        <asset name='lowaa_FG_2_3' type='graphic'>backgrounds/slices/lowaa_FG_2_3.png</asset>
+        
+        <asset name='lowaa_FG_3_0' type='graphic'>backgrounds/slices/lowaa_FG_3_0.png</asset>
+        <asset name='lowaa_FG_3_1' type='graphic'>backgrounds/slices/lowaa_FG_3_1.png</asset>
+        <asset name='lowaa_FG_3_2' type='graphic'>backgrounds/slices/lowaa_FG_3_2.png</asset>
+        <asset name='lowaa_FG_3_3' type='graphic'>backgrounds/slices/lowaa_FG_3_3.png</asset>
+        
+        <asset name='lowaa_FG_4_0' type='graphic'>backgrounds/slices/lowaa_FG_4_0.png</asset>
+        <asset name='lowaa_FG_4_1' type='graphic'>backgrounds/slices/lowaa_FG_4_1.png</asset>
+        <asset name='lowaa_FG_4_2' type='graphic'>backgrounds/slices/lowaa_FG_4_2.png</asset>
+        <asset name='lowaa_FG_4_3' type='graphic'>backgrounds/slices/lowaa_FG_4_3.png</asset>
 
         
         
@@ -75,9 +100,42 @@
                 </trigger>
 
 -->
+                <trigger>spriteProperty,char,x&lt;780
+                    <trigger>spriteProperty,char,y&gt;1090
+                        <trigger>
+                            <args>gameState,leaveLOWAA=false</args>
+                            <action command='goBack'>
+                                <args>char</args>
+                                <action command='talk'>
+                                    <args>
+                                        @! you can't leave yet
+                                    </args>
+                                </action>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <trigger>spriteProperty,char,x&lt;735
+                    <trigger>spriteProperty,char,y&gt;1090
+                        <trigger>
+                            <args>gameState,leaveLOWAA=true</args>
+                            <action command='unfollow'>
+                                <args>eridan</args>
+                                <action command='changeRoomRemote'>
+                                    <args>rooms/lab1.xml,lab1,1690,3035</args>
+                                </action>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
 
                 <trigger detonate='true'>spriteProperty,char,x&gt;1
+                    <action command='setGameState'>
+                        <args>leaveLOWAA,false</args>
                     <action class='tereziTalk3' command='talk' noDelay='true'>
+                    </action>
                     </action>
                 </trigger>
 
@@ -442,14 +500,33 @@
                     @karkat_yell KARKAT: WATCH ME, MAGICALLY BECOME ABSENT FROM THIS SHITTY DREAM PLANET WITH PANTLESS DEAD FRIENDS. LATER, FUCKERS!
 
                     </args>
+                    <action command='setGameState'>
+                        <args>leaveLOWAA,true</args>
+                    </action>
                 </action>
             </character>
+
+            <!--
+
+                    <action command='setGameState'>
+                        <args>meenahGone,false</args>
+
+                    <trigger>
+                        <args>gameState,expo=true</args>
+                        <action class='peanutActions'/>
+                    </trigger>
+
+    -->
 
 
 
 
             <sprite name='lowaa_BG'>
                 <animation sheet='lowaa_BG' sliced='true' numCols='5' numRows='4' colSize='500' rowSize='500'/>
+            </sprite>
+
+            <sprite name='lowaa_FG' depthing='2'>
+                <animation sheet='lowaa_FG' sliced='true' numCols='5' numRows='4' colSize='500' rowSize='500'/>
             </sprite>
 
 

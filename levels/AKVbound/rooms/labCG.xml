@@ -94,7 +94,7 @@
         <room name='labCG' walkableMap='labCG_WM' scale='4'>
             
             <sprite class='teleporter' name='teleporterPad9' x='215' y='1730'>
-                <action name='teleport' command='changeRoomRemote'><args>rooms/lab2.xml,lab2,1130,2640</args>
+                <action name='teleport' command='changeRoomRemote'><args>rooms/lab2.xml,lab2,1140,2908</args>
                 </action>
             </sprite>
             

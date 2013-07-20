@@ -83,9 +83,9 @@
         
         <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM-25.png</asset>
         
-        <asset name='staircase1' type='path'>1035,1616;1035,1745;1275,1990;1275,1860</asset>
-        <asset name='staircase2' type='path'>1060,1238;1060,1360;1300,1615;1300,1485</asset>
-        <asset name='staircase3' type='path'>1055,1100;1055,1230;1180,1100;1180,975</asset>
+        <asset name='stairs1' type='path'>1097,1673;1097,1814;1334,2047;1334,1917</asset>
+        <asset name='stairs2' type='path'>1122,1299;1122,1425;1368,1676;1368,1542</asset>
+        <asset name='stairs3' type='path'>1240,1040;1240,1167;1122,1285;1122,1158</asset>
         
     </assets>
 
@@ -106,18 +106,122 @@
         <room name='lab2' walkableMap='lab2_WM' scale='4'>
 
             <paths>
-                    <!--
-                    <motionpath path="staircase1" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
-                    <motionpath path="staircase2" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
-                    <motionpath path="staircase3" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
-                -->
+                    
+                    <motionpath path="stairs1" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+                    <motionpath path="stairs2" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+                    <motionpath path="stairs3" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+            
             </paths>
-                <!--
                 
-                <sprite class='teleporter' name='teleporterPad1' x='1110' y='2050'>
-                    <action name='Teleport' command='changeRoomRemote'><args>rooms/lab1.xml,lab1,75,3025</args>
+                
+                <sprite class='teleporter' name='teleporterPad1' x='1175' y='2112'>
+                    <action name='Teleport' command='changeRoomRemote'>
+                        <args>rooms/lab1.xml,lab1,75,3025</args>
                     </action>
                 </sprite>
+
+                <sprite class='teleporter' name='teleporterPad2' x='1528' y='1093'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,264,1714</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPad3' x='271' y='1714'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,1525,1093</args>
+                    </action>
+                </sprite>
+                
+                <sprite class='teleporter' name='teleporterPad4' x='271' y='1380'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,943,2950</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPad5' x='943' y='2950'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,264,1380</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPad6' x='290' y='2251'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,1355,355</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCG' x='1140' y='2908'>
+                    <action name='Teleport' command='changeRoomRemote'>
+                        <args>rooms/labCG.xml,labCG,215,1730</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadAC' x='1140' y='2995'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCA' x='753' y='2908'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadTC' x='753' y='2995'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadAA' x='885' y='2778'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadAT' x='1011' y='2778'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+                <sprite class='teleporter' name='teleporterPadAG' x='885' y='3125'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadGC' x='1011' y='3125'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCT' x='813' y='3070'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCC' x='813' y='2830'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadGA' x='1090' y='3070'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadTA' x='1090' y='2830'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <!--
                 <sprite class='teleporter' name='teleporterPad2' x='1130' y='2640'>
                     <action name='Teleport' command='changeRoomRemote'><args>rooms/labCG.xml,labCG,215,1730</args>
                     </action>
@@ -125,10 +229,7 @@
                 
                 
                 
-                <sprite class='teleporter' name='teleporterPad3' x='1470' y='1030'>
-                    <action name='Teleport' command='changeRoom'><args>lab2,410,1450</args>
-                    </action>
-                </sprite>
+                
                 <sprite class='teleporter' name='teleporterPad4' x='410' y='1450'>
                     <action name='Teleport' command='changeRoom'><args>lab2,1470,1030</args>
                     </action>
@@ -177,11 +278,11 @@
                 <animation sheet='lab2_BG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
             
-            <!--
-                <sprite name='lab2_FG' depthing='2'>
-                    <animation sheet='lab2_FG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
-                </sprite>
-            -->
+            
+            <sprite name='lab2_FG' depthing='2'>
+                <animation sheet='lab2_FG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+            
         </room>
     </rooms>
 </sburb>
