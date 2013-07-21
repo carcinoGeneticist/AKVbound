@@ -1,0 +1,21 @@
+<sburb description='kanaya logs'>
+	<classes>
+		 <action class='kanayaTalk0' command='talk'>
+			 <args>
+				 
+			 </args>
+		</action>
+		
+		<action class='kanayaTalk1' command='talk'>
+			 <args>
+			 @kanaya_smirktalk KANAYA: Hello, Karkat. It's rare that you join the living.
+			 
+				 
+			 </args>
+		</action>
+		
+		
+		
+		
+	</classes>
+</sburb>

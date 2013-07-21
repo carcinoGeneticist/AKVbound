@@ -1,0 +1,117 @@
+<sburb description='rose logs'>
+	<classes>
+		 <action class='roseTalk0' command='talk'>
+			 <args>
+			 
+			 </args>
+		</action>
+		
+		<action class='roseTalk1' command='talk'>
+			 <args>
+			 	KARKAT: HEY.
+				ROSE: Hello.
+				KARKAT: WHAT’S UP?
+				ROSE: Not much. Reading. You?
+				KARKAT: NOT MUCH.
+				ROSE: Hm.
+				KARKAT: YEAH.
+			 </args>
+		</action>
+		
+		<action class='roseTalk2' command='talk'>
+			 <args>
+
+			 </args>
+		</action>
+		
+			<action class='roseTalk3' command='talk'>
+			 <args>
+
+			 </args>
+		</action>
+		
+			<action class='roseTalk4' command='talk'>
+			 <args>
+
+			 </args>
+		</action>
+		
+			<action class='roseTalk5' command='talk'>
+			 <args>
+
+			 </args>
+		</action>
+		
+			<action class='roseTalk6' command='talk'>
+			 <args>
+
+			 </args>
+		</action>
+		
+		<action class='roseTalk7' command='talk'>
+			 <args>
+
+			 </args>
+		</action>
+		
+		<action class='roseTalk8' command='talk'>
+			 <args>
+
+			 </args>
+		</action>
+		
+		<action class='roseTalk9a' command='talk'>
+			<!-- When "yes" is selected -->
+			 <args>
+			 
+			 	KARKAT: ALRIGHT, SURE. I’LL GO THROUGH WITH THIS JUST THIS ONCE.
+				ROSE: Excellent. Have a seat on that couch back there and we can begin.
+				
+				@! Actually sit through psychotherapy session?
+			 
+
+			 </args>
+		</action>
+		
+		<action class='roseTalk9b' command='talk'>
+			<!-- When "no" is selected -->
+			 <args>
+
+
+			 </args>
+			 
+			 <!-- have it loop back to talk8 next time -->
+		</action>
+		
+		
+		<action class='roseTalk10' command='talk'>
+			<!-- Long psychotherapy session -->
+			 <args>
+				@! five owes me these lines.
+
+			 </args>
+		
+		</action>
+		
+		<action class='roseTalk11' command='talk'>
+			<!--Kanaya appears on telepad -->
+			 <args>
+				@kanaya_talk KANAYA: I Apologize Am I Intruding On Anything
+				<!-- ROSE: Not really, I believe we’re just wrapping up.
+				KARKAT: (thank god...)
+				KANAYA: In That Case There Is Something Dave Wanted You For
+				ROSE: Whatever could that be?
+				KANAYA: He Asked For You To Look At Something On The Observation Deck He Says He Saw Something Strange
+				ROSE: Something strange out here? Impossible.
+				KANAYA: He Seemed Very Distressed I Dont Think This Sarcasm Is Very Appropriate For This Situation
+				ROSE: Distressed?
+				ROSE: Alright, I’ll go and check out this new and frightening obscurity. Let me know if anything happens. -->
+			 </args>
+			 <!--Rose Leaves through telepad. change to post-nap game -->
+		
+		</action>
+	
+		
+		
+	</classes>
+</sburb>
