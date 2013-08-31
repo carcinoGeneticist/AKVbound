@@ -20,43 +20,92 @@
 		
 		<action class='roseTalk2' command='talk'>
 			 <args>
+			 	ROSE: Did you need anything?
+				KARKAT: WHAT? NO. NOT REALLY.
+				ROSE: Alright then. Just making sure.
 
 			 </args>
 		</action>
 		
 			<action class='roseTalk3' command='talk'>
 			 <args>
+			 	ROSE: Are you looking for anything in particular?
+				KARKAT: NO. JUST LOOKING AROUND.
+				ROSE: Not a specific book or something you left here?
+				KARKAT: I’M JUST NOT IN HERE A LOT AND WANTED TO LOOK THROUGH THINGS.
+				ROSE: Fair enough.
+
 
 			 </args>
 		</action>
 		
 			<action class='roseTalk4' command='talk'>
 			 <args>
+			 	ROSE: If you’re looking for your vacillation novel, it’s not here.
+				KARKAT: OH, NO. I GOT THAT BACK A LONG TIME AGO.
+				ROSE: What about the one focusing on the cross-spectrum ashen triangle? Did that ever make its way back to you?
+				KARKAT: YEAH, I HAVE IT AGAIN.
+				ROSE: Just thought I would check.
 
 			 </args>
 		</action>
 		
 			<action class='roseTalk5' command='talk'>
 			 <args>
-
+					ROSE: I found a few books on human sociology if you’re interested in academic material. You say you’re into sociological aspects of romance, I figured it may be up your alley.
+					KARKAT: I’M MORE OF A NOVEL KIND OF PERSON.
+					ROSE: That’s fine. I’m sure Kanaya would be interested.	̧
 			 </args>
 		</action>
 		
 			<action class='roseTalk6' command='talk'>
 			 <args>
+			 	ROSE: I’ve noticed quite a few things about your behavior since you came in.
+				KARKAT: WAIT, WHAT? I’M NOT TRYING TO START ANYTHING.
+				ROSE: No, I’m not implying aggression or confrontation. I mean observations of small micro expressions that allude to your state of mind.
+				KARKAT: UH...
+				KARKAT: OK...
+				ROSE: Though that allows me to make vague inferences, there is quite a bit that is still unclear. You’re quite a dense individual, Karkat.
+				KARKAT: WHAT THE HELL IS THAT SUPPOSED TO MEAN?
+				ROSE: Oh, I guess the word “deep” might have been more fitting. Apologies.
+				KARKAT: I STILL DON’T REALLY LIKE WHERE YOU’RE GOING WITH THIS.
+				ROSE: What I’m trying to say is that even though we don’t speak, there are things I’ve noticed with you and your interactions with others that interest me.
+				KARKAT: ...
+				KARKAT: SO YOU’VE BEEN WATCHING ME LIKE AN ANIMAL TEST SUBJECT AND OBSERVING MY BEHAVIOR?
+				ROSE: I’m not saying I do that actively. 
+				ROSE: When something happens enough, whether you are giving it your full attention or not, you tend to notice it.
+				ROSE: Especially when the amount of people you have contact with for well over a year is so small. It slims down how much there is to notice, you see.
+				KARKAT: ...
+				ROSE: Karkat, you’re an intelligent individual, don’t let some defensive paranoia get in the way of understanding what I’m talking about. 
+				KARKAT: I’M NOT PARANOID. 
+				ROSE: Hm, that sure proved me wrong about the defensive part, too.
+				KARKAT: ...
+				ROSE: As someone who has practically zero emotional connections to you, I think this would be a perfect opportunity to put into practice my understanding of some of the subjects I’ve read about on this trip.
+				KARKAT: OK, NOW YOU’RE GOING SOMEWHERE ELSE WITH THIS AND I’M STILL NOT ENTIRELY SURE I’M OK WITH IT.
+				ROSE: May I at least make my suggestion before you dismiss it?
+				KARKAT: OK. FINE. WHAT IS IT?
+				ROSE: I’m offering to be your personal psychiatrist, at least experimentally, temporarily, even if it is only once. I’d like to both have the chance to compare your ideals with what I’ve read about Troll Culture as a whole, and give you a window to talk about whatever’s on your whatever-appropriate-alien-slang-for-mind to someone who has no prior bonds to you. A chance for me to learn and for you to get things off your chest.
+				ROSE: What do you say?
+				KARKAT: NO.
+				ROSE: Ok then.
+				ROSE: Can’t blame me for trying.
 
 			 </args>
 		</action>
 		
 		<action class='roseTalk7' command='talk'>
 			 <args>
-
+				KARKAT: OK.
+				ROSE: Change your mind this soon?
+				KARKAT: JUST GIVE ME A SECOND TO DOUBLE-CHECK WITH MY CONSCIENCE.
 			 </args>
 		</action>
 		
 		<action class='roseTalk8' command='talk'>
 			 <args>
-
+			 	KARKAT: OK.
+				ROSE: Change your mind this soon?
+				KARKAT: JUST GIVE ME A SECOND TO DOUBLE-CHECK WITH MY CONSCIENCE.
 			 </args>
 		</action>
 		
@@ -76,7 +125,9 @@
 		<action class='roseTalk9b' command='talk'>
 			<!-- When "no" is selected -->
 			 <args>
-
+			 	
+				KARKAT: YEAH, NEVERMIND. STILL TURNING THAT DOWN.
+				ROSE: Very well. I’ll still be around if you ever change your mind.
 
 			 </args>
 			 
@@ -87,7 +138,21 @@
 		<action class='roseTalk10' command='talk'>
 			<!-- Long psychotherapy session -->
 			 <args>
-				@! five owes me these lines.
+				KARKAT: OK. ALL SEATED AND WHATEVER.
+				ROSE: Comfortable?
+				KARKAT: SURE, WHY NOT. ANCIENT VELVET AND PADDING FROM FUCK KNOWS WHERE SURE SUITS MY ASS JUST LUXURIOUSLY.
+				ROSE: Lets also try to tone down on the sarcasm a bit.
+				KARKAT: OH, YOU’RE TELLING ME THAT? WHO WOULD HAVE THOUGHT, YOU OF ALL PEOPLE TELLING OTHERS TO ADJUST THEIR SARCASM.
+				ROSE: And lets try to tone down the facetiousness while we’re at it.
+				KARKAT: SURE, FINE.
+				ROSE: Now, where to start...
+				KARKAT: PREFERABLY SOMEWHERE NOT IMMENSELY PERSONAL.
+				ROSE: Right.
+				ROSE: So, how’s your sex life?
+				@karkat_facepalm KARKAT: ...
+				ROSE: Calm down, I’m joking.
+				KARKAT: YOU HAVE AN AWFUL SENSE OF HUMOR.
+				ROSE: I’m aware.
 
 			 </args>
 		
