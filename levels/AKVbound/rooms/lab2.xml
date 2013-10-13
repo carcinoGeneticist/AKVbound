@@ -125,7 +125,7 @@
                 <!-- teleporters-->
                 <sprite class='teleporter' name='teleporterPad1' x='1175' y='2112'>
                     <action name='Teleport' command='changeRoomRemote'>
-                        <args>rooms/lab1a.xml,lab1a,75,3025</args>
+                        <args>rooms/lab1.xml,lab1,75,3025</args>
                     </action>
                 </sprite>
 
@@ -257,9 +257,9 @@
             <!-- path blocks -->
 
             <!-- character setup -->
-            <character class='karkat' x='1164' y='2119'>
+            <!--<character class='karkat' x='1164' y='2119'>
                 <action class='beKarkat'/>
-            </character>
+            </character>-->
             <character class='rose' x='272' y='327'>   
             </character>
             <character class='dave' x='207' y='2331'>

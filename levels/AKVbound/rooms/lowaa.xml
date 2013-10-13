@@ -388,7 +388,7 @@
                         @tavros_blink TAVROS: hEY,,,
 
                     @karkat_horror KARKAT: FUCK!
-                    
+                    <!--
                     @karkat_yell KARKAT: TAVROS WHERE THE FUCK DID YOU COME FROM?
                     
                     @tavros_talk TAVROS: i,,, tHINK MY BUBBLE MUST HAVE SWEPT THROUGH THIS ONE,,,
@@ -418,7 +418,7 @@
                     @eridan_fingers ERIDAN: you don’t havve to be like that
                     
                     @karkat_talk KARKAT: YES I DO.
-                    @karkat_yell KARKAT: WATCH ME, MAGICALLY BECOME ABSENT FROM THIS SHITTY DREAM PLANET WITH PANTLESS DEAD FRIENDS. LATER, FUCKERS!
+                    @karkat_yell KARKAT: WATCH ME, MAGICALLY BECOME ABSENT FROM THIS SHITTY DREAM PLANET WITH PANTLESS DEAD FRIENDS. LATER, FUCKERS! -->
 
                     </args>
                     <action command='setGameState'>
