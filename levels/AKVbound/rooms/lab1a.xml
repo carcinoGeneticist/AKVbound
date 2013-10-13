@@ -1,0 +1,107 @@
+<sburb description="lab1a">
+
+    <dependencies>
+        <dependency>rooms/lab2.xml</dependency>
+    </dependencies>
+    
+    <assets>
+    </assets>
+    
+    
+    
+
+    
+    
+    <rooms>
+
+        <room name='lab1a' walkableMap='lab1_WM' scale='4'>
+            
+            <paths>
+                <motionpath path="staircase" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+            </paths>
+            
+            <triggers>
+            
+            <!-- room changes -->
+
+                <!-- hallway to storage -->
+                <trigger>spriteProperty,char,y&lt;1217
+                    <trigger>spriteProperty,char,x&lt;348
+                        <trigger>spriteProperty,char,y&gt;1205
+                            <action command='changeRoom'>
+                                <args>lab1,285,819</args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <!-- storage to hallway -->
+                <trigger>spriteProperty,char,y&lt;1000
+                    <trigger>spriteProperty,char,x&lt;348
+                        <trigger>spriteProperty,char,y&gt;915
+                            <action command='changeRoom'>
+                                <args>lab1,289,1382</args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <!-- stairs to platform -->
+                <trigger>spriteProperty,char,x&gt;2050
+                    <trigger>spriteProperty,char,x&lt;2090
+                        <trigger>spriteProperty,char,y&gt;2586
+                            <action command='changeRoom'>
+                                <args>lab1,2600,2200</args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <!-- platform to stairs -->
+                <trigger>spriteProperty,char,x&gt;2400
+                    <trigger>spriteProperty,char,x&lt;2550
+                        <trigger>spriteProperty,char,y&gt;2117
+                            <action command='changeRoom'>
+                                <args>lab1,1743,3012</args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+            <!-- game loops -->
+                
+                
+            </triggers>
+
+            <!-- teleporters -->
+            <sprite class='teleporter' name='teleporterPad' x='75' y='3025'>
+                <action name='Teleport' command='changeRoomRemote'>
+                    <args>rooms/lab2.xml,lab2,1169,2112</args>
+                </action>
+            </sprite>
+
+            <!-- chests -->
+
+
+            <!-- other sprites -->
+
+
+            <!-- path blocks -->
+
+
+            <!-- character setup -->
+
+
+            <!-- background slices -->
+            <sprite name='lab1_BG'>
+                <animation sheet='lab1_BG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+            
+            <sprite name='lab1_FG' depthing ='2'>
+                <animation sheet='lab1_FG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+            
+            
+        </room>
+    </rooms>
+</sburb>

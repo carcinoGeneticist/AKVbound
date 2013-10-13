@@ -9,7 +9,6 @@
         <dependency>chars/eridan.xml</dependency>
         <dependency>chars/tavros.xml</dependency>
         <dependency>rooms/lab1.xml</dependency>
-
     </dependencies>
     
     <assets>
@@ -84,22 +83,7 @@
 
 
             <triggers>
-<!--
-                <trigger>spriteProperty,karkat,x&lt;780
-                    <trigger detonate='true'>spriteProperty,karkat,y&gt;1090
-        
-                                    <action command='unfollow'>
-                                        <args>eridan</args>
-                                        
-                                            <action command='changeRoomRemote'>
-                                                <args>rooms/lab1.xml,lab1,1690,3035</args>
-                                        </action>
-                                </action>
-                           
-                    </trigger>
-                </trigger>
 
--->
                 <trigger>spriteProperty,char,x&lt;780
                     <trigger>spriteProperty,char,y&gt;1090
                         <trigger>
@@ -108,7 +92,7 @@
                                 <args>char</args>
                                 <action command='talk'>
                                     <args>
-                                        @! you can't leave yet
+                                        @! You're not quite ready to leave the bubble yet.
                                     </args>
                                 </action>
                             </action>
@@ -145,7 +129,7 @@
                             <args>
                                 @eridan_madtalk ERIDAN: wwhat wwas up back there wwith aquablood?
 
-                                @karkat_yell KARKAT: DO YOU REALIZE HOW EMBARASSING YOU ARE?
+                              <!--  @karkat_yell KARKAT: DO YOU REALIZE HOW EMBARASSING YOU ARE?
 
                                 @eridan_huh ERIDAN: wwhat?
 
@@ -200,7 +184,7 @@
 
                                 @karkat_talk KARKAT: IGNORE IT.
 
-                                @! You hear footsteps and decide to see if anyone else could be around, with Eridan tagging along.
+                                @! You hear footsteps and decide to see if anyone else could be around, with Eridan tagging along. -->
                             </args>
                             <action command='moveSprite'> 
                             <args>tavros,1680,1020</args>
@@ -208,23 +192,37 @@
                         </action>
                     </trigger>
                 </trigger>
+<!--
+                <trigger detonate='true'>spriteProperty,eridan,y&gt;200
+                    <action command='addAction'>
+                                <args>terezi,
+                                    <action command='talk' name='Talk to Terezi.'>
+                                        <args>@! sadf </args>
+                                    </action>
+                                        
+                                    
+                                </args>
+                            </action>
+                        </trigger>
+-->
+
                 
                 
             </triggers>
 
         
-          
+<!--          
 
             <character class='karkat' x='500' y='920'>
                 <action class='beKarkat'/>
             </character>
-
+-->
             <!-- eridan 980 x 790 -->
             <character class='eridan' x='2000' y='50'>
                 <action name='Talk to Eridan.' command='talk'>
                     <args>
                         @eridan_huh ERIDAN: so kar are you all alivve
-                        @eridan_talk ERIDAN: like actually alivve
+                       <!-- @eridan_talk ERIDAN: like actually alivve
 
                         @karkat_what KARKAT: YEAH...
 
@@ -265,7 +263,7 @@
 
                         @karkat_talk KARKAT: GOOD, BECAUSE I DON’T.
 
-                        @! You start to wonder if Terezi’s noticed Eridan’s arrival. If anything is going to interrupt her RP streak, this will.
+                        @! You start to wonder if Terezi’s noticed Eridan’s arrival. If anything is going to interrupt her RP streak, this will.-->
                     </args>
                     <action command='follow'>
                         <args>eridan,char</args>
@@ -277,7 +275,11 @@
 
             </character>
 
-            <character class='terezi' x='869' y='771'/>
+            <character class='terezi' x='869' y='771'>
+              <!--  <action class='tereziTalk4' command='talk' name='Talk to Terezi.'>
+                    <args>@! asdf </args>
+                </action>-->
+            </character>
 
             <character class='dave' x='918' y='841'>
                 <action class='daveTalk2' command='talk' name='Talk to Dave.'>
@@ -285,7 +287,7 @@
                     <args>
                         @dave_smug DAVE: so who the fuck’s memories are these? im kind of digging the set 
 
-                        @dave_talk DAVE: im gettin this hunchback of notre dame vibe except for gargoyles that come to life and completely ruin the movie its a bunch of weird black winged monster things.
+                       <!-- @dave_talk DAVE: im gettin this hunchback of notre dame vibe except for gargoyles that come to life and completely ruin the movie its a bunch of weird black winged monster things.
 
                         @dave_concern DAVE: hey have we been here before?
 
@@ -352,103 +354,22 @@
 
                         @karkat_talk KARKAT: SO I THINK WHAT I’M GOING TO DO IS WALK AWAY NOW, TO MAKE SURE I DON’T SPARK ANY MORE OF YOUR TIRED AND SARCASTIC VERBAL ESSAYS ON IRRELEVANCE.
 
-                        @dave_smug DAVE: suit yourself nubs
+                        @dave_smug DAVE: suit yourself nubs -->
                     </args>
 
                     <action command='removeAction' >
                         <args>dave,Talk to Dave.</args>
                         <action command='moveSprite'> 
                             <args>eridan,980,790</args>
-                            <action command='addAction'>
+                           <!-- <action command='addAction' sprite='terezi' noDelay='true'>
                                 <args>terezi,
-                                    <action command='talk' name='Talk to Terezi'>
-                                        <args>
-                                            @terezi_talk TEREZI: HOW K1ND OF YOU TO JO1N US DOOM3D D34D 3R1D4N!
-
-                                            @terezi_talk TEREZI: 1 4M RUNN1NG SHORT ON M3MB3RS OF TH3 JURY, 4ND 4T TH3 R4T3 W3 4R3 GO1NG W3 4R3 1N D4NG3R OF N3V3R C4TCH1NG D3T3CT1V3 DULC3’S MURD3R3R!
-
-                                            @terezi_talk TEREZI: 1 4M 4FR41D TH4T 1 W1LL SOON N33D TO BYP4SS TH3 CURR3NT D1SCUSS1ON 1N ORD3R TO D1SP3NS3 SOM3...
-
-                                            @terezi_laugh TEREZI: H34V13R 1NT3RROG4T1ON M3THODS!
-
-                                            @eridan_talk ERIDAN: despite this afterlife thing bein a wwhole eternity-long deal
-
-                                            @eridan_madtalk ERIDAN: i dont havve time for your outlandish make-believe court dramas
-
-                                            @eridan_talk ERIDAN: hey kar while they’re busy RPing and stuff how about I show you around my planet
-                                            @eridan_fingers ERIDAN: i remember most of the cool parts so it should all be here
-                                            @eridan_fingers ERIDAN: maybe wwe could finally catch up for real
-
-                                            @karkat_eyeroll2 KARKAT: THAT ACTUALLY SOUNDS A LOT MORE EXCITING THAN LISTENING TO FAKE JUDICIAL BABBLE...
-
-                                            @terezi_madtalk TEREZI: 1 4M GROW1NG QU1T3 1MP4T13NT 4ND 4NGRY!
-                                            @terezi_madtalk TEREZI: 1 4M W4RN1NG YOU, DO NOT CROSS TH3 COURTBLOCK MR THR3SH3CUT1ON3R!
-
-                                            @karkat_talk KARKAT: REALLY, TEREZI, YOU KEPT ANNOYING DAVE AND I INTO COMING UP HERE TODAY, AND THIS IS ONE OF THE MOST LACKLUSTER INCENTIVES YOU COULD HAVE GIVEN US TO DO SO.
-
-                                            @karkat_yell KARKAT: AND SERIOUSLY, WE’RE NOT EVEN IN A COURT, WE’RE IN THE LAND OF WRATH AND ANGELS.
-
-                                            @karkat_shout KARKAT: EXCEPT WE’RE NOT EVEN IN THE LAND OF WRATH AND ANGELS WE’RE ON THE FUCKING ROOF OF A BUILDING ON THIS FUCK FORSAKEN ASTEROID.
-
-                                            @karkat_yell KARKAT: YOU COULD TRY TO CONSIDER THAT POSSIBLY I’D LIKE TO TALK TO A NON-HOMOCIDAL AND NON-SHITHIVE MAGGOTS VERSION OF ONE OF MY OLD FRIENDS INSTEAD OF CATERING TO YOUR FUCKED UP JUDGEMURDER ROLEPLAY NEEDS?
-
-                                            @terezi_mad TEREZI: >:/
-                                            @terezi_madtalk TEREZI: YOU KNOW WH4T?
-
-                                            @terezi_madtalk TEREZI: 4T TH1S PO1NT YOU C4N 4LL DO WH4T3V3R TH3 FUCK YOU W4NT
-
-                                            @karkat_yell KARKAT: ARE YOU SERIOUSLY MAD THAT WE DIDN’T WANT TO BE FORCED INTO ROLEPLAYING?
-
-                                            @karkat_yell KARKAT: WHAT DID YOU EVEN WANT TO DO THIS FOR?
-
-                                            @terezi_madtalk TEREZI: WHY SHOULD YOU C4R3?
-
-                                            @karkat_talk KARKAT: WELL IF YOU WANTED TO DO SOMETHING YOU COULD HAVE AT LEAST PLANNED IT BETTER.
-
-                                            @karkat_talk KARKAT: OR GIVEN US NOTICE.
-
-                                            @karkat_talk KARKAT: WE’RE NOT REALLY THE FUCKING ECCENTRIC ROLEPLAYING TYPE LIKE YOU ARE.
-
-                                            @terezi_mad TEREZI: WH4T3V3R
-
-                                            @karkat_what KARKAT: ...
-
-                                            @karkat_talk KARKAT: WELL SORRY.
-
-                                            @eridan_madtalk ERIDAN: you tell her kar
-                                            @eridan_madtalk ERIDAN: don’t let some blind psychopath and her pretend games get betwween us
-
-                                            @karkat_facepalm KARKAT: ERIDAN OF THE AMOUNT OF WORD COMBINATIONS YOU COULD FORCE OUT OF YOUR CHITINOUS WINDTUBE THAT WAS POSSIBLY THE WORST POSSIBLE THING.
-
-                                            @eridan_huh ERIDAN: wwhat
-                                            @eridan_fingers ERIDAN: i just meant-
-
-                                            @karkat_yell KARKAT: AND WHAT DO YOU MEAN, BETWEEN US?
-
-                                            @karkat_talk KARKAT: DUDE, WE WERE NEVER EVEN _THAT_ CLOSE, OK?
-
-                                            @karkat_yell KARKAT: I DON’T WANT TO GET INTO A FUCKING SPLIT DIMENSION ANTICONFESSION EMOTIONAL BULLSHITCIRCUS, SO CAN YOU JUST NOT SOUND SO STRANGELY ATTATCHED FOR ONCE?
-
-                                            @karkat_shout KARKAT: ESPECIALY IN FRONT OF OTHER PEOPLE?
-
-                                            @dave_concern DAVE: what the fuck is even happening over there
-                                            @dave_huhtalk DAVE: of all the awkward things thats happened on this asteroid
-
-                                            @karkat_shout KARKAT: CAN YOU BLUBBERING COCKHEADS JUST CAN IT FOR A SECOND? I’M TRYING TO GET A MESSAGE ACROSS HERE!
-
-                                            @terezi_madtalk TEREZI: K4RK4T 1 R3GR3T TO 1NFORM YOU TH4T TH3 ONLY “BLUBB3R1NG COCKH34D” 1N TH3 1MM3D14T3 V1C1N1TY 1S YOU
-
-                                            @karkat_shout KARKAT: SWEET SLUDGESPEWING FUCK WHY AM I THE FUCKING BAD GUY HERE?
-
-                                            @terezi_madtalk TEREZI: 1 DON’T KNOW BUT S1NC3 4PP4R3NTLY 1’M NOT 1NT3R3ST1NG 3NOUGH, 1 TH1NK 1’LL JUST GO.
-
-                                            @karkat_eyeroll1 KARKAT: TEREZI, COME ON...
-
-                                            @terezi_mad TEREZI: NO
-                                        </args>
+                                    <action command='talk' sprite='terezi' name='Talk to Terezi.'>
+                                        <args>@! sadf </args>
                                     </action>
+                                        
+                                    
                                 </args>
-                            </action>
+                            </action>-->
                         </action>
                     </action>
                 </action>

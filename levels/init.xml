@@ -23,8 +23,11 @@ bgm specifies what song if any to play at the start of the game.
 levelPath and resourcePath specify where all resource and level path specifications
 should be relative to.-->
 
-<sburb name="AKVbound" version="1.0" description="initialization"
+<!--<sburb name="AKVbound" version="1.0" description="initialization"
 	char='karkat' scale='2' bgm='karkatSong' 
+	levelPath='levels/AKVbound' resourcePath='resources/AKVbound'> -->
+	<sburb name="AKVbound" version="1.0" description="initialization"
+	char='karkat' scale='2' 
 	levelPath='levels/AKVbound' resourcePath='resources/AKVbound'>
 
 	<!-- We generally don't have any actual content in here. We just load in
@@ -34,8 +37,12 @@ should be relative to.-->
 		<dependency>etc/ui.xml</dependency>
 		<dependency>etc/standardTemplates.xml</dependency>
 		<dependency>etc/sfx.xml</dependency>
-		<dependency>rooms/lowaa.xml</dependency>
+		<dependency>rooms/lab2.xml</dependency>
 	</dependencies>
+
+	<action command='setGameState'>
+        <args>leaveLOWAA,false</args>
+    </action>
 
 	
 </sburb>

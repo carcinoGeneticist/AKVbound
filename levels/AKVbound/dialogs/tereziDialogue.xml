@@ -115,7 +115,7 @@
 		 
 		 
 		 
-		 <action class='tereziTalk4' sprite='terezi' command='talk'>
+		 <action class='tereziTalk4' sprite='terezi' command='talk' name='Talk to Terezi'>
 		 	<!-- available after eridan shows up -->
 			<args>	
 				@terezi_talk TEREZI: HOW K1ND OF YOU TO JO1N US DOOM3D D34D 3R1D4N!

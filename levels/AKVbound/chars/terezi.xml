@@ -14,6 +14,10 @@
             <args>terezi</args>
            
         </action>
+        <action class='tereziTalk4' name='Talk to Terezi' command='talk'>
+            <args>@! sadf</args>
+        </action>
+
     </classes>
     
     <assets>
