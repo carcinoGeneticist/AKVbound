@@ -1,0 +1,109 @@
+<sburb description='kanaya logs'>
+	<classes>
+		 <action class='kanayaTalk0' command='talk'>
+			 <args>
+				 
+			 </args>
+		</action>
+		
+		<action class='kanayaTalk1' command='Talk To Kanaya'>
+			 <args>
+			 @kanaya_happytalk KANAYA: Hello Karkat How Rare Of You To Join The Living
+			 @karkat_talk KARKAT: WHAT LIVING? WE'RE THE ONLY ONES HERE. AREN'T YOU DEAD?
+			 @kanaya_bored KANAYA: Could You Just Please Let My Use These Sayings I Have Learned At Least Once
+			 @karkat_eyeroll1 KARKAT: NO, BECAUSE THEY'RE DUMB AND I DON'T LIKE THEM.
+			 @kanaya_bored KANAYA: Fine Have It Your Way
+			 @kanaya_talk KANAYA: Is There Something You Needed From The Common Area 
+			 @karkat_what KARKAT: NO... WHAT, AM I BOTHERING YOU?
+			 @kanaya_talk KANAYA: Of Course Not
+			 @kanaya_talk KANAYA: I Was Planning On Doing A Bit More Research With Rose But Dave Wanted To Show Her Something So Now I Am Just Waiting Until She Returns
+			 @kanaya_happytalk KANAYA: If We Were Busy I Would Let You Stay Anyway As Long As You Used Your Inside Voice
+			 @karkat_talk KARKAT: RIGHT. SURE.
+			 @kanaya_angrytalk KANAYA: Inside Voice Karkat
+			 @karkat_eyeroll2 KARKAT: ...
+			 @karkat_sullen KARKAT: (right. sure.)
+			 @kanaya_happytalk KANAYA: Thank You
+			 
+			 </args>
+		</action>
+		
+		<!-- after first conversation, have the rest be selectable -->
+		
+		<action class='kanayaTalk2' command='Ask About Studies'>
+			 <args>
+			 @karkat_talk KARKAT: HAVE YOU LEARNED ANYTHING NEW SINCE THE LAST TIME I WAS BRIEFED ON ALL THIS SHIT? IT SOUNDED LIKE YOU TWO PRETTY MUCH HAD EVERYTHING FIGURED OUT THEN.
+			 @kanaya_happytalk KANAYA: We Do Have A Good General Idea But There Are Always Gaps To Fill In
+			 @kanaya_happytalk KANAYA: The More We Look Through All Of This The More Chances There Are We Will Find Something Ground Breaking
+			 @kanaya_happytalk KANAYA: We Are Learning More About The Challenges That Await Us Bit By Bit And It Means We Will Be More Prepared When We Arrive In The New Session In A Sweeps Time
+			 @kanaya_happytalk KANAYA: Though Sometimes We Just Look Through Some Of The Books You Brought Back
+			 @karkat_what KARKAT: WAIT. WHAT EXACTLY THE FUCK IS THERE TO STUDY FROM THOSE?
+			 @kanaya_happytalk KANAYA: Not Much That Relates To What I Just Saying But Rose Finds That They Illustrate Many Points Aspects Of Troll Culture Quite Colorfully
+			 @kanaya_talk KANAYA: That Last Part Was A Double Entendre
+			 @kanaya_smirklaugh KANAYA: Some Of Them Are Quite Raunchy
+			 @kanaya_smirktalk KANAYA: I Would Say I Never Expected You To Be Interested In That Sort Of Literature But That Would Be Lying
+			 @karkat_yell KARKAT: DON'T YOU FUCKING JUDGE ME. AT LEAST I WASN'T INTO THOSE FUCK FORSAKEN RAINBOW DRINKER ROMANCE NOVELS FOR WIGGLER SISSIES THAT WET THEIR UNDERGARMENTS.
+			 @kanaya_bored KANAYA: My Tastes Have Matured Since Then Karkat
+			 @kanaya_talk KANAYA: I Am Not Going To Judge You Either Quite Honestly I Believe We Could Have Intriguing Book Discussions If You Were At All Interested
+			 @kanaya_smirktalk KANAYA: It Would Be Refreshing To Talk About These Sort Of Things In A Non Educational Sense
+			 @karkat_sullen KARKAT: I'LL THINK ABOUT IT.
+			 
+			 </args>
+		</action>
+		
+		<action class='kanayaTalk3' command='Ask About Deadness'>
+			 <args>
+			 @karkat_talk KARKAT: I'VE BEEN WONDERING ABOUT SOMETHING.
+			 @kanaya_idle KANAYA: What Is It
+			 @karkat_talk KARKAT: ARE THERE ANY PERKS TO BEING A RAINBOW DRINKER? LIKE ARE YOU IMMORTAL NOW THAT YOU DIED ONCE? AND TECHNICALLY ARE STILL DEAD? I STILL DON'T REALLY FULLY GET THAT WHOLE THING.
+			 @kanaya_talk KANAYA: I Would Try To Explain How It Works But It Basically Boils Down To Strange Magic And I Sometimes Feel Like The Rules That Govern It May As Well Just Be Arbitrarily Random And There Is Not Much I Think You Would Understand Easily
+			 @karkat_what KARKAT: OK... THEN MAYBE TELL ME WHAT YOU THINK I WOULD UNDERSTAND AT LEAST?
+			 @kanaya_bored KANAYA: Well I Drink Blood Now
+			 @karkat_yell KARKAT: OF FUCKING COURSE, I KNEW THAT MUCH.
+			 @kanaya_bored KANAYA: That Is About All You Would Be Able To Understand
+			 @karkat_idle KARKAT: ...
+
+			 </args>
+		</action>
+		
+			<action class='kanayaTalk4' command='Ask About Hole'>
+			 <args>
+			 @karkat_talk KARKAT: SO WHAT'S UP WITH THAT HUGE HOLE YOU HAD?
+			 @kanaya_bored KANAYA: I Beg Your Pardon Karkat
+			 @karkat_talk KARKAT: WHAT? I'M JUST ASKING ABOUT THE HUGE GAPING-
+			 @kanata_bored KANAYA: Karkat Do Not Even Think Of Completing That Sentence
+			 @karkat_yell KARKAT: WOW, WHAT THE GRUBPASTE SLATHERED FUCK IS YOUR PROBLEM?
+			 @kanaya_angrytalk KANAYA: I Am Wondering The Same About Why You Think Its Appropriate To Start Conversations Like That
+			 @karkat_shout KARKAT: WELL, OBVIOUSLY I GUESS A RABID SHITSQUIRREL CLIMBED UP IT OR SOMETHING, I GUESS THAT ANSWER'S MY QUESTION! THANK YOU!
+			 @kanaya_angrytalk KANAYA: What The Hell Has Gotten Into You All Of A Sudden
+			 @kanaya_angrytalk KANAYA: Is It The Coffee What Did I Tell You About Drinking Coffee Karkat
+			 @karkat_shout KARKAT: I'M JUST TRYING TO ASK A SIMPLE FUCKING QUESTION OUT OF GENERAL CONCERN.
+			 @kanaya_angrytalk KANAYA: That Is Not Something You Should Be Concerned About
+			 @kanaya_angrytalk KANAYA: This Is A Simple Concept And I Am Shocked That You Do Not Understand It There Are Subjects That You Should Not Ever Bring Up Publicly
+			 @kanaya_angrytalk KANAYA: I Know Being Offensive Is Your Specialty But At Least Have Some Damned Common Sense
+			 @kanaya_bored KANAYA: I Want You To Apologize
+			 @karkat_sullen KARKAT: ...
+			 @karkat_sullen KARKAT: I'M SORRY I-
+			 @kanaya_angrytalk KANAYA: INSIDE VOICES KARKAT
+			 @karkat_sullen KARKAT: (i'm sorry i asked about your injury, i didn't know that was offensive to jadebloods-)
+			 @kanaya_idle KANAYA: ...
+			 @kanaya_idle KANAYA: Injury...
+			 @kanaya_smirktalk KANAYA: Oh 
+			 @kanaya_smirklaugh KANAYA: Oh Okay
+			 @kanaya_smirklaugh KANAYA: Oh Dear God
+			 @kanaya_smirktalk KANAYA: I Did Not Think You Were Talking About My Injury
+			 @karkat_what KARKAT: WHAT? THEN-
+			 @karkat_horror KARKAT: ...
+			 @karkat_facepalm KARKAT: ...
+			 @karkat_shout KARKAT: NO NO NO OF FUCKING COURSE NOT WHAT THE HELL IS WRONG WITH YOU!
+			 @kanaya_smirktalk KANAYA: Let Us Just Forget This Conversation Ever Happened
+			 @kanaya_smirktalkKANAYA: Yes The Wound Is Nearly Gone Thank You For Asking
+			 @karkat_talk KARKAT: CAN I SEE? PULL UP YOUR SHIRT.
+			 @kanaya_angrytalk KANAYA: Karkat!
+			 @karkat_shout KARKAT: WHAT!
+
+			 </args>
+		</action>
+		
+		
+	</classes>
+</sburb>

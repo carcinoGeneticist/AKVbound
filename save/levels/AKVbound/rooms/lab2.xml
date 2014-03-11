@@ -1,0 +1,322 @@
+<sburb description="lab2">
+
+    <dependencies>
+        <dependency>chars/karkat.xml</dependency>
+        <dependency>chars/rose.xml</dependency>
+                <dependency>chars/dave.xml</dependency>
+
+
+    </dependencies>
+    
+    <assets>
+
+        <asset name='lab2_BG_0_0' type='graphic'>backgrounds/slices/lab2_BG_0_0.png</asset>
+        <asset name='lab2_BG_0_1' type='graphic'>backgrounds/slices/lab2_BG_0_1.png</asset>
+        <asset name='lab2_BG_0_2' type='graphic'>backgrounds/slices/lab2_BG_0_2.png</asset>
+        <asset name='lab2_BG_0_3' type='graphic'>backgrounds/slices/lab2_BG_0_3.png</asset>
+        <asset name='lab2_BG_0_4' type='graphic'>backgrounds/slices/lab2_BG_0_4.png</asset>
+        <asset name='lab2_BG_0_5' type='graphic'>backgrounds/slices/lab2_BG_0_5.png</asset>
+        <asset name='lab2_BG_0_6' type='graphic'>backgrounds/slices/lab2_BG_0_6.png</asset>
+        
+        <asset name='lab2_BG_1_0' type='graphic'>backgrounds/slices/lab2_BG_1_0.png</asset>
+        <asset name='lab2_BG_1_1' type='graphic'>backgrounds/slices/lab2_BG_1_1.png</asset>
+        <asset name='lab2_BG_1_2' type='graphic'>backgrounds/slices/lab2_BG_1_2.png</asset>
+        <asset name='lab2_BG_1_3' type='graphic'>backgrounds/slices/lab2_BG_1_3.png</asset>
+        <asset name='lab2_BG_1_4' type='graphic'>backgrounds/slices/lab2_BG_1_4.png</asset>
+        <asset name='lab2_BG_1_5' type='graphic'>backgrounds/slices/lab2_BG_1_5.png</asset>
+        <asset name='lab2_BG_1_6' type='graphic'>backgrounds/slices/lab2_BG_1_6.png</asset>
+        
+        <asset name='lab2_BG_2_0' type='graphic'>backgrounds/slices/lab2_BG_2_0.png</asset>
+        <asset name='lab2_BG_2_1' type='graphic'>backgrounds/slices/lab2_BG_2_1.png</asset>
+        <asset name='lab2_BG_2_2' type='graphic'>backgrounds/slices/lab2_BG_2_2.png</asset>
+        <asset name='lab2_BG_2_3' type='graphic'>backgrounds/slices/lab2_BG_2_3.png</asset>
+        <asset name='lab2_BG_2_4' type='graphic'>backgrounds/slices/lab2_BG_2_4.png</asset>
+        <asset name='lab2_BG_2_5' type='graphic'>backgrounds/slices/lab2_BG_2_5.png</asset>
+        <asset name='lab2_BG_2_6' type='graphic'>backgrounds/slices/lab2_BG_2_6.png</asset>
+        
+        <asset name='lab2_BG_3_0' type='graphic'>backgrounds/slices/lab2_BG_3_0.png</asset>
+        <asset name='lab2_BG_3_1' type='graphic'>backgrounds/slices/lab2_BG_3_1.png</asset>
+        <asset name='lab2_BG_3_2' type='graphic'>backgrounds/slices/lab2_BG_3_2.png</asset>
+        <asset name='lab2_BG_3_3' type='graphic'>backgrounds/slices/lab2_BG_3_3.png</asset>
+        <asset name='lab2_BG_3_4' type='graphic'>backgrounds/slices/lab2_BG_3_4.png</asset>
+        <asset name='lab2_BG_3_5' type='graphic'>backgrounds/slices/lab2_BG_3_5.png</asset>
+        <asset name='lab2_BG_3_6' type='graphic'>backgrounds/slices/lab2_BG_3_6.png</asset>
+        
+        
+        
+        <asset name='lab2_FG_0_0' type='graphic'>backgrounds/slices/lab2_FG_0_0.png</asset>
+        <asset name='lab2_FG_0_1' type='graphic'>backgrounds/slices/lab2_FG_0_1.png</asset>
+        <asset name='lab2_FG_0_2' type='graphic'>backgrounds/slices/lab2_FG_0_2.png</asset>
+        <asset name='lab2_FG_0_3' type='graphic'>backgrounds/slices/lab2_FG_0_3.png</asset>
+        <asset name='lab2_FG_0_4' type='graphic'>backgrounds/slices/lab2_FG_0_4.png</asset>
+        <asset name='lab2_FG_0_5' type='graphic'>backgrounds/slices/lab2_FG_0_5.png</asset>
+        <asset name='lab2_FG_0_6' type='graphic'>backgrounds/slices/lab2_FG_0_6.png</asset>
+        
+        <asset name='lab2_FG_1_0' type='graphic'>backgrounds/slices/lab2_FG_1_0.png</asset>
+        <asset name='lab2_FG_1_1' type='graphic'>backgrounds/slices/lab2_FG_1_1.png</asset>
+        <asset name='lab2_FG_1_2' type='graphic'>backgrounds/slices/lab2_FG_1_2.png</asset>
+        <asset name='lab2_FG_1_3' type='graphic'>backgrounds/slices/lab2_FG_1_3.png</asset>
+        <asset name='lab2_FG_1_4' type='graphic'>backgrounds/slices/lab2_FG_1_4.png</asset>
+        <asset name='lab2_FG_1_5' type='graphic'>backgrounds/slices/lab2_FG_1_5.png</asset>
+        <asset name='lab2_FG_1_6' type='graphic'>backgrounds/slices/lab2_FG_1_6.png</asset>
+        
+        <asset name='lab2_FG_2_0' type='graphic'>backgrounds/slices/lab2_FG_2_0.png</asset>
+        <asset name='lab2_FG_2_1' type='graphic'>backgrounds/slices/lab2_FG_2_1.png</asset>
+        <asset name='lab2_FG_2_2' type='graphic'>backgrounds/slices/lab2_FG_2_2.png</asset>
+        <asset name='lab2_FG_2_3' type='graphic'>backgrounds/slices/lab2_FG_2_3.png</asset>
+        <asset name='lab2_FG_2_4' type='graphic'>backgrounds/slices/lab2_FG_2_4.png</asset>
+        <asset name='lab2_FG_2_5' type='graphic'>backgrounds/slices/lab2_FG_2_5.png</asset>
+        <asset name='lab2_FG_2_6' type='graphic'>backgrounds/slices/lab2_FG_2_6.png</asset>
+        
+        <asset name='lab2_FG_3_0' type='graphic'>backgrounds/slices/lab2_FG_3_0.png</asset>
+        <asset name='lab2_FG_3_1' type='graphic'>backgrounds/slices/lab2_FG_3_1.png</asset>
+        <asset name='lab2_FG_3_2' type='graphic'>backgrounds/slices/lab2_FG_3_2.png</asset>
+        <asset name='lab2_FG_3_3' type='graphic'>backgrounds/slices/lab2_FG_3_3.png</asset>
+        <asset name='lab2_FG_3_4' type='graphic'>backgrounds/slices/lab2_FG_3_4.png</asset>
+        <asset name='lab2_FG_3_5' type='graphic'>backgrounds/slices/lab2_FG_3_5.png</asset>
+        <asset name='lab2_FG_3_6' type='graphic'>backgrounds/slices/lab2_FG_3_6.png</asset>
+
+        <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM-25.png</asset>
+        
+        <asset name='stairs1' type='path'>1097,1673;1097,1814;1334,2047;1334,1917</asset>
+        <asset name='stairs2' type='path'>1122,1299;1122,1425;1368,1676;1368,1542</asset>
+        <asset name='stairs3' type='path'>1240,1040;1240,1167;1122,1285;1122,1158</asset>
+
+<!--CASE: add the object that goes in the chest here-->
+        <asset name='obj01' type='graphic'>objects/items/i_tab.png</asset>  <!--to fix should be coffee-->
+        
+    </assets>
+
+<!--CASE: animate it here, fuck with the x and y until it comes out in the right spot.  depthing should always be 3-->
+    <sprite depthing='3' name='obj01'>
+        <animation x='-24' y='-24'  sheet='obj01'/>
+    </sprite>
+
+    
+    <rooms>
+
+        <room name='lab2' walkableMap='lab2_WM' scale='4'>
+
+            <paths>
+                    
+                    <motionpath path="stairs1" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+                    <motionpath path="stairs2" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+                    <motionpath path="stairs3" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+            
+            </paths>
+            
+            <triggers>
+                <!-- room changes -->
+                <trigger>spriteProperty,char,y&lt;436
+                    <trigger>spriteProperty,char,x&gt;1333
+                        <trigger>spriteProperty,char,y&gt;377
+                            <action command='changeRoom'>
+                                <args>lab2,290,2251</args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <!-- game loops -->
+
+
+            </triggers>                
+                
+                <!-- teleporters-->
+                <sprite class='teleporter' name='teleporterPad1' x='1175' y='2112'>
+                    <action name='Teleport' command='changeRoomRemote'>
+                        <args>rooms/lab1.xml,lab1,75,3025</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPad2' x='1528' y='1093'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,264,1714</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPad3' x='271' y='1714'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,1525,1093</args>
+                    </action>
+                </sprite>
+                
+                <sprite class='teleporter' name='teleporterPad4' x='271' y='1380'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,943,2950</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPad5' x='943' y='2950'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,264,1380</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPad6' x='290' y='2251'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,1355,355</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPad7' x='271' y='1547'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,448,372</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPad8' x='448' y='372'>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,271,1547</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCG' x='1140' y='2908'>
+                    <action name='Teleport' command='changeRoomRemote'>
+                        <args>rooms/labCG.xml,labCG,215,1730</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadAC' x='1140' y='2995'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCA' x='753' y='2908'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadTC' x='753' y='2995'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadAA' x='885' y='2778'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadAT' x='1011' y='2778'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+                <sprite class='teleporter' name='teleporterPadAG' x='885' y='3125'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadGC' x='1011' y='3125'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCT' x='813' y='3070'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadCC' x='813' y='2830'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadGA' x='1090' y='3070'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadTA' x='1090' y='2830'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+            <!-- chests -->
+
+            <!-- other sprites -->
+<!--CASE: place the chest/whatever in the room tag, fuck with the x and y until it is where you want.  "name='open.'" can be changed to whatever you want the option to be when you activate it.  spaces don't have to be escaped.-->
+            <sprite class='coffee' name='coffMach1' x='243' y='154'>
+                <action command='openChest' name='Open.'>
+                    <args>coffMach1,obj01,
+                        @! text and shit
+                    </args>
+                </action>
+            </sprite>
+
+            <!-- path blocks -->
+
+            <!-- character setup -->
+            <!--<character class='karkat' x='1164' y='2119'>
+                <action class='beKarkat'/>
+            </character>-->
+            <character class='rose' x='272' y='327'>   
+            </character>
+            <character class='dave' x='207' y='2331'>
+                <action command='talk' name='Talk to Dave'>
+                    <args>
+                        @karkat_talk KARKAT: DAVE?
+                        @dave_talk DAVE: ...
+                        <!--@dave_talk DAVE: sup
+                        @karkat_talk KARKAT: WHAT THE FUCK ARE YOU DOING HERE?
+                        @dave_talk DAVE: this is like my place what the fuck are you talking about
+                        @dave_talk DAVE: what do you come around this tiny teleporter room too? ive never seen you around like you cant just act you own every nook and cranny on this meteor dude
+                        @karkat_talk KARKAT: EVERY WHAT?
+                        @dave_talk DAVE: like secret easter egg room
+                        @karkat_talk KARKAT: WHAT’S AN EASTER EGG?
+                        @dave_talk DAVE: dude nevermind
+                        @dave_talk DAVE: not in the mood to explain all this human slang shit right now
+                        @dave_talk DAVE: read a book or something
+                        @dave_talk DAVE: or watch more shitty earth movies
+                        @dave_talk DAVE: those could tell way more than i can
+                        @karkat_talk KARKAT: OK WHATEVER SHUT UP.
+                        @karkat_talk KARKAT: I HAVEN’T BEEN BACK HERE FOR A WHILE. 
+                        @karkat_talk KARKAT: NOW THAT I THINK OF IT, WHAT THE FUCK WAS BACK HERE IN THE FIRST PLACE THAT I EVER WENT BACK HERE?
+                        @dave_talk DAVE: probably the classy lounge area
+                        @karkat_talk KARKAT: I DON’T EVEN REMEMBER ONE OF THOSE.
+                        @dave_talk DAVE: whoa youve never been to the classy lounge area
+                        @dave_talk DAVE: are you trying to say youve never once pressed ctrl t
+                        @karkat_talk KARKAT: NO I HAVEN’T. I DON’T EVEN-
+                        @dave_talk DAVE: then check this out follow me -->
+
+                    </args>
+                    <action command='moveSprite'>
+                        <args>dave,290,2263</args>
+                        <action command='playAnimation'>
+                            <args>dave,teleportEffect</args>
+                            <action command='moveSprite'>
+                                <args>dave,1319,198</args>
+                                <action command='removeAction'>
+                                    <args>dave,Talk to Dave</args>
+                                </action>
+                            </action>
+                        </action>
+                    </action>
+                </action>
+
+
+            </character>
+
+            <!-- background slices -->
+            <sprite name='lab2_BG'>
+                <animation sheet='lab2_BG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+            
+            <!-- foreground slices -->    
+            <sprite name='lab2_FG' depthing='2'>
+                <animation sheet='lab2_FG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+            
+        </room>
+    </rooms>
+</sburb>

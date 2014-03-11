@@ -1,0 +1,135 @@
+<sburb description="labCG">
+    
+    <dependencies>
+        <dependency>chars/karkat.xml</dependency>
+    </dependencies>
+    
+    <assets>
+        
+        <asset name='labCG_BG_0_0' type='graphic'>backgrounds/slices/labCG_BG_0_0.png</asset>
+        <asset name='labCG_BG_0_1' type='graphic'>backgrounds/slices/labCG_BG_0_1.png</asset>
+        <asset name='labCG_BG_0_2' type='graphic'>backgrounds/slices/labCG_BG_0_2.png</asset>
+        <asset name='labCG_BG_0_3' type='graphic'>backgrounds/slices/labCG_BG_0_3.png</asset>
+        <asset name='labCG_BG_0_4' type='graphic'>backgrounds/slices/labCG_BG_0_4.png</asset>
+        
+        <asset name='labCG_BG_1_0' type='graphic'>backgrounds/slices/labCG_BG_1_0.png</asset>
+        <asset name='labCG_BG_1_1' type='graphic'>backgrounds/slices/labCG_BG_1_1.png</asset>
+        <asset name='labCG_BG_1_2' type='graphic'>backgrounds/slices/labCG_BG_1_2.png</asset>
+        <asset name='labCG_BG_1_3' type='graphic'>backgrounds/slices/labCG_BG_1_3.png</asset>
+        <asset name='labCG_BG_1_4' type='graphic'>backgrounds/slices/labCG_BG_1_4.png</asset>
+
+        <asset name='labCG_BG_2_0' type='graphic'>backgrounds/slices/labCG_BG_2_0.png</asset>
+        <asset name='labCG_BG_2_1' type='graphic'>backgrounds/slices/labCG_BG_2_1.png</asset>
+        <asset name='labCG_BG_2_2' type='graphic'>backgrounds/slices/labCG_BG_2_2.png</asset>
+        <asset name='labCG_BG_2_3' type='graphic'>backgrounds/slices/labCG_BG_2_3.png</asset>
+        <asset name='labCG_BG_2_4' type='graphic'>backgrounds/slices/labCG_BG_2_4.png</asset>
+
+        <asset name='labCG_BG_3_0' type='graphic'>backgrounds/slices/labCG_BG_3_0.png</asset>
+        <asset name='labCG_BG_3_1' type='graphic'>backgrounds/slices/labCG_BG_3_1.png</asset>
+        <asset name='labCG_BG_3_2' type='graphic'>backgrounds/slices/labCG_BG_3_2.png</asset>
+        <asset name='labCG_BG_3_3' type='graphic'>backgrounds/slices/labCG_BG_3_3.png</asset>
+        <asset name='labCG_BG_3_4' type='graphic'>backgrounds/slices/labCG_BG_3_4.png</asset>
+
+        <asset name='labCG_BG_4_0' type='graphic'>backgrounds/slices/labCG_BG_4_0.png</asset>
+        <asset name='labCG_BG_4_1' type='graphic'>backgrounds/slices/labCG_BG_4_1.png</asset>
+        <asset name='labCG_BG_4_2' type='graphic'>backgrounds/slices/labCG_BG_4_2.png</asset>
+        <asset name='labCG_BG_4_3' type='graphic'>backgrounds/slices/labCG_BG_4_3.png</asset>
+        <asset name='labCG_BG_4_4' type='graphic'>backgrounds/slices/labCG_BG_4_4.png</asset>
+
+        <asset name='labCG_BG_5_0' type='graphic'>backgrounds/slices/labCG_BG_5_0.png</asset>
+        <asset name='labCG_BG_5_1' type='graphic'>backgrounds/slices/labCG_BG_5_1.png</asset>
+        <asset name='labCG_BG_5_2' type='graphic'>backgrounds/slices/labCG_BG_5_2.png</asset>
+        <asset name='labCG_BG_5_3' type='graphic'>backgrounds/slices/labCG_BG_5_3.png</asset>
+        <asset name='labCG_BG_5_4' type='graphic'>backgrounds/slices/labCG_BG_5_4.png</asset>
+
+        <asset name='labCG_FG_0_0' type='graphic'>backgrounds/slices/labCG_FG_0_0.png</asset>
+        <asset name='labCG_FG_0_1' type='graphic'>backgrounds/slices/labCG_FG_0_1.png</asset>
+        <asset name='labCG_FG_0_2' type='graphic'>backgrounds/slices/labCG_FG_0_2.png</asset>
+        <asset name='labCG_FG_0_3' type='graphic'>backgrounds/slices/labCG_FG_0_3.png</asset>
+        <asset name='labCG_FG_0_4' type='graphic'>backgrounds/slices/labCG_FG_0_4.png</asset>
+        
+        <asset name='labCG_FG_1_0' type='graphic'>backgrounds/slices/labCG_FG_1_0.png</asset>
+        <asset name='labCG_FG_1_1' type='graphic'>backgrounds/slices/labCG_FG_1_1.png</asset>
+        <asset name='labCG_FG_1_2' type='graphic'>backgrounds/slices/labCG_FG_1_2.png</asset>
+        <asset name='labCG_FG_1_3' type='graphic'>backgrounds/slices/labCG_FG_1_3.png</asset>
+        <asset name='labCG_FG_1_4' type='graphic'>backgrounds/slices/labCG_FG_1_4.png</asset>
+        
+        <asset name='labCG_FG_2_0' type='graphic'>backgrounds/slices/labCG_FG_2_0.png</asset>
+        <asset name='labCG_FG_2_1' type='graphic'>backgrounds/slices/labCG_FG_2_1.png</asset>
+        <asset name='labCG_FG_2_2' type='graphic'>backgrounds/slices/labCG_FG_2_2.png</asset>
+        <asset name='labCG_FG_2_3' type='graphic'>backgrounds/slices/labCG_FG_2_3.png</asset>
+        <asset name='labCG_FG_2_4' type='graphic'>backgrounds/slices/labCG_FG_2_4.png</asset>
+        
+        <asset name='labCG_FG_3_0' type='graphic'>backgrounds/slices/labCG_FG_3_0.png</asset>
+        <asset name='labCG_FG_3_1' type='graphic'>backgrounds/slices/labCG_FG_3_1.png</asset>
+        <asset name='labCG_FG_3_2' type='graphic'>backgrounds/slices/labCG_FG_3_2.png</asset>
+        <asset name='labCG_FG_3_3' type='graphic'>backgrounds/slices/labCG_FG_3_3.png</asset>
+        <asset name='labCG_FG_3_4' type='graphic'>backgrounds/slices/labCG_FG_3_4.png</asset>
+        
+        <asset name='labCG_FG_4_0' type='graphic'>backgrounds/slices/labCG_FG_4_0.png</asset>
+        <asset name='labCG_FG_4_1' type='graphic'>backgrounds/slices/labCG_FG_4_1.png</asset>
+        <asset name='labCG_FG_4_2' type='graphic'>backgrounds/slices/labCG_FG_4_2.png</asset>
+        <asset name='labCG_FG_4_3' type='graphic'>backgrounds/slices/labCG_FG_4_3.png</asset>
+        <asset name='labCG_FG_4_4' type='graphic'>backgrounds/slices/labCG_FG_4_4.png</asset>
+        
+        <asset name='labCG_FG_5_0' type='graphic'>backgrounds/slices/labCG_FG_5_0.png</asset>
+        <asset name='labCG_FG_5_1' type='graphic'>backgrounds/slices/labCG_FG_5_1.png</asset>
+        <asset name='labCG_FG_5_2' type='graphic'>backgrounds/slices/labCG_FG_5_2.png</asset>
+        <asset name='labCG_FG_5_3' type='graphic'>backgrounds/slices/labCG_FG_5_3.png</asset>
+        <asset name='labCG_FG_5_4' type='graphic'>backgrounds/slices/labCG_FG_5_4.png</asset>
+        
+        
+        <asset name='labCG_WM' type='graphic'>backgrounds/labCG_WMhalf.png</asset>
+        
+        
+            
+    </assets>
+    
+    
+    
+    
+    
+    
+    <rooms>
+        
+        <room name='labCG' walkableMap='labCG_WM' scale='2'>
+            
+            <sprite class='teleporter' name='teleporterPad9' x='215' y='1730'>
+                <action name='teleport' command='changeRoomRemote'><args>rooms/lab2.xml,lab2,1140,2908</args>
+                </action>
+            </sprite>
+            
+            <sprite class='teleporter' name='teleporterPad10' x='2620' y='2015'>
+                <action name='teleport' command='changeRoom'><args>labCG,200,475</args>
+                </action>
+            </sprite>
+            <sprite class='teleporter' name='teleporterPad11' x='200' y='475'>
+                <action name='teleport' command='changeRoom'><args>labCG,2620,2015</args>
+                </action>
+            </sprite>
+
+            <sprite class='bed' name='bed' x='1720' y='1138' collidable='true'>
+                <action command='setGameState' name='sleep.'><args>sleep,true</args>
+                <action command='fadeOut'>
+                    <action command='talk'>
+                        <args>@! asdf</args>
+                        
+                    </action>
+                </action>
+                </action>
+            </sprite>
+
+
+            
+            <sprite name='labCG_BG'>
+                <animation sheet='labCG_BG' sliced='true' numCols='6' numRows='5' colSize='500' rowSize='500'/>
+            </sprite>
+            
+            <sprite name='labCG_FG' depthing='2'>
+                <animation sheet='labCG_FG' sliced='true' numCols='6' numRows='5' colSize='500' rowSize='500'/>
+            </sprite>
+            
+            
+        </room>
+    </rooms>
+</sburb>

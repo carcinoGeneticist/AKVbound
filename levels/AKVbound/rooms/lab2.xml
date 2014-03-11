@@ -255,6 +255,7 @@
             </sprite>
 
             <!-- path blocks -->
+            <sprite class='block' name='block3' x='575' y='2967' collidable='true'/>
 
             <!-- character setup -->
             <!--<character class='karkat' x='1164' y='2119'>

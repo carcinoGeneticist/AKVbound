@@ -42,6 +42,7 @@ should be relative to.-->
 
 	<action command='setGameState'>
         <args>leaveLOWAA,false</args>
+        <args>sleep,false</args>
     </action>
 
 	

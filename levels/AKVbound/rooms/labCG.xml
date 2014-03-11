@@ -107,7 +107,20 @@
                 <action name='teleport' command='changeRoom'><args>labCG,2620,2015</args>
                 </action>
             </sprite>
+            <sprite class='bed' name='bed' x='1720' y='1138' collidable='true'>
+                <action command='setGameState' name='sleep.'><args>sleep,true</args>
+                <action command='fadeOut'>
+                    <action command='talk'>
+                        <args>@! asdf</args>
+                        
+                </action>
+                </action>
+                </action>
+            </sprite>
 
+            <character class='karkat' x='215' y='1730'>
+                <action class='beKarkat'/>
+            </character>
 
             
             <sprite name='labCG_BG'>

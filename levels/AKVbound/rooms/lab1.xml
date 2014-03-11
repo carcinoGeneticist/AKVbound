@@ -137,7 +137,28 @@
             </paths>
             
             <triggers>
-            
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <action command='removeSprite'>
+                        <args>block1,lab1</args>
+                        <action command='removeSprite'>
+                            <args>block2,lab1</args>                           
+                        </action>
+                    </action>
+                </trigger>
+                
+                <trigger>
+                    <args>gameState,leaveLOWAA=true</args>
+                    <action command='removeAction'>
+                        <args>teleporterPad,Teleport</args>
+                        <action command='addAction'>
+                            <args>teleporterPad,<action name='Teleport' command='changeRoomRemote'>
+                                    <args>rooms/lab2.xml,lab2,1169,2112</args>
+                            </action>
+                        </args>
+                    </action>
+                    </action>
+                </trigger>
             <!-- room changes -->
 
                 <!-- hallway to storage -->
@@ -177,6 +198,7 @@
                 <trigger>spriteProperty,char,x&gt;2400
                     <trigger>spriteProperty,char,x&lt;2550
                         <trigger>spriteProperty,char,y&gt;2117
+                            <trigger><args>gameState,leaveLOWAA=false</args>
                             <action command='goBack'>
                                 <args>char</args>
                                 <action command='talk'>
@@ -185,6 +207,7 @@
                                     </args>
                                 </action>
                             </action>
+                        </trigger>
                         </trigger>
                     </trigger>
                 </trigger>

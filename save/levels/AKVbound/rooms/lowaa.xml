@@ -1,0 +1,458 @@
+<sburb description="lowaa">
+
+    <dependencies>
+        <dependency>chars/karkat.xml</dependency>
+
+        <!-- get rid of those -->
+        <dependency>chars/dave.xml</dependency>
+        <dependency>chars/terezi.xml</dependency>
+        <dependency>chars/eridan.xml</dependency>
+        <dependency>chars/tavros.xml</dependency>
+        <dependency>rooms/lab1.xml</dependency>
+    </dependencies>
+    
+    <assets>
+
+        <asset name='lowaa_BG_0_0' type='graphic'>backgrounds/slices/lowaa_BG_0_0.png</asset>
+        <asset name='lowaa_BG_0_1' type='graphic'>backgrounds/slices/lowaa_BG_0_1.png</asset>
+        <asset name='lowaa_BG_0_2' type='graphic'>backgrounds/slices/lowaa_BG_0_2.png</asset>
+        <asset name='lowaa_BG_0_3' type='graphic'>backgrounds/slices/lowaa_BG_0_3.png</asset>
+
+        <asset name='lowaa_BG_1_0' type='graphic'>backgrounds/slices/lowaa_BG_1_0.png</asset>
+        <asset name='lowaa_BG_1_1' type='graphic'>backgrounds/slices/lowaa_BG_1_1.png</asset>
+        <asset name='lowaa_BG_1_2' type='graphic'>backgrounds/slices/lowaa_BG_1_2.png</asset>
+        <asset name='lowaa_BG_1_3' type='graphic'>backgrounds/slices/lowaa_BG_1_3.png</asset>
+
+        <asset name='lowaa_BG_2_0' type='graphic'>backgrounds/slices/lowaa_BG_2_0.png</asset>
+        <asset name='lowaa_BG_2_1' type='graphic'>backgrounds/slices/lowaa_BG_2_1.png</asset>
+        <asset name='lowaa_BG_2_2' type='graphic'>backgrounds/slices/lowaa_BG_2_2.png</asset>
+        <asset name='lowaa_BG_2_3' type='graphic'>backgrounds/slices/lowaa_BG_2_3.png</asset>
+        
+        <asset name='lowaa_BG_3_0' type='graphic'>backgrounds/slices/lowaa_BG_3_0.png</asset>
+        <asset name='lowaa_BG_3_1' type='graphic'>backgrounds/slices/lowaa_BG_3_1.png</asset>
+        <asset name='lowaa_BG_3_2' type='graphic'>backgrounds/slices/lowaa_BG_3_2.png</asset>
+        <asset name='lowaa_BG_3_3' type='graphic'>backgrounds/slices/lowaa_BG_3_3.png</asset>
+        
+        <asset name='lowaa_BG_4_0' type='graphic'>backgrounds/slices/lowaa_BG_4_0.png</asset>
+        <asset name='lowaa_BG_4_1' type='graphic'>backgrounds/slices/lowaa_BG_4_1.png</asset>
+        <asset name='lowaa_BG_4_2' type='graphic'>backgrounds/slices/lowaa_BG_4_2.png</asset>
+        <asset name='lowaa_BG_4_3' type='graphic'>backgrounds/slices/lowaa_BG_4_3.png</asset>
+
+        <asset name='lowaa_FG_0_0' type='graphic'>backgrounds/slices/lowaa_FG_0_0.png</asset>
+        <asset name='lowaa_FG_0_1' type='graphic'>backgrounds/slices/lowaa_FG_0_1.png</asset>
+        <asset name='lowaa_FG_0_2' type='graphic'>backgrounds/slices/lowaa_FG_0_2.png</asset>
+        <asset name='lowaa_FG_0_3' type='graphic'>backgrounds/slices/lowaa_FG_0_3.png</asset>
+
+        <asset name='lowaa_FG_1_0' type='graphic'>backgrounds/slices/lowaa_FG_1_0.png</asset>
+        <asset name='lowaa_FG_1_1' type='graphic'>backgrounds/slices/lowaa_FG_1_1.png</asset>
+        <asset name='lowaa_FG_1_2' type='graphic'>backgrounds/slices/lowaa_FG_1_2.png</asset>
+        <asset name='lowaa_FG_1_3' type='graphic'>backgrounds/slices/lowaa_FG_1_3.png</asset>
+
+        <asset name='lowaa_FG_2_0' type='graphic'>backgrounds/slices/lowaa_FG_2_0.png</asset>
+        <asset name='lowaa_FG_2_1' type='graphic'>backgrounds/slices/lowaa_FG_2_1.png</asset>
+        <asset name='lowaa_FG_2_2' type='graphic'>backgrounds/slices/lowaa_FG_2_2.png</asset>
+        <asset name='lowaa_FG_2_3' type='graphic'>backgrounds/slices/lowaa_FG_2_3.png</asset>
+        
+        <asset name='lowaa_FG_3_0' type='graphic'>backgrounds/slices/lowaa_FG_3_0.png</asset>
+        <asset name='lowaa_FG_3_1' type='graphic'>backgrounds/slices/lowaa_FG_3_1.png</asset>
+        <asset name='lowaa_FG_3_2' type='graphic'>backgrounds/slices/lowaa_FG_3_2.png</asset>
+        <asset name='lowaa_FG_3_3' type='graphic'>backgrounds/slices/lowaa_FG_3_3.png</asset>
+        
+        <asset name='lowaa_FG_4_0' type='graphic'>backgrounds/slices/lowaa_FG_4_0.png</asset>
+        <asset name='lowaa_FG_4_1' type='graphic'>backgrounds/slices/lowaa_FG_4_1.png</asset>
+        <asset name='lowaa_FG_4_2' type='graphic'>backgrounds/slices/lowaa_FG_4_2.png</asset>
+        <asset name='lowaa_FG_4_3' type='graphic'>backgrounds/slices/lowaa_FG_4_3.png</asset>
+
+        
+        
+        <asset name='lowaa_WM' type='graphic'>backgrounds/lowaa_WM.png</asset>
+        
+        
+        
+        
+    </assets>
+    
+    
+    
+    
+    
+    
+    <rooms>
+
+        <room name='lowaa' walkableMap='lowaa_WM' scale='4'>
+
+
+            <triggers>
+
+                <trigger>spriteProperty,char,x&lt;780
+                    <trigger>spriteProperty,char,y&gt;1090
+                        <trigger>
+                            <args>gameState,leaveLOWAA=false</args>
+                            <action command='goBack'>
+                                <args>char</args>
+                                <action command='talk'>
+                                    <args>
+                                        @! You're not quite ready to leave the bubble yet.
+                                    </args>
+                                </action>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <trigger>spriteProperty,char,x&lt;735
+                    <trigger>spriteProperty,char,y&gt;1090
+                        <trigger>
+                            <args>gameState,leaveLOWAA=true</args>
+                            <action command='unfollow'>
+                                <args>eridan</args>
+                                <action command='changeRoomRemote'>
+                                    <args>rooms/lab1.xml,lab1,1690,3035</args>
+                                </action>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+
+                <trigger detonate='true'>spriteProperty,char,x&gt;1
+                    <action command='setGameState'>
+                        <args>leaveLOWAA,false</args>
+                    <action class='tereziTalk3' command='talk' noDelay='true'>
+                    </action>
+                    </action>
+                </trigger>
+
+                <trigger>spriteProperty,eridan,x&lt;1100
+                    <trigger detonate='true'>spriteProperty,eridan,y&lt;400
+                        <action command='talk' noDelay='true'>
+                            <args>
+                                @eridan_madtalk ERIDAN: wwhat wwas up back there wwith aquablood?
+
+                              <!--  @karkat_yell KARKAT: DO YOU REALIZE HOW EMBARASSING YOU ARE?
+
+                                @eridan_huh ERIDAN: wwhat?
+
+                                @karkat_yell KARKAT: YOU’VE BEEN DEAD FOR I DON’T KNOW HOW LONG, A FUCKING SWEEP MAYBE, AND YOU JUST START ACTING LIKE WE’RE BEST FRIENDS OR SOMETHING.
+                                @karkat_talk KARKAT: FIRST OFF, IT’S KIND OF...
+                                @karkat_sullen KARKAT: TRAUMATIZING?
+                                @karkat_sullen KARKAT: TO SEE SOMEONE TALKING TO ME HERE AND NOW WHEN I’VE SEEN THEIR MUTILATED CORPSE UP CLOSE BEFORE.
+                                @karkat_talk KARKAT: SECONDLY-
+                                @eridan_huh ERIDAN: mutilated??
+                                @eridan_madtalk ERIDAN: howw wwas i killed in your timeline
+
+                                @karkat_eyeroll1 KARKAT: ...
+                                @karkat_eyeroll1 KARKAT: KANAYA SAWED YOU IN HALF...
+
+                                @eridan_growl ERIDAN: that jadeblooded bitch
+                                @eridan_madtalk ERIDAN: i knoww i might a annoyed her with the ashen requests but she didn’t have to-
+
+                                @karkat_shout KARKAT: WOW, ARE YOU REALLY THAT FUCKING SHALLOW THAT YOU THINK SOMEONE ELSE WOULD KILL YOU OVER SOMETHING LIKE THAT?
+
+                                @karkat_shout KARKAT: YOU WERE PRETTY FUCKING INSANE, YOU KNOW. YOU TRIED TO KILL HER BY BLASTING A HOLE THROUGH HER CHEST WITH SOME BEEFED UP MAGIC WAND. AND ON TOP OF THAT-
+
+                                @eridan_madtalk ERIDAN: magic wwand kar really
+
+                                @eridan_madtalk ERIDAN: i must a been pretty fuckin stupid in your timeline too
+
+                                @eridan_talk ERIDAN: since wwhen wwould i try to use magic for anythin
+
+                                @karkat_horror KARKAT: I
+                                @karkat_what KARKAT: ...
+                                @karkat_sullen KARKAT: ...
+                                @karkat_talk KARKAT: NO COMMENT.
+
+                                @karkat_talk KARKAT: BY THE WAY, IS THERE ANYONE IN THIS THING OTHER THAN YOU?
+
+                                @eridan_talk Eridan: wwell not right noww
+                                @eridan_talk ERIDAN: but i havve run into others a feww times before
+                                @eridan_fingers ERIDAN: its not really anythin special usually
+                                @eridan_fingers ERIDAN: i still get pretty lonely out here
+                                @eridan_lip ERIDAN: vvery lonely an vvery cold
+                                @eridan_lip ERIDAN: i didnt evven know ghosts could feel cold
+                                @eridan_lip ERIDAN: youre lucky you at least havve people to interract with
+                                @eridan_huh ERIDAN: 
+                                @eridan_huh ERIDAN: hey kar
+                                @eridan_huh ERIDAN: wwhats that thing youre holding
+
+                                @karkat_what KARKAT: OH THIS
+                                @karkat_shout KARKAT: OH FUCK I NEVER STOPPED RECORDING DID I?
+                                @karkat_facepalm KARKAT: AGH...
+                                @karkat_talk KARKAT: WELL AT LEAST THIS CAN PROVIDE SOME INSIGHT ON HOW MUCH IDIOTIC AND SPORADIC BULLSHIT I HAVE TO PUT UP  WITH BETWEEN RECORDING THINGS.
+
+                                @eridan_talk ERIDAN: recordin wwhat 
+
+                                @karkat_talk KARKAT: IGNORE IT.
+
+                                @! You hear footsteps and decide to see if anyone else could be around, with Eridan tagging along. -->
+                            </args>
+                            <action command='moveSprite'> 
+                            <args>tavros,1680,1020</args>
+                        </action>
+                        </action>
+                    </trigger>
+                </trigger>
+<!--
+                <trigger detonate='true'>spriteProperty,eridan,y&gt;200
+                    <action command='addAction'>
+                                <args>terezi,
+                                    <action command='talk' name='Talk to Terezi.'>
+                                        <args>@! sadf </args>
+                                    </action>
+                                        
+                                    
+                                </args>
+                            </action>
+                        </trigger>
+-->
+
+                
+                
+            </triggers>
+
+        
+<!--          
+
+            <character class='karkat' x='500' y='920'>
+                <action class='beKarkat'/>
+            </character>
+-->
+            <!-- eridan 980 x 790 -->
+            <character class='eridan' x='2000' y='50'>
+                <action name='Talk to Eridan.' command='talk'>
+                    <args>
+                        @eridan_huh ERIDAN: so kar are you all alivve
+                       <!-- @eridan_talk ERIDAN: like actually alivve
+
+                        @karkat_what KARKAT: YEAH...
+
+                        @eridan_talk ERIDAN: wwhat a fuckin relief for once
+                        @eridan_madtalk ERIDAN: all the other bubbles i cross through wwent through timelines so different
+                        @eridan_madtalk ERIDAN: and they all don’t remember jack shit about wwhat happened
+
+                        @karkat_talk KARKAT: IT’S THE SAME WITH THE FEW VERSIONS OF YOU THAT I’VE MET. I DOUBT WE WENT THROUGH ANY OF THE SAME FUCKING STUFF YOU DID.
+
+                        @eridan_huh ERIDAN: i don’t knoww
+                        @eridan_talk ERIDAN: i guess it just feels more genuine or something
+                        @eridan_huh ERIDAN: you look older though
+
+                        @karkat_talk KARKAT: WE’VE BEEN OUT HERE FOR OVER HALF A SWEEP.
+                        @karkat_what KARKAT: I THINK THAT’S ABOUT A YEAR AND A FEW MONTHS IN HUMAN TIME.
+
+                        @eridan_huh ERIDAN: wwhats a human
+
+                        @karkat_facepalm KARKAT: UGH...
+
+                        @karkat_yell KARKAT: THESE PALE MOTHERFUCKERS LIKE THE GUY IN THE RED GEAR PAJAMAS.
+
+                        @eridan_talk ERIDAN: are they game constructs or
+
+                        @karkat_talk KARKAT: NO, THEY’RE FROM A DIFFERENT UNIVERSE.
+
+                        @karkat_talk KARKAT: THE ONE WE FUCKING CREATED WHEN WE WON THE GAME.
+
+                        @karkat_talk KARKAT: BUT THROUGH A COMBINATION OF ME FUCKING UP AND THEM FUCKING UP...
+
+                        @karkat_eyeroll2 KARKAT: WE NEVER REALLY FULLY WON.
+
+                        @karkat_talk KARKAT: SO WE’VE BEEN WORKING WITH THEM ON CHEATING THE SYSTEM.
+
+                        @karkat_talk KARKAT: IT’S A LONG AND INCREDIBLY CONVOLUTED STORY THAT WOULD PROBABLY TAKE NEARLY 2 SWEEPS AND EIGHT THOUSAND PAGES TO TELL ACCURATELY.
+
+                        @eridan_talk ERIDAN: i think i get it
+
+                        @karkat_talk KARKAT: GOOD, BECAUSE I DON’T.
+
+                        @! You start to wonder if Terezi’s noticed Eridan’s arrival. If anything is going to interrupt her RP streak, this will.-->
+                    </args>
+                    <action command='follow'>
+                        <args>eridan,char</args>
+                        <action command='removeAction'>
+                            <args>eridan,Talk to Eridan.</args>
+                        </action>
+                    </action>
+                </action>
+
+            </character>
+
+            <character class='terezi' x='869' y='771'>
+              <!--  <action class='tereziTalk4' command='talk' name='Talk to Terezi.'>
+                    <args>@! asdf </args>
+                </action>-->
+            </character>
+
+            <character class='dave' x='918' y='841'>
+                <action class='daveTalk2' command='talk' name='Talk to Dave.'>
+
+                    <args>
+                        @dave_smug DAVE: so who the fuck’s memories are these? im kind of digging the set 
+
+                       <!-- @dave_talk DAVE: im gettin this hunchback of notre dame vibe except for gargoyles that come to life and completely ruin the movie its a bunch of weird black winged monster things.
+
+                        @dave_concern DAVE: hey have we been here before?
+
+                        @karkat_talk KARKAT: ACTUALLY WE HAVE. IT’S WHERE THE MAYOR WAS REVIVED.
+
+                        @dave_talk DAVE: ah right cool
+
+                        @dave_talk DAVE: for real though
+
+                        @dave_smug DAVE: these palaces or whatever are some legitimately class shit here
+
+                        @dave_smug DAVE: like some “i feel like i should be waiting for a science professor to show up” level of class
+
+                        @karkat_horror KARKAT: DON’T SAY THAT WORD TOO LOUD!
+                        @karkat_yell KARKAT: IT COULD BE A FUCKING DUCK CALL AROUND HERE, YOU HAVE TO BE CAREFUL.
+
+                        @dave_huh DAVE: what class
+
+                        @karkat_shout KARKAT: NO, YOU IDIOT-
+
+                        @eridan_talk ERIDAN: i’m certainly no professor but i do knoww quite a bit about science
+                        @eridan_talk ERIDAN: is there currently a discussion going on
+                        @eridan_talk ERIDAN: i wwouldn’t mind joining in
+
+                        @karkat_facepalm KARKAT: TOO LATE...
+
+                        @dave_smug DAVE: oh yeah this douchebag
+                        @dave_talk DAVE: hey weren’t you dressed like psyduck before 
+                        @dave_concern DAVE: shit you probably dont remember do you
+                        @dave_huhtalk DAVE: damn that wasn’t even technically you
+                        @dave_huhtalk DAVE: i just confused myself there
+                        @dave_mad DAVE: doomed timelines are stupid
+
+                        @karkat_eyeroll2 KARKAT: (like he'd even know what a fucking psyduck is...)
+
+                        @eridan_huh ERIDAN: wwait
+                        @eridan_huh ERIDAN: wwho...
+                        @eridan_madtalk ERIDAN: wwhat the hell kind of creature is that
+
+                        @dave_smug DAVE: oh right you assholes couldnt even all stay alive before you actually met any of us could you
+
+                        @karkat_talk KARKAT: YEAH, HE PROBABLY DIED BEFORE SGRUB ENDED.
+
+                        @dave_concern DAVE: alright then I got this
+
+                        @dave_smug DAVE: greetings dead alternate timeline alien whose name i dont care about
+                        i am dave s obana and i will be your ambassador to my species
+
+                        @dave_smug DAVE: the pajama draped musclebreasted hollering phallus baboon
+
+                        @eridan_huh ERIDAN: pajama wwhat
+                        @eridan_talk ERIDAN: hollerin wwhat
+                        @eridan_talk ERIDAN: kar is this guy for real
+
+                        @karkat_talk KARKAT: HE’S A HUMAN, HE’S...
+                        @karkat_what KARKAT: IT’S...
+                        @karkat_talk KARKAT: IT’S NOT IMPORTANT, JUST IGNORE HIM.
+
+                        @dave_madtalk DAVE: dont try to undermine the importance of this inter-realm ambassadorship
+                        @dave_madtalk DAVE: before you know it shits gonna go haywire and the afterlife is gonna explode or implode or crack apart or something and how are we gonna know about it? 
+                        @dave_talk DAVE: gotta keep our shit tight with these white eyed folk
+
+                        @karkat_talk KARKAT: I COULD SIT HERE AND KEEP TELLING YOU HOW MUCH MORE IDIOTIC YOU KEEP SOUNDING, BUT YOU’D COME RIGHT BACK WITH EVEN MORE STUPID IRONIC RAMBLING AND I WOULD STILL THINK THE SAME THING BUT EVEN WORSE, AND IT WOULD BE A NO WIN SITUATION. 
+
+                        @karkat_talk KARKAT: SO I THINK WHAT I’M GOING TO DO IS WALK AWAY NOW, TO MAKE SURE I DON’T SPARK ANY MORE OF YOUR TIRED AND SARCASTIC VERBAL ESSAYS ON IRRELEVANCE.
+
+                        @dave_smug DAVE: suit yourself nubs -->
+                    </args>
+
+                    <action command='removeAction' >
+                        <args>dave,Talk to Dave.</args>
+                        <action command='moveSprite'> 
+                            <args>eridan,980,790</args>
+                           <!-- <action command='addAction' sprite='terezi' noDelay='true'>
+                                <args>terezi,
+                                    <action command='talk' sprite='terezi' name='Talk to Terezi.'>
+                                        <args>@! sadf </args>
+                                    </action>
+                                        
+                                    
+                                </args>
+                            </action>-->
+                        </action>
+                    </action>
+                </action>
+            </character>
+
+
+
+
+
+
+            <!-- tavros 1680 x 1020 -->
+
+            <character class='tavros' x='2000' y='50'>
+                <action command='talk' name='Talk to Tavros.'>
+                    <args>
+                        @tavros_blink TAVROS: hEY,,,
+
+                    @karkat_horror KARKAT: FUCK!
+                    <!--
+                    @karkat_yell KARKAT: TAVROS WHERE THE FUCK DID YOU COME FROM?
+                    
+                    @tavros_talk TAVROS: i,,, tHINK MY BUBBLE MUST HAVE SWEPT THROUGH THIS ONE,,,
+                    
+                    @tavros_blink TAVROS: aND, nOW I’M HERE I GUESS,
+                    
+                    @karkat_facepalm KARKAT: THIS IS THE DUMBEST FUCKING CLUSTERFUCK REUNION EVER.
+                    
+                    @karkat_what KARKAT: WAIT TAVROS, WHERE THE FUCK ARE YOUR PANTS?
+                    
+                    @eridan_huh ERIDAN: yeah wwhat the hell kind of getup is that dirtblood
+                    @eridan_talk ERIDAN: that looks so ridiculous
+                    
+                    @tavros_talk TAVROS: oH, iT’S MY GOD TIER OUTFIT,
+                    @tavros_talk2 TAVROS: wHEN I GOT TO IT I GOT LEGS AGAIN, aND I GUESS THE GAME WANTED ME TO NOTICE OR SOMETHING,
+                    @tavros_sadtalk TAVROS: pANTS WOULD BE, nICE THOUGH,
+                    
+                    @karkat_facepalm KARKAT: I’M SORRY BUT I CAN’T EVEN LOOK AT YOU, YOU’RE JUST EMBARRASSING.
+                    
+                    @tavros_sadtalk TAVROS: yEAH, i KNOW,
+                    
+                    @karkat_eyeroll1 KARKAT: THIS JUST KEEPS GETTING MORE AND MORE AWKWARD.
+                    
+                    @karkat_eyeroll2 KARKAT: I’LL JUST CATCH THE NEXT DEAD ERIDAN THAT DRIFTS BY, I’M GOING BACK DOWNSTAIRS.
+                    
+                    @eridan_fingers ERIDAN: no kar
+                    @eridan_fingers ERIDAN: you don’t havve to be like that
+                    
+                    @karkat_talk KARKAT: YES I DO.
+                    @karkat_yell KARKAT: WATCH ME, MAGICALLY BECOME ABSENT FROM THIS SHITTY DREAM PLANET WITH PANTLESS DEAD FRIENDS. LATER, FUCKERS! -->
+
+                    </args>
+                    <action command='setGameState'>
+                        <args>leaveLOWAA,true</args>
+                    </action>
+                </action>
+            </character>
+
+            <!--
+
+                    <action command='setGameState'>
+                        <args>meenahGone,false</args>
+
+                    <trigger>
+                        <args>gameState,expo=true</args>
+                        <action class='peanutActions'/>
+                    </trigger>
+
+    -->
+
+
+
+
+            <sprite name='lowaa_BG'>
+                <animation sheet='lowaa_BG' sliced='true' numCols='5' numRows='4' colSize='500' rowSize='500'/>
+            </sprite>
+
+            <sprite name='lowaa_FG' depthing='2'>
+                <animation sheet='lowaa_FG' sliced='true' numCols='5' numRows='4' colSize='500' rowSize='500'/>
+            </sprite>
+
+
+
+
+        </room>
+    </rooms>
+</sburb>

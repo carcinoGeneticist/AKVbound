@@ -22,6 +22,7 @@ unmodified. -->
         <asset name='coffMachClosedSheet' type='graphic'>objects/chests/o_coffMach.png</asset>
         <asset name='block' type='graphic'>interface/block1.png</asset>
         <asset name='alch' type='graphic'>objects/items/o_alch.png</asset>
+        <asset name='bed' type='graphic'>objects/items/o_cocoon.png</asset>
 
 
         
@@ -53,6 +54,10 @@ unmodified. -->
 
 	  	<sprite class='alch' width='208' height='150' collidable='true'>
 	  		<animation sheet='alch' x='-100' y='-100' />
+	  	</sprite>
+
+	  	<sprite class='bed' width='144' height='180' collidable='true'>
+	  		<animation sheet='bed' x='-75' y='-90' />
 	  	</sprite>
 	  
 
