@@ -103,13 +103,10 @@
                 <trigger>spriteProperty,char,x&lt;735
                     <trigger>spriteProperty,char,y&gt;1090
                         <trigger>
-                            <args>gameState,leaveLOWAA=true</args>
-                            <action command='unfollow'>
-                                <args>eridan</args>
+                            <args>gameState,leaveLOWAA=true</args>                        
                                 <action command='changeRoomRemote'>
                                     <args>rooms/lab1.xml,lab1,1690,3035</args>
                                 </action>
-                            </action>
                         </trigger>
                     </trigger>
                 </trigger>
@@ -122,6 +119,57 @@
                     </action>
                     </action>
                 </trigger>
+
+<trigger><args>gameState,showTav=true</args>
+                <trigger>spriteProperty,eridan,y&gt;970
+                                <trigger detonate = 'true'> spriteProperty,eridan,x&gt;1331
+                                <action command='talk' noDelay='true'>
+                                    <args>
+                                        @tavros_blink TAVROS: hEY,,,
+
+                                        @karkat_horror KARKAT: FUCK!
+                                        <!--
+                                        @karkat_yell KARKAT: TAVROS WHERE THE FUCK DID YOU COME FROM?
+                                        
+                                        @tavros_talk TAVROS: i,,, tHINK MY BUBBLE MUST HAVE SWEPT THROUGH THIS ONE,,,
+                                        
+                                        @tavros_blink TAVROS: aND, nOW I’M HERE I GUESS,
+                                        
+                                        @karkat_facepalm KARKAT: THIS IS THE DUMBEST FUCKING CLUSTERFUCK REUNION EVER.
+                                        
+                                        @karkat_what KARKAT: WAIT TAVROS, WHERE THE FUCK ARE YOUR PANTS?
+                                        
+                                        @eridan_huh ERIDAN: yeah wwhat the hell kind of getup is that dirtblood
+                                        @eridan_talk ERIDAN: that looks so ridiculous
+                                        
+                                        @tavros_talk TAVROS: oH, iT’S MY GOD TIER OUTFIT,
+                                        @tavros_talk2 TAVROS: wHEN I GOT TO IT I GOT LEGS AGAIN, aND I GUESS THE GAME WANTED ME TO NOTICE OR SOMETHING,
+                                        @tavros_sadtalk TAVROS: pANTS WOULD BE, nICE THOUGH,
+                                        
+                                        @karkat_facepalm KARKAT: I’M SORRY BUT I CAN’T EVEN LOOK AT YOU, YOU’RE JUST EMBARRASSING.
+                                        
+                                        @tavros_sadtalk TAVROS: yEAH, i KNOW,
+                                        
+                                        @karkat_eyeroll1 KARKAT: THIS JUST KEEPS GETTING MORE AND MORE AWKWARD.
+                                        
+                                        @karkat_eyeroll2 KARKAT: I’LL JUST CATCH THE NEXT DEAD ERIDAN THAT DRIFTS BY, I’M GOING BACK DOWNSTAIRS.
+                                        
+                                        @eridan_fingers ERIDAN: no kar
+                                        @eridan_fingers ERIDAN: you don’t havve to be like that
+                                        
+                                        @karkat_talk KARKAT: YES I DO.
+                                        @karkat_yell KARKAT: WATCH ME, MAGICALLY BECOME ABSENT FROM THIS SHITTY DREAM PLANET WITH PANTLESS DEAD FRIENDS. LATER, FUCKERS! -->
+                                    </args>
+                                    <action command='unfollow'>
+                                        <args>eridan</args>
+                                        <action command='moveSprite'>
+                                            <args>eridan,1465,934</args>
+                                        </action>
+                                    </action>
+                                </action>
+                            </trigger>
+                        </trigger>
+                    </trigger>
 
                 <trigger>spriteProperty,eridan,x&lt;1100
                     <trigger detonate='true'>spriteProperty,eridan,y&lt;400
@@ -188,10 +236,15 @@
                             </args>
                             <action command='moveSprite'> 
                             <args>tavros,1680,1020</args>
+                            <action command='setGameState'>
+                                <args>showTav,true</args>
+                            </action>
                         </action>
                         </action>
                     </trigger>
                 </trigger>
+
+
 <!--
                 <trigger detonate='true'>spriteProperty,eridan,y&gt;200
                     <action command='addAction'>
@@ -421,9 +474,12 @@
                     @karkat_yell KARKAT: WATCH ME, MAGICALLY BECOME ABSENT FROM THIS SHITTY DREAM PLANET WITH PANTLESS DEAD FRIENDS. LATER, FUCKERS! -->
 
                     </args>
+                    <action command='unfollow'>
+                                <args>eridan</args>
                     <action command='setGameState'>
                         <args>leaveLOWAA,true</args>
                     </action>
+                </action>
                 </action>
             </character>
 
