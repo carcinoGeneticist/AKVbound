@@ -80,6 +80,9 @@
         
         
         <asset name='labCG_WM' type='graphic'>backgrounds/labCG_WMhalf.png</asset>
+
+        <asset name='cgstair1' type='path'>1056,1805;1194,1668;1288,1754;1150,1960</asset>
+        <asset name='cgstair2' type='path'>1764,1911;1904,1768;2088,1940;1948,2091</asset>
         
         
             
@@ -93,6 +96,13 @@
     <rooms>
         
         <room name='labCG' walkableMap='labCG_WM' scale='2'>
+
+            <paths>
+                <motionpath path="cgstair1" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+                <motionpath path="cgstair2" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
+            </paths>
+
+
             
             <sprite class='teleporter' name='teleporterPad9' x='215' y='1730'>
                 <action name='teleport' command='changeRoomRemote'><args>rooms/lab2.xml,lab2,1140,2908</args>
