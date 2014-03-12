@@ -1,0 +1,48 @@
+<sburb description='kanaya'>
+    <dependencies>
+        <!--<dependency>dialogs/roseDialogue.xml</dependency>-->
+        </dependencies>
+    
+    <classes>
+        <animation class='kanaya-dialog' frameInterval='6' x='-230' y='-454'/>
+        
+        <character class='kanaya' name='kanaya' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='kanayaSheet' state='walkFront' facing='Front'>
+        </character>
+        
+        
+        
+            </classes>
+    
+    <assets>
+        
+        <asset name='kanayaSheet' type='graphic'>chars/kanaya/kanaya.png</asset>
+        
+        
+       <!-- <asset name='kanaya_angrytalk' type='graphic'>dialogs/kanaya/kanaya_angrytalk.png</asset>
+        <asset name='kanaya_bored' type='graphic'>dialogs/kanaya/kanaya_bored.png</asset>
+        <asset name='kanaya_cry' type='graphic'>dialogs/kanaya/kanaya_cry.png</asset>
+        <asset name='kanaya_facepalm' type='graphic'>dialogs/kanaya/kanaya_facepalm.png</asset>
+        <asset name='kayana_happy' type='graphic'>dialogs/kanaya/kanaya_happy.png</asset>
+        <asset name='kanaya_happytalk' type='graphic'>dialogs/kanaya/kanaya_happytalk.png</asset>
+        <asset name='kanaya_idle' type='graphic'>dialogs/kanaya/kanaya_idle.png</asset>
+        <asset name='kanaya_smirklaugh' type='graphic'>dialogs/kanaya/kanaya_smirklaugh.png</asset>
+        <asset name='kanaya_smirktalk' type='graphic'>dialogs/kanaya/kanaya_smirktalk.png</asset>
+        <asset name='kanaya_talk' type='graphic'>dialogs/kanaya/kanaya_talk.png</asset> -->
+
+    </assets>
+    
+    <hud>
+        <dialogsprites>
+           <!-- <animation name='kanaya_angrytalk' class='kanaya-dialog' sheet='kanaya_angrytalk' length='2'/>
+            <animation name='kanaya_bored' class='kanaya-dialog' sheet='kanaya_bored' length='2'/>
+            <animation name='kanaya_cry' class='kanaya-dialog' sheet='kanaya_cry' length='2'/>
+            <animation name='kanaya_facepalm' class='kanaya-dialog' sheet='kanaya_facepalm' length='2'/>
+            <animation name='kanaya_happy' class='kanaya-dialog' sheet='kanaya_happy'/>
+            <animation name='kanaya_happytalk' class='kanaya-dialog' sheet='kanaya_happytalk' length='2'/>
+            <animation name='kanaya_idle' class='kanaya-dialog' sheet='kanaya_idle'/>
+            <animation name='kanaya_smirklaugh' class='kanaya-dialog' sheet='kanaya_smirklaugh' length='2'/>
+            <animation name='kanaya_smirktalk' class='kanaya-dialog' sheet='kanaya_smirktalk' length='2'/>
+            <animation name='kanaya_talk' class='kanaya-dialog' sheet='kanaya_talk' length='2'/> -->
+        </dialogsprites>
+    </hud>
+</sburb>

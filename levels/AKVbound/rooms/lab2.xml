@@ -4,7 +4,7 @@
         <dependency>chars/karkat.xml</dependency>
         <dependency>chars/rose.xml</dependency>
         <dependency>chars/dave.xml</dependency>
-
+        <dependency>chars/kanaya.xml</dependency>
 
     </dependencies>
     
@@ -106,6 +106,28 @@
             </paths>
             
             <triggers>
+
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <action command='moveSprite'>
+                        <args>kanaya,272,327</args>
+                    </action>
+                </trigger>
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <action command='removeSprite'>
+                        <args>block3,lab2</args>
+                    </action>
+                </trigger>
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <action command='removeSprite'>
+                        <args>rose,lab2</args>
+                    </action>
+                </trigger>
+
+
+
                 <!-- room changes -->
                 <trigger>spriteProperty,char,y&lt;436
                     <trigger>spriteProperty,char,x&gt;1333
@@ -263,8 +285,17 @@
             <!--<character class='karkat' x='1164' y='2119'>
                 <action class='beKarkat'/>
             </character>-->
+
+
             <character class='rose' x='272' y='327'>   
             </character>
+            
+
+            <character class='kanaya' x='1572' y='3204'>
+            </character>
+            
+
+
             <character class='dave' x='207' y='2331'>
                 <action command='talk' name='Talk to Dave'>
                     <args>
