@@ -122,7 +122,7 @@
 
 <trigger><args>gameState,showTav=true</args>
                 <trigger>spriteProperty,eridan,y&gt;970
-                                <trigger detonate = 'true'> spriteProperty,eridan,x&gt;1331
+                                <trigger detonate = 'true'> spriteProperty,eridan,x&gt;1510
                                 <action command='talk' noDelay='true'>
                                     <args>
                                         @tavros_blink TAVROS: hEY,,,
@@ -162,8 +162,11 @@
                                     </args>
                                     <action command='unfollow'>
                                         <args>eridan</args>
-                                        <action command='moveSprite'>
-                                            <args>eridan,1465,934</args>
+                                        <action command='setGameState'>
+                                            <args>leaveLOWAA,true</args>
+                                            <action command='changeRoomRemote'>
+                                                <args>rooms/lab1.xml,lab1,1690,3035</args>
+                                            </action>
                                         </action>
                                     </action>
                                 </action>
@@ -234,11 +237,15 @@
 
                                 @! You hear footsteps and decide to see if anyone else could be around, with Eridan tagging along. -->
                             </args>
+                       <!--NOT WORKING-->     <action command='removeSprite'>
+                                    <args>dave,lowaa</args>
+                                
                             <action command='moveSprite'> 
                             <args>tavros,1680,1020</args>
                             <action command='setGameState'>
                                 <args>showTav,true</args>
                             </action>
+                        </action>
                         </action>
                         </action>
                     </trigger>
