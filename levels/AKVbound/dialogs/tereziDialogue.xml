@@ -1,5 +1,8 @@
 <sburb description='terezi logs'>
-	<classes>
+
+
+
+	<classes> 
 		  <action class='tereziTalk1' sprite='terezi' command='talk'>
 			 <!-- triggered automatically, exiting onto observation deck -->
 			 <args>
@@ -67,10 +70,10 @@
 				
 				@terezi_madtalk TEREZI: YOU ST1LL H4V3 NOT 4NSW3R3D MY QU3ST1ON! MR C4NDYSP1C3 1F YOU CONT1NU3 TO B4DG3R TH3 W1TN3SS 1 W1LL B3 FORC3D TO-
 				
-				@terezi_huh TEREZI: >:?
+				@terezi_huh TEREZI: >:/?
 				@terezi_laugh TEREZI: OH SP34K1NG OF W1TN3SS3S!
 				
-				@terezi_talk TEREZI: 1T SM3LLS L1K3 W3 M4Y B3 JO1N3D BY SOM3 N3W BYST4ND3RS SOON >:]
+				@terezi_talk TEREZI: 1T SM3LLS L1K3 W3 M4Y B3 JO1N3D BY SOM3 N3W BYST4ND3RS SOON >:/]
 				
 				@karkat_what KARKAT: WHAT DO YOU MEAN MORE BYSTANDERS?
 				

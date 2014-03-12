@@ -23,6 +23,8 @@
   <asset name='dialogBox' type='graphic'>interface/boxes/dialogBoxBig.png</asset>
   <asset name='closeButtonSheet' type='graphic'>interface/closeconversation.png</asset>
   
+  <asset name='drbubble' type='graphic'>interface/drbubble.png</asset>
+  
 </assets>
 
 <!-- lots of user interface stuff is wrapped in the <hud> tag -->
