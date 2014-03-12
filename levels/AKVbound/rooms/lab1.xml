@@ -124,7 +124,7 @@
         
         <asset name='lab1_WM' type='graphic'>backgrounds/lab1_WM.png</asset>
         
-        <asset name='staircase' type='path'>2580,2100;2580,2260;1715,2950;1715,3100</asset>
+        <asset name='staircase' type='path'>2572,2100;2572,2260;1715,2950;1715,3100</asset>
 
     </assets> 
     
@@ -301,11 +301,11 @@
                 <animation sheet='lab1_BG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
             
-            <!-- foreground slices -->
+            <!-- foreground slices 
             <sprite name='lab1_FG' depthing ='2'>
                 <animation sheet='lab1_FG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
-            
+            -->
             
         </room>
     </rooms>
