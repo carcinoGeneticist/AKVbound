@@ -3,7 +3,7 @@
     <dependencies>
         <dependency>chars/karkat.xml</dependency>
         <dependency>chars/rose.xml</dependency>
-                <dependency>chars/dave.xml</dependency>
+        <dependency>chars/dave.xml</dependency>
 
 
     </dependencies>
@@ -83,13 +83,13 @@
         <asset name='stairs3' type='path'>1240,1040;1240,1167;1122,1285;1122,1158</asset>
 
 <!--CASE: add the object that goes in the chest here-->
-        <asset name='obj01' type='graphic'>objects/items/i_tab.png</asset>  <!--to fix should be coffee-->
+        <asset name='obj01' type='graphic'>objects/items/i_coffee.png</asset>  <!--to fix should be coffee-->
         
     </assets>
 
 <!--CASE: animate it here, fuck with the x and y until it comes out in the right spot.  depthing should always be 3-->
     <sprite depthing='3' name='obj01'>
-        <animation x='-24' y='-24'  sheet='obj01'/>
+        <animation x='-24' y='-24' length='2' colSize='40' rowSize='60' frameInterval='6' sheet='obj01'/>
     </sprite>
 
     
@@ -249,7 +249,9 @@
             <sprite class='coffee' name='coffMach1' x='243' y='154'>
                 <action command='openChest' name='Open.'>
                     <args>coffMach1,obj01,
-                        @! text and shit
+                        @! You got some COFFEE!
+			@! Man, this is some cheap coffee. You’ve kept trying to drink coffee to keep you awake but usually it doesn’t wake you up at all. It just multiplies your inferiority complex and adds some anxious jittering. Never the less you occasionally still drink it to try to build tolerance.
+			@! You still hang around the place as you drink it.
                     </args>
                 </action>
             </sprite>
