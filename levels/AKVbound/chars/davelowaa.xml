@@ -1,0 +1,38 @@
+<sburb description='davelowaa'>
+   
+    
+    <classes>
+        <animation class='davelowaa-dialog' frameInterval='6' x='-230' y='-454'/>
+        
+        <character class='davelowaa' name='davelowaa' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='davelowaaSheet' state='walkFront' facing='Front'>
+        </character>
+        
+               
+    </classes>
+    
+    <assets>
+        <asset name='davelowaaSheet' type='graphic'>chars/davelowaa/davelowaa.png</asset>
+        
+        <asset name='davelowaa_concern' type='graphic'>dialogs/davelowaa/davelowaa_concern.png</asset>
+        <asset name='davelowaa_huh' type='graphic'>dialogs/davelowaa/davelowaa_huh.png</asset>
+        <asset name='davelowaa_huhtalk' type='graphic'>dialogs/davelowaa/davelowaa_huhtalk.png</asset>
+        <asset name='davelowaa_idle' type='graphic'>dialogs/davelowaa/davelowaa_idle.png</asset>
+        <asset name='davelowaa_mad' type='graphic'>dialogs/davelowaa/davelowaa_mad.png</asset>
+        <asset name='davelowaa_madtalk' type='graphic'>dialogs/davelowaa/davelowaa_madtalk.png</asset>
+        <asset name='davelowaa_smug' type='graphic'>dialogs/davelowaa/davelowaa_smug.png</asset>
+        <asset name='davelowaa_talk' type='graphic'>dialogs/davelowaa/davelowaa_talk.png</asset>
+    </assets>
+    
+    <hud>
+        <dialogsprites>
+            <animation name='davelowaa_concern' class='davelowaa-dialog' sheet='davelowaa_concern' length='2'/>
+            <animation name='davelowaa_huh' class='davelowaa-dialog' sheet='davelowaa_huh'/>
+            <animation name='davelowaa_huhtalk' class='davelowaa-dialog' sheet='davelowaa_huhtalk' length='2'/>
+            <animation name='davelowaa_idle' class='davelowaa-dialog' sheet='davelowaa_idle' />
+            <animation name='davelowaa_mad' class='davelowaa-dialog' sheet='davelowaa_mad' />
+            <animation name='davelowaa_madtalk' class='davelowaa-dialog' sheet='davelowaa_madtalk'  length='2'/>
+            <animation name='davelowaa_smug' class='davelowaa-dialog' sheet='davelowaa_smug' length='2'/>
+            <animation name='davelowaa_talk' class='davelowaa-dialog' sheet='davelowaa_talk'  length='2'/>
+        </dialogsprites>
+    </hud>
+</sburb>

@@ -1,0 +1,39 @@
+<sburb description='terezilowaa'>
+
+    
+    <classes>
+        <animation class='terezilowaa-dialog' frameInterval='6' x='-180' y='-454'/>
+        
+        <character class='terezilowaa' name='terezilowaa' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='terezilowaaSheet' state='walkFront' facing='Front'>
+        </character>
+        
+       
+        
+
+    </classes>
+    
+    <assets>
+        
+        <asset name='terezilowaaSheet' type='graphic'>chars/terezilowaa/terezilowaa.png</asset>
+        
+        <asset name='terezilowaa_huh' type='graphic'>dialogs/terezilowaa/terezilowaa_huh.png</asset>
+        <asset name='terezilowaa_idle' type='graphic'>dialogs/terezilowaa/terezilowaa_idle.png</asset>
+        <asset name='terezilowaa_laugh' type='graphic'>dialogs/terezilowaa/terezilowaa_laugh.png</asset>
+        <asset name='terezilowaa_mad' type='graphic'>dialogs/terezilowaa/terezilowaa_mad.png</asset>
+        <asset name='terezilowaa_madtalk' type='graphic'>dialogs/terezilowaa/terezilowaa_madtalk.png</asset>
+        <asset name='terezilowaa_talk' type='graphic'>dialogs/terezilowaa/terezilowaa_talk.png</asset>
+
+    </assets>
+    
+    <hud>
+        <dialogsprites>
+			<animation name='terezilowaa_huh' class='terezilowaa-dialog' sheet='terezilowaa_huh' />
+			<animation name='terezilowaa_idle' class='terezilowaa-dialog' sheet='terezilowaa_idle' />
+			<animation name='terezilowaa_laugh' class='terezilowaa-dialog' sheet='terezilowaa_laugh'  length='2'/>
+            <animation name='terezilowaa_mad' class='terezilowaa-dialog' sheet='terezilowaa_mad' />
+			<animation name='terezilowaa_madtalk' class='terezilowaa-dialog' sheet='terezilowaa_madtalk' length='2'/>
+			<animation name='terezilowaa_talk' class='terezilowaa-dialog' sheet='terezilowaa_talk' length='2'/>
+
+        </dialogsprites>
+    </hud>
+</sburb>

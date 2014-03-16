@@ -127,11 +127,11 @@
                 </action>
                 </action>
             </sprite>
-
+<!--
             <character class='karkat' x='215' y='1730'>
                 <action class='beKarkat'/>
             </character>
-
+-->
             
             <sprite name='labCG_BG'>
                 <animation sheet='labCG_BG' sliced='true' numCols='6' numRows='5' colSize='500' rowSize='500'/>
