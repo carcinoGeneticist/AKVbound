@@ -98,6 +98,8 @@ unmodified. -->
     <effects>
   		<animation name='teleportEffect' x='-66' y='-110' sheet='teleportSheet' colSize='132' rowSize='165' length='6' frameInterval='2' loopNum='0'/>
 	</effects>
+
+	
 	
 	
 </sburb>

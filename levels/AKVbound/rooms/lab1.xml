@@ -188,16 +188,16 @@
                     <trigger>spriteProperty,char,x&lt;2090
                         <trigger>spriteProperty,char,y&gt;2586
                             <action command='changeRoom'>
-                                <args>lab1,2600,2200</args>
+                                <args>lab1,2564,2176</args>
                             </action>
                         </trigger>
                     </trigger>
                 </trigger>
 
                 <!-- platform to stairs -->
-                <trigger>spriteProperty,char,x&gt;2400
-                    <trigger>spriteProperty,char,x&lt;2550
-                        <trigger>spriteProperty,char,y&gt;2117
+            <!--    <trigger>spriteProperty,char,x&gt;2400
+                    <trigger>spriteProperty,char,x&lt;2560
+                        <trigger>spriteProperty,char,y&gt;2093
                             <trigger><args>gameState,leaveLOWAA=false</args>
                             <action command='goBack'>
                                 <args>char</args>
@@ -208,6 +208,33 @@
                                 </action>
                             </action>
                         </trigger>
+                        </trigger>
+                    </trigger>
+                </trigger>  -->
+
+                <trigger>spriteProperty,char,x&gt;2100
+                    <trigger>spriteProperty,char,x&lt;2450
+                        <trigger>spriteProperty,char,y&gt;2093  
+                            <action command='goBack'>
+                                <args>char</args>
+                                <action command='talk'>
+                                    <args>
+                                    @! Hold on a second, aren't you needed somewhere?
+                                    </args>
+                                </action>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
+                <trigger>spriteProperty,char,x&gt;2150
+                    <trigger>spriteProperty,char,x&lt;2560
+                        <trigger>spriteProperty,char,y&gt;2093
+                            <trigger><args>gameState,leaveLOWAA=true</args>
+                                <action command='changeRoom'>
+                                    <args>lab1,1956,2785</args>
+                                </action>
+                            </trigger>
                         </trigger>
                     </trigger>
                 </trigger>
