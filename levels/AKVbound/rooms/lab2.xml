@@ -10,71 +10,71 @@
     
     <assets>
 
-        <asset name='lab2_BG_0_0' type='graphic'>backgrounds/slices/lab2_BG_0_0.png</asset>
-        <asset name='lab2_BG_0_1' type='graphic'>backgrounds/slices/lab2_BG_0_1.png</asset>
-        <asset name='lab2_BG_0_2' type='graphic'>backgrounds/slices/lab2_BG_0_2.png</asset>
-        <asset name='lab2_BG_0_3' type='graphic'>backgrounds/slices/lab2_BG_0_3.png</asset>
-        <asset name='lab2_BG_0_4' type='graphic'>backgrounds/slices/lab2_BG_0_4.png</asset>
-        <asset name='lab2_BG_0_5' type='graphic'>backgrounds/slices/lab2_BG_0_5.png</asset>
-        <asset name='lab2_BG_0_6' type='graphic'>backgrounds/slices/lab2_BG_0_6.png</asset>
+        <asset name='lab2_BG_0_0' type='graphic'>backgrounds/ProtoSlice/lab2_BG_0_0.png</asset>
+        <asset name='lab2_BG_0_1' type='graphic'>backgrounds/ProtoSlice/lab2_BG_0_1.png</asset>
+        <asset name='lab2_BG_0_2' type='graphic'>backgrounds/ProtoSlice/lab2_BG_0_2.png</asset>
+        <asset name='lab2_BG_0_3' type='graphic'>backgrounds/ProtoSlice/lab2_BG_0_3.png</asset>
+        <asset name='lab2_BG_0_4' type='graphic'>backgrounds/ProtoSlice/lab2_BG_0_4.png</asset>
+        <asset name='lab2_BG_0_5' type='graphic'>backgrounds/ProtoSlice/lab2_BG_0_5.png</asset>
+        <asset name='lab2_BG_0_6' type='graphic'>backgrounds/ProtoSlice/lab2_BG_0_6.png</asset>
         
-        <asset name='lab2_BG_1_0' type='graphic'>backgrounds/slices/lab2_BG_1_0.png</asset>
-        <asset name='lab2_BG_1_1' type='graphic'>backgrounds/slices/lab2_BG_1_1.png</asset>
-        <asset name='lab2_BG_1_2' type='graphic'>backgrounds/slices/lab2_BG_1_2.png</asset>
-        <asset name='lab2_BG_1_3' type='graphic'>backgrounds/slices/lab2_BG_1_3.png</asset>
-        <asset name='lab2_BG_1_4' type='graphic'>backgrounds/slices/lab2_BG_1_4.png</asset>
-        <asset name='lab2_BG_1_5' type='graphic'>backgrounds/slices/lab2_BG_1_5.png</asset>
-        <asset name='lab2_BG_1_6' type='graphic'>backgrounds/slices/lab2_BG_1_6.png</asset>
+        <asset name='lab2_BG_1_0' type='graphic'>backgrounds/ProtoSlice/lab2_BG_1_0.png</asset>
+        <asset name='lab2_BG_1_1' type='graphic'>backgrounds/ProtoSlice/lab2_BG_1_1.png</asset>
+        <asset name='lab2_BG_1_2' type='graphic'>backgrounds/ProtoSlice/lab2_BG_1_2.png</asset>
+        <asset name='lab2_BG_1_3' type='graphic'>backgrounds/ProtoSlice/lab2_BG_1_3.png</asset>
+        <asset name='lab2_BG_1_4' type='graphic'>backgrounds/ProtoSlice/lab2_BG_1_4.png</asset>
+        <asset name='lab2_BG_1_5' type='graphic'>backgrounds/ProtoSlice/lab2_BG_1_5.png</asset>
+        <asset name='lab2_BG_1_6' type='graphic'>backgrounds/ProtoSlice/lab2_BG_1_6.png</asset>
         
-        <asset name='lab2_BG_2_0' type='graphic'>backgrounds/slices/lab2_BG_2_0.png</asset>
-        <asset name='lab2_BG_2_1' type='graphic'>backgrounds/slices/lab2_BG_2_1.png</asset>
-        <asset name='lab2_BG_2_2' type='graphic'>backgrounds/slices/lab2_BG_2_2.png</asset>
-        <asset name='lab2_BG_2_3' type='graphic'>backgrounds/slices/lab2_BG_2_3.png</asset>
-        <asset name='lab2_BG_2_4' type='graphic'>backgrounds/slices/lab2_BG_2_4.png</asset>
-        <asset name='lab2_BG_2_5' type='graphic'>backgrounds/slices/lab2_BG_2_5.png</asset>
-        <asset name='lab2_BG_2_6' type='graphic'>backgrounds/slices/lab2_BG_2_6.png</asset>
+        <asset name='lab2_BG_2_0' type='graphic'>backgrounds/ProtoSlice/lab2_BG_2_0.png</asset>
+        <asset name='lab2_BG_2_1' type='graphic'>backgrounds/ProtoSlice/lab2_BG_2_1.png</asset>
+        <asset name='lab2_BG_2_2' type='graphic'>backgrounds/ProtoSlice/lab2_BG_2_2.png</asset>
+        <asset name='lab2_BG_2_3' type='graphic'>backgrounds/ProtoSlice/lab2_BG_2_3.png</asset>
+        <asset name='lab2_BG_2_4' type='graphic'>backgrounds/ProtoSlice/lab2_BG_2_4.png</asset>
+        <asset name='lab2_BG_2_5' type='graphic'>backgrounds/ProtoSlice/lab2_BG_2_5.png</asset>
+        <asset name='lab2_BG_2_6' type='graphic'>backgrounds/ProtoSlice/lab2_BG_2_6.png</asset>
         
-        <asset name='lab2_BG_3_0' type='graphic'>backgrounds/slices/lab2_BG_3_0.png</asset>
-        <asset name='lab2_BG_3_1' type='graphic'>backgrounds/slices/lab2_BG_3_1.png</asset>
-        <asset name='lab2_BG_3_2' type='graphic'>backgrounds/slices/lab2_BG_3_2.png</asset>
-        <asset name='lab2_BG_3_3' type='graphic'>backgrounds/slices/lab2_BG_3_3.png</asset>
-        <asset name='lab2_BG_3_4' type='graphic'>backgrounds/slices/lab2_BG_3_4.png</asset>
-        <asset name='lab2_BG_3_5' type='graphic'>backgrounds/slices/lab2_BG_3_5.png</asset>
-        <asset name='lab2_BG_3_6' type='graphic'>backgrounds/slices/lab2_BG_3_6.png</asset>
+        <asset name='lab2_BG_3_0' type='graphic'>backgrounds/ProtoSlice/lab2_BG_3_0.png</asset>
+        <asset name='lab2_BG_3_1' type='graphic'>backgrounds/ProtoSlice/lab2_BG_3_1.png</asset>
+        <asset name='lab2_BG_3_2' type='graphic'>backgrounds/ProtoSlice/lab2_BG_3_2.png</asset>
+        <asset name='lab2_BG_3_3' type='graphic'>backgrounds/ProtoSlice/lab2_BG_3_3.png</asset>
+        <asset name='lab2_BG_3_4' type='graphic'>backgrounds/ProtoSlice/lab2_BG_3_4.png</asset>
+        <asset name='lab2_BG_3_5' type='graphic'>backgrounds/ProtoSlice/lab2_BG_3_5.png</asset>
+        <asset name='lab2_BG_3_6' type='graphic'>backgrounds/ProtoSlice/lab2_BG_3_6.png</asset>
         
         
         
-        <asset name='lab2_FG_0_0' type='graphic'>backgrounds/slices/lab2_FG_0_0.png</asset>
-        <asset name='lab2_FG_0_1' type='graphic'>backgrounds/slices/lab2_FG_0_1.png</asset>
-        <asset name='lab2_FG_0_2' type='graphic'>backgrounds/slices/lab2_FG_0_2.png</asset>
-        <asset name='lab2_FG_0_3' type='graphic'>backgrounds/slices/lab2_FG_0_3.png</asset>
-        <asset name='lab2_FG_0_4' type='graphic'>backgrounds/slices/lab2_FG_0_4.png</asset>
-        <asset name='lab2_FG_0_5' type='graphic'>backgrounds/slices/lab2_FG_0_5.png</asset>
-        <asset name='lab2_FG_0_6' type='graphic'>backgrounds/slices/lab2_FG_0_6.png</asset>
+        <asset name='lab2_FG_0_0' type='graphic'>backgrounds/ProtoSlice/lab2_FG_0_0.png</asset>
+        <asset name='lab2_FG_0_1' type='graphic'>backgrounds/ProtoSlice/lab2_FG_0_1.png</asset>
+        <asset name='lab2_FG_0_2' type='graphic'>backgrounds/ProtoSlice/lab2_FG_0_2.png</asset>
+        <asset name='lab2_FG_0_3' type='graphic'>backgrounds/ProtoSlice/lab2_FG_0_3.png</asset>
+        <asset name='lab2_FG_0_4' type='graphic'>backgrounds/ProtoSlice/lab2_FG_0_4.png</asset>
+        <asset name='lab2_FG_0_5' type='graphic'>backgrounds/ProtoSlice/lab2_FG_0_5.png</asset>
+        <asset name='lab2_FG_0_6' type='graphic'>backgrounds/ProtoSlice/lab2_FG_0_6.png</asset>
         
-        <asset name='lab2_FG_1_0' type='graphic'>backgrounds/slices/lab2_FG_1_0.png</asset>
-        <asset name='lab2_FG_1_1' type='graphic'>backgrounds/slices/lab2_FG_1_1.png</asset>
-        <asset name='lab2_FG_1_2' type='graphic'>backgrounds/slices/lab2_FG_1_2.png</asset>
-        <asset name='lab2_FG_1_3' type='graphic'>backgrounds/slices/lab2_FG_1_3.png</asset>
-        <asset name='lab2_FG_1_4' type='graphic'>backgrounds/slices/lab2_FG_1_4.png</asset>
-        <asset name='lab2_FG_1_5' type='graphic'>backgrounds/slices/lab2_FG_1_5.png</asset>
-        <asset name='lab2_FG_1_6' type='graphic'>backgrounds/slices/lab2_FG_1_6.png</asset>
+        <asset name='lab2_FG_1_0' type='graphic'>backgrounds/ProtoSlice/lab2_FG_1_0.png</asset>
+        <asset name='lab2_FG_1_1' type='graphic'>backgrounds/ProtoSlice/lab2_FG_1_1.png</asset>
+        <asset name='lab2_FG_1_2' type='graphic'>backgrounds/ProtoSlice/lab2_FG_1_2.png</asset>
+        <asset name='lab2_FG_1_3' type='graphic'>backgrounds/ProtoSlice/lab2_FG_1_3.png</asset>
+        <asset name='lab2_FG_1_4' type='graphic'>backgrounds/ProtoSlice/lab2_FG_1_4.png</asset>
+        <asset name='lab2_FG_1_5' type='graphic'>backgrounds/ProtoSlice/lab2_FG_1_5.png</asset>
+        <asset name='lab2_FG_1_6' type='graphic'>backgrounds/ProtoSlice/lab2_FG_1_6.png</asset>
         
-        <asset name='lab2_FG_2_0' type='graphic'>backgrounds/slices/lab2_FG_2_0.png</asset>
-        <asset name='lab2_FG_2_1' type='graphic'>backgrounds/slices/lab2_FG_2_1.png</asset>
-        <asset name='lab2_FG_2_2' type='graphic'>backgrounds/slices/lab2_FG_2_2.png</asset>
-        <asset name='lab2_FG_2_3' type='graphic'>backgrounds/slices/lab2_FG_2_3.png</asset>
-        <asset name='lab2_FG_2_4' type='graphic'>backgrounds/slices/lab2_FG_2_4.png</asset>
-        <asset name='lab2_FG_2_5' type='graphic'>backgrounds/slices/lab2_FG_2_5.png</asset>
-        <asset name='lab2_FG_2_6' type='graphic'>backgrounds/slices/lab2_FG_2_6.png</asset>
+        <asset name='lab2_FG_2_0' type='graphic'>backgrounds/ProtoSlice/lab2_FG_2_0.png</asset>
+        <asset name='lab2_FG_2_1' type='graphic'>backgrounds/ProtoSlice/lab2_FG_2_1.png</asset>
+        <asset name='lab2_FG_2_2' type='graphic'>backgrounds/ProtoSlice/lab2_FG_2_2.png</asset>
+        <asset name='lab2_FG_2_3' type='graphic'>backgrounds/ProtoSlice/lab2_FG_2_3.png</asset>
+        <asset name='lab2_FG_2_4' type='graphic'>backgrounds/ProtoSlice/lab2_FG_2_4.png</asset>
+        <asset name='lab2_FG_2_5' type='graphic'>backgrounds/ProtoSlice/lab2_FG_2_5.png</asset>
+        <asset name='lab2_FG_2_6' type='graphic'>backgrounds/ProtoSlice/lab2_FG_2_6.png</asset>
         
-        <asset name='lab2_FG_3_0' type='graphic'>backgrounds/slices/lab2_FG_3_0.png</asset>
-        <asset name='lab2_FG_3_1' type='graphic'>backgrounds/slices/lab2_FG_3_1.png</asset>
-        <asset name='lab2_FG_3_2' type='graphic'>backgrounds/slices/lab2_FG_3_2.png</asset>
-        <asset name='lab2_FG_3_3' type='graphic'>backgrounds/slices/lab2_FG_3_3.png</asset>
-        <asset name='lab2_FG_3_4' type='graphic'>backgrounds/slices/lab2_FG_3_4.png</asset>
-        <asset name='lab2_FG_3_5' type='graphic'>backgrounds/slices/lab2_FG_3_5.png</asset>
-        <asset name='lab2_FG_3_6' type='graphic'>backgrounds/slices/lab2_FG_3_6.png</asset>
+        <asset name='lab2_FG_3_0' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_0.png</asset>
+        <asset name='lab2_FG_3_1' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_1.png</asset>
+        <asset name='lab2_FG_3_2' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_2.png</asset>
+        <asset name='lab2_FG_3_3' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_3.png</asset>
+        <asset name='lab2_FG_3_4' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_4.png</asset>
+        <asset name='lab2_FG_3_5' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_5.png</asset>
+        <asset name='lab2_FG_3_6' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_6.png</asset>
 
         <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM-25.png</asset>
         
@@ -145,120 +145,120 @@
             </triggers>                
                 
                 <!-- teleporters-->
-                <sprite class='teleporter' name='teleporterPad1' x='1175' y='2112'>
+                <sprite class='teleporter' name='teleporterPad1' x='1315' y='2112'>
                     <action name='Teleport' command='changeRoomRemote'>
                         <args>rooms/lab1.xml,lab1,75,3025</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPad2' x='1528' y='1093'>
+                <sprite class='teleporter' name='teleporterPad2' x='1668' y='1093'>
                     <action name='Teleport' command='changeRoom'>
                         <args>lab2,264,1714</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPad3' x='271' y='1714'>
+                <sprite class='teleporter' name='teleporterPad3' x='441' y='1714'>
                     <action name='Teleport' command='changeRoom'>
                         <args>lab2,1525,1093</args>
                     </action>
                 </sprite>
                 
-                <sprite class='teleporter' name='teleporterPad4' x='271' y='1380'>
+                <sprite class='teleporter' name='teleporterPad4' x='441' y='1380'>
                     <action name='Teleport' command='changeRoom'>
                         <args>lab2,943,2950</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPad5' x='943' y='2950'>
+                <sprite class='teleporter' name='teleporterPad5' x='1083' y='2950'>
                     <action name='Teleport' command='changeRoom'>
                         <args>lab2,264,1380</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPad6' x='290' y='2251'>
+                <sprite class='teleporter' name='teleporterPad6' x='430' y='2251'>
                     <action name='Teleport' command='changeRoom'>
                         <args>lab2,1355,355</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPad7' x='271' y='1547'>
+                <sprite class='teleporter' name='teleporterPad7' x='441' y='1547'>
                     <action name='Teleport' command='changeRoom'>
                         <args>lab2,448,372</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPad8' x='448' y='372'>
+                <sprite class='teleporter' name='teleporterPad8' x='588' y='372'>
                     <action name='Teleport' command='changeRoom'>
                         <args>lab2,271,1547</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPadCG' x='1140' y='2908'>
+                <sprite class='teleporter' name='teleporterPadCG' x='1280' y='2908'>
                     <action name='Teleport' command='changeRoomRemote'>
                         <args>rooms/labCG.xml,labCG,215,1730</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPadAC' x='1140' y='2995'>
+                <sprite class='teleporter' name='teleporterPadAC' x='1280' y='2995'>
                     <action name='Teleport' command='talk'>
                         <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPadCA' x='753' y='2908'>
+                <sprite class='teleporter' name='teleporterPadCA' x='893' y='2908'>
                     <action name='Teleport' command='talk'>
                         <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPadTC' x='753' y='2995'>
+                <sprite class='teleporter' name='teleporterPadTC' x='1023' y='2995'>
                     <action name='Teleport' command='talk'>
                         <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPadAA' x='885' y='2778'>
+                <sprite class='teleporter' name='teleporterPadAA' x='1025' y='2778'>
                     <action name='Teleport' command='talk'>
                         <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPadAT' x='1011' y='2778'>
+                <sprite class='teleporter' name='teleporterPadAT' x='1151' y='2778'>
                     <action name='Teleport' command='talk'>
                         <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
                     </action>
                 </sprite>
-                <sprite class='teleporter' name='teleporterPadAG' x='885' y='3125'>
-                    <action name='Teleport' command='talk'>
-                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
-                    </action>
-                </sprite>
-
-                <sprite class='teleporter' name='teleporterPadGC' x='1011' y='3125'>
+                <sprite class='teleporter' name='teleporterPadAG' x='1025' y='3125'>
                     <action name='Teleport' command='talk'>
                         <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPadCT' x='813' y='3070'>
+                <sprite class='teleporter' name='teleporterPadGC' x='1151' y='3125'>
                     <action name='Teleport' command='talk'>
                         <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPadCC' x='813' y='2830'>
+                <sprite class='teleporter' name='teleporterPadCT' x='953' y='3070'>
                     <action name='Teleport' command='talk'>
                         <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPadGA' x='1090' y='3070'>
+                <sprite class='teleporter' name='teleporterPadCC' x='953' y='2830'>
                     <action name='Teleport' command='talk'>
                         <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPadTA' x='1090' y='2830'>
+                <sprite class='teleporter' name='teleporterPadGA' x='1230' y='3070'>
+                    <action name='Teleport' command='talk'>
+                        <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
+                    </action>
+                </sprite>
+
+                <sprite class='teleporter' name='teleporterPadTA' x='1230' y='2830'>
                     <action name='Teleport' command='talk'>
                         <args>@! It's not that you aren't allowed to go here, it's just that social norms would indicate it is rude to go through someone else's property.</args>
                     </action>
@@ -341,12 +341,12 @@
 
             </character>
 
-            <!-- background slices -->
+            <!-- background ProtoSlice -->
             <sprite name='lab2_BG'>
                 <animation sheet='lab2_BG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
             
-            <!-- foreground slices -->    
+            <!-- foreground ProtoSlice -->    
             <sprite name='lab2_FG' depthing='2'>
                 <animation sheet='lab2_FG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
