@@ -7,7 +7,7 @@
         <dependency>rooms/lowaa.xml</dependency>
         <dependency>rooms/lab2.xml</dependency>
     </dependencies>
-    
+
     <assets>
 
         <asset name='lab1_BG_0_0' type='graphic'>backgrounds/slices/lab1_BG_0_0.png</asset>
@@ -17,7 +17,7 @@
         <asset name='lab1_BG_0_4' type='graphic'>backgrounds/slices/lab1_BG_0_4.png</asset>
         <asset name='lab1_BG_0_5' type='graphic'>backgrounds/slices/lab1_BG_0_5.png</asset>
         <asset name='lab1_BG_0_6' type='graphic'>backgrounds/slices/lab1_BG_0_6.png</asset>
-        
+
         <asset name='lab1_BG_1_0' type='graphic'>backgrounds/slices/lab1_BG_1_0.png</asset>
         <asset name='lab1_BG_1_1' type='graphic'>backgrounds/slices/lab1_BG_1_1.png</asset>
         <asset name='lab1_BG_1_2' type='graphic'>backgrounds/slices/lab1_BG_1_2.png</asset>
@@ -25,7 +25,7 @@
         <asset name='lab1_BG_1_4' type='graphic'>backgrounds/slices/lab1_BG_1_4.png</asset>
         <asset name='lab1_BG_1_5' type='graphic'>backgrounds/slices/lab1_BG_1_5.png</asset>
         <asset name='lab1_BG_1_6' type='graphic'>backgrounds/slices/lab1_BG_1_6.png</asset>
-        
+
         <asset name='lab1_BG_2_0' type='graphic'>backgrounds/slices/lab1_BG_2_0.png</asset>
         <asset name='lab1_BG_2_1' type='graphic'>backgrounds/slices/lab1_BG_2_1.png</asset>
         <asset name='lab1_BG_2_2' type='graphic'>backgrounds/slices/lab1_BG_2_2.png</asset>
@@ -33,7 +33,7 @@
         <asset name='lab1_BG_2_4' type='graphic'>backgrounds/slices/lab1_BG_2_4.png</asset>
         <asset name='lab1_BG_2_5' type='graphic'>backgrounds/slices/lab1_BG_2_5.png</asset>
         <asset name='lab1_BG_2_6' type='graphic'>backgrounds/slices/lab1_BG_2_6.png</asset>
-        
+
         <asset name='lab1_BG_3_0' type='graphic'>backgrounds/slices/lab1_BG_3_0.png</asset>
         <asset name='lab1_BG_3_1' type='graphic'>backgrounds/slices/lab1_BG_3_1.png</asset>
         <asset name='lab1_BG_3_2' type='graphic'>backgrounds/slices/lab1_BG_3_2.png</asset>
@@ -41,7 +41,7 @@
         <asset name='lab1_BG_3_4' type='graphic'>backgrounds/slices/lab1_BG_3_4.png</asset>
         <asset name='lab1_BG_3_5' type='graphic'>backgrounds/slices/lab1_BG_3_5.png</asset>
         <asset name='lab1_BG_3_6' type='graphic'>backgrounds/slices/lab1_BG_3_6.png</asset>
-        
+
         <asset name='lab1_BG_4_0' type='graphic'>backgrounds/slices/lab1_BG_4_0.png</asset>
         <asset name='lab1_BG_4_1' type='graphic'>backgrounds/slices/lab1_BG_4_1.png</asset>
         <asset name='lab1_BG_4_2' type='graphic'>backgrounds/slices/lab1_BG_4_2.png</asset>
@@ -49,7 +49,7 @@
         <asset name='lab1_BG_4_4' type='graphic'>backgrounds/slices/lab1_BG_4_4.png</asset>
         <asset name='lab1_BG_4_5' type='graphic'>backgrounds/slices/lab1_BG_4_5.png</asset>
         <asset name='lab1_BG_4_6' type='graphic'>backgrounds/slices/lab1_BG_4_6.png</asset>
-        
+
         <asset name='lab1_BG_5_0' type='graphic'>backgrounds/slices/lab1_BG_5_0.png</asset>
         <asset name='lab1_BG_5_1' type='graphic'>backgrounds/slices/lab1_BG_5_1.png</asset>
         <asset name='lab1_BG_5_2' type='graphic'>backgrounds/slices/lab1_BG_5_2.png</asset>
@@ -57,7 +57,7 @@
         <asset name='lab1_BG_5_4' type='graphic'>backgrounds/slices/lab1_BG_5_4.png</asset>
         <asset name='lab1_BG_5_5' type='graphic'>backgrounds/slices/lab1_BG_5_5.png</asset>
         <asset name='lab1_BG_5_6' type='graphic'>backgrounds/slices/lab1_BG_5_6.png</asset>
-        
+
         <asset name='lab1_BG_6_0' type='graphic'>backgrounds/slices/lab1_BG_6_0.png</asset>
         <asset name='lab1_BG_6_1' type='graphic'>backgrounds/slices/lab1_BG_6_1.png</asset>
         <asset name='lab1_BG_6_2' type='graphic'>backgrounds/slices/lab1_BG_6_2.png</asset>
@@ -65,7 +65,7 @@
         <asset name='lab1_BG_6_4' type='graphic'>backgrounds/slices/lab1_BG_6_4.png</asset>
         <asset name='lab1_BG_6_5' type='graphic'>backgrounds/slices/lab1_BG_6_5.png</asset>
         <asset name='lab1_BG_6_6' type='graphic'>backgrounds/slices/lab1_BG_6_6.png</asset>
-        
+
         <asset name='lab1_FG_0_0' type='graphic'>backgrounds/slices/lab1_FG_0_0.png</asset>
         <asset name='lab1_FG_0_1' type='graphic'>backgrounds/slices/lab1_FG_0_1.png</asset>
         <asset name='lab1_FG_0_2' type='graphic'>backgrounds/slices/lab1_FG_0_2.png</asset>
@@ -73,7 +73,7 @@
         <asset name='lab1_FG_0_4' type='graphic'>backgrounds/slices/lab1_FG_0_4.png</asset>
         <asset name='lab1_FG_0_5' type='graphic'>backgrounds/slices/lab1_FG_0_5.png</asset>
         <asset name='lab1_FG_0_6' type='graphic'>backgrounds/slices/lab1_FG_0_6.png</asset>
-        
+
         <asset name='lab1_FG_1_0' type='graphic'>backgrounds/slices/lab1_FG_1_0.png</asset>
         <asset name='lab1_FG_1_1' type='graphic'>backgrounds/slices/lab1_FG_1_1.png</asset>
         <asset name='lab1_FG_1_2' type='graphic'>backgrounds/slices/lab1_FG_1_2.png</asset>
@@ -81,7 +81,7 @@
         <asset name='lab1_FG_1_4' type='graphic'>backgrounds/slices/lab1_FG_1_4.png</asset>
         <asset name='lab1_FG_1_5' type='graphic'>backgrounds/slices/lab1_FG_1_5.png</asset>
         <asset name='lab1_FG_1_6' type='graphic'>backgrounds/slices/lab1_FG_1_6.png</asset>
-        
+
         <asset name='lab1_FG_2_0' type='graphic'>backgrounds/slices/lab1_FG_2_0.png</asset>
         <asset name='lab1_FG_2_1' type='graphic'>backgrounds/slices/lab1_FG_2_1.png</asset>
         <asset name='lab1_FG_2_2' type='graphic'>backgrounds/slices/lab1_FG_2_2.png</asset>
@@ -89,7 +89,7 @@
         <asset name='lab1_FG_2_4' type='graphic'>backgrounds/slices/lab1_FG_2_4.png</asset>
         <asset name='lab1_FG_2_5' type='graphic'>backgrounds/slices/lab1_FG_2_5.png</asset>
         <asset name='lab1_FG_2_6' type='graphic'>backgrounds/slices/lab1_FG_2_6.png</asset>
-        
+
         <asset name='lab1_FG_3_0' type='graphic'>backgrounds/slices/lab1_FG_3_0.png</asset>
         <asset name='lab1_FG_3_1' type='graphic'>backgrounds/slices/lab1_FG_3_1.png</asset>
         <asset name='lab1_FG_3_2' type='graphic'>backgrounds/slices/lab1_FG_3_2.png</asset>
@@ -97,7 +97,7 @@
         <asset name='lab1_FG_3_4' type='graphic'>backgrounds/slices/lab1_FG_3_4.png</asset>
         <asset name='lab1_FG_3_5' type='graphic'>backgrounds/slices/lab1_FG_3_5.png</asset>
         <asset name='lab1_FG_3_6' type='graphic'>backgrounds/slices/lab1_FG_3_6.png</asset>
-        
+
         <asset name='lab1_FG_4_0' type='graphic'>backgrounds/slices/lab1_FG_4_0.png</asset>
         <asset name='lab1_FG_4_1' type='graphic'>backgrounds/slices/lab1_FG_4_1.png</asset>
         <asset name='lab1_FG_4_2' type='graphic'>backgrounds/slices/lab1_FG_4_2.png</asset>
@@ -105,7 +105,7 @@
         <asset name='lab1_FG_4_4' type='graphic'>backgrounds/slices/lab1_FG_4_4.png</asset>
         <asset name='lab1_FG_4_5' type='graphic'>backgrounds/slices/lab1_FG_4_5.png</asset>
         <asset name='lab1_FG_4_6' type='graphic'>backgrounds/slices/lab1_FG_4_6.png</asset>
-        
+
         <asset name='lab1_FG_5_0' type='graphic'>backgrounds/slices/lab1_FG_5_0.png</asset>
         <asset name='lab1_FG_5_1' type='graphic'>backgrounds/slices/lab1_FG_5_1.png</asset>
         <asset name='lab1_FG_5_2' type='graphic'>backgrounds/slices/lab1_FG_5_2.png</asset>
@@ -113,7 +113,7 @@
         <asset name='lab1_FG_5_4' type='graphic'>backgrounds/slices/lab1_FG_5_4.png</asset>
         <asset name='lab1_FG_5_5' type='graphic'>backgrounds/slices/lab1_FG_5_5.png</asset>
         <asset name='lab1_FG_5_6' type='graphic'>backgrounds/slices/lab1_FG_5_6.png</asset>
-        
+
         <asset name='lab1_FG_6_0' type='graphic'>backgrounds/slices/lab1_FG_6_0.png</asset>
         <asset name='lab1_FG_6_1' type='graphic'>backgrounds/slices/lab1_FG_6_1.png</asset>
         <asset name='lab1_FG_6_2' type='graphic'>backgrounds/slices/lab1_FG_6_2.png</asset>
@@ -121,39 +121,39 @@
         <asset name='lab1_FG_6_4' type='graphic'>backgrounds/slices/lab1_FG_6_4.png</asset>
         <asset name='lab1_FG_6_5' type='graphic'>backgrounds/slices/lab1_FG_6_5.png</asset>
         <asset name='lab1_FG_6_6' type='graphic'>backgrounds/slices/lab1_FG_6_6.png</asset>
-        
-        <asset name='lab1_WM' type='graphic'>backgrounds/lab1_WM.png</asset>
-        
+
+        <asset name='lab1_WM' type='graphic'>backgrounds/lab1_WM-3.png</asset>
+
         <asset name='staircase' type='path'>2572,2100;2572,2260;1715,2950;1715,3100</asset>
 
-    </assets> 
-    
+    </assets>
+
     <rooms>
 
         <room name='lab1' walkableMap='lab1_WM' scale='4'>
-            
+
             <paths>
                 <motionpath path="staircase" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
             </paths>
-            
+
             <triggers>
                 <trigger>
                     <args>gameState,sleep=true</args>
                     <action command='removeSprite'>
                         <args>block1,lab1</args>
                         <action command='removeSprite'>
-                            <args>block2,lab1</args>                           
+                            <args>block2,lab1</args>
                         </action>
                     </action>
                 </trigger>
-                
+
                 <trigger>
                     <args>gameState,leaveLOWAA=true</args>
                     <action command='removeAction'>
                         <args>teleporterPad,Teleport</args>
                         <action command='addAction'>
                             <args>teleporterPad,<action name='Teleport' command='changeRoomRemote'>
-                                    <args>rooms/lab2.xml,lab2,1169,2112</args>
+                              <args>rooms/lab2.xml,lab2,1250,2112</args>
                             </action>
                         </args>
                     </action>
@@ -214,7 +214,7 @@
 
                 <trigger>spriteProperty,char,x&gt;2100
                     <trigger>spriteProperty,char,x&lt;2450
-                        <trigger>spriteProperty,char,y&gt;2093  
+                        <trigger>spriteProperty,char,y&gt;2093
                             <action command='goBack'>
                                 <args>char</args>
                                 <action command='talk'>
@@ -240,7 +240,7 @@
                 </trigger>
 
             <!-- game loops -->
-                
+
                 <!-- dave interrupting, follow -->
                 <trigger detonate='true'>spriteProperty,karkat,y&gt;2980
                         <action command='follow'>
@@ -249,12 +249,12 @@
                             </action>
                     </action>
                 </trigger>
-                
+
                 <!-- terezi talk at top of stiars -->
                 <trigger detonate='true'>spriteProperty,karkat,x&gt;2712
                     <action class='tereziTalk1' command='talk' noDelay='true'/>
                 </trigger>
-                
+
                 <!-- approaching terezi, remove sprites, unfollow, change room, change teleporter action  -->
                 <trigger>spriteProperty,karkat,x&gt;2712
                     <trigger detonate='true'>spriteProperty,karkat,y&lt;1900
@@ -304,7 +304,7 @@
                 <action command='talk' name='Examine'>
                     <args>
                         @! Oh look, the all in one alchemizer machine. You've used this thing countless times to duplicate food and technical items and the like. You've even attempted to create new movies to watch by fuzing your obviously not horrible chick flicks together. Some of them turned out alright, though with some confusing plots. "50 lucky First Dates with Chuck" was probably the most overwhelming. You still don't know how you feel about seeing Dane Cook and Adam Sandler in the same twisted story and you think their interractions in this romcom amalgamation monstrosity were a bit too unruly.
-                        @! You don't really have anything to alchemize right now. 
+                        @! You don't really have anything to alchemize right now.
                     </args>
                 </action>
             </sprite>
@@ -327,13 +327,13 @@
             <sprite name='lab1_BG'>
                 <animation sheet='lab1_BG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
-            
+
             <!-- foreground slices -->
             <sprite name='lab1_FG' depthing ='2'>
                 <animation sheet='lab1_FG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
-            
-            
+
+
         </room>
     </rooms>
 </sburb>

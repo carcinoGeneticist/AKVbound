@@ -5,11 +5,9 @@
         <dependency>chars/rose.xml</dependency>
         <dependency>chars/dave.xml</dependency>
         <dependency>chars/kanaya.xml</dependency>
-
     </dependencies>
-    
-    <assets>
 
+    <assets>
         <asset name='lab2_BG_0_0' type='graphic'>backgrounds/ProtoSlice/lab2_BG_0_0.png</asset>
         <asset name='lab2_BG_0_1' type='graphic'>backgrounds/ProtoSlice/lab2_BG_0_1.png</asset>
         <asset name='lab2_BG_0_2' type='graphic'>backgrounds/ProtoSlice/lab2_BG_0_2.png</asset>
@@ -17,7 +15,7 @@
         <asset name='lab2_BG_0_4' type='graphic'>backgrounds/ProtoSlice/lab2_BG_0_4.png</asset>
         <asset name='lab2_BG_0_5' type='graphic'>backgrounds/ProtoSlice/lab2_BG_0_5.png</asset>
         <asset name='lab2_BG_0_6' type='graphic'>backgrounds/ProtoSlice/lab2_BG_0_6.png</asset>
-        
+
         <asset name='lab2_BG_1_0' type='graphic'>backgrounds/ProtoSlice/lab2_BG_1_0.png</asset>
         <asset name='lab2_BG_1_1' type='graphic'>backgrounds/ProtoSlice/lab2_BG_1_1.png</asset>
         <asset name='lab2_BG_1_2' type='graphic'>backgrounds/ProtoSlice/lab2_BG_1_2.png</asset>
@@ -25,7 +23,7 @@
         <asset name='lab2_BG_1_4' type='graphic'>backgrounds/ProtoSlice/lab2_BG_1_4.png</asset>
         <asset name='lab2_BG_1_5' type='graphic'>backgrounds/ProtoSlice/lab2_BG_1_5.png</asset>
         <asset name='lab2_BG_1_6' type='graphic'>backgrounds/ProtoSlice/lab2_BG_1_6.png</asset>
-        
+
         <asset name='lab2_BG_2_0' type='graphic'>backgrounds/ProtoSlice/lab2_BG_2_0.png</asset>
         <asset name='lab2_BG_2_1' type='graphic'>backgrounds/ProtoSlice/lab2_BG_2_1.png</asset>
         <asset name='lab2_BG_2_2' type='graphic'>backgrounds/ProtoSlice/lab2_BG_2_2.png</asset>
@@ -33,7 +31,7 @@
         <asset name='lab2_BG_2_4' type='graphic'>backgrounds/ProtoSlice/lab2_BG_2_4.png</asset>
         <asset name='lab2_BG_2_5' type='graphic'>backgrounds/ProtoSlice/lab2_BG_2_5.png</asset>
         <asset name='lab2_BG_2_6' type='graphic'>backgrounds/ProtoSlice/lab2_BG_2_6.png</asset>
-        
+
         <asset name='lab2_BG_3_0' type='graphic'>backgrounds/ProtoSlice/lab2_BG_3_0.png</asset>
         <asset name='lab2_BG_3_1' type='graphic'>backgrounds/ProtoSlice/lab2_BG_3_1.png</asset>
         <asset name='lab2_BG_3_2' type='graphic'>backgrounds/ProtoSlice/lab2_BG_3_2.png</asset>
@@ -41,9 +39,9 @@
         <asset name='lab2_BG_3_4' type='graphic'>backgrounds/ProtoSlice/lab2_BG_3_4.png</asset>
         <asset name='lab2_BG_3_5' type='graphic'>backgrounds/ProtoSlice/lab2_BG_3_5.png</asset>
         <asset name='lab2_BG_3_6' type='graphic'>backgrounds/ProtoSlice/lab2_BG_3_6.png</asset>
-        
-        
-        
+
+
+
         <asset name='lab2_FG_0_0' type='graphic'>backgrounds/ProtoSlice/lab2_FG_0_0.png</asset>
         <asset name='lab2_FG_0_1' type='graphic'>backgrounds/ProtoSlice/lab2_FG_0_1.png</asset>
         <asset name='lab2_FG_0_2' type='graphic'>backgrounds/ProtoSlice/lab2_FG_0_2.png</asset>
@@ -51,7 +49,7 @@
         <asset name='lab2_FG_0_4' type='graphic'>backgrounds/ProtoSlice/lab2_FG_0_4.png</asset>
         <asset name='lab2_FG_0_5' type='graphic'>backgrounds/ProtoSlice/lab2_FG_0_5.png</asset>
         <asset name='lab2_FG_0_6' type='graphic'>backgrounds/ProtoSlice/lab2_FG_0_6.png</asset>
-        
+
         <asset name='lab2_FG_1_0' type='graphic'>backgrounds/ProtoSlice/lab2_FG_1_0.png</asset>
         <asset name='lab2_FG_1_1' type='graphic'>backgrounds/ProtoSlice/lab2_FG_1_1.png</asset>
         <asset name='lab2_FG_1_2' type='graphic'>backgrounds/ProtoSlice/lab2_FG_1_2.png</asset>
@@ -59,7 +57,7 @@
         <asset name='lab2_FG_1_4' type='graphic'>backgrounds/ProtoSlice/lab2_FG_1_4.png</asset>
         <asset name='lab2_FG_1_5' type='graphic'>backgrounds/ProtoSlice/lab2_FG_1_5.png</asset>
         <asset name='lab2_FG_1_6' type='graphic'>backgrounds/ProtoSlice/lab2_FG_1_6.png</asset>
-        
+
         <asset name='lab2_FG_2_0' type='graphic'>backgrounds/ProtoSlice/lab2_FG_2_0.png</asset>
         <asset name='lab2_FG_2_1' type='graphic'>backgrounds/ProtoSlice/lab2_FG_2_1.png</asset>
         <asset name='lab2_FG_2_2' type='graphic'>backgrounds/ProtoSlice/lab2_FG_2_2.png</asset>
@@ -67,7 +65,7 @@
         <asset name='lab2_FG_2_4' type='graphic'>backgrounds/ProtoSlice/lab2_FG_2_4.png</asset>
         <asset name='lab2_FG_2_5' type='graphic'>backgrounds/ProtoSlice/lab2_FG_2_5.png</asset>
         <asset name='lab2_FG_2_6' type='graphic'>backgrounds/ProtoSlice/lab2_FG_2_6.png</asset>
-        
+
         <asset name='lab2_FG_3_0' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_0.png</asset>
         <asset name='lab2_FG_3_1' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_1.png</asset>
         <asset name='lab2_FG_3_2' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_2.png</asset>
@@ -76,7 +74,7 @@
         <asset name='lab2_FG_3_5' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_5.png</asset>
         <asset name='lab2_FG_3_6' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_6.png</asset>
 
-        <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM-25.png</asset>
+        <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM-3-2014.png</asset>
         
         <asset name='stairs1' type='path'>1097,1673;1097,1814;1334,2047;1334,1917</asset>
         <asset name='stairs2' type='path'>1122,1299;1122,1425;1368,1676;1368,1542</asset>
@@ -84,7 +82,7 @@
 
 <!--CASE: add the object that goes in the chest here-->
         <asset name='obj01' type='graphic'>objects/items/i_coffee.png</asset>  <!--to fix should be coffee-->
-        
+
     </assets>
 
 <!--CASE: animate it here, fuck with the x and y until it comes out in the right spot.  depthing should always be 3-->
@@ -92,19 +90,19 @@
         <animation x='-24' y='-24' length='2' colSize='40' rowSize='60' frameInterval='6' sheet='obj01'/>
     </sprite>
 
-    
+
     <rooms>
 
         <room name='lab2' walkableMap='lab2_WM' scale='4'>
 
             <paths>
-                    
+
                     <motionpath path="stairs1" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
                     <motionpath path="stairs2" xtox = '0.7' xtoy = '0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
                     <motionpath path="stairs3" xtox = '0.7' xtoy = '-0.7' ytox='0' ytoy = '1' dx='0' dy='0'/>
-            
+
             </paths>
-            
+
             <triggers>
 
                 <trigger>
@@ -142,28 +140,29 @@
                 <!-- game loops -->
 
 
-            </triggers>                
-                
+            </triggers>
+
                 <!-- teleporters-->
-                <sprite class='teleporter' name='teleporterPad1' x='1315' y='2112'>
+                <!-- lab 2 to lab 1 -->
+                <sprite class='teleporter' name='teleporterPad1' x='1259' y='2112'>
                     <action name='Teleport' command='changeRoomRemote'>
                         <args>rooms/lab1.xml,lab1,75,3025</args>
                     </action>
                 </sprite>
-
-                <sprite class='teleporter' name='teleporterPad2' x='1668' y='1093'>
+                <!-- top of stairs to 4 way intersection -->
+                <sprite class='teleporter' name='teleporterPad2' x='1585' y='1093'>
                     <action name='Teleport' command='changeRoom'>
-                        <args>lab2,264,1714</args>
+                        <args>lab2,412,1714</args>
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPad3' x='441' y='1714'>
+                <sprite class='teleporter' name='teleporterPad3' x='411' y='1714'>
                     <action name='Teleport' command='changeRoom'>
                         <args>lab2,1525,1093</args>
                     </action>
                 </sprite>
-                
-                <sprite class='teleporter' name='teleporterPad4' x='441' y='1380'>
+
+                <sprite class='teleporter' name='teleporterPad4' x='411' y='1380'>
                     <action name='Teleport' command='changeRoom'>
                         <args>lab2,943,2950</args>
                     </action>
@@ -181,7 +180,7 @@
                     </action>
                 </sprite>
 
-                <sprite class='teleporter' name='teleporterPad7' x='441' y='1547'>
+                <sprite class='teleporter' name='teleporterPad7' x='411' y='1547'>
                     <action name='Teleport' command='changeRoom'>
                         <args>lab2,448,372</args>
                     </action>
@@ -281,19 +280,16 @@
             <!-- path blocks -->
             <sprite class='block' name='block3' x='575' y='2967' collidable='true'/>
 
-            <!-- character setup -->
-            <!--<character class='karkat' x='1164' y='2119'>
-                <action class='beKarkat'/>
-            </character>-->
+<!--
+            <character class='karkat' x='1250' y='2112'/>
+-->
 
+            <character class='rose' x='272' y='327'/>
 
-            <character class='rose' x='272' y='327'>   
-            </character>
-            
 
             <character class='kanaya' x='1572' y='3204'>
             </character>
-            
+
 
 
             <character class='dave' x='207' y='2331'>
@@ -314,7 +310,7 @@
                         @dave_talk DAVE: or watch more shitty earth movies
                         @dave_talk DAVE: those could tell way more than i can
                         @karkat_talk KARKAT: OK WHATEVER SHUT UP.
-                        @karkat_talk KARKAT: I HAVEN’T BEEN BACK HERE FOR A WHILE. 
+                        @karkat_talk KARKAT: I HAVEN’T BEEN BACK HERE FOR A WHILE.
                         @karkat_talk KARKAT: NOW THAT I THINK OF IT, WHAT THE FUCK WAS BACK HERE IN THE FIRST PLACE THAT I EVER WENT BACK HERE?
                         @dave_talk DAVE: probably the classy lounge area
                         @karkat_talk KARKAT: I DON’T EVEN REMEMBER ONE OF THOSE.
@@ -339,18 +335,19 @@
                 </action>
 
 
+
             </character>
 
             <!-- background ProtoSlice -->
             <sprite name='lab2_BG'>
                 <animation sheet='lab2_BG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
-            
-            <!-- foreground ProtoSlice -->    
+
+            <!-- foreground ProtoSlice -->
             <sprite name='lab2_FG' depthing='2'>
                 <animation sheet='lab2_FG' sliced='true' numCols='4' numRows='7' colSize='500' rowSize='500'/>
             </sprite>
-            
+
         </room>
     </rooms>
 </sburb>

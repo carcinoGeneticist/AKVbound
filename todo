@@ -1,0 +1,11 @@
+lab2	rose has no dialogue options				add rose interaction
+lab2	teleporters do not have symbol sprites		add floating symbol sprites
+labcg	rooms do not fade							room fade transitions
+labcg	bg and fg recut for update					implament
+lab1	wm in grayscale, lines not straight			have case photoshop
+lowaa	unknown gameplay regarding terezi and text	take out text actions, ask case
+lowaa	terezi emoticons w/ slash do not display	escape
+lab1	karkat facing wrong way after lowaa			
+lab2	wm ofset									implament new wm
+lab2	tp offset too far							adjust x value
+lowaa	karkat text colour black					give davelowaa dialogue dep.
