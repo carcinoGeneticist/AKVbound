@@ -292,10 +292,10 @@
             <character class='kanaya' x='1572' y='3204'>
             </character>
 
-
+<!--
             <character class='dave2' x='1300' y='400'>
             </character>
-
+-->
 
             <character class='dave' x='407' y='2331'>
                 <action command='talk' name='Talk to Dave'>
