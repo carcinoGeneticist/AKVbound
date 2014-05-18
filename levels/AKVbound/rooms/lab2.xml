@@ -74,7 +74,7 @@
         <asset name='lab2_FG_3_5' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_5.png</asset>
         <asset name='lab2_FG_3_6' type='graphic'>backgrounds/ProtoSlice/lab2_FG_3_6.png</asset>
 
-        <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM-3-2014.png</asset>
+        <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM.png</asset>
         
         <asset name='stairs1' type='path'>1097,1673;1097,1814;1334,2047;1334,1917</asset>
         <asset name='stairs2' type='path'>1122,1299;1122,1425;1368,1676;1368,1542</asset>
