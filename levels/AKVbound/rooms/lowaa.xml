@@ -120,6 +120,9 @@
                                         <args>leaveLOWAA,true</args>
                                         <action command='changeRoomRemote'>
                                             <args>rooms/lab1.xml,lab1,1690,3035</args>
+                                            <action command='walk'>
+                                                <args>char,Left</args>
+                                            </action>
                                         </action>
                                     </action>
                                 </action>
