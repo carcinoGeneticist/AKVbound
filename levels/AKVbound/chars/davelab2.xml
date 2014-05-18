@@ -1,0 +1,38 @@
+<sburb description='davelab2'>
+   
+    
+    <classes>
+        <animation class='davelab2-dialog' frameInterval='6' x='-230' y='-454'/>
+        
+        <character class='davelab2' name='davelab2' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='davelab2Sheet' state='walkFront' facing='Front'>
+        </character>
+        
+               
+    </classes>
+    
+    <assets>
+        <asset name='davelab2Sheet' type='graphic'>chars/davelab2/davelab2.png</asset>
+        
+        <asset name='davelab2_concern' type='graphic'>dialogs/davelab2/davelab2_concern.png</asset>
+        <asset name='davelab2_huh' type='graphic'>dialogs/davelab2/davelab2_huh.png</asset>
+        <asset name='davelab2_huhtalk' type='graphic'>dialogs/davelab2/davelab2_huhtalk.png</asset>
+        <asset name='davelab2_idle' type='graphic'>dialogs/davelab2/davelab2_idle.png</asset>
+        <asset name='davelab2_mad' type='graphic'>dialogs/davelab2/davelab2_mad.png</asset>
+        <asset name='davelab2_madtalk' type='graphic'>dialogs/davelab2/davelab2_madtalk.png</asset>
+        <asset name='davelab2_smug' type='graphic'>dialogs/davelab2/davelab2_smug.png</asset>
+        <asset name='davelab2_talk' type='graphic'>dialogs/davelab2/davelab2_talk.png</asset>
+    </assets>
+    
+    <hud>
+        <dialogsprites>
+            <animation name='davelab2_concern' class='davelab2-dialog' sheet='davelab2_concern' length='2'/>
+            <animation name='davelab2_huh' class='davelab2-dialog' sheet='davelab2_huh'/>
+            <animation name='davelab2_huhtalk' class='davelab2-dialog' sheet='davelab2_huhtalk' length='2'/>
+            <animation name='davelab2_idle' class='davelab2-dialog' sheet='davelab2_idle' />
+            <animation name='davelab2_mad' class='davelab2-dialog' sheet='davelab2_mad' />
+            <animation name='davelab2_madtalk' class='davelab2-dialog' sheet='davelab2_madtalk'  length='2'/>
+            <animation name='davelab2_smug' class='davelab2-dialog' sheet='davelab2_smug' length='2'/>
+            <animation name='davelab2_talk' class='davelab2-dialog' sheet='davelab2_talk'  length='2'/>
+        </dialogsprites>
+    </hud>
+</sburb>
