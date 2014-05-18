@@ -76,9 +76,9 @@
 
         <asset name='lab2_WM' type='graphic'>backgrounds/lab2_WM.png</asset>
         
-        <asset name='stairs1' type='path'>1097,1673;1097,1814;1334,2047;1334,1917</asset>
-        <asset name='stairs2' type='path'>1122,1299;1122,1425;1368,1676;1368,1542</asset>
-        <asset name='stairs3' type='path'>1240,1040;1240,1167;1122,1285;1122,1158</asset>
+        <asset name='stairs1' type='path'>1173,1673;1173,1805;1416,2050;1416,1922</asset>
+        <asset name='stairs2' type='path'>1200,1298;1200,1419;1442,1675;1442,1537</asset>
+        <asset name='stairs3' type='path'>1200,1296;1200,1158;1315,1033;1315,1163</asset>
 
 <!--CASE: add the object that goes in the chest here-->
         <asset name='obj01' type='graphic'>objects/items/i_coffee.png</asset>  <!--to fix should be coffee-->
@@ -280,9 +280,9 @@
             <!-- path blocks -->
             <sprite class='block' name='block3' x='575' y='2967' collidable='true'/>
 
-<!--
+
             <character class='karkat' x='1250' y='2112'/>
--->
+
 
             <character class='rose' x='272' y='327'/>
 
