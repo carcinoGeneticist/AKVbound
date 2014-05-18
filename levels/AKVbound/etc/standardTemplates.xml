@@ -23,6 +23,7 @@ unmodified. -->
         <asset name='block' type='graphic'>interface/block1.png</asset>
         <asset name='alch' type='graphic'>objects/items/o_alch.png</asset>
         <asset name='bed' type='graphic'>objects/items/o_cocoon.png</asset>
+        <asset name='comp' type='graphic'>objects/items/o_comp.png</asset>
 
 
         
@@ -43,6 +44,10 @@ unmodified. -->
             <animation name='open' sheet='coffMachOpenSheet' x='-37' y='-90' loopNum='0' followUp='opened'/>
             <animation name='opened' sheet='coffMachOpenSheet' x='-37' y='-90' loopNum='0'/>
         </sprite>
+
+        <sprite class='comp' width='32' height='42' depthing='1' collidable='true'>
+        	<animation sheet='comp' x='-16' y='-21'/>
+        </sprite>>
         
         <sprite class='teleporter' width='110' height='60'>
             <animation sheet='teleporterPad' x='-66' y='-30'/>  

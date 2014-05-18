@@ -122,7 +122,7 @@
         <asset name='lab1_FG_6_5' type='graphic'>backgrounds/slices/lab1_FG_6_5.png</asset>
         <asset name='lab1_FG_6_6' type='graphic'>backgrounds/slices/lab1_FG_6_6.png</asset>
 
-        <asset name='lab1_WM' type='graphic'>backgrounds/lab1_WM-3.png</asset>
+        <asset name='lab1_WM' type='graphic'>backgrounds/lab1_WM.png</asset>
 
         <asset name='staircase' type='path'>2572,2100;2572,2260;1715,2950;1715,3100</asset>
 
@@ -308,6 +308,41 @@
                     </args>
                 </action>
             </sprite>
+
+            <sprite class='comp' name='comp1' x='331' y='2042' collidable='true'>
+                <action command='talk' name='Examine'>
+                    <args>
+                        @! COMP1
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class='comp' name='comp2' x='331' y='2097' collidable='true'>
+                <action command='talk' name='Examine'>
+                    <args>
+                        @! COMP2
+                    </args>
+                </action>
+            </sprite>
+
+
+            <sprite class='comp' name='comp3' x='331' y='2159' collidable='true'>
+                <action command='talk' name='Examine'>
+                    <args>
+                        @! COMP3
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class='comp' name='comp4' x='331' y='2222' collidable='true'>
+                <action command='talk' name='Examine'>
+                    <args>
+                        @! COMP4
+                    </args>
+                </action>
+            </sprite>
+
+
 
             <!-- path blocks -->
             <sprite class='block' name='block1' x='1476' y='2369' collidable='true'/>

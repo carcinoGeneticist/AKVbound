@@ -1,0 +1,149 @@
+<sburb description="test">
+
+    <dependencies>
+        <dependency>chars/karkat.xml</dependency>    
+    </dependencies>
+
+    <assets>
+		<asset name='lab1_BG_0_0' type='graphic'>backgrounds/slices/lab1_BG_0_0.png</asset>
+        <asset name='lab1_BG_0_1' type='graphic'>backgrounds/slices/lab1_BG_0_1.png</asset>
+        <asset name='lab1_BG_0_2' type='graphic'>backgrounds/slices/lab1_BG_0_2.png</asset>
+        <asset name='lab1_BG_0_3' type='graphic'>backgrounds/slices/lab1_BG_0_3.png</asset>
+        <asset name='lab1_BG_0_4' type='graphic'>backgrounds/slices/lab1_BG_0_4.png</asset>
+        <asset name='lab1_BG_0_5' type='graphic'>backgrounds/slices/lab1_BG_0_5.png</asset>
+        <asset name='lab1_BG_0_6' type='graphic'>backgrounds/slices/lab1_BG_0_6.png</asset>
+
+        <asset name='lab1_BG_1_0' type='graphic'>backgrounds/slices/lab1_BG_1_0.png</asset>
+        <asset name='lab1_BG_1_1' type='graphic'>backgrounds/slices/lab1_BG_1_1.png</asset>
+        <asset name='lab1_BG_1_2' type='graphic'>backgrounds/slices/lab1_BG_1_2.png</asset>
+        <asset name='lab1_BG_1_3' type='graphic'>backgrounds/slices/lab1_BG_1_3.png</asset>
+        <asset name='lab1_BG_1_4' type='graphic'>backgrounds/slices/lab1_BG_1_4.png</asset>
+        <asset name='lab1_BG_1_5' type='graphic'>backgrounds/slices/lab1_BG_1_5.png</asset>
+        <asset name='lab1_BG_1_6' type='graphic'>backgrounds/slices/lab1_BG_1_6.png</asset>
+
+        <asset name='lab1_BG_2_0' type='graphic'>backgrounds/slices/lab1_BG_2_0.png</asset>
+        <asset name='lab1_BG_2_1' type='graphic'>backgrounds/slices/lab1_BG_2_1.png</asset>
+        <asset name='lab1_BG_2_2' type='graphic'>backgrounds/slices/lab1_BG_2_2.png</asset>
+        <asset name='lab1_BG_2_3' type='graphic'>backgrounds/slices/lab1_BG_2_3.png</asset>
+        <asset name='lab1_BG_2_4' type='graphic'>backgrounds/slices/lab1_BG_2_4.png</asset>
+        <asset name='lab1_BG_2_5' type='graphic'>backgrounds/slices/lab1_BG_2_5.png</asset>
+        <asset name='lab1_BG_2_6' type='graphic'>backgrounds/slices/lab1_BG_2_6.png</asset>
+
+        <asset name='lab1_BG_3_0' type='graphic'>backgrounds/slices/lab1_BG_3_0.png</asset>
+        <asset name='lab1_BG_3_1' type='graphic'>backgrounds/slices/lab1_BG_3_1.png</asset>
+        <asset name='lab1_BG_3_2' type='graphic'>backgrounds/slices/lab1_BG_3_2.png</asset>
+        <asset name='lab1_BG_3_3' type='graphic'>backgrounds/slices/lab1_BG_3_3.png</asset>
+        <asset name='lab1_BG_3_4' type='graphic'>backgrounds/slices/lab1_BG_3_4.png</asset>
+        <asset name='lab1_BG_3_5' type='graphic'>backgrounds/slices/lab1_BG_3_5.png</asset>
+        <asset name='lab1_BG_3_6' type='graphic'>backgrounds/slices/lab1_BG_3_6.png</asset>
+
+        <asset name='lab1_BG_4_0' type='graphic'>backgrounds/slices/lab1_BG_4_0.png</asset>
+        <asset name='lab1_BG_4_1' type='graphic'>backgrounds/slices/lab1_BG_4_1.png</asset>
+        <asset name='lab1_BG_4_2' type='graphic'>backgrounds/slices/lab1_BG_4_2.png</asset>
+        <asset name='lab1_BG_4_3' type='graphic'>backgrounds/slices/lab1_BG_4_3.png</asset>
+        <asset name='lab1_BG_4_4' type='graphic'>backgrounds/slices/lab1_BG_4_4.png</asset>
+        <asset name='lab1_BG_4_5' type='graphic'>backgrounds/slices/lab1_BG_4_5.png</asset>
+        <asset name='lab1_BG_4_6' type='graphic'>backgrounds/slices/lab1_BG_4_6.png</asset>
+
+        <asset name='lab1_BG_5_0' type='graphic'>backgrounds/slices/lab1_BG_5_0.png</asset>
+        <asset name='lab1_BG_5_1' type='graphic'>backgrounds/slices/lab1_BG_5_1.png</asset>
+        <asset name='lab1_BG_5_2' type='graphic'>backgrounds/slices/lab1_BG_5_2.png</asset>
+        <asset name='lab1_BG_5_3' type='graphic'>backgrounds/slices/lab1_BG_5_3.png</asset>
+        <asset name='lab1_BG_5_4' type='graphic'>backgrounds/slices/lab1_BG_5_4.png</asset>
+        <asset name='lab1_BG_5_5' type='graphic'>backgrounds/slices/lab1_BG_5_5.png</asset>
+        <asset name='lab1_BG_5_6' type='graphic'>backgrounds/slices/lab1_BG_5_6.png</asset>
+
+        <asset name='lab1_BG_6_0' type='graphic'>backgrounds/slices/lab1_BG_6_0.png</asset>
+        <asset name='lab1_BG_6_1' type='graphic'>backgrounds/slices/lab1_BG_6_1.png</asset>
+        <asset name='lab1_BG_6_2' type='graphic'>backgrounds/slices/lab1_BG_6_2.png</asset>
+        <asset name='lab1_BG_6_3' type='graphic'>backgrounds/slices/lab1_BG_6_3.png</asset>
+        <asset name='lab1_BG_6_4' type='graphic'>backgrounds/slices/lab1_BG_6_4.png</asset>
+        <asset name='lab1_BG_6_5' type='graphic'>backgrounds/slices/lab1_BG_6_5.png</asset>
+        <asset name='lab1_BG_6_6' type='graphic'>backgrounds/slices/lab1_BG_6_6.png</asset>
+
+        <asset name='lab1_FG_0_0' type='graphic'>backgrounds/slices/lab1_FG_0_0.png</asset>
+        <asset name='lab1_FG_0_1' type='graphic'>backgrounds/slices/lab1_FG_0_1.png</asset>
+        <asset name='lab1_FG_0_2' type='graphic'>backgrounds/slices/lab1_FG_0_2.png</asset>
+        <asset name='lab1_FG_0_3' type='graphic'>backgrounds/slices/lab1_FG_0_3.png</asset>
+        <asset name='lab1_FG_0_4' type='graphic'>backgrounds/slices/lab1_FG_0_4.png</asset>
+        <asset name='lab1_FG_0_5' type='graphic'>backgrounds/slices/lab1_FG_0_5.png</asset>
+        <asset name='lab1_FG_0_6' type='graphic'>backgrounds/slices/lab1_FG_0_6.png</asset>
+
+        <asset name='lab1_FG_1_0' type='graphic'>backgrounds/slices/lab1_FG_1_0.png</asset>
+        <asset name='lab1_FG_1_1' type='graphic'>backgrounds/slices/lab1_FG_1_1.png</asset>
+        <asset name='lab1_FG_1_2' type='graphic'>backgrounds/slices/lab1_FG_1_2.png</asset>
+        <asset name='lab1_FG_1_3' type='graphic'>backgrounds/slices/lab1_FG_1_3.png</asset>
+        <asset name='lab1_FG_1_4' type='graphic'>backgrounds/slices/lab1_FG_1_4.png</asset>
+        <asset name='lab1_FG_1_5' type='graphic'>backgrounds/slices/lab1_FG_1_5.png</asset>
+        <asset name='lab1_FG_1_6' type='graphic'>backgrounds/slices/lab1_FG_1_6.png</asset>
+
+        <asset name='lab1_FG_2_0' type='graphic'>backgrounds/slices/lab1_FG_2_0.png</asset>
+        <asset name='lab1_FG_2_1' type='graphic'>backgrounds/slices/lab1_FG_2_1.png</asset>
+        <asset name='lab1_FG_2_2' type='graphic'>backgrounds/slices/lab1_FG_2_2.png</asset>
+        <asset name='lab1_FG_2_3' type='graphic'>backgrounds/slices/lab1_FG_2_3.png</asset>
+        <asset name='lab1_FG_2_4' type='graphic'>backgrounds/slices/lab1_FG_2_4.png</asset>
+        <asset name='lab1_FG_2_5' type='graphic'>backgrounds/slices/lab1_FG_2_5.png</asset>
+        <asset name='lab1_FG_2_6' type='graphic'>backgrounds/slices/lab1_FG_2_6.png</asset>
+
+        <asset name='lab1_FG_3_0' type='graphic'>backgrounds/slices/lab1_FG_3_0.png</asset>
+        <asset name='lab1_FG_3_1' type='graphic'>backgrounds/slices/lab1_FG_3_1.png</asset>
+        <asset name='lab1_FG_3_2' type='graphic'>backgrounds/slices/lab1_FG_3_2.png</asset>
+        <asset name='lab1_FG_3_3' type='graphic'>backgrounds/slices/lab1_FG_3_3.png</asset>
+        <asset name='lab1_FG_3_4' type='graphic'>backgrounds/slices/lab1_FG_3_4.png</asset>
+        <asset name='lab1_FG_3_5' type='graphic'>backgrounds/slices/lab1_FG_3_5.png</asset>
+        <asset name='lab1_FG_3_6' type='graphic'>backgrounds/slices/lab1_FG_3_6.png</asset>
+
+        <asset name='lab1_FG_4_0' type='graphic'>backgrounds/slices/lab1_FG_4_0.png</asset>
+        <asset name='lab1_FG_4_1' type='graphic'>backgrounds/slices/lab1_FG_4_1.png</asset>
+        <asset name='lab1_FG_4_2' type='graphic'>backgrounds/slices/lab1_FG_4_2.png</asset>
+        <asset name='lab1_FG_4_3' type='graphic'>backgrounds/slices/lab1_FG_4_3.png</asset>
+        <asset name='lab1_FG_4_4' type='graphic'>backgrounds/slices/lab1_FG_4_4.png</asset>
+        <asset name='lab1_FG_4_5' type='graphic'>backgrounds/slices/lab1_FG_4_5.png</asset>
+        <asset name='lab1_FG_4_6' type='graphic'>backgrounds/slices/lab1_FG_4_6.png</asset>
+
+        <asset name='lab1_FG_5_0' type='graphic'>backgrounds/slices/lab1_FG_5_0.png</asset>
+        <asset name='lab1_FG_5_1' type='graphic'>backgrounds/slices/lab1_FG_5_1.png</asset>
+        <asset name='lab1_FG_5_2' type='graphic'>backgrounds/slices/lab1_FG_5_2.png</asset>
+        <asset name='lab1_FG_5_3' type='graphic'>backgrounds/slices/lab1_FG_5_3.png</asset>
+        <asset name='lab1_FG_5_4' type='graphic'>backgrounds/slices/lab1_FG_5_4.png</asset>
+        <asset name='lab1_FG_5_5' type='graphic'>backgrounds/slices/lab1_FG_5_5.png</asset>
+        <asset name='lab1_FG_5_6' type='graphic'>backgrounds/slices/lab1_FG_5_6.png</asset>
+
+        <asset name='lab1_FG_6_0' type='graphic'>backgrounds/slices/lab1_FG_6_0.png</asset>
+        <asset name='lab1_FG_6_1' type='graphic'>backgrounds/slices/lab1_FG_6_1.png</asset>
+        <asset name='lab1_FG_6_2' type='graphic'>backgrounds/slices/lab1_FG_6_2.png</asset>
+        <asset name='lab1_FG_6_3' type='graphic'>backgrounds/slices/lab1_FG_6_3.png</asset>
+        <asset name='lab1_FG_6_4' type='graphic'>backgrounds/slices/lab1_FG_6_4.png</asset>
+        <asset name='lab1_FG_6_5' type='graphic'>backgrounds/slices/lab1_FG_6_5.png</asset>
+        <asset name='lab1_FG_6_6' type='graphic'>backgrounds/slices/lab1_FG_6_6.png</asset>
+
+        <asset name='lab1_WM' type='graphic'>backgrounds/lab1_WM-3.png</asset>  
+
+    </assets>
+
+    <rooms>
+
+        <room name='lab1' walkableMap='lab1_WM' scale='4'>
+
+            
+
+            <!-- character setup -->
+            <character class='karkat' x='980' y='790'>
+                <action class='beKarkat'/>
+            </character>
+           
+<!-- background slices -->
+            <sprite name='lab1_BG'>
+                <animation sheet='lab1_BG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+
+            <!-- foreground slices -->
+            <sprite name='lab1_FG' depthing ='2'>
+                <animation sheet='lab1_FG' sliced='true' numCols='7' numRows='7' colSize='500' rowSize='500'/>
+            </sprite>
+
+
+
+        </room>
+    </rooms>
+</sburb>
