@@ -46,8 +46,8 @@ unmodified. -->
             <animation name='opened' sheet='coffMachOpenSheet' x='-37' y='-90' loopNum='0'/>
         </sprite>
 
-        <sprite class='counter' width='182' height='48' depthing='1' collidable='true'>
-        	<aimation sheet='counter' x='-91' y='-24'/>
+        <sprite class='counter' width='182' height='78' depthing='1' collidable='true'>
+        	<aimation sheet='counter' x='-91' y='-39'/>
         </sprite>
 
         <sprite class='comp' width='32' height='42' depthing='1' collidable='true'>

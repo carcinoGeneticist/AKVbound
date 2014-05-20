@@ -285,7 +285,7 @@
                     </args>
                 </action>
             </sprite>
-
+<!--
             <sprite class='counter' name='counter' x='1270' y='412'>
                 <action command='talk' name='Talk to Dave.'>
                     <args>
@@ -336,11 +336,60 @@
                     </action>
                 </action>
             </sprite>
-
+-->
             <!-- path blocks -->
-           <!--
+           
             <sprite class='block' name='block3' x='700' y='2967' collidable='true'/>
-            -->
+            <sprite class='block' name='block4' x='1300' y='400' collidable='false'>
+                <action command='talk' name='Talk to Dave.'>
+                    <args>
+                        @dave_smug DAVE: classy lounge area what did i tell you
+                        @dave_smug DAVE: take it all in its pretty snazzy
+                        @karkat_talk KARKAT: I’M REALLY NOT SURPRISED AT ALL THAT THIS PLACE EXISTS.
+                        @dave_talk DAVE: cool place to just chill though
+                        @dave_talk DAVE: i alchemized some songs i had into records
+                        @dave_talk DAVE: theres some other cool stuff you can sample
+                        @dave_smug DAVE: things do sound pretty great on vinyl i had to hear it to believe it
+                        @karkat_idle KARKAT: ...
+                        @dave_talk DAVE: you should listen to some of them
+                        @karkat_talk KARKAT: NO.
+                        @dave_huhtalk DAVE: dude come on branch out a bit
+                        @karkat_yell KARKAT: NO.
+                        @dave_smug DAVE: give it a chance
+                        @karkat_yell KARKAT: WHY ARE YOU SO ADAMANT ABOUT THIS?
+                        @dave_talk DAVE: because literally no one cares and youre the only one who really gives any shit about like expanding cultural ideas or whatever
+                        @dave_huhtalk DAVE: i mean kanaya is but shes not very good at it
+                        @dave_smug DAVE: and besides no ones gonna get to the easter eggs if you keep turning everything down like that
+                        @karkat_talk KARKAT: MAYBE IT WOULD BE EASY TO ENJOY THIS “CLASSY LOUNGE AREA” IF YOU DIDN’T HYPERACTIVELY BADGER ME CONSTANTLY WHILE I’M HERE.
+                        @dave_talk DAVE: im putting on music anyway
+                        @karkat_what KARKAT: WHY
+                        @dave_smug DAVE: because i was here first
+                        @dave_smug DAVE: here pick something for me    
+                    </args>
+                    <action command='presentActions' name='actions'>
+                        <args>
+                            <action command='playSong' name='record1'>
+                                <args>record1</args>
+                            </action>
+                            <action command='playSong' name='record2'>
+                                <args>record2</args>
+                            </action>
+                            <action command='playSong' name='record3'>
+                                <args>record3</args>
+                            </action>
+                            <action command='playSong' name='record4'>
+                                <args>record4</args>
+                            </action>
+                            <action command='playSong' name='record5'>
+                                <args>record5</args>
+                            </action>
+                            <action command='talk' name='Talk to Dave.'>
+                                <args> @! asdf </args>
+                            </action>
+                        </args>
+                    </action>
+                </action>
+            </sprite>
 
             <character class='karkat' x='1350' y='550'/>
 

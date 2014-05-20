@@ -37,7 +37,7 @@
   	
   	<spritebutton name='helpButton' x='591' y='9' width='54' height='63' sheet='helpControl'>
   		<action command='talk' soft='true'>
-  			<args>@! Use the arrow keys or WASD to move, and space to interact. /n /n Visual assets from Homestuck, Pages 4692 & 5221; mspaintadventures.com/artcredits.html. Music by Case and EveryoneLovesRobots, original "Karkat's Theme" by Toby Radiation Fox. </args>
+  			<args>@! Use the arrow keys or WASD to move, and space to interact. /n /n Visual assets from Homestuck, Pages 4692 and 5221; mspaintadventures.com/artcredits.html. Music by Case and EveryoneLovesRobots, original "Karkat's Theme" by Toby Radiation Fox. </args>
   		</action>
   	</spritebutton>
   	
