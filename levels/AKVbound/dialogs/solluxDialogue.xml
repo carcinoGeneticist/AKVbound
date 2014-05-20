@@ -29,24 +29,22 @@
 				@karkat_what KARKAT: ...
 				@sollux_talk SOLLUX: iif you 2omehow wander back here you’ll 2tiill remember what went on here though.
 				@sollux_lisp SOLLUX: but what happen2 iin the fandom, 2tay2 iin the fandom.
-				@sollux_talk SOLLUX: unle22 that orange guy hu22iie deciide2 two iintegrate iit iintwo canon.
-				@sollux_talk SOLLUX: but like that wiill ever be the _ca2e_ wiith thii2 room.
+				@sollux_talk SOLLUX: unle22 that orange guy deciide2 two iintegrate iit iintwo canon.
+				@sollux_talk SOLLUX: whiich ii am certaiin wiil never be the ca2e wiith thii2 room.
 				@karkat_what KARKAT: ...
 				@karkat_talk KARKAT: I GUESS I’ll KEEP THAT IN MIND?
 				@karkat_idle KARKAT: ONE MORE QUESTION.
 				@karkat_talk KARKAT: WHY THE FUCK ARE YOU THE ONE EXPLAINING THIS TO ME?
 				@sollux_pun SOLLUX: becau2e iim the voiice’2 favoriite character.
 				@karkat_what KARKAT: WAIT, THE VOICES OR THE VOICE’S?
-				@sollux_pun SOLLUX: he thiink2 iim 2exy and he probably 2hiip2 u2.
+				@sollux_pun SOLLUX: oh look at that you're piickiing up on thiing2.
 				@sollux_talk SOLLUX: for all you know thii2 room miight be ba2ed off 2omethiing from a 2olkat rp.
 				@sollux_talk SOLLUX: thiink about that for a whiile, kk.
-				@sollux_lisp SOLLUX: 2omeone out there ii2 gonna 2ee thii2 conver2atiion and be liike “thii2 ii2 liike the rp ii had where they made out and diid 2tuff”
-				@sollux_lisp SOLLUX: “oh man ii drew 2o many comiic2 of that.”
-				@sollux_talk SOLLUX: “ii 2tiill have the log2 2aved.”
-				@sollux_pun SOLLUX: what do you thiink of that, kk?
-				@karkat_horror KARKAT:
-				@karkat_horror KARKAT: FUCK, I...
-				@! You need a second to let your mind rest.
+				@karkat_what KARKAT: DO NOT TELL ME THAT "SOLKAT" MEANS WHAT I THINK IT MEANS...
+				@sollux_pun SOLLUX: oh iit can mean whatever you want iit two, kk.
+				@karkat_horror KARKAT: ...
+				@karkat_facepalm KARKAT: FUCK, I...
+				@! You need a second to let your mind clear.
            </args>
         </action>
 		
@@ -54,7 +52,7 @@
 		 <action class='sollux2' command="Get Hints">
 		   <args>
 				@karkat_talk KARKAT: OK, SO IS THIS THE ONLY PLACE THAT IS JUST MAGICALLY NOT CANON?
-				@sollux_talk SOLLUX: ii know ii 2aiid you won’t remember anythiing that happen2 out2iide thii2 room 2o iiiit would not even matter iif ii told you.
+				@sollux_talk SOLLUX: ii know ii 2aiid you won’t remember anythiing that happen2 out2iide thii2 room 2o iit would not even matter iif ii told you.
 				@sollux_lisp SOLLUX: but no, there’2 another 2ecret nearby.
 				@sollux_pun SOLLUX: and two fiind iit you have two tell the diifference between goiing _up_ and goiing _up_.
 				@sollux_talk SOLLUX: there you may fiind a voiice.
@@ -63,7 +61,7 @@
 				@sollux_talk SOLLUX: iit’2 a 2ecret two everyone.
 				@karkat_what KARKAT: I CAN’T ASK FOR ANY MORE HINTS?
 				@sollux_talk SOLLUX: maybe, maybe not...
-				@sollux_pun SOLLUX: let'2 ju2t 2ay you’ve been warned.
+				@sollux_pun SOLLUX: let'2 ju2t 2ay ii warned you, bro.
 			</args>
 		</action>
 		
@@ -89,11 +87,11 @@
 					@sollux_pun SOLLUX: ...
 					@karkat_idle KARKAT: ...
 					@karkat_what KARKAT: ARE YOU DONE?
-					@sollux_pun SOLLUX: 오빠 캎톨남스타일!
+					@sollux_pun SOLLUX: 오빠 캎터남스타일!
 					@karkat_shout KARKAT: SOLLUX, SHUT THE FUCK UP!
 					@sollux_talk SOLLUX: thii2 i2 the 2ong of my people kk.
 					@karkat_yell KARKAT: WHAT?
-					@sollux_talk SOLLUX: iit i2 the holy anthem of 2wag.
+					@sollux_pun SOLLUX: iit i2 liike the holy anthem of 2wag.
 					@karkat_yell KARKAT: WHAT IN HOLY BULGEMUNCHING FUCK IS SWAG?
 					@sollux_talk SOLLUX: eh, nevermiind.
 			</args>

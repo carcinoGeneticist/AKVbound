@@ -215,7 +215,7 @@
 		<action class='daveTalkSec3' sprite='dave' command='talk'>
 		<args>
 		@dave_talk DAVE: so how fast did it take you to ollie out of that bubble after we left
-		@karkat_talk KARKAT: LIKE 3 MINUTES.
+		@karkat_talk KARKAT: AROUND THREE MINUTES. THREE EXCRUCIATING MINUTES AND THREE EXCRUCIATING MINUTES TOO LONG.
 		@karkat_talk KARKAT: REUNIONS WITH DEAD FRIENDS ARE SO FUCKED UP.
 		@dave_talk DAVE: yeah i was looking for you after the bubble passed but you were gone
 		@dave_talk DAVE: some crazy shit went down up there
@@ -227,14 +227,18 @@
 		@dave_talk DAVE: even from how far away it was
 		@dave_talk DAVE: it sounded like us like everyone
 		@dave_talk DAVE: i heard me
-		@dave_concern DAVE: i thought it was the no atmosphere outside screwing with my head so i went back inside and paced around trying to take my mind off it
+		@dave_concern DAVE: i thought it was the zero atmosphere outside screwing with my head so i went back inside and paced around trying to take my mind off it
 		@dave_talk DAVE: but it kept replaying itself in my head and i dont want to go back outside and look or tell anyone else because i wasnt even sure if it was just my head or not
 		@dave_concern DAVE: so either im hallucinating that i heard all of my friends get shattered far away in space or i really did hear everyone screaming in anguish from far away in space and i dont know what i want the answer to that question to be
 		@karkat_horror KARKAT: ...
-		@karkat_talk KARKAT: ARE YOU SURE IT WASN’T JUST A NIGHTMARE?
+		@karkat_talk KARKAT: SHIT. ARE YOU SURE IT WASN’T JUST A NIGHTMARE?
 		@dave_madtalk DAVE: did i look like i was fucking asleep back in that bubble are you kidding me you saw me as i was walking up the stairs i couldnt have been dreaming
 		@karkat_sullen KARKAT: ...
 		@karkat_talk KARKAT: I DON’T KNOW WHAT TO SAY TO THAT.
+		@dave_talk DAVE: you don't have to say anything i would rather we stopped talking about it anyway
+		@dave_talk DAVE: lets just chill and check out more music maybe
+		@dave_talk DAVE: kick it bob our heads and shit and lay back for a while because im pretty sure things are only gonna get harder from here
+		@karkat_talk KARKAT: I HEAR YOU.
 		</args>
 		</action>
 		

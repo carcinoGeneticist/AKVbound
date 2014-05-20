@@ -5,7 +5,7 @@
 	@karkat_talk KARKAT: WHAT THE FUCK ARE YOU SUPPOSED TO BE.
 	@voice_talk VOICE: YOUR VOICE.
 	@karkat_horror KARKAT: WHAT? WHOA. HOW DID YOU DO THAT?
-	@voice_idle VOICE: I’VE HAD ABOUT 9 MONTHS OF PRACTICE.
+	@voice_idle VOICE: I’VE HAD ABOUT 2 YEARS OF PRACTICE.
 	@karkat_what KARKAT: PRACTICE BEING ME?
 	@voice_idle VOICE: PRETTY MUCH, YEAH.
 	@karkat_talk KARKAT: CAN YOU... STOP?
@@ -13,25 +13,23 @@
 	@karkat_talk KARKAT: THAT’S A LOT LESS CREEPY, THANK YOU.
 	@voice_idle VOICE: No probs.
 	@karkat_what KARKAT: SO... HOW ARE YOU HERE?
-	@voice_talk VOICE: Canonically, I’m not. I’m in a blank space that isn’t part of the game. The walk map just permits you could go up here so I thought I’d just chill here.
+	@voice_talk VOICE: Canonically, I’m not. I’m in a blank space that isn’t part of the game. The walk map just lets you go up here so I thought I’d just chill here.
 	@karkat_what KARKAT: ...
 	@voice_idle VOICE: What?
 	@karkat_talk KARKAT: SO YOU’RE PART OF THE FANDOM THING I HEARD ABOUT IN THE OTHER ROOM?
 	@voice_talk VOICE: Fanon, yeah.
 	@karkat_talk KARKAT: YOU MUST BE PRETTY BIG IN FANON TO BE ABLE TO SHOW UP HERE...
-	@voice_talk VOICE: Not very. A lot of people seem to think I pull you off well, though. They call that having a “headcanon voice.” When people read your text, they hear my voice in their head. It’s one of the best compliments to get as a voice actor. Up there with “This made me cry” and “This made me want to read Homestuck.”
-	@voice_idle VOICE: Some people prefer other voice actors for you. A lot of people try it out. I was a bit late in the game, actually. A lot of other more experienced actors have been around longer and have their foot planted pretty solid in Karkat territory. I’m lucky I have what I have.
+	@voice_talk VOICE: Not very. A lot of people seem to think I pull you off well, though. They call that having a “headcanon voice.” When people read your text, they hear my voice in their head. It’s one of the best compliments to get in voice acting. Up there with “This made me cry” and “This made me want to read Homestuck.”
+	@voice_idle VOICE: Some people prefer other voice actors for you. A lot of people try it out. I was a bit late in the game, actually, after a lot of other more experienced actors have been around longer and have their foot planted pretty solid in Karkat territory. I’m lucky I have what I have.
 	@karkat_yell KARKAT: TERRITORY? PEOPLE HAVE TO LIKE PROVE THEMSELVES TO EACH OTHER TO LIKE... CLAIM ME?
 	@voice_idle VOICE: To claim part of your fandom, really.
 	@karkat_yell KARKAT: AND WHAT VALLIANT BULLSHIT DID YOU PULL OFF TO DO THAT?
-	@voice_talk VOICE: I pioneered a genre of “Ask-Blogs” specifically for voice actors to gain recognition independently, that forces them to think more about the character and study them more than you would have to from doing Comic Dubs or Pesterlog readings. It’s like writing your own fanfiction to 15 different prompts once an update and then voice acting it.
-	@voice_idle VOICE: I focus on writing you as faithful to canon as I can, and acting off of that. I think that’s really the key to portraying you. That’s why I got into this whole Karkat business. Just didn’t think anyone was doing it true enough to you. Wanted to do you justice.
+	@voice_talk VOICE: I accidently a genre of “Ask-Blogs” specifically for voice actors to gain recognition independently, that forces them to think more about the character and study them more than you would have to from doing Comic Dubs or Pesterlog readings. It’s like writing your own fanfiction to 15 different prompts once an update and then voicing it.
+	@voice_idle VOICE: I always focused on writing you as faithful to canon as I can, and acting off of that. I always noticed that was kind of a rare thing to see. Wanted to do you justice.
 	@karkat_what KARKAT: SO YOU THOUGHT YOU WERE BETTER THAN EVERYONE ELSE?
-	@voice_idle VOICE: I’m not sure that’s a fair way to phrase it. I did look up to quite a few people and pull from a few I thought were on the right track. Such as Broadway Karkat.
-	@karkat_eyeroll2 KARKAT: RIGHT, THE PINK SPARKLY ONE.
-	@voice_talk VOICE: Ah, you remember! But yes, Broadway Karkat is another popular variation of you in this fandom. There are a few other varieties.
-	@voice_idle VOICE: Karkat is also commonly available in a variety of flavors produced by a number of brands with varying degrees of quality. You can pick up one or two going through any tag on tumblr.
-	@karkat_yell KARKAT: SHIT, THERE’S A LOT OF ME OUT THERE...
+	@voice_idle VOICE: I’m not sure that’s a fair way to phrase it. I have a lot of inspirations I pull from, and I'm obviously not perfect. As time's gone on there's been fewer voices and interpretations of you to run into, so it's not like there is much competition I could even say that about in the first place.
+	@voice_idle VOICE: Karkat was once commonly available in a variety of flavors produced by a number of brands with varying degrees of quality. Back in the day you could pick up one or two going through pretty much any tag on tumblr.
+	@karkat_yell KARKAT: SO THERE'S BEEN A LOT OF ME OUT THERE...
 	@karkat_talk KARKAT: WHAT EXACTLY IS YOUR VARIETY, THOUGH?
 	@voice_talk VOICE: Well... it’s this! It’s what’s on this blog!
 	@karkat_yell KARKAT: BUT, I MEAN... WHO THE FUCK ARE YOU? 
@@ -52,56 +50,66 @@
 	@case_slytalk CASE: It’s yours just as much as it is mine.
 	@karkat_what KARKAT: ... 
 	@karkat_eyeroll2 KARKAT: ARE YOU GOING TO GET ALL SENTIMENTAL OVER ME NOW?
-	@case_slytalk CASE: Karkat, you are a character who’s not just enjoyed by people in a webcomic, but an anchor for the fandom you’re in and one of the most relatable characters to the comic’s fans. 
-	@case_talk CASE: The emotional struggles the world has seen you go through has made a lot of people feel like they know you personally. You represent the issues a lot of members of the young adult audience face.
-	@case_huhtalk CASE: So the fact is, people don’t come to that blog to talk to me. In fact, up until this point, I have never once on that blog mentioned myself as its creator or linked back to my main blog. Because it’s not me they’re talking to. It’s not my views. It’s not my voice. It’s not my emotions.
-	@case_talk CASE: It’s you. The world cares about you. Tumblr wants you.
+	@case_slytalk CASE: Nah, I'm just trying to find a way to dump the blame for the lack of updates.
+	@case_huhtalk CASE: But really, you are a character who’s not just enjoyed by people in a webcomic, but an anchor for the fandom you’re part of and one of the most relatable characters to the comic’s fans. 
+	@case_talk CASE: The emotional struggles the world has seen you go through has made a lot of people feel like they know you personally. You've represented, over the course of the comic, the issues a lot of members of the young adult audience face.
+	@case_huhtalk CASE: So the fact is, people don’t come to that blog to talk to me. In fact, up until this point, I have never once on that blog mentioned myself as its creator or linked back to my main blog. Because it’s not me they’re talking to. It’s not my views. It’s not my voice.
+	@case_talk CASE: It’s you. They cared about you.
 	@case_talk CASE: You’re the one talking.
-	@case_sly CASE: I’m just the one hitting the publish button.
+	@case_sly CASE: I’m just kinda the one hitting the publish button.
 	@karkat_sullen KARKAT:
 	@case_slytalk CASE: (And right now I’m kind of a shameless self-insert, too)
 	@karkat_what KARKAT:
-	@case_slytalk CASE: You don’t have to say anything. Just keep up what you do.
+	@case_slytalk CASE: You don’t have to say anything. Except maybe into a microphone. To, you know, update the blog. Maybe. It's been a while.
+	@case_slytalk CASE: Until then, if you remember any secrets from the canon flashes, you should go looking for them now. There's one I just opened up for you, and a friend of yours who could use some company.
+	@case_talk CASE: See you around.
 	</args>
 	<!-- warp karkat back somewhere else -->
 	</action>
 
 	<action class='AKVEGG2' command='talk' name='Ask Case for credits'>
 	<args>
-@karkat_talk KARKAT: DON’T YOU WANT TO TAKE ANY CREDIT AFTER A YEAR OF DOING THIS?
+@karkat_what KARKAT: WHEN DID YOU GET HERE?
+@case_huh CASE: Well, it looks like you've done everything there is to do, which means the game is over. That means it doesn't have to stay canon.
+@karkat_talk KARKAT: OH, SO YOU'RE SHOEHORNING YOURSELF INTO THIS ONE LAST TIME TO TALK ABOUT HOW MUCH WORK YOU'VE DONE?
 @case_slytalk CASE: How about instead I just name drop everyone else.
-@case_slytalk CASE: Someone I got introduced to right after the blog exploded, who I think helped the blog explode, was Kylee Henke, who’s a a triple threat of art, music, and acting. She’s also pretty rad as-is.
+@case_slytalk CASE: Someone I got introduced to right after the blog exploded, who I think helped the blog explode, was Kylee Henke, who’s a triple threat of art, music, and acting. She’s also pretty rad as-is.
 @case_idle CASE: Kylee Henke @ kyleehenke.tumblr.com
-@case_slytalk CASE: LOVAC was the first voice acting troupe I ever got into, which has quite a few awesome people involved. One was on my album!
-@case_idle CASE: lovac @ LandOfVoiceAndCans.tumblr.com
 @case_slytalk CASE: Another exceptional Homestuck writer, who I met through feeling sad for Karkat and sending them awestruck messages about their writing...
-@case_slytalk CASE: Is of course Fivetail, of BoyfriendLeaders, Sadstuck, and general JohnKat fame. She’s done a LOT to support me since we met, and we’ve traded quite a few writing ideas from each other. It’s also no secret she writes Karkat just based off of Me and not actually Karkat. Because seriously. Gordon Ramsay? Cello? Glasses? Come on.
-@case_talk CASE: Love you, Fivetail.
-@case_idle CASE: Fivetail @ fivetail.tumblr.com, boyfriendleaders.tumblr.com, johnkarkat.com, sadstuck.tumblr.com
-@case_slytalk CASE: Kinomatika is really cool because she’s really cool because she’s really cool because she’s really cool because she draws really cool because she’s really cool and she also sent me an acoustic guitar for free once. And she’s also one of the coolest people I’ve met on the internet in general. Totally not one of them vegans.
+@case_slytalk CASE: Is of course Fivetail, of BoyfriendLeaders, Sadstuck, Featherbent, and general JohnKat fame. Five's done a LOT to support me since we met, and we’ve traded quite a few writing ideas from each other. Notably things involving cranberries.
+@case_idle CASE: Fivetail @ fivetail.tumblr.com
+@case_slytalk CASE: Kinomatika I kind of need to thank for stuff, for getting me to my first convention and sending me a guitar I've used to record many a thing. I owe her that much.
 @case_idle CASE: Kino @ Kinomatika.tumblr.com
 @case_slytalk CASE: Dante Basco is my favorite follower for reasons you already know because you’re a Homestuck. He’s Rufio, Zuko, Jake Llong, and also a kickass poet as well as a kickass actor.
 @case_idle CASE: Dante Basco @ rufiozuko.tumblr.com
 @case_huhtalk CASE: Now the voice actors. Oh jeez.
-@case_slytalk CASE: Afina and Tooch are my fellow ask-bloggers and we all bros, both are sick to work with.
+@case_slytalk CASE: Afina and Tooch I met as fellow ask-bloggers. Thanks to them for all the cool stuff I've gotten a chance to help with.
 @case_idle CASE: Afina @ 4SKT3R3Z1VO1C3.tumblr.com, celestialtoxophilite.tumblr.com. Tooch @ askstridervoice.tumblr.com, miketooch.tumblr.com
-@case_talk CASE: Denten is a pro. He’s in a game for the xbox. That pro. He’s also the greatest John voice actor by objectionable fact because his name is John and also because he’s a fantastic voice actor.
+@case_talk CASE: Denten is a pro. Then again, anyone in Dust: An Elysian Tail is pro. He’s also the greatest John voice actor by objectionable fact because his name is John and also because he’s a fantastic voice actor. His casting intuition is pretty damn formidable as well.
 @case_idle CASE: Denten @ Denten02.tumblr.com
-@case_slytalk CASE: You know what else you guys should check out? Featherbent. I do music and other things for it.
-@case_idle CASE: Featherbent @ Featherbent.com
-@case_talk CASE: Finally, major co-developer of this game, Andrew. I met him through this project and shortly found out what an amazing person he was. Let the fact that this game even got done be a testament to that.
+@case_talk CASE: Finally, major co-developer of this game, Andrew. I met him through this project and shortly found out what an awesome person he was. Let the fact that this game even got done be a testament to that.
 @case_idle CASE: Andrew @ mageOfForm.tumblr.com
-@case_talk CASE: And a few more odd special thanks just to tack you guys on, since people probably know where to find you anyway. All the other VAs and people I've met and done projects with, Jane, Tamara, Cat, James, Luke, Rina-Chan, Kirbopher, Stu, Cory, Tyler, Kami, Klone, Brennan... I'm gonna forget someone...
-@case_slytalk CASE: Omar I know you aren’t playing, but anyone else who is should post a screenshot of this part on the AKV tag even if there are more already there so I can reblog them an fill his dash with it. Hi Omar, thank you for the insight into licking the entire wiener.
-@case_talk CASE: Thanks Michael for planting that one seed in my head that I should both get into Homestuck and get into voice acting.
-@case_slytalk CASE: And thank you THE FUCKING MOST to Andrew Hussie for not only Homestuck and all the amazing opportunities its fandom has brought me, but more specifically for making Karkat’s actions in the story since I started this blog so incredibly convenient for me to fit this blog into a way that makes sense in canon. It’s almost like you’re doing it just for me. It works all too perfectly. We love you, Hussie.
+@case_slytalk CASE: You know what else you guys should check out that most of these guys have worked on? Featherbent. I do music and voice things for it.
+@case_idle CASE: Featherbent @ Featherbent.com
+@case_talk CASE: And a few more odd special thanks just to tack you guys on, since people probably know where to find you anyway. All the other VAs and people I've met and done projects with, Jane, Tamara, Cat, James, Luke, Maddi, Kira, Grant, Jess, Ed, Cory, Tyler, Jay, Mark, Stu, Kami, Klone, Brennan... I'm gonna forget someone if I keep going.
+@case_slytalk CASE: Omar I know you aren’t playing, but anyone else who is should post a screenshot of this part on the AKV tag even if there are more already there so I can reblog them and fill his dash with it. Hi Omar, thank you for the insight into licking the entire wiener.
+@case_talk CASE: Thanks Michael for planting those two seeds in my head that I should both get into Homestuck and get into voice acting.
+@case_slytalk CASE: And thank you THE FUCKING MOST to Andrew Hussie for not only Homestuck and all the amazing opportunities its fandom has brought me, but also for making Karkat’s actions in the story since I started this blog so incredibly convenient for me to fit this blog into a way that makes sense in canon. It’s almost like you’re doing it just for me. It works all too perfectly. We love you, Hussie.
 @karkat_what KARKAT: AND WHAT ABOUT YOU?
 @case_huh CASE: Hm?
 @karkat_talk KARKAT: AREN’T YOU GOING TO DO A LINK BACK TO YOURSELF OR...
 @case_slytalk CASE: They can find me. I’ll be around.
 @karkat_eyeroll2 KARKAT: ...
 @case_talk CASE: But yeah, thanks everyone, for making this past year the greatest thing that’s happened to me. For everyone who bought my album, you’re getting me through college in tough times. For anyone who’s so much as reblogged any of my posts, you’ve helped me grow. For anyone who’s supported me both through the greatest of praise and the harshest of critique, I thank you for helping me improve.
-@case_madtalk CASE: Now you, get back the fuck into canon.
+@karkat_talk KARKAT: REALLY? NO DOUCHEY SELF PROMO OR ANYTHING?
+@case_slytalk CASE: You can also buy my EP, We Mars on Bandcamp for 4 dollars at jasoniscariot.bandcamp.c-
+@karkat_eyeroll1 KARKAT: THERE WE GO.
+@case_madtalk CASE: Oh, and when's that new voice entry coming up?
+@karkat_facepalm KARKAT: ...
+@karkat_talk KARKAT: I'M PRETTY FUCKING SURE I'M NOT IN CONTROL OF THAT.
+@case_talk CASE: Well, we'll get to that whenever. I have a few things in mind. We'll see.
+@! You've done everything there is to do. Thanks for listening to, and playing Ask Karkat Vantas's Voice. It's been a long hiatus, but there is more on the way.
+@! You can close out at any time, or listen to more records. 
 	<args>
 	</action>
 </sburb>
