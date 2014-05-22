@@ -388,9 +388,9 @@
             </sprite>
 -->
             <!-- path blocks -->
-           <!--
+           
             <sprite class='block' name='block3' x='700' y='2967' collidable='true'/>
-            -->
+            
 
 
             <!-- excess blocks -->
