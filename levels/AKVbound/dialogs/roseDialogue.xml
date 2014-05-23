@@ -16,6 +16,15 @@
 				@rose_talk ROSE: Hm.
 				@karkat_talk KARKAT: YEAH.
 			 </args>
+			 <action command='removeAction'>
+			 	<args>rose,Talk to Rose.</args>
+			 	<action command='addAction'>
+			 		<args>rose,
+			 			<action class='roseTalk2' command='talk' name='Talk to Rose.'>
+			 			</action>
+			 		</args>
+			 	</action>
+			 </action>
 		</action>
 		
 		<action class='roseTalk2' command='Talk to Rose'>
@@ -25,6 +34,15 @@
 				@rose_talk ROSE: Alright then. Just making sure.
 
 			 </args>
+			 <action command='removeAction'>
+			 	<args>rose,Talk to Rose.</args>
+			 	<action command='addAction'>
+			 		<args>rose,
+			 			<action class='roseTalk3' command='talk' name='Talk to Rose.'>
+			 			</action>
+			 		</args>
+			 	</action>
+			 </action>
 		</action>
 		
 			<action class='roseTalk3' command='Talk to Rose'>
@@ -37,6 +55,15 @@
 
 
 			 </args>
+			 <action command='removeAction'>
+			 	<args>rose,Talk to Rose.</args>
+			 	<action command='addAction'>
+			 		<args>rose,
+			 			<action class='roseTalk4' command='talk' name='Talk to Rose.'>
+			 			</action>
+			 		</args>
+			 	</action>
+			 </action>
 		</action>
 		
 			<action class='roseTalk4' command='Talk to Rose'>
@@ -48,6 +75,15 @@
 				@rose_happytalk ROSE: Just thought I would check.
 
 			 </args>
+			 <action command='removeAction'>
+			 	<args>rose,Talk to Rose.</args>
+			 	<action command='addAction'>
+			 		<args>rose,
+			 			<action class='roseTalk5' command='talk' name='Talk to Rose.'>
+			 			</action>
+			 		</args>
+			 	</action>
+			 </action>
 		</action>
 		
 			<action class='roseTalk5' command='talk'>
@@ -56,6 +92,15 @@
 				@karkat_talk KARKAT: I’M MORE OF A NOVEL KIND OF PERSON.
 					@rose_coytalk ROSE: That’s fine. I’m sure Kanaya would be interested.	̧	̧
 			 </args>
+			 <action command='removeAction'>
+			 	<args>rose,Talk to Rose.</args>
+			 	<action command='addAction'>
+			 		<args>rose,
+			 			<action class='roseTalk6' command='talk' name='Talk to Rose.'>
+			 			</action>
+			 		</args>
+			 	</action>
+			 </action>
 		</action>
 		
 			<action class='roseTalk6' command='talk'>
@@ -91,6 +136,15 @@
 				@rose_talk ROSE: Can’t blame me for trying.
 
 			 </args>
+			 <action command='removeAction'>
+			 	<args>rose,Talk to Rose.</args>
+			 	<action command='addAction'>
+			 		<args>rose,
+			 			<action class='roseTalk7' command='talk' name='Talk to Rose.'>
+			 			</action>
+			 		</args>
+			 	</action>
+			 </action>
 		</action>
 		
 		<action class='roseTalk7' command='talk'>
@@ -100,6 +154,14 @@
 				@karkat_talk KARKAT: JUST GIVE ME A SECOND TO DOUBLE-CHECK WITH MY CONSCIENCE.
 				@! Sit through psychotherapy session?
 			 </args>
+			 <action command='presentActions'>
+			 	<args>
+			 		<action class='roseTalk9a' command='talk' name='yes'>
+			 		</action>
+			 		<action class='roseTalk9b' command='talk' name='no'>
+			 		</action>
+			 	</args>
+			 </action>
 		</action>
 		
 		<action class='roseTalk8' command='talk'>
@@ -122,6 +184,14 @@
 			 
 
 			 </args>
+			 <action command='presentActions'>
+			 	<args>
+			 		<action class='roseTalk10' command='talk' name='yes'>
+			 		</action>
+			 		<action class='roseTalk9b' command='talk' name='no'>
+			 		</action>
+			 	</args>
+			 </action>
 		</action>
 		
 		<action class='roseTalk9b' command='talk'>
@@ -158,6 +228,9 @@
 				<!-- @! Joking aside, Rose leads Karkat into the deep, intricate, and somewhat suggestive world of psychoanalysis. The journey is difficult and arduous with many an obstacle keeping them from continuing, those obstacles mostly being Karkat's insecurities. Through the many hardships, they bond. Hours go by. -->
 				@! they fuck, the end. thanks for playing the AKV walkaround. insert coin to continue
 			 </args>
+			 <action command='removeAction'>
+			 	<args>rose,Talk to Rose.</args>
+			 </action>
 		
 		</action>
 		

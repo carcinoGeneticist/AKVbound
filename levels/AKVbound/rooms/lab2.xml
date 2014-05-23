@@ -6,6 +6,7 @@
         <dependency>chars/dave.xml</dependency>
         <dependency>chars/davelab2.xml</dependency>
         <dependency>chars/kanaya.xml</dependency>
+        <dependency>rooms/labCG.xml</dependency>
     </dependencies>
 
     <assets>
@@ -225,7 +226,7 @@
                 <!-- teleporter room to intersection -->
                 <sprite class='teleporter' name='teleporterPad5' x='1083' y='2950'>
                     <action name='Teleport' command='changeRoom'>
-                        <args>lab2,264,1380</args>
+                        <args>lab2,404,1380</args>
                     </action>
                 </sprite>
                 <!-- dave tp -->
@@ -322,7 +323,7 @@
 
             <!-- other sprites -->
 <!--CASE: place the chest/whatever in the room tag, fuck with the x and y until it is where you want.  "name='open.'" can be changed to whatever you want the option to be when you activate it.  spaces don't have to be escaped.-->
-            <sprite class='coffee' name='coffMach1' x='243' y='154'>
+            <sprite class='coffee' name='coffMach1' x='383' y='154'>
                 <action command='openChest' name='Open.'>
                     <args>coffMach1,obj01,
                         @! You got some COFFEE!
@@ -578,10 +579,13 @@
             <character class='karkat' x='1000' y='3000'/>
 
 
-            <character class='rose' x='272' y='327'/>
+            <character class='rose' x='422' y='327'>
+                <action class='roseTalk1' command='talk' name='Talk to Rose.'>
+                </action>
+            </character>
 
 
-            <character class='kanaya' x='1572' y='3204'>
+            <character class='kanaya' x='0' y='3204'>
             </character>
 
 

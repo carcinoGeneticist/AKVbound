@@ -1,6 +1,6 @@
 <sburb description='rose'>
     <dependencies>
-        <!--<dependency>dialogs/roseDialogue.xml</dependency>-->
+        <dependency>dialogs/roseDialogue.xml</dependency>
     </dependencies>
     <classes>
         <animation class='rose-dialog' frameInterval='6' x='-230' y='-454'/>
