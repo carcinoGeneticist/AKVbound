@@ -1,4 +1,7 @@
 <sburb description='terezilowaa'>
+    <dependencies>
+        <dependency>dialogs/tereziDialogue.xml</dependency>
+    </dependencies>
 
     
     <classes>

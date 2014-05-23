@@ -179,6 +179,9 @@
                     <args>
                     @karkat_talk KARKAT: I GUESS YOUR ROLEPLAY PLANS CAN’T REALLY GO THROUGH NOW, HUH?
                     </args>
+                    <action command='removeAction'>
+                        <args>terezilowaa,Talk to Terezi.</args>
+                    </action>
                 </action>
             </character>
 
