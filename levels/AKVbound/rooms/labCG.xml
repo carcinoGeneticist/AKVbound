@@ -103,9 +103,47 @@
             </paths>
 
 
+            <triggers>
+                <trigger>spriteProperty,char,x&gt;1400
+                    <trigger>spriteProperty,char,x&lt;1600
+                        <trigger>spriteProperty,char,y&lt;500
+                            <action command='goBack'>
+                                <args>char</args>
+                                <action command='talk'>
+                                    <args>@! nothing to see here it just hits empty walkmap, better head back.  maybe have a rest you look tired or smthng.</args>
+                                </action>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+                <trigger>spriteProperty,char,x&gt;1400
+                    <trigger>spriteProperty,char,x&lt;1600
+                        <trigger>spriteProperty,char,y&lt;1700
+                            <trigger>spriteProperty,char,y&gt;1600
+                                <action command='changeRoom'>
+                                    <args>labCG,1480,1200</args>
+                                </action>
+                            </trigger>
+                        </trigger>
+                    </trigger>
+                </trigger>
+                <trigger>spriteProperty,char,x&gt;1400
+                    <trigger>spriteProperty,char,x&lt;1600
+                        <trigger>spriteProperty,char,y&lt;1600
+                            <trigger>spriteProperty,char,y&gt;1220
+                                <action command='changeRoom'>
+                                    <args>labCG,1480,1750</args>
+                                </action>
+                            </trigger>
+                        </trigger>
+                    </trigger>
+                </trigger>
+            </triggers>
+
+
             
             <sprite class='teleporter' name='teleporterPad9' x='215' y='1730'>
-                <action name='teleport' command='changeRoomRemote'><args>rooms/lab2.xml,lab2,1140,2908</args>
+                <action name='teleport' command='changeRoomRemote'><args>rooms/lab2.xml,lab2,1265,2908</args>
                 </action>
             </sprite>
             
@@ -121,7 +159,7 @@
                 <action command='setGameState' name='sleep.'><args>sleep,true</args>
                 <action command='fadeOut'>
                     <action command='talk'>
-                        <args>@! asdf</args>
+                        <args>@! idk man you still look like shit that probably didnt do anything but i mean maybe youre sharper now or something go look and see if you missed shit</args>
                         
                 </action>
                 </action>

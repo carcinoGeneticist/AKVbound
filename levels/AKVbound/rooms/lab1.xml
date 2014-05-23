@@ -6,6 +6,7 @@
         <dependency>chars/terezi.xml</dependency>
         <dependency>rooms/lowaa.xml</dependency>
         <dependency>rooms/lab2.xml</dependency>
+        <dependency>dialogs/itemDialogue.xml</dependency>
     </dependencies>
 
     <assets>
@@ -310,35 +311,23 @@
             </sprite>
 
             <sprite class='comp' name='comp1' x='331' y='2042' collidable='true'>
-                <action command='talk' name='Examine'>
-                    <args>
-                        @! COMP1
-                    </args>
+                <action class='computer1' command='talk' name='Examine.'>
                 </action>
             </sprite>
 
             <sprite class='comp' name='comp2' x='331' y='2097' collidable='true'>
-                <action command='talk' name='Examine'>
-                    <args>
-                        @! COMP2
-                    </args>
+                <action class='computer2' command='talk' name='Examine.'>
                 </action>
             </sprite>
 
 
             <sprite class='comp' name='comp3' x='331' y='2159' collidable='true'>
-                <action command='talk' name='Examine'>
-                    <args>
-                        @! COMP3
-                    </args>
+                <action class='computer3' command='talk' name='Examine.'>
                 </action>
             </sprite>
 
             <sprite class='comp' name='comp4' x='331' y='2222' collidable='true'>
-                <action command='talk' name='Examine'>
-                    <args>
-                        @! COMP4
-                    </args>
+                <action class='computer4' command='talk' name='Examine.'>
                 </action>
             </sprite>
 
