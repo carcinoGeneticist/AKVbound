@@ -11,7 +11,7 @@
 		<dependency>etc/ui.xml</dependency>
 		<dependency>etc/standardTemplates.xml</dependency>
 		<dependency>etc/sfx.xml</dependency>
-		<dependency>rooms/lab2.xml</dependency>
+		<dependency>rooms/lowaa.xml</dependency>
 	</dependencies>
 
 	<action command='setGameState'>

@@ -6,7 +6,6 @@
         <dependency>chars/dave.xml</dependency>
         <dependency>chars/davelab2.xml</dependency>
         <dependency>chars/kanaya.xml</dependency>
-        <dependency>rooms/labCG.xml</dependency>
     </dependencies>
 
     <assets>
@@ -183,12 +182,9 @@
                                     <action command='walk'>
                                     <args>dave,Up</args>
                                         <action command='teleport'>
-                                            <args>labCG,0,0</args>
-                                            <action command='removeSprite'>
-                                                <args>dave,lab2</args>
-                                                <action command='changeChar'>
-                                                    <args>karkat</args>
-                                                </action>
+                                            <args>lab2,0,0</args>
+                                            <action command='changeChar'>
+                                                <args>karkat</args>
                                             </action>
                                         </action>
                                     </action>
@@ -210,26 +206,26 @@
                 </sprite>
                 <!-- top of stairs to 4 way intersection -->
                 <sprite class='teleporter' name='teleporterPad2' x='1585' y='1093'>
-                    <action name='Teleport' command='teleport'>
+                    <action name='Teleport' command='changeRoom'>
                         <args>lab2,403,1714</args>
                     </action>
                 </sprite>
                 <!-- intersection to stairs -->
                 <sprite class='teleporter' name='teleporterPad3' x='411' y='1714'>
-                    <action name='Teleport' command='teleport'>
+                    <action name='Teleport' command='changeRoom'>
                         <args>lab2,1575,1093</args>
                     </action>
                 </sprite>
                 <!-- cross to transporter room -->
                 <sprite class='teleporter' name='teleporterPad4' x='411' y='1380'>
-                    <action name='Teleport' command='teleport'>
+                    <action name='Teleport' command='changeRoom'>
                         <args>lab2,1075,2950</args>
                     </action>
                 </sprite>
                 <!-- teleporter room to intersection -->
                 <sprite class='teleporter' name='teleporterPad5' x='1083' y='2950'>
-                    <action name='Teleport' command='teleport'>
-                        <args>lab2,400,1375</args>
+                    <action name='Teleport' command='changeRoom'>
+                        <args>lab2,264,1380</args>
                     </action>
                 </sprite>
                 <!-- dave tp -->
@@ -240,19 +236,19 @@
                 </sprite>
                 <!-- cross to rose -->
                 <sprite class='teleporter' name='teleporterPad7' x='411' y='1547'>
-                    <action name='Teleport' command='teleport'>
+                    <action name='Teleport' command='changeRoom'>
                         <args>lab2,578,372</args>
                     </action>
                 </sprite>
 
                 <sprite class='teleporter' name='teleporterPad8' x='588' y='372'>
-                    <action name='Teleport' command='teleport'>
+                    <action name='Teleport' command='changeRoom'>
                         <args>lab2,405,1547</args>
                     </action>
                 </sprite>
-                <!-- to lab cg -->
+
                 <sprite class='teleporter' name='teleporterPadCG' x='1280' y='2908'>
-                    <action name='Teleport' command='changeRoomRemote' noWait='true'>
+                    <action name='Teleport' command='changeRoomRemote'>
                         <args>rooms/labCG.xml,labCG,215,1730</args>
                     </action>
                 </sprite>
