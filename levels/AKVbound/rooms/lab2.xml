@@ -118,7 +118,7 @@
                 <trigger>
                     <args>gameState,sleep=true</args>
                     <action command='moveSprite'>
-                        <args>kanaya,272,327</args>
+                        <args>kanaya,422,327</args>
                     </action>
                 </trigger>
                 <trigger>
