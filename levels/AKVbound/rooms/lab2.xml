@@ -612,6 +612,8 @@
 
 
             <character class='kanaya' x='0' y='3204'>
+                <action class='kanayaTalk1' command='talk' name='Talk to Kanaya.'>
+                </action>
             </character>
 
 

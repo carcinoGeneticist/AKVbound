@@ -23,15 +23,29 @@
 			 @karkat_eyeroll2 KARKAT: ...
 			 @karkat_sullen KARKAT: (right. sure.)
 			 @kanaya_happytalk KANAYA: Thank You
-			 
 			 </args>
+			 <action command='removeAction'>
+				<args>kanaya,Talk to Kanaya.</args>
+				<action command='addAction'>
+					<args>kanaya,
+						<action class='kanayaTalk2' command='talk' name='Ask about studies.'>
+						</action>
+					</args>
+					<action command='addAction'>
+						<args>kanaya,
+							<action class='kanayaTalk3' command='talk' name='Ask about deadness.'>
+							</action>
+						</args>
+					</action>
+				</action>
+			 </action>
 		</action>
 		
 		<!-- after first conversation, have the rest be selectable -->
 		
 		<action class='kanayaTalk2' command='Ask About Studies'>
 			 <args>
-			 			 @karkat_talk KARKAT: HAVE YOU LEARNED ANYTHING NEW SINCE THE LAST TIME I WAS BRIEFED ON ALL THIS SHIT? IT SOUNDED LIKE YOU TWO PRETTY MUCH HAD EVERYTHING FIGURED OUT THEN.
+			 @karkat_talk KARKAT: HAVE YOU LEARNED ANYTHING NEW SINCE THE LAST TIME I WAS BRIEFED ON ALL THIS SHIT? IT SOUNDED LIKE YOU TWO PRETTY MUCH HAD EVERYTHING FIGURED OUT THEN.
 			 @kanaya_happytalk KANAYA: We Do Have A Good General Idea But There Are Always Gaps To Fill In
 			 @kanaya_happytalk KANAYA: The More We Look Through All Of This The More Chances There Are We Will Find Something Ground Breaking
 			 @kanaya_happytalk KANAYA: We Are Learning More About The Challenges That Await Us Bit By Bit And It Means We Will Be More Prepared When We Arrive In The New Session In A Sweeps Time
@@ -65,7 +79,7 @@
 			 </args>
 		</action>
 		
-			<action class='kanayaTalk3' command='Ask About'>
+			<action class='kanayaTalk4' command='Ask About'>
 			 <args>
 			 
 
