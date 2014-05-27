@@ -33,6 +33,8 @@ unmodified. -->
 	</assets>
 
 	<classes>
+
+		
 		
 		<sprite class='chest1' width='40' height='15' depthing='1' collidable='true'>
 				<animation name='closed' sheet='chest1ClosedSheet' x='-48' y='-40' />
@@ -69,7 +71,7 @@ unmodified. -->
 	  	<sprite class='bed' width='144' height='180' collidable='true'>
 	  		<animation sheet='bed' x='-75' y='-90' />
 	  	</sprite>
-	  
+
 
 
 

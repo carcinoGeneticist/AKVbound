@@ -92,6 +92,13 @@
 <!--CASE: add the object that goes in the chest here-->
         <asset name='obj01' type='graphic'>objects/items/i_coffee.png</asset>  <!--to fix should be coffee-->
 
+        <asset name='cg' type='graphic'>objects/symbols/cancer.png</asset>
+        <asset name='tc' type='graphic'>objects/symbols/capricorn.png</asset>
+        <asset name='tg' type='graphic'>objects/symbols/dave.png</asset>
+        <asset name='tt' type='graphic'>objects/symbols/rose.png</asset>
+        <asset name='gc' type='graphic'>objects/symbols/libra.png</asset>
+        <asset name='ga' type='graphic'>objects/symbols/virgo.png</asset>
+
 
     </assets>
 
@@ -100,7 +107,7 @@
         <animation x='-24' y='-24' length='2' colSize='40' rowSize='60' frameInterval='6' sheet='obj01'/>
     </sprite>
 
-
+   
     <rooms>
 
         <room name='lab2' walkableMap='lab2_WM' scale='4'>
@@ -332,6 +339,25 @@
                     </args>
                 </action>
             </sprite>
+            <sprite name="cg" x="1335" y="2900" width="32" height="32" collidable="false" depthing='3'>
+                <animation sheet="cg" x="-80" y="-60" length="4" frameInterval="4"/>
+            </sprite>
+            <sprite name="ga" x='1283' y='3060' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='ga' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            <sprite name="gc" x='1205' y='3122' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='gc' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            <sprite name="tc" x='943' y='2990' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='tc' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            <sprite name="tt" x='1080' y='3122' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='tt' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            <sprite name="tg" x='943' y='2898' width='32' height='32' collidable='false' depthing='3'>
+                <animation sheet='tg' x='-80' y='-60' length='4' frameInterval='4'/>
+            </sprite>
+            
 <!--
             <sprite class='counter' name='counter' x='1270' y='412'>
                 <action command='talk' name='Talk to Dave.'>
