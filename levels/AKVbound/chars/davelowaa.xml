@@ -1,4 +1,7 @@
 <sburb description='davelowaa'>
+    <dependencies>
+        <dependency>dialogs/daveDialogue.xml</dependency>
+        </dependencies>
    
     
     <classes>

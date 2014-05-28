@@ -3,7 +3,6 @@
 		 <action class='daveTalk1' sprite='dave' command='talk'>
 			 <args>
 				 @dave_talk DAVE: blogging on the go karkat?
-				 <!--
 				 @karkat_talk KARKAT: YOU JUST HAD TO FUCKING GO THIS WAY DIDN'T YOU?
 				 @dave_talk DAVE: probably not but here i am either way
 				 @dave_talk DAVE: so where you off to mr sunshine?
@@ -40,12 +39,12 @@
 				 @karkat_yell KARKAT: WHAT? AM I NOT ALLOWED TO JUST FUCKING RAGE TO MYSELF?
 				 @dave_talk DAVE: its not really "to yourself" if i can hear it now is it?
 				 @! He stays close behind you as you continue on...
-				-->
+				
 			 <!--  -->
 			 </args>
 		</action>
 		
-		<action class='daveTalk2' sprite='dave' command='talk'>
+		<action class='daveTalk2' command='talk'>
 			<!--Encountered in lowaa, before eridan's arrival.-->
 			<args>
 			@dave_smug DAVE: so who the fuck’s memories are these? im kind of digging the set 
@@ -123,7 +122,7 @@
 		
 		</action>
 		
-		<action class='daveTalk3' sprite='dave' command='talk'>
+		<action class='daveTalk3' command='talk'>
 			 <!-- After Eridan shows up. -->
 			 <args>
 			 @karkat_talk KARKAT: I'M NOT SURE WHAT TO DO NOW.
@@ -143,7 +142,7 @@
 		
 		
 		
-		<action class='daveTalkSec1' sprite='dave' command='talk'>
+		<action class='daveTalkSec1' command='talk'>
 			 <!-- Encountered in shitty wand room. -->
 			 <args>
 				@karkat_what KARKAT: DAVE?
@@ -176,7 +175,7 @@
 		</action>
 		
 	
-		<action class='daveTalkSec1A' sprite='dave' command='talk'>
+		<action class='daveTalkSec1A' command='talk'>
 			 <args>
 				@karkat_eyeroll2 KARKAT: ...
 				<!-- Dave should now be gone. Return control to player. -->
@@ -184,7 +183,7 @@
 			 </args>
 		</action>
 		
-		<action class='daveTalkSec2' sprite='dave' command='talk'>
+		<action class='daveTalkSec2' command='talk'>
 			 <args>
 				@dave_smug DAVE: classy lounge area what did i tell you
 				@dave_smug DAVE: take it all in its pretty snazzy
@@ -212,7 +211,7 @@
 			 </args>
 		</action>
 	
-		<action class='daveTalkSec3' sprite='dave' command='talk'>
+		<action class='daveTalkSec3' command='talk'>
 		<args>
 		@dave_talk DAVE: so how fast did it take you to ollie out of that bubble after we left
 		@karkat_talk KARKAT: AROUND THREE MINUTES. THREE EXCRUCIATING MINUTES AND THREE EXCRUCIATING MINUTES TOO LONG.
