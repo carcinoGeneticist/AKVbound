@@ -6,80 +6,80 @@
     
     <assets>
         
-        <asset name='labCG_BG_0_0' type='graphic'>backgrounds/protoslice/labCG_BG_0_0.png</asset>
-        <asset name='labCG_BG_0_1' type='graphic'>backgrounds/protoslice/labCG_BG_0_1.png</asset>
-        <asset name='labCG_BG_0_2' type='graphic'>backgrounds/protoslice/labCG_BG_0_2.png</asset>
-        <asset name='labCG_BG_0_3' type='graphic'>backgrounds/protoslice/labCG_BG_0_3.png</asset>
-        <asset name='labCG_BG_0_4' type='graphic'>backgrounds/protoslice/labCG_BG_0_4.png</asset>
+        <asset name='labCG_BG_0_0' type='graphic'>backgrounds/labCG_BG_0_0.png</asset>
+        <asset name='labCG_BG_0_1' type='graphic'>backgrounds/labCG_BG_0_1.png</asset>
+        <asset name='labCG_BG_0_2' type='graphic'>backgrounds/labCG_BG_0_2.png</asset>
+        <asset name='labCG_BG_0_3' type='graphic'>backgrounds/labCG_BG_0_3.png</asset>
+        <asset name='labCG_BG_0_4' type='graphic'>backgrounds/labCG_BG_0_4.png</asset>
         
-        <asset name='labCG_BG_1_0' type='graphic'>backgrounds/protoslice/labCG_BG_1_0.png</asset>
-        <asset name='labCG_BG_1_1' type='graphic'>backgrounds/protoslice/labCG_BG_1_1.png</asset>
-        <asset name='labCG_BG_1_2' type='graphic'>backgrounds/protoslice/labCG_BG_1_2.png</asset>
-        <asset name='labCG_BG_1_3' type='graphic'>backgrounds/protoslice/labCG_BG_1_3.png</asset>
-        <asset name='labCG_BG_1_4' type='graphic'>backgrounds/protoslice/labCG_BG_1_4.png</asset>
+        <asset name='labCG_BG_1_0' type='graphic'>backgrounds/labCG_BG_1_0.png</asset>
+        <asset name='labCG_BG_1_1' type='graphic'>backgrounds/labCG_BG_1_1.png</asset>
+        <asset name='labCG_BG_1_2' type='graphic'>backgrounds/labCG_BG_1_2.png</asset>
+        <asset name='labCG_BG_1_3' type='graphic'>backgrounds/labCG_BG_1_3.png</asset>
+        <asset name='labCG_BG_1_4' type='graphic'>backgrounds/labCG_BG_1_4.png</asset>
 
-        <asset name='labCG_BG_2_0' type='graphic'>backgrounds/protoslice/labCG_BG_2_0.png</asset>
-        <asset name='labCG_BG_2_1' type='graphic'>backgrounds/protoslice/labCG_BG_2_1.png</asset>
-        <asset name='labCG_BG_2_2' type='graphic'>backgrounds/protoslice/labCG_BG_2_2.png</asset>
-        <asset name='labCG_BG_2_3' type='graphic'>backgrounds/protoslice/labCG_BG_2_3.png</asset>
-        <asset name='labCG_BG_2_4' type='graphic'>backgrounds/protoslice/labCG_BG_2_4.png</asset>
+        <asset name='labCG_BG_2_0' type='graphic'>backgrounds/labCG_BG_2_0.png</asset>
+        <asset name='labCG_BG_2_1' type='graphic'>backgrounds/labCG_BG_2_1.png</asset>
+        <asset name='labCG_BG_2_2' type='graphic'>backgrounds/labCG_BG_2_2.png</asset>
+        <asset name='labCG_BG_2_3' type='graphic'>backgrounds/labCG_BG_2_3.png</asset>
+        <asset name='labCG_BG_2_4' type='graphic'>backgrounds/labCG_BG_2_4.png</asset>
 
-        <asset name='labCG_BG_3_0' type='graphic'>backgrounds/protoslice/labCG_BG_3_0.png</asset>
-        <asset name='labCG_BG_3_1' type='graphic'>backgrounds/protoslice/labCG_BG_3_1.png</asset>
-        <asset name='labCG_BG_3_2' type='graphic'>backgrounds/protoslice/labCG_BG_3_2.png</asset>
-        <asset name='labCG_BG_3_3' type='graphic'>backgrounds/protoslice/labCG_BG_3_3.png</asset>
-        <asset name='labCG_BG_3_4' type='graphic'>backgrounds/protoslice/labCG_BG_3_4.png</asset>
+        <asset name='labCG_BG_3_0' type='graphic'>backgrounds/labCG_BG_3_0.png</asset>
+        <asset name='labCG_BG_3_1' type='graphic'>backgrounds/labCG_BG_3_1.png</asset>
+        <asset name='labCG_BG_3_2' type='graphic'>backgrounds/labCG_BG_3_2.png</asset>
+        <asset name='labCG_BG_3_3' type='graphic'>backgrounds/labCG_BG_3_3.png</asset>
+        <asset name='labCG_BG_3_4' type='graphic'>backgrounds/labCG_BG_3_4.png</asset>
 
-        <asset name='labCG_BG_4_0' type='graphic'>backgrounds/protoslice/labCG_BG_4_0.png</asset>
-        <asset name='labCG_BG_4_1' type='graphic'>backgrounds/protoslice/labCG_BG_4_1.png</asset>
-        <asset name='labCG_BG_4_2' type='graphic'>backgrounds/protoslice/labCG_BG_4_2.png</asset>
-        <asset name='labCG_BG_4_3' type='graphic'>backgrounds/protoslice/labCG_BG_4_3.png</asset>
-        <asset name='labCG_BG_4_4' type='graphic'>backgrounds/protoslice/labCG_BG_4_4.png</asset>
+        <asset name='labCG_BG_4_0' type='graphic'>backgrounds/labCG_BG_4_0.png</asset>
+        <asset name='labCG_BG_4_1' type='graphic'>backgrounds/labCG_BG_4_1.png</asset>
+        <asset name='labCG_BG_4_2' type='graphic'>backgrounds/labCG_BG_4_2.png</asset>
+        <asset name='labCG_BG_4_3' type='graphic'>backgrounds/labCG_BG_4_3.png</asset>
+        <asset name='labCG_BG_4_4' type='graphic'>backgrounds/labCG_BG_4_4.png</asset>
 
-        <asset name='labCG_BG_5_0' type='graphic'>backgrounds/protoslice/labCG_BG_5_0.png</asset>
-        <asset name='labCG_BG_5_1' type='graphic'>backgrounds/protoslice/labCG_BG_5_1.png</asset>
-        <asset name='labCG_BG_5_2' type='graphic'>backgrounds/protoslice/labCG_BG_5_2.png</asset>
-        <asset name='labCG_BG_5_3' type='graphic'>backgrounds/protoslice/labCG_BG_5_3.png</asset>
-        <asset name='labCG_BG_5_4' type='graphic'>backgrounds/protoslice/labCG_BG_5_4.png</asset>
+        <asset name='labCG_BG_5_0' type='graphic'>backgrounds/labCG_BG_5_0.png</asset>
+        <asset name='labCG_BG_5_1' type='graphic'>backgrounds/labCG_BG_5_1.png</asset>
+        <asset name='labCG_BG_5_2' type='graphic'>backgrounds/labCG_BG_5_2.png</asset>
+        <asset name='labCG_BG_5_3' type='graphic'>backgrounds/labCG_BG_5_3.png</asset>
+        <asset name='labCG_BG_5_4' type='graphic'>backgrounds/labCG_BG_5_4.png</asset>
 
-        <asset name='labCG_FG_0_0' type='graphic'>backgrounds/protoslice/labCG_FG_0_0.png</asset>
-        <asset name='labCG_FG_0_1' type='graphic'>backgrounds/protoslice/labCG_FG_0_1.png</asset>
-        <asset name='labCG_FG_0_2' type='graphic'>backgrounds/protoslice/labCG_FG_0_2.png</asset>
-        <asset name='labCG_FG_0_3' type='graphic'>backgrounds/protoslice/labCG_FG_0_3.png</asset>
-        <asset name='labCG_FG_0_4' type='graphic'>backgrounds/protoslice/labCG_FG_0_4.png</asset>
+        <asset name='labCG_FG_0_0' type='graphic'>backgrounds/labCG_FG_0_0.png</asset>
+        <asset name='labCG_FG_0_1' type='graphic'>backgrounds/labCG_FG_0_1.png</asset>
+        <asset name='labCG_FG_0_2' type='graphic'>backgrounds/labCG_FG_0_2.png</asset>
+        <asset name='labCG_FG_0_3' type='graphic'>backgrounds/labCG_FG_0_3.png</asset>
+        <asset name='labCG_FG_0_4' type='graphic'>backgrounds/labCG_FG_0_4.png</asset>
         
-        <asset name='labCG_FG_1_0' type='graphic'>backgrounds/protoslice/labCG_FG_1_0.png</asset>
-        <asset name='labCG_FG_1_1' type='graphic'>backgrounds/protoslice/labCG_FG_1_1.png</asset>
-        <asset name='labCG_FG_1_2' type='graphic'>backgrounds/protoslice/labCG_FG_1_2.png</asset>
-        <asset name='labCG_FG_1_3' type='graphic'>backgrounds/protoslice/labCG_FG_1_3.png</asset>
-        <asset name='labCG_FG_1_4' type='graphic'>backgrounds/protoslice/labCG_FG_1_4.png</asset>
+        <asset name='labCG_FG_1_0' type='graphic'>backgrounds/labCG_FG_1_0.png</asset>
+        <asset name='labCG_FG_1_1' type='graphic'>backgrounds/labCG_FG_1_1.png</asset>
+        <asset name='labCG_FG_1_2' type='graphic'>backgrounds/labCG_FG_1_2.png</asset>
+        <asset name='labCG_FG_1_3' type='graphic'>backgrounds/labCG_FG_1_3.png</asset>
+        <asset name='labCG_FG_1_4' type='graphic'>backgrounds/labCG_FG_1_4.png</asset>
         
-        <asset name='labCG_FG_2_0' type='graphic'>backgrounds/protoslice/labCG_FG_2_0.png</asset>
-        <asset name='labCG_FG_2_1' type='graphic'>backgrounds/protoslice/labCG_FG_2_1.png</asset>
-        <asset name='labCG_FG_2_2' type='graphic'>backgrounds/protoslice/labCG_FG_2_2.png</asset>
-        <asset name='labCG_FG_2_3' type='graphic'>backgrounds/protoslice/labCG_FG_2_3.png</asset>
-        <asset name='labCG_FG_2_4' type='graphic'>backgrounds/protoslice/labCG_FG_2_4.png</asset>
+        <asset name='labCG_FG_2_0' type='graphic'>backgrounds/labCG_FG_2_0.png</asset>
+        <asset name='labCG_FG_2_1' type='graphic'>backgrounds/labCG_FG_2_1.png</asset>
+        <asset name='labCG_FG_2_2' type='graphic'>backgrounds/labCG_FG_2_2.png</asset>
+        <asset name='labCG_FG_2_3' type='graphic'>backgrounds/labCG_FG_2_3.png</asset>
+        <asset name='labCG_FG_2_4' type='graphic'>backgrounds/labCG_FG_2_4.png</asset>
         
-        <asset name='labCG_FG_3_0' type='graphic'>backgrounds/protoslice/labCG_FG_3_0.png</asset>
-        <asset name='labCG_FG_3_1' type='graphic'>backgrounds/protoslice/labCG_FG_3_1.png</asset>
-        <asset name='labCG_FG_3_2' type='graphic'>backgrounds/protoslice/labCG_FG_3_2.png</asset>
-        <asset name='labCG_FG_3_3' type='graphic'>backgrounds/protoslice/labCG_FG_3_3.png</asset>
-        <asset name='labCG_FG_3_4' type='graphic'>backgrounds/protoslice/labCG_FG_3_4.png</asset>
+        <asset name='labCG_FG_3_0' type='graphic'>backgrounds/labCG_FG_3_0.png</asset>
+        <asset name='labCG_FG_3_1' type='graphic'>backgrounds/labCG_FG_3_1.png</asset>
+        <asset name='labCG_FG_3_2' type='graphic'>backgrounds/labCG_FG_3_2.png</asset>
+        <asset name='labCG_FG_3_3' type='graphic'>backgrounds/labCG_FG_3_3.png</asset>
+        <asset name='labCG_FG_3_4' type='graphic'>backgrounds/labCG_FG_3_4.png</asset>
         
-        <asset name='labCG_FG_4_0' type='graphic'>backgrounds/protoslice/labCG_FG_4_0.png</asset>
-        <asset name='labCG_FG_4_1' type='graphic'>backgrounds/protoslice/labCG_FG_4_1.png</asset>
-        <asset name='labCG_FG_4_2' type='graphic'>backgrounds/protoslice/labCG_FG_4_2.png</asset>
-        <asset name='labCG_FG_4_3' type='graphic'>backgrounds/protoslice/labCG_FG_4_3.png</asset>
-        <asset name='labCG_FG_4_4' type='graphic'>backgrounds/protoslice/labCG_FG_4_4.png</asset>
+        <asset name='labCG_FG_4_0' type='graphic'>backgrounds/labCG_FG_4_0.png</asset>
+        <asset name='labCG_FG_4_1' type='graphic'>backgrounds/labCG_FG_4_1.png</asset>
+        <asset name='labCG_FG_4_2' type='graphic'>backgrounds/labCG_FG_4_2.png</asset>
+        <asset name='labCG_FG_4_3' type='graphic'>backgrounds/labCG_FG_4_3.png</asset>
+        <asset name='labCG_FG_4_4' type='graphic'>backgrounds/labCG_FG_4_4.png</asset>
         
-        <asset name='labCG_FG_5_0' type='graphic'>backgrounds/protoslice/labCG_FG_5_0.png</asset>
-        <asset name='labCG_FG_5_1' type='graphic'>backgrounds/protoslice/labCG_FG_5_1.png</asset>
-        <asset name='labCG_FG_5_2' type='graphic'>backgrounds/protoslice/labCG_FG_5_2.png</asset>
-        <asset name='labCG_FG_5_3' type='graphic'>backgrounds/protoslice/labCG_FG_5_3.png</asset>
-        <asset name='labCG_FG_5_4' type='graphic'>backgrounds/protoslice/labCG_FG_5_4.png</asset>
+        <asset name='labCG_FG_5_0' type='graphic'>backgrounds/labCG_FG_5_0.png</asset>
+        <asset name='labCG_FG_5_1' type='graphic'>backgrounds/labCG_FG_5_1.png</asset>
+        <asset name='labCG_FG_5_2' type='graphic'>backgrounds/labCG_FG_5_2.png</asset>
+        <asset name='labCG_FG_5_3' type='graphic'>backgrounds/labCG_FG_5_3.png</asset>
+        <asset name='labCG_FG_5_4' type='graphic'>backgrounds/labCG_FG_5_4.png</asset>
         
         
-        <asset name='labCG_WM' type='graphic'>backgrounds/labCG_WMhalf.png</asset>
+        <asset name='labCG_WM' type='graphic'>backgrounds/labCG_WM.png</asset>
 
         <asset name='cgstair1' type='path'>1056,1805;1194,1668;1288,1754;1150,1960</asset>
         <asset name='cgstair2' type='path'>1764,1911;1904,1768;2088,1940;1948,2091</asset>
