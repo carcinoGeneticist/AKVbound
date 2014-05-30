@@ -48,7 +48,7 @@ unmodified. -->
             <animation name='open' sheet='coffMachOpenSheet' x='-37' y='-90' loopNum='0' followUp='opened'/>
             <animation name='opened' sheet='coffMachOpenSheet' x='-37' y='-90' loopNum='0'/>
         </sprite>
-
+        
         <sprite class='door' width='86' height='108' depthing='1' collidable='true'>
         	<animation sheet='door' x='-28' y='-40' />
         </sprite>

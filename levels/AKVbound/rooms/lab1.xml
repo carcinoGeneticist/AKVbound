@@ -125,6 +125,8 @@
 
         <asset name='lab1_WM' type='graphic'>backgrounds/lab1_WM.png</asset>
 
+        <asset name='gradient' type='graphic'>objects/items/o_gradient.png</asset>
+
         <asset name='staircase' type='path'>2572,2100;2572,2260;1715,2950;1715,3100</asset>
 
     </assets>
@@ -296,6 +298,12 @@
                                                 <args>dave,lab1</args>
                                                 <action command='changeRoomRemote'>
                                                     <args>rooms/lowaa.xml,lowaa,830,860</args>
+                                                    <action command='removeSprite'>
+                                                        <args>door1,lab1</args>
+                                                        <action command='moveSprite'>
+                                                            <args>gradient,272,1309</args>
+                                                        </action>
+                                                    </action>
                                                 </action>
                                             </action>
                                         </action>
@@ -338,6 +346,11 @@
             <sprite class='door' name='door1' x='272' y='1309' collidable='true'>
             </sprite>
 
+            <sprite name='gradient' x="2600" y="300" width="86" height="100" collidable="false" depthing='2'>
+                <animation sheet="gradient" x="-80" y="-60"/>
+            </sprite>
+
+           
 
 
             <sprite class='comp' name='comp1' x='331' y='2042' collidable='true'>
