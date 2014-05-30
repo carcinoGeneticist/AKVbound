@@ -335,7 +335,7 @@
                 </action>
             </sprite>
 
-            <sprite class='door' name='door1' x='300' y='1400' collidable='true'>
+            <sprite class='door' name='door1' x='272' y='1309' collidable='true'>
             </sprite>
 
 
