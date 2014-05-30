@@ -79,8 +79,42 @@
 			 </args>
 		</action>
 		
-			<action class='kanayaTalk4' command='Ask About'>
+			<action class='kanayaTalk4' command='Ask About Hole'>
 			 <args>
+			 
+			 @karkat_talk KARKAT: SO WHAT'S UP WITH THAT HUGE HOLE YOU HAD?
+			 @kanaya_bored KANAYA: I Beg Your Pardon Karkat
+			 @karkat_talk KARKAT: WHAT? I'M JUST ASKING ABOUT THE HUGE GAPING-
+			 @kanata_bored KANAYA: Karkat Do Not Even Think Of Completing That Sentence
+			 @karkat_yell KARKAT: WOW, WHAT THE GRUBPASTE SLATHERED FUCK IS YOUR PROBLEM?
+			 @kanaya_angrytalk KANAYA: I Am Wondering The Same About Why You Think Its Appropriate To Start Conversations Like That
+			 @karkat_shout KARKAT: WELL, OBVIOUSLY I GUESS A RABID SHITSQUIRREL CLIMBED UP IT OR SOMETHING, I GUESS THAT ANSWER'S MY QUESTION! THANK YOU!
+			 @kanaya_angrytalk KANAYA: What The Hell Has Gotten Into You All Of A Sudden
+			 @kanaya_angrytalk KANAYA: Is It The Coffee What Did I Tell You About Drinking Coffee Karkat
+			 @karkat_shout KARKAT: I'M JUST TRYING TO ASK A SIMPLE FUCKING QUESTION OUT OF GENERAL CONCERN.
+			 @kanaya_angrytalk KANAYA: That Is Not Something You Should Be Concerned About
+			 @kanaya_angrytalk KANAYA: This Is A Simple Concept And I Am Shocked That You Do Not Understand It There Are Subjects That You Should Not Ever Bring Up Publicly
+			 @kanaya_angrytalk KANAYA: I Know Being Offensive Is Your Specialty But At Least Have Some Damned Common Sense
+			 @kanaya_bored KANAYA: I Want You To Apologize
+			 @karkat_sullen KARKAT: ...
+			 @karkat_sullen KARKAT: I'M SORRY I-
+			 @kanaya_angrytalk KANAYA: INSIDE VOICES KARKAT
+			 @karkat_sullen KARKAT: (i'm sorry i asked about your injury, i didn't know that was offensive to jadebloods-)
+			 @kanaya_idle KANAYA: ...
+			 @kanaya_idle KANAYA: Injury...
+			 @kanaya_smirktalk KANAYA: Oh 
+			 @kanaya_smirklaugh KANAYA: Oh Okay
+			 @kanaya_smirklaugh KANAYA: Oh Dear God
+			 @kanaya_smirktalk KANAYA: I Did Not Think You Were Talking About My Injury
+			 @karkat_what KARKAT: WHAT? THEN-
+			 @karkat_horror KARKAT: ...
+			 @karkat_facepalm KARKAT: ...
+			 @karkat_shout KARKAT: NO NO NO OF FUCKING COURSE NOT WHAT THE HELL IS WRONG WITH YOU!
+			 @kanaya_smirktalk KANAYA: Let Us Just Forget This Conversation Ever Happened
+			 @kanaya_smirktalkKANAYA: Yes The Wound Is Nearly Gone Thank You For Asking
+			 @karkat_talk KARKAT: CAN I SEE? PULL UP YOUR SHIRT.
+			 @kanaya_angrytalk KANAYA: Karkat!
+			 @karkat_shout KARKAT: WHAT!
 			 
 
 			 </args>

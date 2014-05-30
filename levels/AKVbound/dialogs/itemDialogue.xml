@@ -96,6 +96,12 @@
 			</args>
 			</action>
 			
+			<action class='return' command='talk' name='return'>
+			<args>
+			@! You definitely hear something a bit louder. 
+			</args>
+			</action>
+			
 			<!-- Lab 2 Object Dialogue -->
 			
 			<action class='EEpath' command='talk'>
@@ -137,6 +143,102 @@ That third shelf though... All romance novels. Hey, those two on the end! You we
 			@! You can't figure out the unlock code, though. Damn. There's got to be somewhere else to listen to music.
 			</args>
 			</action>
+			
+			
+			<!--labCG -->
+			<action class='crabtop' command='talk' name='Examine Crabtop'>
+			<args>
+			@! You only recently got this thing working. Right now it’s open on bubblr, a dream-bubble centric communication system that links up with other universes’ similar networks.
+			@! You check to see if your personal blog, WHOTHEFUCKTOOKMYUSERNAME, has any followers. It doesn’t. Good. No one needs to see this, ever.
+			@! You also have a second blog, and it’s been a while since you posted anything there. Maybe you could spend a few minutes importing... that...
+			@! OH GRUBSAUCE GURGLING NOOKHUFFING BULGEPUNTING _FUCK_.
+			@! YOU LEFT YOUR FUCKING CRABPHONE IN THAT DREAM BUBBLE.
+			@! OH MAN.
+			@! OH GOD. OH MAN.
+			@karkat_horror KARKAT: OH GOD OH MAN OH GOD OH MAN OH GOD
+			@! Ah calm the fuck down if anyone does anything with it you can just delete the posts.
+			@karkat_talk KARKAT: OH RIGHT.
+			</args>
+			</action>
+			
+			<action class='posters' command='talk' name='Examine Posters'>
+			<args>
+			@! Wonderful movies. You have the best taste out of everyone on this meteor.
+			@! Branching out to human cinema was one of the better decisions you’ve made.
+			@! You truly admire some of the actors the humans have managed to produce from their primitive culture.
+			@! Dane Cook may just be better than the human Will Smith, too.
+			@! It’s almost painful to admit.
+			@! It's certainly painful for me to write.
+			</args>
+			</action>
+			
+			<action class='bed1' command='talk' name='Examine Recuperacoon'>
+			<args>
+			@! Thank whatever deities this player may believe in you were able to alchemize another one of these. You don’t think you could ever get used to the springy and cloth... thing that those humans call a “bed”. You would miss the sweet caress of slime on your bare skin. Such a comforting feeling... You could go for a nap right now.
+			@! Take a nap?
+			</args>
+			</action>
+			
+			<action class='bedy' command='talk' name='Examine Recuperacoon'>
+			<args>
+			@! The recuperacoon is very inviting and you are very tired. You prepare yourself for sleep and crawl inside...
+			</args>
+			</action>
+			
+			<action class='bedwake' command='talk' name='Examine Recuperacoon'>
+			<args>
+			@! You certainly feel refreshed, if covered in slime.
+			@! It's not long before you hear strange sounds from far down the hallways.
+			@! You wonder what you missed and what could still be going on in this place.
+			@! It might be a good idea to check up on some things.
+			</args>
+			</action>
+			
+			<action class='boonpot' command='talk' name='Examine Pot'>
+			<args>
+			@! Man, you sure do have a lot of money. A whole pot full of boonbucks. And this is only what you keep in THIS room.
+			@! Sometimes you just like to look at how the money twinkles. It’s a pleasant feeling, having money. Doesn’t make you all too happy, though.
+			</args>
+			</action>
+			
+			<action class='kkchest' command='talk' name='Open Chest'>
+			<args>
+			@! This isn’t a chest that simply open and levitates an item up in the air for you, you actually use this chest to store clothes and other things in. Putting these fucking things to use for once.
+			</args>
+			</action>
+			
+			<action class='shower' command='talk' name='Examine ablution trap'>
+			<args>
+			@! Humans have some similar contraption to this. They call it a /“shower,/” or a /“bathtub/”. 
+			</args>
+			</action>
+			
+			<action class='toilet' command='talk' name='Examine load gaper'>
+			<args>
+			@! You're lucky you don't have to use this right now, seeing as there is someone staring down at you this very moment. 
+			</args>
+			</action>
+			
+			<action class='ectolab' command='talk' name='ectolab'>
+			<args>
+			@! You hear something in the distance
+			@! #2b0057HONK!##
+			@karkat_talk KARKAT: HEY! ARE YOU IN HERE?
+			@! You hear some scurrying away.
+			</args>
+			</action>
+			
+			<action class='ectolab2' command='talk' name='ectolab'>
+			<args>
+			@! In the dark, you hear the sound of something being dragged.
+			@karkat_talk KARKAT: GAMZEE? WHAT THE FUCK ARE YOU DOING IN HERE?
+			@! #2b0057honk:o)##
+			@! After some metal rustling and some slight clangs, the room turns silent.
+			</args>
+			</action>
+			
+			
+			
 			
 			<!-- Chest Object Dialogue -->
 			
