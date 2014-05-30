@@ -163,6 +163,30 @@
                 <action name='Talk to Eridan.' command='talk'>
                     <args>
                         @eridan_huh ERIDAN: so kar are you all alivve
+                        @eridan_talk ERIDAN: like actually alivve
+                        @karkat_what KARKAT: YEAH...
+                        @eridan_talk ERIDAN: wwhat a fuckin relief for once
+                        @eridan_madtalk ERIDAN: all the other bubbles i cross through wwent through timelines so different
+                        @eridan_madtalk ERIDAN: and they all don’t remember jack shit about wwhat happened
+                        @karkat_talk KARKAT: IT’S THE SAME WITH THE FEW VERSIONS OF YOU THAT I’VE MET. I DOUBT WE WENT THROUGH ANY OF THE SAME FUCKING STUFF YOU DID.
+                        @eridan_huh ERIDAN: i don’t knoww
+                        @eridan_talk ERIDAN: i guess it just feels more genuine or something
+                        @eridan_huh ERIDAN: you look older though
+                        @karkat_talk KARKAT: WE’VE BEEN OUT HERE FOR OVER HALF A SWEEP.
+                        @karkat_what KARKAT: I THINK THAT’S ABOUT A YEAR AND A FEW MONTHS IN HUMAN TIME.
+                        @eridan_huh ERIDAN: wwhats a human
+                        @karkat_facepalm KARKAT: UGH...
+                        @karkat_yell KARKAT: THESE PALE MOTHERFUCKERS LIKE THE GUY IN THE RED GEAR PAJAMAS.
+                        @eridan_talk ERIDAN: are they game constructs or
+                        @karkat_talk KARKAT: NO, THEY’RE FROM A DIFFERENT UNIVERSE.
+                        @karkat_talk KARKAT: THE ONE WE FUCKING CREATED WHEN WE WON THE GAME.
+                        @karkat_talk KARKAT: BUT THROUGH A COMBINATION OF ME FUCKING UP AND THEM FUCKING UP...
+                        @karkat_eyeroll2 KARKAT: WE NEVER REALLY FULLY WON.
+                        @karkat_talk KARKAT: SO WE’VE BEEN WORKING WITH THEM ON CHEATING THE SYSTEM.
+                        @karkat_talk KARKAT: IT’S A LONG AND INCREDIBLY CONVOLUTED STORY THAT WOULD PROBABLY TAKE NEARLY 2 SWEEPS AND EIGHT THOUSAND PAGES TO TELL ACCURATELY.
+                        @eridan_talk ERIDAN: i think i get it
+                        @karkat_talk KARKAT: GOOD, BECAUSE I DON’T.
+                        @! You start to wonder if Terezi’s noticed Eridan’s arrival. If anything is going to interrupt her RP streak, this will.
                     </args>
                     <action command='follow'>
                         <args>eridan,char</args>

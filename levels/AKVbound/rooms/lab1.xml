@@ -255,6 +255,12 @@
                         <args>hiddenTP,75,3025</args>
                     </action>
                 </trigger>
+                <trigger detonate='true'>
+                    <args>gameState,sleep=true</args>
+                    <action command='talk'>
+                        <args>@! asdf </args>
+                    </action>
+                </trigger>
 
                 <!-- dave interrupting, follow -->
                 <trigger detonate='true'>spriteProperty,karkat,y&gt;2980
@@ -312,7 +318,7 @@
             </sprite>
             <sprite class='teleporter' name='hiddenTP' x='3000' y='3000'>
                 <action name='Teleport' command='changeRoomRemote'>
-                    <args>rooms/lab2.xml,lab2,1169,2112</args>
+                    <args>rooms/lab2.xml,lab2,1199,2112</args>
                 </action>
             </sprite>
 
@@ -328,6 +334,11 @@
                     </args>
                 </action>
             </sprite>
+
+            <sprite class='door' name='door1' x='300' y='1400' collidable='true'>
+            </sprite>
+
+
 
             <sprite class='comp' name='comp1' x='331' y='2042' collidable='true'>
                 <action class='computer1' command='talk' name='Examine.'>
