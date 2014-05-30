@@ -1,5 +1,5 @@
 <sburb description="Voice Dialogue">
-	
+
 <classes>
 	<action class='AKVEgg1' command='talk' name='Ask Karkat Voice'>
 	<args>
@@ -64,6 +64,9 @@
 	@case_talk CASE: See you around.
 	</args>
 	<!-- warp karkat back somewhere else -->
+	<action command='changeRoom'>
+		<args>lab1,500,1500</args>
+	</action>
 	</action>
 
 	<action class='AKVEGG2' command='talk' name='Ask Case for credits'>
