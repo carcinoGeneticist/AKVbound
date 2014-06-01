@@ -1,6 +1,6 @@
 <sburb description='terezilowaa'>
     <dependencies>
-        <dependency>dialogs/tereziDialogue.xml</dependency>
+        <dependency>dialogs/terezilowaaDialogue.xml</dependency>
     </dependencies>
 
     

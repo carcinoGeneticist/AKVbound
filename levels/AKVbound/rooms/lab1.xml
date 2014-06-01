@@ -315,6 +315,9 @@
                                                         <args>door1,lab1</args>
                                                         <action command='moveSprite'>
                                                             <args>gradient,272,1309</args>
+                                                            <action command='addSprite'>
+                                                                <args>terezi,lowaa</args>
+                                                            </action>
                                                         </action>
                                                     </action>
                                                 </action>
