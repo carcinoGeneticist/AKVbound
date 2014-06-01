@@ -203,6 +203,16 @@
                     </trigger>
                 </trigger>
 
+                <trigger>spriteProperty,char,x&lt;500
+                    <trigger detonate='true'>spriteProperty,char,y&gt;2900
+                        <action command='talk'>
+                            <args>
+                                @! What's that sound? Is that a voice?
+                            </args>
+                        </action>
+                    </trigger>
+                </trigger>
+
 
             </triggers>
 
