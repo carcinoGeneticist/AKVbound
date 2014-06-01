@@ -3,7 +3,7 @@
 	
 	<!-- Easter Egg Dialogue -->
 	
-		        <action class='computer1' command="talk">
+		<action class='computer1' command="talk">
            <args>
                @! This looks familiar...
                @! wrigglerbase, hemoglobin, hemogoblin (avoiid at all co2t2), redgrub, nubhub (ha2 omorashi 2tuff)...
@@ -55,7 +55,7 @@
             </args>
         </action>
 		
-		<!-- Lab 1 Object Dialogue -->
+	<!-- Lab 1 Object Dialogue -->
 			
 			<action class='crabphone' command='talk'>
 				<args>
@@ -145,7 +145,7 @@ That third shelf though... All romance novels. Hey, those two on the end! You we
 			</action>
 			
 			
-			<!--labCG -->
+	<!--labCG -->
 			<action class='crabtop' command='talk' name='Examine Crabtop'>
 			<args>
 			@! You only recently got this thing working. Right now it’s open on bubblr, a dream-bubble centric communication system that links up with other universes’ similar networks.
@@ -242,51 +242,59 @@ That third shelf though... All romance novels. Hey, those two on the end! You we
 			
 			<!-- Chest Object Dialogue -->
 			
-			<action class='chest1' command='talk' name='Examine'>
+			<action class='chest1' command='talk' name='Open'>
 			<args>
-			@! You got a THING!
+			@! You got a WALKING STICK!
+			@! Terezi must have multiple of these. You wonder why someone would have stashed this in a chest, here of all places.
 			</args>
 			</action>
 			
-			<action class='chest2' command='talk' name='Examine'>
+			<action class='chest2' command='talk' name='Open'>
 			<args>
-			@! You got a THING!
+			@! You got a BUCKET!
+			@! Gross. Who would leave this here? That doesn't seem very sanitary.
 			</args>
 			</action>
 			
-			<action class='chest3' command='talk' name='Examine'>
+			<action class='chest3' command='talk' name='Open'>
 			<args>
-			@! You got a THING!
+			@! You got a PUZZLE CUBE!
+			@! This thing is a clusterfuck if you've ever seen one. What's with the gears and clockfaces? You guess Dave must have alchemized this, but realized it was probably far too ridiculously complicated to actually use for entertainment.
 			</args>
 			</action>
 			
-			<action class='chest4' command='talk' name='Examine'>
+			<action class='chest4' command='talk' name='Open'>
 			<args>
-			@! You got a THING!
+			@! You got a FANCY LANCE!
+			@! Why the hell would this thing be in the land of wrath and angels? That doesn't make too much sense. Oh well. You chalk it up as another weird dreambubble quirk.
 			</args>
 			</action>
 			
-			<action class='chest5' command='talk' name='Examine'>
+			<action class='chest5' command='talk' name='Open'>
 			<args>
-			@! You got a THING!
+			@! You got an OLD SICKLE!
+			@! Man. This was a sickle you used before you alchemized the prime weapon in your collection, the HOMES SMELL YA LATER. This was a bit prickly and rather uncomfortable to hold, and the color scheme leaves a lot to be desired. You're glad you've since upgraded.
 			</args>
 			</action>
 			
-			<action class='chest6' command='talk' name='Examine'>
+			<action class='chest6' command='talk' name='Open'>
 			<args>
-			@! You got a THING!
+			@! You got AHAB'S CROSSHAIRS!
+			@! You wonder what the point of a laser harpoon gun would even be. That's what this is, right? Harpoons are supposed to stick into something. Lasers don't really stick to things. I mean, they can if they were magic or something. This weapon is probably magic.  
 			</args>
 			</action>
 			
-			<action class='chest7' command='talk' name='Examine'>
+			<action class='chest7' command='talk' name='Open'>
 			<args>
-			@! You got a THING!
+			@! You got TROLL TAB!
+			@! This stuff is a thicker, slimier consistency than the human TAB. It would normally keep colder for longer too, if this were actually kept in a fridge and not haphazardly thrown in a chest. Either way, it doesn't taste any better.
 			</args>
 			</action>
 			
-			<action class='chest8' command='talk' name='Examine'>
+			<action class='chest8' command='talk' name='Open'>
 			<args>
-			@! You got a THING!
+			@! You got a STACK OF TOWELS!
+			@! You could use these. The meteor facilities' washing machines have a habit of ruining whatever you put into them a variety of ways. Some end up with huge holes. Some end up stained with rust or something. Some catch fire in the dryer. You'll keep these handy if your stock dwindles.
 			</args>
 			</action>
 			
