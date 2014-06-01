@@ -45,7 +45,28 @@
 				@karkat_horror KARKAT: ...
 				@karkat_facepalm KARKAT: FUCK, I...
 				@! You need a second to let your mind clear.
-           </args>
+           	</args>
+          	<action command='removeAction'>
+           		<args>sollux,Ask where you are.</args>
+           		<action command='addAction'>
+           			<args>sollux,
+           				<action class='sollux2' command='talk' name='Get Hints'>
+           				</action>
+           			</args>
+           			<action command='addAction'>
+           				<args>sollux,
+           					<action class='sollux3' command='talk' name='Ask about style.'>
+           					</action>
+           				</args>
+           				<action command='addAction'>
+           					<args>sollux,
+           						<action class='sollux4' command='talk' name='Ask personal question.'>
+           						</action>
+           					</args>
+           				</action>
+           			</action>
+           		</action>
+           	</action>
         </action>
 		
 		<!-- after this conversation others open up -->

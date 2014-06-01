@@ -5,6 +5,7 @@
         <dependency>chars/dave.xml</dependency>
         <dependency>chars/terezi.xml</dependency>
         <dependency>chars/case.xml</dependency>
+        <dependency>chars/sollux.xml</dependency>
         <dependency>rooms/lowaa.xml</dependency>
         <dependency>rooms/lab2.xml</dependency>
         <dependency>dialogs/itemDialogue.xml</dependency>
@@ -404,6 +405,12 @@
             <character class='karkat' x='500' y='1500'>
                 <action class='beKarkat'/>
             </character>
+
+            <character class='sollux' x='100' y='2100'>
+                <action class='sollux1' command='talk' name='Ask where you are.'>
+                </action>
+            </character>
+
             <character class='dave' x='1560' y='3030'>
             </character>
             <character class='terezi' x='2737' y='1767'>
