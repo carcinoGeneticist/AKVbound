@@ -257,7 +257,7 @@
 
             <!-- game loops -->
 
-                
+                <!--
                 <trigger>
                     <args>gameState,sleep=true</args>
                     <action command='removeSprite'>
@@ -276,7 +276,7 @@
                         <args>@! asdf </args>
                     </action>
                 </trigger>
-
+-->
                 <!-- dave interrupting, follow -->
                 <trigger detonate='true'>spriteProperty,karkat,y&gt;2980
                         <action command='follow'>

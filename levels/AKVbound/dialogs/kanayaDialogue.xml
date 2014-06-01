@@ -8,36 +8,42 @@
 		
 		<action class='kanayaTalk1' command='Talk To Kanaya'>
 			 <args>
-			 @kanaya_happytalk KANAYA: Hello Karkat How Rare Of You To Join The Living
-			 @karkat_talk KARKAT: WHAT LIVING? WE'RE THE ONLY ONES HERE. AREN'T YOU DEAD?
-			 @kanaya_bored KANAYA: Could You Just Please Let My Use These Sayings I Have Learned At Least Once
-			 @karkat_eyeroll1 KARKAT: NO, BECAUSE THEY'RE DUMB AND I DON'T LIKE THEM.
-			 @kanaya_bored KANAYA: Fine Have It Your Way
-			 @kanaya_talk KANAYA: Is There Something You Needed From The Common Area 
-			 @karkat_what KARKAT: NO... WHAT, AM I BOTHERING YOU?
-			 @kanaya_talk KANAYA: Of Course Not
-			 @kanaya_talk KANAYA: I Was Planning On Doing A Bit More Research With Rose But Dave Wanted To Show Her Something So Now I Am Just Waiting Until She Returns
-			 @kanaya_happytalk KANAYA: If We Were Busy I Would Let You Stay Anyway As Long As You Used Your Inside Voice
-			 @karkat_talk KARKAT: RIGHT. SURE.
-			 @kanaya_angrytalk KANAYA: Inside Voice Karkat
-			 @karkat_eyeroll2 KARKAT: ...
-			 @karkat_sullen KARKAT: (right. sure.)
-			 @kanaya_happytalk KANAYA: Thank You
+				 @kanaya_happytalk KANAYA: Hello Karkat How Rare Of You To Join The Living
+				 @karkat_talk KARKAT: WHAT LIVING? WE'RE THE ONLY ONES HERE. AREN'T YOU DEAD?
+				 @kanaya_bored KANAYA: Could You Just Please Let My Use These Sayings I Have Learned At Least Once
+				 @karkat_eyeroll1 KARKAT: NO, BECAUSE THEY'RE DUMB AND I DON'T LIKE THEM.
+				 @kanaya_bored KANAYA: Fine Have It Your Way
+				 @kanaya_talk KANAYA: Is There Something You Needed From The Common Area 
+				 @karkat_what KARKAT: NO... WHAT, AM I BOTHERING YOU?
+				 @kanaya_talk KANAYA: Of Course Not
+				 @kanaya_talk KANAYA: I Was Planning On Doing A Bit More Research With Rose But Dave Wanted To Show Her Something So Now I Am Just Waiting Until She Returns
+				 @kanaya_happytalk KANAYA: If We Were Busy I Would Let You Stay Anyway As Long As You Used Your Inside Voice
+				 @karkat_talk KARKAT: RIGHT. SURE.
+				 @kanaya_angrytalk KANAYA: Inside Voice Karkat
+				 @karkat_eyeroll2 KARKAT: ...
+				 @karkat_sullen KARKAT: (right. sure.)
+				 @kanaya_happytalk KANAYA: Thank You
 			 </args>
 			 <action command='removeAction'>
-				<args>kanaya,Talk to Kanaya.</args>
-				<action command='addAction'>
-					<args>kanaya,
-						<action class='kanayaTalk2' command='talk' name='Ask about studies.'>
-						</action>
-					</args>
-					<action command='addAction'>
-						<args>kanaya,
-							<action class='kanayaTalk3' command='talk' name='Ask about deadness.'>
-							</action>
-						</args>
-					</action>
-				</action>
+			 	<args>kanaya,Talk to Kanaya.</args>
+			 	<action command='addAction'>
+			 		<args>kanaya,
+			 			<action class='kanayaTalk2' command='talk' name='Ask About Studies.'>
+			 			</action>
+			 		</args>
+			 		<action command='addAction'>
+			 			<args>kanaya,
+			 				<action class='kanayaTalk3' command='talk' name='Ask About Deadness.'>
+			 				</action>
+			 			</args>
+			 			<action command='addAction'>
+			 				<args>kanaya,
+			 					<action class='kanayaTalk4' command='talk' name='Ask About Hole.'>
+			 					</action>
+			 				</args>
+			 			</action>
+			 		</action>
+			 	</action>
 			 </action>
 		</action>
 		
