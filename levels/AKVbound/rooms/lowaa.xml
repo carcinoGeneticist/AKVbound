@@ -64,8 +64,21 @@
         <asset name='lowaa_FG_4_2' type='graphic'>backgrounds/slices/lowaa_FG_4_2.png</asset>
         <asset name='lowaa_FG_4_3' type='graphic'>backgrounds/slices/lowaa_FG_4_3.png</asset>
 
-        <asset name='lowaa_WM' type='graphic'>backgrounds/lowaa_WM.png</asset>     
+        <asset name='lowaa_WM' type='graphic'>backgrounds/lowaa_WM.png</asset>   
+
+
+        <asset name='lance' type='graphic'>objects/items/i_lance.png</asset>
+        <asset name='ahab' type='graphic'>objects/items/i_ahab.png</asset>
     </assets>
+
+
+    <sprite depthing='3' name='lance'>
+        <animation sheet='lance'/>
+    </sprite>
+
+    <sprite depthing='3' name='ahab'>
+        <animation sheet='ahab'/>
+    </sprite>
    
     
     <rooms>
@@ -380,7 +393,26 @@
 <!--
             <character class='karkat' x='980' y='790'>
             </character>
-    -->    
+        -->  
+
+
+            <sprite class='chestlowaa' name='lowaachest1' x='300' y='490'>
+                <action command='openChest' name='Open.'>
+                    <args>lowaachest1,ahab,
+                        @! You got AHAB'S CROSSHAIRS!
+            @! You wonder what the point of a laser harpoon gun would even be. That's what this is, right? Harpoons are supposed to stick into something. Lasers don't really stick to things. I mean, they can if they were magic or something. This weapon is probably magic.  
+                    </args>
+                </action>
+            </sprite>  
+
+            <sprite class='chestlowaa' name='lowaachest2' x='820' y='230'>
+                <action command='openChest' name='Open.'>
+                    <args>lowaachest2,lance,
+                        @! You got a FANCY LANCE!
+                        @! Why the hell would this thing be in the land of wrath and angels? That doesn't make too much sense. Oh well. You chalk it up as another weird dreambubble quirk.
+                    </args>
+                </action>
+            </sprite>  
 
 
 

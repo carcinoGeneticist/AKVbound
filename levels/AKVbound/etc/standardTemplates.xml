@@ -13,8 +13,16 @@ unmodified. -->
 <sburb desc="Standard Template Resources">
 	
 	<assets>
-  		<asset name='chest1OpenSheet' type='graphic'>objects/chests/chest1o.png</asset>
-  		<asset name='chest1ClosedSheet' type='graphic'>objects/chests/chest1.png</asset>
+  		<asset name='chest1o' type='graphic'>objects/chests/chest1o.png</asset>
+  		<asset name='chest1c' type='graphic'>objects/chests/chest1.png</asset>
+  		<asset name='chest2o' type='graphic'>objects/chests/chest2o.png</asset>
+  		<asset name='chest2c' type='graphic'>objects/chests/chest2.png</asset>
+  		<asset name='chest3o' type='graphic'>objects/chests/chest3o.png</asset>
+  		<asset name='chest3c' type='graphic'>objects/chests/chest3.png</asset>
+
+
+
+
         <asset name='teleporterPad' type='graphic'>objects/teleporterpad.png</asset>
         <asset name='teleportSheet' type='graphic'>effects/teleportSheet.png</asset>
 		<!--CASE: assets for this shit goes here-->
@@ -38,16 +46,33 @@ unmodified. -->
 		
 		
 		<sprite class='chest1' width='40' height='15' depthing='1' collidable='true'>
-				<animation name='closed' sheet='chest1ClosedSheet' x='-48' y='-40' />
-				<animation name='open' sheet='chest1OpenSheet' x='-48' y='-40' loopNum='0' followUp='opened'/>
-				<animation name='opened' sheet='chest1OpenSheet' x='-48' y='-40' loopNum='0'/>
+				<animation name='closed' sheet='chest1c' x='-48' y='-40' />
+				<animation name='open' sheet='chest1o' x='-48' y='-40' loopNum='0' followUp='opened'/>
+				<animation name='opened' sheet='chest1o' x='-48' y='-40' loopNum='0'/>
 		</sprite>
 		<!--CASE: animate it like this.  the x and y are a little bit arbitrary because you'll be messing with the x and y in the room placement.  basically just pick numbers that make sense.  width and height must be proportional to the actual image. in this case it is the exact same, but you can make shit smaller or larger as long as you keep it proportional.-->
+		
 		<sprite class='coffee' width='68' height='100' depthing='1' collidable='true'>
             <animation name='closed' sheet='coffMachClosedSheet' x='-37' y='-90'/>
             <animation name='open' sheet='coffMachOpenSheet' x='-37' y='-90' loopNum='0' followUp='opened'/>
             <animation name='opened' sheet='coffMachOpenSheet' x='-37' y='-90' loopNum='0'/>
         </sprite>
+
+        <sprite class='chest' width='82' height='56' depthing='1' collidable='true'>
+            <animation name='closed' sheet='chest1c' x='-48' y='-40'/>
+            <animation name='open' sheet='chest1o' x='-48' y='-40' loopNum='0' followUp='opened'/>
+            <animation name='opened' sheet='chest1o' x='-48' y='-40' loopNum='0'/>
+        </sprite>
+
+        <sprite class='chestlowaa' width='82' height='56' depthing='1' collidable='true'>
+            <animation name='closed' sheet='chest3c' x='-48' y='-40'/>
+            <animation name='open' sheet='chest3o' x='-48' y='-40' loopNum='0' followUp='opened'/>
+            <animation name='opened' sheet='chest3o' x='-48' y='-40' loopNum='0'/>
+        </sprite>
+
+
+
+
 
         <sprite class='door' width='86' height='108' depthing='1' collidable='true'>
         	<animation sheet='door' x='-28' y='-40' />
