@@ -20,9 +20,6 @@ unmodified. -->
   		<asset name='chest3o' type='graphic'>objects/chests/chest3o.png</asset>
   		<asset name='chest3c' type='graphic'>objects/chests/chest3.png</asset>
 
-
-
-
         <asset name='teleporterPad' type='graphic'>objects/teleporterpad.png</asset>
         <asset name='teleportSheet' type='graphic'>effects/teleportSheet.png</asset>
 		<!--CASE: assets for this shit goes here-->
@@ -34,9 +31,6 @@ unmodified. -->
         <asset name='comp' type='graphic'>objects/items/o_comp.png</asset>
         <asset name='counter' type='graphic'>objects/items/o_counter.png</asset>
         <asset name='door' type='graphic'>objects/items/o_door.png</asset>
-
-
-        
 
 
 	</assets>
@@ -58,6 +52,7 @@ unmodified. -->
             <animation name='opened' sheet='coffMachOpenSheet' x='-37' y='-90' loopNum='0'/>
         </sprite>
 
+
         <sprite class='chest' width='82' height='56' depthing='1' collidable='true'>
             <animation name='closed' sheet='chest1c' x='-48' y='-40'/>
             <animation name='open' sheet='chest1o' x='-48' y='-40' loopNum='0' followUp='opened'/>
@@ -69,10 +64,6 @@ unmodified. -->
             <animation name='open' sheet='chest3o' x='-48' y='-40' loopNum='0' followUp='opened'/>
             <animation name='opened' sheet='chest3o' x='-48' y='-40' loopNum='0'/>
         </sprite>
-
-
-
-
 
         <sprite class='door' width='86' height='108' depthing='1' collidable='true'>
         	<animation sheet='door' x='-28' y='-40' />
