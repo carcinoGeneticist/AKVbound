@@ -100,6 +100,7 @@
         <asset name='ga' type='graphic'>objects/symbols/virgo.png</asset>
 
 
+
     </assets>
 
 <!--CASE: animate it here, fuck with the x and y until it comes out in the right spot.  depthing should always be 3-->
@@ -121,7 +122,7 @@
             </paths>
 
             <triggers>
-
+<!--
                 <trigger>
                     <args>gameState,sleep=true</args>
                     <action command='moveSprite'>
@@ -140,7 +141,7 @@
                         <args>rose,lab2</args>
                     </action>
                 </trigger>
-
+-->
 
 
                 <!-- room changes -->
@@ -258,6 +259,12 @@
                 <sprite class='teleporter' name='teleporterPadCG' x='1280' y='2908'>
                     <action name='Teleport' command='changeRoomRemote'>
                         <args>rooms/labCG.xml,labCG,215,1730</args>
+                        <action command='removeSprite'>
+                            <args>rose,lab2</args>
+                            <action command='moveSprite'>
+                                <args>kanaya,422,327</args>
+                            </action>
+                        </action>
                     </action>
                 </sprite>
 
@@ -611,7 +618,7 @@
             </character>
 
 
-            <character class='kanaya' x='0' y='3204'>
+            <character class='kanaya' x='50' y='3200'>
                 <action class='kanayaTalk1' command='talk' name='Talk to Kanaya.'>
                 </action>
             </character>

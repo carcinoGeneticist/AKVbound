@@ -1,21 +1,23 @@
 <sburb description='case'>
+    <dependencies>
+        <dependency>dialogs/esacDialogue.xml</dependency>
+    </dependencies>
+    
+
     
     <classes>
-        <animation class='case-dialog' frameInterval='6' x='-180' y='-454'/>
+        <animation class='case-dialog' frameInterval='6' x='-230' y='-454'/>
         
         <character class='case' name='case' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='caseSheet' state='walkFront' facing='Front'>
         </character>
         
         
-        <action class='beCase' name='Be Case.' command='changeChar'>
-            <args>case</args>
-            
-        </action><!--something else instead of beCase probably? idk right now.  this might be a requirement...-->
+
     </classes>
     
     <assets>
         
-        <asset name='caseSheet' type='graphic'>chars/esac/case.png</asset> <!--still need-->
+        <asset name='caseSheet' type='graphic'>chars/voice/voice.png</asset> 
         
         
         <asset name='case_huh' type='graphic'>dialogs/esac/case_huh.png</asset>
@@ -32,14 +34,14 @@
     <hud>
         <dialogsprites>
 			<animation name='case_huh' class='case-dialog' sheet='case_huh' />
-			<animation name='case_huhtalk' class='case-dialog' sheet='case_huhtalk' />
+			<animation name='case_huhtalk' class='case-dialog' sheet='case_huhtalk' length='2'/>
 			<animation name='case_idle' class='case-dialog' sheet='case_idle' />
 			<animation name='case_mad' class='case-dialog' sheet='case_mad' />
-			<animation name='case_madtalk' class='case-dialog' sheet='case_madtalk' />
-			<animation name='case_slytalk' class='case-dialog' sheet='case_slytalk' />
-			<animation name='case_talk' class='case-dialog' sheet='case_talk' />
-			<animation name='voice_idle' class='case-dialog' sheet='voice_idle' />
-			<animation name='voice_talk' class='case-dialog' sheet='voice_talk' />
+			<animation name='case_madtalk' class='case-dialog' sheet='case_madtalk' length='2'/>
+			<animation name='case_slytalk' class='case-dialog' sheet='case_slytalk' length='2'/>
+			<animation name='case_talk' class='case-dialog' sheet='case_talk' length='2'/>
+			<animation name='voice_idle' class='case-dialog' sheet='voice_idle' length='4'/>
+			<animation name='voice_talk' class='case-dialog' sheet='voice_talk' length='4'/>
         </dialogsprites>
     </hud>
 </sburb>

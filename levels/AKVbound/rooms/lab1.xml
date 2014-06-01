@@ -4,6 +4,8 @@
         <dependency>chars/karkat.xml</dependency>
         <dependency>chars/dave.xml</dependency>
         <dependency>chars/terezi.xml</dependency>
+        <dependency>chars/case.xml</dependency>
+        <dependency>chars/sollux.xml</dependency>
         <dependency>rooms/lowaa.xml</dependency>
         <dependency>rooms/lab2.xml</dependency>
         <dependency>dialogs/itemDialogue.xml</dependency>
@@ -125,6 +127,19 @@
 
         <asset name='lab1_WM' type='graphic'>backgrounds/lab1_WM.png</asset>
 
+        <asset name='gradient' type='graphic'>objects/items/o_gradient.png</asset>
+
+        <asset name='caseSheet' type='graphic'>chars/voice/voice.png</asset>
+        <asset name='case_huh' type='graphic'>dialogs/esac/case_huh.png</asset>
+        <asset name='case_huhtalk' type='graphic'>dialogs/esac/case_huhtalk.png</asset>
+        <asset name='case_idle' type='graphic'>dialogs/esac/case_idle.png</asset>
+        <asset name='case_mad' type='graphic'>dialogs/esac/case_mad.png</asset>
+        <asset name='case_madtalk' type='graphic'>dialogs/esac/case_madtalk.png</asset>
+        <asset name='case_slytalk' type='graphic'>dialogs/esac/case_slytalk.png</asset>
+        <asset name='case_talk' type='graphic'>dialogs/esac/case_talk.png</asset>
+        <asset name='voice_idle' type='graphic'>dialogs/esac/voice_idle.png</asset>
+        <asset name='voice_talk' type='graphic'>dialogs/esac/voice_talk.png</asset>
+
         <asset name='staircase' type='path'>2572,2100;2572,2260;1715,2950;1715,3100</asset>
 
     </assets>
@@ -242,7 +257,7 @@
 
             <!-- game loops -->
 
-                
+                <!--
                 <trigger>
                     <args>gameState,sleep=true</args>
                     <action command='removeSprite'>
@@ -261,7 +276,7 @@
                         <args>@! asdf </args>
                     </action>
                 </trigger>
-
+-->
                 <!-- dave interrupting, follow -->
                 <trigger detonate='true'>spriteProperty,karkat,y&gt;2980
                         <action command='follow'>
@@ -296,6 +311,12 @@
                                                 <args>dave,lab1</args>
                                                 <action command='changeRoomRemote'>
                                                     <args>rooms/lowaa.xml,lowaa,830,860</args>
+                                                    <action command='removeSprite'>
+                                                        <args>door1,lab1</args>
+                                                        <action command='moveSprite'>
+                                                            <args>gradient,272,1309</args>
+                                                        </action>
+                                                    </action>
                                                 </action>
                                             </action>
                                         </action>
@@ -338,6 +359,11 @@
             <sprite class='door' name='door1' x='272' y='1309' collidable='true'>
             </sprite>
 
+            <sprite name='gradient' x="2600" y="300" width="86" height="100" collidable="false" depthing='2'>
+                <animation sheet="gradient" x="-80" y="-60"/>
+            </sprite>
+
+           
 
 
             <sprite class='comp' name='comp1' x='331' y='2042' collidable='true'>
@@ -361,6 +387,14 @@
                 </action>
             </sprite>
 
+            <sprite name="caseSheet" x="2680" y="244" width="76" height="76" collidable="false" depthing='2'>
+                <animation sheet="caseSheet" x="-35" y="-60" length="4" frameInterval="4"/>
+            </sprite>
+            <character class='case' x='2680' y='244'>
+                <action class='AKVEgg1' command='talk' name='Ask Karkat Voice'>
+                </action>
+            </character>
+
 
 
             <!-- path blocks -->
@@ -371,6 +405,12 @@
             <character class='karkat' x='500' y='1500'>
                 <action class='beKarkat'/>
             </character>
+
+            <character class='sollux' x='100' y='2100'>
+                <action class='sollux1' command='talk' name='Ask where you are.'>
+                </action>
+            </character>
+
             <character class='dave' x='1560' y='3030'>
             </character>
             <character class='terezi' x='2737' y='1767'>

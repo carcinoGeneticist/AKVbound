@@ -1,0 +1,35 @@
+<sburb description='sollux'>
+    <dependencies>
+        <dependency>dialogs/solluxDialogue.xml</dependency>
+        </dependencies>
+    
+    <classes>
+        <animation class='sollux-dialog' frameInterval='6' x='-230' y='-454'/>
+        
+        <character class='sollux' name='sollux' x='287' y='330' sx='-37' sy='-65' sWidth='75' sHeight='75' width='36' height='16' sheet='solluxSheet' state='walkFront' facing='Front'>
+        </character>
+        
+    </classes>
+    
+    <assets>
+        
+        <asset name='solluxSheet' type='graphic'>chars/sollux/sollux.png</asset>
+        
+        
+        <asset name='sollux_lisp' type='graphic'>dialogs/sollux/sollux_lisp.png</asset>
+        <asset name='sollux_madtalk' type='graphic'>dialogs/sollux/sollux_madtalk.png</asset>
+        <asset name='sollux_pun' type='graphic'>dialogs/sollux/sollux_pun.png</asset>
+        <asset name='sollux_shock' type='graphic'>dialogs/sollux/sollux_shock.png</asset>
+        <asset name='sollux_talk' type='graphic'>dialogs/sollux/sollux_talk.png</asset>
+    </assets>
+    
+    <hud>
+        <dialogsprites>
+			<animation name='sollux_lisp' class='sollux-dialog' sheet='sollux_lisp' length='4'/>
+			<animation name='sollux_madtalk' class='sollux-dialog' sheet='sollux_madtalk' length='2'/>
+			<animation name='sollux_pun' class='sollux-dialog' sheet='sollux_pun' length='6'/>
+			<animation name='sollux_shock' class='sollux-dialog' sheet='sollux_shock' length='6'/>
+            <animation name='sollux_talk' class='sollux-dialog' sheet='sollux_talk' length='2'/>
+        </dialogsprites>
+    </hud>
+</sburb>
