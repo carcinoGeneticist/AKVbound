@@ -351,8 +351,37 @@
                 <action command='openChest' name='Open.'>
                     <args>coffMach1,obj01,
                         @! You got some COFFEE!
-			@! Man, this is some cheap coffee. You’ve kept trying to drink coffee to keep you awake but usually it doesn’t wake you up at all. It just multiplies your inferiority complex and adds some anxious jittering. Never the less you occasionally still drink it to try to build tolerance.
-			@! You still hang around the place as you drink it.
+            			@! Man, this is some cheap coffee. You’ve kept trying to drink coffee to keep you awake but usually it doesn’t wake you up at all. It just multiplies your inferiority complex and adds some anxious jittering. Never the less you occasionally still drink it to try to build tolerance.
+            			@! You still hang around the place as you drink it.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_bookshelf' name='o_bookshelf' x='688' y='138' collidable='true'>
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! So many titles you haven’t heard of. So many textbooks. That third shelf though... All romance novels. Hey, those two on the end! You were wondering where they went. Oh well, re-reading them isn’t really a priority right now.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_flowers' name='o_flowers' x='837' y='310' collidable='true'>
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! Roses are red.\nThose bottles are blue.\nMost your friends are dead.\nGet over it.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_grammo' name='o_grammo' x='420' y='432' collidable='false'>
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! You look at the iGrub to check what songs are on it. Maybe listening to something else will get this strange synthetic tune out of your head.
+                        @! You can't figure out the unlock code, though. Damn. There's got to be somewhere else to listen to music.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='comp' name='labcomp1' x='838' y='412' collidable='true'>
+                <action command='talk' name='Examine.'>
+                    <args>
+                        @! It’s currently just a browser on dave_ebubbles. You’re not looking through that shit. It’s terrible and reading its posts is an experience you would not reccomend to anyone, living or dead.
                     </args>
                 </action>
             </sprite>
@@ -618,9 +647,9 @@
                             <args>record5</args>
                         </action>
             </sprite>
-<!--
-            <character class='karkat' x='1000' y='3000'/>
--->
+
+            <character class='karkat' x='700' y='300'/>
+
 
             <character class='rose' x='422' y='327'>
                 <action class='roseTalk1' command='talk' name='Talk to Rose.'>

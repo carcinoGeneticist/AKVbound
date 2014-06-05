@@ -39,6 +39,10 @@ unmodified. -->
         <asset name='o_frzr' type='graphic'>objects/items/o_frzr.png</asset>
         <asset name='o_sink' type='graphic'>objects/items/o_sink.png</asset>
         <asset name='o_toilet' type='graphic'>objects/items/o_toilet.png</asset>
+        <asset name='o_flowers' type='graphic'>objects/items/o_flowers.png</asset>
+        <asset name='o_bookshelf' type='graphic'>objects/items/o_bookshelf.png</asset>
+        <asset name='o_grammo' type='graphic'>objects/items/o_grammo.png</asset>
+        <asset name='o_posters' type='graphic'>objects/items/o_posters.png</asset>
 
 
 	</assets>
@@ -132,6 +136,23 @@ unmodified. -->
 	  	<sprite class='o_toilet' width='54' height='58' collidable='true'>
 	  		<animation sheet='o_toilet' x='-27' y='-29' />
 	  	</sprite>
+
+	  	<sprite class='o_flowers' width='48' height='52' collidable='true'>
+	  		<animation sheet='o_flowers' x='-30' y='-30' />
+	  	</sprite>
+
+	  	<sprite class='o_bookshelf' width='138' height='142' collidable='true'>
+	  		<animation sheet='o_bookshelf' x='-69' y='-71' />
+	  	</sprite>
+
+	  	<sprite class='o_grammo' width='68' height='70' collidable='true'>
+	  		<animation sheet='o_grammo' x='-34' y='-35' />
+	  	</sprite>
+
+	  	<sprite class='o_posters' width='368' height='290' collidable='true'>
+	  		<animation sheet='o_posters' x='-184' y='-145' />
+	  	</sprite>
+
 
 
 

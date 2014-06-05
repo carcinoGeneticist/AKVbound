@@ -267,6 +267,19 @@
                 </action>
             </sprite>
 
+            <sprite class='o_posters' name='o_posters' x='1773' y='760' collidable='true'>
+                <action command='talk' name='Examine posters.'>
+                    <args>
+                        @! Wonderful movies. You have the best taste out of everyone on this meteor.
+                        @! Branching out to human cinema was one of the better decisions you’ve made.
+                        @! You truly admire some of the actors the humans have managed to produce from their primitive culture.
+                        @! Dane Cook may just be better than the human Will Smith, too.
+                        @! It’s almost painful to admit.
+                        @! It's certainly painful for me to write.
+                    </args>
+                </action>
+            </sprite>
+
             <sprite class='chest' name='kkchest' x='1800' y='920'>
                 <action command='talk' name='Open Chest.'>
                     <args>
@@ -274,11 +287,11 @@
                     </args>
                 </action>
             </sprite>
-
+<!--
             <character class='karkat' x='215' y='1730'>
                 <action class='beKarkat'/>
             </character>
-        
+        -->
             
             <sprite name='labCG_BG'>
                 <animation sheet='labCG_BG' sliced='true' numCols='6' numRows='5' colSize='500' rowSize='500'/>
