@@ -31,6 +31,14 @@ unmodified. -->
         <asset name='comp' type='graphic'>objects/items/o_comp.png</asset>
         <asset name='counter' type='graphic'>objects/items/o_counter.png</asset>
         <asset name='door' type='graphic'>objects/items/o_door.png</asset>
+        <asset name='o_ablut' type='graphic'>objects/items/o_ablut.png</asset>
+        <asset name='o_boonpot' type='graphic'>objects/items/o_boonpot.png</asset>
+        <asset name='o_crabphone' type='graphic'>objects/items/o_crabphone.png</asset>
+        <asset name='o_crabtop' type='graphic'>objects/items/o_crabtop.png</asset>
+        <asset name='o_frznfrzr' type='graphic'>objects/items/o_frznfrzr.png</asset>
+        <asset name='o_frzr' type='graphic'>objects/items/o_frzr.png</asset>
+        <asset name='o_sink' type='graphic'>objects/items/o_sink.png</asset>
+        <asset name='o_toilet' type='graphic'>objects/items/o_toilet.png</asset>
 
 
 	</assets>
@@ -91,6 +99,38 @@ unmodified. -->
 
 	  	<sprite class='bed' width='144' height='180' collidable='true'>
 	  		<animation sheet='bed' x='-75' y='-90' />
+	  	</sprite>
+
+	  	<sprite class='o_ablut' width='128' height='120' collidable='true'>
+	  		<animation sheet='o_ablut' x='-65' y='-50' />
+	  	</sprite>
+
+	  	<sprite class='o_boonpot' width='90' height='88' collidable='true' >
+	  		<animation sheet='o_boonpot' x='-45' y='-40' length='2'/>
+	  	</sprite>
+
+	  	<sprite class='o_crabphone' width='40' height='16' collidable='true'>
+	  		<animation sheet='o_crabphone' x='-20' y='-8' />
+	  	</sprite>
+
+	  	<sprite class='o_crabtop' width='110' height='78' collidable='true' depthing='2'>
+	  		<animation sheet='o_crabtop' x='-65' y='-67' />
+	  	</sprite>
+
+	  	<sprite class='o_frznfrzr' width='142' height='94' collidable='true'>
+	  		<animation sheet='o_frznfrzr' x='-75' y='-40' />
+	  	</sprite>
+
+	  	<sprite class='o_frzr' width='284' height='94' collidable='true'>
+	  		<animation sheet='o_frzr' x='-140' y='-40' />
+	  	</sprite>
+
+	  	<sprite class='o_sink' width='26' height='62' collidable='true'>
+	  		<animation sheet='o_sink' x='-13' y='-31' />
+	  	</sprite>
+
+	  	<sprite class='o_toilet' width='54' height='58' collidable='true'>
+	  		<animation sheet='o_toilet' x='-27' y='-29' />
 	  	</sprite>
 
 

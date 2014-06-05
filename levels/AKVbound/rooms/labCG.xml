@@ -138,6 +138,35 @@
                         </trigger>
                     </trigger>
                 </trigger>
+                <trigger>spriteProperty,char,x&lt;1000
+                    <trigger>spriteProperty,char,y&lt;600
+                        <trigger detonate='true'>spriteProperty,char,x&gt;500
+                            <action command='talk'>
+                                <args>
+                                    @! You hear something in the distance
+                                    @! #2b0057HONK!##
+                                    @karkat_talk KARKAT: HEY! ARE YOU IN HERE?
+                                    @! You hear some scurrying away.
+                                </args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+                <trigger>spriteProperty,char,x&lt;1000
+                    <trigger>spriteProperty,char,y&lt;600
+                        <trigger detonate='true'>spriteProperty,char,x&gt;850
+                            <action command='talk'>
+                                <args>
+                                    @! In the dark, you hear the sound of something being dragged.
+                                    @karkat_talk KARKAT: GAMZEE? WHAT THE FUCK ARE YOU DOING IN HERE?
+                                    @! #2b0057honk:o)##
+                                    @! After some metal rustling and some slight clangs, the room turns silent.
+                                </args>
+                            </action>
+                        </trigger>
+                    </trigger>
+                </trigger>
+
             </triggers>
 
 
@@ -193,11 +222,63 @@
                     </action>
                 </action>
             </sprite>
-<!--
+
+            <sprite class='o_sink' name='o_sink' x='1312' y='1100' collidable='true'>
+                
+            </sprite>
+            <sprite class='o_toilet' name='o_toilet' x='1150' y='1100' collidable='true'>
+                <action command='talk' name='Examine load gaper.'>
+                    <args>
+                        @! You're lucky you don't have to use this right now, seeing as there is someone staring down at you this very moment. 
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class='o_ablut' name='o_ablut' x='1200' y='970' collidable='true'>
+                <action command='talk' name='Examine ablution trap.'>
+                    <args>
+                        @! Humans have some similar contraption to this. They call it a /“shower,/” or a /“bathtub/”.
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class='o_crabtop' name='o_crabtop' x='1910' y='1140' collidable='true'>
+                <action command='talk' name='Examine crabtop.'>
+                    <args>
+                        @! You only recently got this thing working. Right now it’s open on bubblr, a dream-bubble centric communication system that links up with other universes’ similar networks.
+                        @! You check to see if your personal blog, WHOTHEFUCKTOOKMYUSERNAME, has any followers. It doesn’t. Good. No one needs to see this, ever.
+                        @! You also have a second blog, and it’s been a while since you posted anything there. Maybe you could spend a few minutes importing... that...
+                        @! OH GRUBSAUCE GURGLING NOOKHUFFING BULGEPUNTING _FUCK_.
+                        @! YOU LEFT YOUR FUCKING CRABPHONE IN THAT DREAM BUBBLE.
+                        @! OH MAN.
+                        @! OH GOD. OH MAN.
+                        @karkat_horror KARKAT: OH GOD OH MAN OH GOD OH MAN OH GOD
+                        @! Ah calm the fuck down if anyone does anything with it you can just delete the posts.
+                        @karkat_talk KARKAT: OH RIGHT.
+                    </args>
+                </action>
+            </sprite>
+            <sprite class='o_boonpot' name='o_boonpot' x='1900' y='920' collidable='true'>
+                <action command='talk' name='Examine pot.'>
+                    <args>
+                        @! Man, you sure do have a lot of money. A whole pot full of boonbucks. And this is only what you keep in THIS room.
+                        @! Sometimes you just like to look at how the money twinkles. It’s a pleasant feeling, having money. Doesn’t make you all too happy, though.
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class='chest' name='kkchest' x='1800' y='920'>
+                <action command='talk' name='Open Chest.'>
+                    <args>
+                        @! This isn’t a chest that simply open and levitates an item up in the air for you, you actually use this chest to store clothes and other things in. Putting these fucking things to use for once.
+                    </args>
+                </action>
+            </sprite>
+
             <character class='karkat' x='215' y='1730'>
                 <action class='beKarkat'/>
             </character>
-        -->
+        
             
             <sprite name='labCG_BG'>
                 <animation sheet='labCG_BG' sliced='true' numCols='6' numRows='5' colSize='500' rowSize='500'/>
