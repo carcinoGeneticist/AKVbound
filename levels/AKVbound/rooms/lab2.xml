@@ -454,9 +454,9 @@
             </sprite>
 -->
             <!-- path blocks -->
-           <!--
+           
             <sprite class='block' name='block3' x='700' y='2967' collidable='true'/>
-            -->
+            
 
 
             <!-- excess blocks -->
@@ -650,9 +650,9 @@
                             <args>record5</args>
                         </action>
             </sprite>
-
+<!--
             <character class='karkat' x='1000' y='3000'/>
-
+-->
 
             <character class='rose' x='422' y='327'>
                 <action class='roseTalk1' command='talk' name='Talk to Rose.'>
