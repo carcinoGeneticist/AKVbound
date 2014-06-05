@@ -157,8 +157,8 @@
 
                 <!-- game loops -->
                 
-                <trigger>spriteProperty,char,y&gt;2350
-                    <trigger>spriteProperty,char,y&lt;2400
+                <trigger>spriteProperty,char,y&gt;2250
+                    <trigger>spriteProperty,char,y&lt;2300
                         <trigger detonate='true'>spriteProperty,char,x&lt;500
                             <action command='talk'>
                                 <args>
@@ -186,18 +186,12 @@
                                     @karkat_talk KARKAT: NO I HAVEN’T. I DON’T EVEN-
                                     @dave_talk DAVE: then check this out follow me 
                                 </args>
-                                <action command='changeChar'>
-                                    <args>dave</args>
-                                    <action command='walk'>
-                                    <args>dave,Up</args>
-                                        <action command='teleport'>
-                                            <args>lab2,0,0</args>
-                                            <action command='changeChar'>
-                                                <args>karkat</args>
-                                            </action>
+                                
+                                   
+                                        <action command='removeSprite'>
+                                            <args>dave,lab2</args>
                                         </action>
-                                    </action>
-                                </action>
+                                    
                             </action>
                         </trigger>
                     </trigger>
@@ -249,7 +243,7 @@
                 </sprite>
                 <!-- dave tp -->
                 <sprite class='teleporter' name='teleporterPad6' x='440' y='2251'>
-                    <action name='Teleport' command='teleport'>
+                    <action name='Teleport' command='changeRoom'>
                         <args>lab2,1355,555</args>
                     </action>
                 </sprite>
@@ -457,9 +451,9 @@
             </sprite>
 -->
             <!-- path blocks -->
-           
+           <!--
             <sprite class='block' name='block3' x='700' y='2967' collidable='true'/>
-            
+            -->
 
 
             <!-- excess blocks -->
@@ -648,7 +642,7 @@
                         </action>
             </sprite>
 
-            <character class='karkat' x='700' y='300'/>
+            <character class='karkat' x='1000' y='3000'/>
 
 
             <character class='rose' x='422' y='327'>
