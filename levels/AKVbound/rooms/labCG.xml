@@ -210,6 +210,9 @@
                                                         @! You wonder what you missed and what could still be going on in this place.
                                                         @! It might be a good idea to check up on some things.
                                                     </args>
+                                                    <action command='setGameState'>
+                                                        <args>sleep,true</args>
+                                                    </action>
                                                 </action>
                                             </action>
                                         </action>

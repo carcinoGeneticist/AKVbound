@@ -140,6 +140,8 @@
         <asset name='voice_idle' type='graphic'>dialogs/esac/voice_idle.png</asset>
         <asset name='voice_talk' type='graphic'>dialogs/esac/voice_talk.png</asset>
 
+        <asset name='hint' type='graphic'>objects/symbols/cancer.png</asset>
+
         <asset name='staircase' type='path'>2572,2100;2572,2260;1715,2950;1715,3100</asset>
 
     </assets>
@@ -153,6 +155,7 @@
             </paths>
 
             <triggers>
+                <!--
                 <trigger>
                     <args>gameState,sleep=true</args>
                     <action command='removeSprite'>
@@ -162,19 +165,8 @@
                         </action>
                     </action>
                 </trigger>
-
-                <trigger>
-                    <args>gameState,leaveLOWAA=true</args>
-                    <action command='removeAction'>
-                        <args>teleporterPad,Teleport</args>
-                        <action command='addAction'>
-                            <args>teleporterPad,<action name='Teleport' command='changeRoomRemote'>
-                              <args>rooms/lab2.xml,lab2,1250,2112</args>
-                            </action>
-                        </args>
-                    </action>
-                    </action>
-                </trigger>
+-->
+                
             <!-- room changes -->
 
                 <!-- hallway to storage -->
@@ -278,6 +270,7 @@
                 </trigger>
 -->
                 <!-- dave interrupting, follow -->
+              
                 <trigger detonate='true'>spriteProperty,karkat,y&gt;2980
                         <action command='follow'>
                             <args>dave,char</args>
@@ -285,7 +278,7 @@
                             </action>
                     </action>
                 </trigger>
-
+          
                 <!-- terezi talk at top of stiars -->
                 <trigger detonate='true'>spriteProperty,karkat,x&gt;2712
                     <action class='tereziTalk1' command='talk' noDelay='true'>
@@ -306,7 +299,7 @@
                                     <action command='addAction'>
                                         <args>teleporterPad,
                                             <action name='Teleport' command='changeRoomRemote'>
-                                                <args>rooms/lab2.xml,lab2,1169,2112</args>
+                                                <args>rooms/lab2.xml,lab2,1229,2112</args>
                                             </action>
                                         </args>
                                         <action command='unfollow'>
@@ -330,6 +323,141 @@
                         </action>
                     </trigger>
                 </trigger>
+
+
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <trigger detonate='true'>spriteProperty,char,x&gt;400
+                        <action command='deltaSprite'>
+                            <args>hint,6,0</args>
+                            <action command='deltaSprite'>
+                                <args>hint,8,0</args>
+                                <action command='deltaSprite'>
+                                    <args>hint,11,0</args>
+                                    <action command='deltaSprite'>
+                                        <args>hint,14,0</args>
+                                        <action command='deltaSprite'>
+                                            <args>hint,18,0</args>
+                                            <action command='deltaSprite'>
+                                                <args>hint,23,0</args>
+                                                <action command='deltaSprite'>
+                                                    <args>hint,29,0</args>
+                                                    <action command='deltaSprite'>
+                                                        <args>hint,35,0</args>
+                                                        <action command='deltaSprite'>
+                                                            <args>hint,43,0</args>
+                                                            <action command='deltaSprite'>
+                                                                <args>hint,60,0</args>
+                                                                <action command='deltaSprite'>
+                                                                    <args>hint,200,0</args>
+                                                                    <action command='moveSprite'>
+                                                                        <args>hint,1650,3000</args>
+                                                                    </action>
+                                                                </action>
+                                                            </action>
+                                                        </action>
+                                                    </action>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+                    </trigger>
+                </trigger>
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <trigger detonate='true'>spriteProperty,char,x&gt;1600
+                        <action command='deltaSprite'>
+                            <args>hint,0,-6</args>
+                            <action command='deltaSprite'>
+                                <args>hint,0,-8</args>
+                                <action command='deltaSprite'>
+                                    <args>hint,0,-11</args>
+                                    <action command='deltaSprite'>
+                                        <args>hint,0,-14</args>
+                                        <action command='deltaSprite'>
+                                            <args>hint,0,-18</args>
+                                            <action command='deltaSprite'>
+                                                <args>hint,0,-23</args>
+                                                <action command='deltaSprite'>
+                                                    <args>hint,0,-29</args>
+                                                    <action command='deltaSprite'>
+                                                        <args>hint,0,-35</args>
+                                                        <action command='deltaSprite'>
+                                                            <args>hint,0,-43</args>
+                                                            <action command='deltaSprite'>
+                                                                <args>hint,0,-60</args>
+                                                                <action command='deltaSprite'>
+                                                                    <args>hint,0,-200</args>
+                                                                    <action command='moveSprite'>
+                                                                        <args>hint,1650,2340</args>
+                                                                    </action>
+                                                                </action>
+                                                            </action>
+                                                        </action>
+                                                    </action>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+                    </trigger>
+                </trigger>
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <trigger detonate='true'>spriteProperty,char,y&lt;2400
+                        <action command='deltaSprite'>
+                            <args>hint,-6,0</args>
+                            <action command='deltaSprite'>
+                                <args>hint,-8,0</args>
+                                <action command='deltaSprite'>
+                                    <args>hint,-11,0</args>
+                                    <action command='deltaSprite'>
+                                        <args>hint,-14,0</args>
+                                        <action command='deltaSprite'>
+                                            <args>hint,-18,0</args>
+                                            <action command='deltaSprite'>
+                                                <args>hint,-23,0</args>
+                                                <action command='deltaSprite'>
+                                                    <args>hint,-29,0</args>
+                                                    <action command='deltaSprite'>
+                                                        <args>hint,-35,0</args>
+                                                        <action command='deltaSprite'>
+                                                            <args>hint,-43,0</args>
+                                                            <action command='deltaSprite'>
+                                                                <args>hint,-60,0</args>
+                                                                <action command='deltaSprite'>
+                                                                    <args>hint,-200,0</args>
+                                                                    <action command='removeSprite'>
+                                                                        <args>hint,lab1</args>
+                                                                    </action>
+                                                                </action>
+                                                            </action>
+                                                        </action>
+                                                    </action>
+                                                </action>
+                                            </action>
+                                        </action>
+                                    </action>
+                                </action>
+                            </action>
+                        </action>
+                    </trigger>
+                </trigger>
+                <trigger>
+                    <args>gameState,sleep=true</args>
+                    <trigger detonate='true'>spriteProperty,char,x&lt;400
+                        <action command='moveSprite'>
+                            <args>hint,500,3020</args>
+                        </action>
+                    </trigger>
+                </trigger>
+                
+
 
             </triggers>
 
@@ -495,9 +623,14 @@
                 </action>
             </character>
 
+            <sprite name="hint" x="2500" y="10" width="32" height="32" collidable="false" depthing='3'>
+                <animation sheet="cg" x="-16" y="-16" length="4" frameInterval="4"/>
+            </sprite>
+
 
 
             <!-- path blocks -->
+
             <sprite class='block' name='block1' x='1476' y='2369' collidable='true'/>
             <sprite class='block' name='block2' x='1944' y='2550' collidable='true'/>
 
