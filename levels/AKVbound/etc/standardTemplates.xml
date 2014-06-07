@@ -36,7 +36,8 @@ unmodified. -->
         <asset name='o_crabphone' type='graphic'>objects/items/o_crabphone.png</asset>
         <asset name='o_crabtop' type='graphic'>objects/items/o_crabtop.png</asset>
         <asset name='o_frznfrzr' type='graphic'>objects/items/o_frznfrzr.png</asset>
-        <asset name='o_frzr' type='graphic'>objects/items/o_frzr.png</asset>
+        <asset name='o_frzr' type='graphic'>objects/items/o_frzr.gif</asset>
+        <asset name='o_frzro' type='graphic'>objects/items/o_frzro.gif</asset>
         <asset name='o_sink' type='graphic'>objects/items/o_sink.png</asset>
         <asset name='o_toilet' type='graphic'>objects/items/o_toilet.png</asset>
         <asset name='o_flowers' type='graphic'>objects/items/o_flowers.png</asset>
@@ -125,8 +126,10 @@ unmodified. -->
 	  		<animation sheet='o_frznfrzr' x='-75' y='-40' />
 	  	</sprite>
 
-	  	<sprite class='o_frzr' width='284' height='94' collidable='true'>
-	  		<animation sheet='o_frzr' x='-140' y='-40' />
+	  	<sprite class='o_frzr' width='142' height='94' collidable='true'>
+	  		<animation name='closed' sheet='o_frzr' x='-70' y='-40'/>
+            <animation name='open' sheet='o_frzro' x='-70' y='-40' loopNum='0' followUp='opened'/>
+            <animation name='opened' sheet='o_frzro' x='-70' y='-40' loopNum='0'/>
 	  	</sprite>
 
 	  	<sprite class='o_sink' width='26' height='62' collidable='true'>

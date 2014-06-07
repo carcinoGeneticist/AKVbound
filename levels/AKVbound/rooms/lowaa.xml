@@ -69,6 +69,7 @@
 
         <asset name='lance' type='graphic'>objects/items/i_lance.png</asset>
         <asset name='ahab' type='graphic'>objects/items/i_ahab.png</asset>
+
     </assets>
 
 
@@ -403,6 +404,7 @@
             <character class='karkat' x='980' y='790'>
             </character>
         -->  
+
 
 
             <sprite class='chestlowaa' name='lowaachest1' x='300' y='490'>

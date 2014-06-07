@@ -84,10 +84,20 @@
 				<args>
 				@! This is one of the human freezers. This one looks to be functional and probably has some crazy alien delectables inside.
 				</args>
+				<action command='addAction'>
+                    <args>o_frzr,
+                        <action command='openChest' name='Open.'>
+                            <args>o_frzr,i_tab,
+                            @! You got TAB!
+                            @! That's really all that's in these things. How does anyone even survive on this meteor if all of this has zero calories?
+                            </args>
+                        </action>
+                    </args>
+                </action>
 			</action>
 			
-			<action class='freezerOpen' command='talk' name='Open'>
-				<args>
+			<action class='freezerOpen' command='openChest' name='Open'>
+				<args>o_frzr,i_tab
 				@! You got TAB!
 				@! That's really all that's in these things. How does anyone even survive on this meteor if all of this has zero calories?
 				</args>

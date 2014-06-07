@@ -141,10 +141,15 @@
         <asset name='voice_talk' type='graphic'>dialogs/esac/voice_talk.png</asset>
 
         <asset name='hint' type='graphic'>objects/symbols/cancer.png</asset>
+        <asset name='itab' type='graphic'>objects/items/i_tab.png</asset>
 
         <asset name='staircase' type='path'>2572,2100;2572,2260;1715,2950;1715,3100</asset>
 
     </assets>
+
+    <sprite depthing='3' name='itab'>
+        <animation sheet='itab'/>
+    </sprite>
 
     <rooms>
 
@@ -283,7 +288,7 @@
                 <trigger detonate='true'>spriteProperty,karkat,x&gt;2712
                     <action class='tereziTalk1' command='talk' noDelay='true'>
                         <action command='moveSprite'>
-                            <args>gradient,324,1343</args>
+                            <args>gradient,324,1336</args>
                         </action>
                     </action>
                 </trigger>
@@ -479,6 +484,26 @@
 
 
             <!-- other sprites -->
+            <sprite class='o_frzr' name='o_frzr' x='1000' y='360' collidable='true'>
+                <action command='talk' name='Examine.'>
+                    <args>@! This is one of the human freezers. This one looks to be functional and probably has some crazy alien delectables inside.
+                    </args>
+                    <action command='removeAction'>
+                        <args>o_frzr,Examine.</args>
+                        <action command='addAction'>
+                            <args>o_frzr,
+                                <action command='openChest' name='Open.'>
+                                    <args>o_frzr,itab,
+                                        @! You got TAB!
+                                        @! That's really all that's in these things. How does anyone even survive on this meteor if all of this has zero calories?
+                                    </args>
+                                </action>
+                            </args>
+                        </action>
+                    </action>
+                </action>
+            </sprite>
+
             <sprite class='alch' name='alch' x='331' y='430' collidable='true'>
                 <action command='talk' name='Examine'>
                     <args>
@@ -505,13 +530,7 @@
                     </args>
                 </action>
             </sprite>
-            <sprite class='o_frzr' name='o_frzr' x='1000' y='360' collidable='true'>
-                <action command='talk' name='Examine.'>
-                    <args>
-                        @! This is one of the human freezers. This one looks to be functional and probably has some crazy alien delectables inside.
-                    </args>
-                </action>
-            </sprite>
+            
 <!--
             <sprite class='o_ablut' name='o_ablut' x='1000' y='1500' collidable='true'>
                 <action command='talk' name='Examine ablution trap.'>
