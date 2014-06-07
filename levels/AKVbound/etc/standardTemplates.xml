@@ -163,7 +163,8 @@ unmodified. -->
   	<action class='notForYou' command='goBack'>
 			<args>char</args>
 			<action command='talk'>
-				<args>@! Don't go that way! We haven't finished that area ye-I mean it could be dangerous! </args>
+				<args>@! This place is awfully dark. You tend to not go down this hallway. Too long a stretch with too little lighting. Plus, with all those lab tubes that had monsters in them? It might be dangerous.
+				@! Looking down into the dark makes you uneasy, but also tired. </args>
 			</action>
 		</action>
 

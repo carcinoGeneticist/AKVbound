@@ -363,7 +363,7 @@
             <sprite class='o_flowers' name='o_flowers' x='837' y='310' collidable='true'>
                 <action command='talk' name='Examine.'>
                     <args>
-                        @! Roses are red.\nThose bottles are blue.\nMost your friends are dead.\nGet over it.
+                        @! Roses are red. Those bottles are blue. Most your friends are dead. Get over it.
                     </args>
                 </action>
             </sprite>
@@ -378,7 +378,7 @@
             <sprite class='comp' name='labcomp1' x='838' y='412' collidable='true'>
                 <action command='talk' name='Examine.'>
                     <args>
-                        @! It’s currently just a browser on dave_ebubbles. You’re not looking through that shit. It’s terrible and reading its posts is an experience you would not reccomend to anyone, living or dead.
+                        @! It’s currently just a browser on dave/_ebubbles. You’re not looking through that shit. It’s terrible and reading its posts is an experience you would not reccomend to anyone, living or dead.
                     </args>
                 </action>
             </sprite>
