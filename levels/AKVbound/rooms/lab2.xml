@@ -375,7 +375,7 @@
                 </action>
             </sprite>
 
-            <sprite class='chest' name='chest2' x='200' y='1550'>
+            <sprite class='chest' name='chest2' x='220' y='1550'>
                 <action command='openChest' name='Open.'>
                     <args>chest2,khaled,
                         @! You got a PUZZLE CUBE!
@@ -384,7 +384,7 @@
                 </action>
             </sprite>
 
-            <sprite class='chest' name='chest3' x='550' y='1550'>
+            <sprite class='chest' name='chest3' x='579' y='1550'>
                 <action command='openChest' name='Open.'>
                     <args>chest3,oldsickle,
                         @! You got an OLD SICKLE!
