@@ -110,7 +110,8 @@
                             <action command='goBack'>
                                 <args>char</args>
                                 <action command='talk'>
-                                    <args>@! nothing to see here it just hits empty walkmap, better head back.  maybe have a rest you look tired or smthng.</args>
+                                    <args>@! This place is awfully dark. You tend to not go down this hallway. Too long a stretch with too little lighting. Plus, with all those lab tubes that had monsters in them? It might be dangerous.
+                                    @! Looking down into the dark makes you uneasy, but also tired. </args>
                                 </action>
                             </action>
                         </trigger>
