@@ -24,6 +24,8 @@
   <asset name='closeButtonSheet' type='graphic'>interface/closeconversation.png</asset>
   
   <asset name='drbubble' type='graphic'>interface/drbubble.png</asset>
+  <asset name='gameplan' type='graphic'>INFO/deck.gif</asset>
+
   
 </assets>
 
