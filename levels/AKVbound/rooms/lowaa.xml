@@ -138,7 +138,8 @@
                                                 <args>char,Left</args>
                                                 <action command='talk'>
                                                     <args>
-                                                        @! asdf
+                                                        @! Well, that nightmare of a bubble is over.
+                                                        @! The place seems quiet. Maybe you could get back to alchemizing stuff. Or not. Maybe you could just wander around. What else is there to do? Awful lot of meteor to explore.
                                                     </args>
                                                 </action>
                                             </action>
