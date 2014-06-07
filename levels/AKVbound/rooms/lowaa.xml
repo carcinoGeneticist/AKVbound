@@ -414,7 +414,7 @@
                 </action>
             </sprite>  
 
-            <sprite class='chestlowaa' name='lowaachest2' x='820' y='230'>
+            <sprite class='chestlowaa' name='lowaachest2' x='850' y='230'>
                 <action command='openChest' name='Open.'>
                     <args>lowaachest2,lance,
                         @! You got a FANCY LANCE!
