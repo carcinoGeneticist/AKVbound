@@ -91,7 +91,15 @@
         <asset name='record5' type='audio'>audio/music/record5.ogg;audio/music/record5.mp3</asset>
 
 <!--CASE: add the object that goes in the chest here-->
-        <asset name='obj01' type='graphic'>objects/items/i_coffee.png</asset>  <!--to fix should be coffee-->
+        <asset name='obj01' type='graphic'>objects/items/i_coffee.png</asset>  
+        <asset name='khaled' type='graphic'>objects/items/i_khaled.png</asset>
+        <asset name='trollTab' type='graphic'>objects/items/i_trolltab.png</asset>  
+        <asset name='oldsickle' type='graphic'>objects/items/i_oldsickle.png</asset> 
+        <asset name='bucket' type='graphic'>objects/items/i_bucket.png</asset>   
+
+
+
+        <!--to fix should be coffee-->
 
         <asset name='cg' type='graphic'>objects/symbols/cancer.png</asset>
         <asset name='tc' type='graphic'>objects/symbols/capricorn.png</asset>
@@ -110,6 +118,23 @@
     <sprite depthing='3' name='obj01'>
         <animation x='-24' y='-24' length='2' colSize='40' rowSize='60' frameInterval='6' sheet='obj01'/>
     </sprite>
+
+    <sprite depthing='3' name='khaled'>
+        <animation sheet='khaled'/>
+    </sprite>
+
+    <sprite depthing='3' name='trollTab'>
+        <animation sheet='trollTab'/>
+    </sprite>
+
+    <sprite depthing='3' name='oldsickle'>
+        <animation sheet='oldsickle'/>
+    </sprite>
+
+    <sprite depthing='3' name='bucket'>
+        <animation sheet='bucket'/>
+    </sprite>
+
 
    
     <rooms>
@@ -341,16 +366,42 @@
                 </sprite>
 
             <!-- chests -->
-            <sprite class='chest' name='coffMach1' x='383' y='154'>
+            <sprite class='chest' name='chest1' x='1500' y='1950'>
                 <action command='openChest' name='Open.'>
-                    <args>coffMach1,obj01,
-                        @! You got some COFFEE!
-                        @! Man, this is some cheap coffee. You’ve kept trying to drink coffee to keep you awake but usually it doesn’t wake you up at all. It just multiplies your inferiority complex and adds some anxious jittering. Never the less you occasionally still drink it to try to build tolerance.
-                        @! You still hang around the place as you drink it.
+                    <args>chest1,trollTab,
+                        @! You got TROLL TAB!
+                        @! This stuff is a thicker, slimier consistency than the human TAB. It would normally keep colder for longer too, if this were actually kept in a fridge and not haphazardly thrown in a chest. Either way, it doesn't taste any better.
                     </args>
                 </action>
             </sprite>
 
+            <sprite class='chest' name='chest2' x='200' y='1550'>
+                <action command='openChest' name='Open.'>
+                    <args>chest2,khaled,
+                        @! You got a PUZZLE CUBE!
+                        @! This thing is a clusterfuck if you've ever seen one. What's with the gears and clockfaces? You guess Dave must have alchemized this, but realized it was probably far too ridiculously complicated to actually use for entertainment.
+                    </args>
+                </action>
+            </sprite>
+
+            <sprite class='chest' name='chest3' x='550' y='1550'>
+                <action command='openChest' name='Open.'>
+                    <args>chest3,oldsickle,
+                        @! You got an OLD SICKLE!
+                        @! Man. This was a sickle you used before you alchemized the prime weapon in your collection, the HOMES SMELL YA LATER. This was a bit prickly and rather uncomfortable to hold, and the color scheme leaves a lot to be desired. You're glad you've since upgraded.
+                    </args>
+                </action>
+            </sprite>
+
+
+            <sprite class='chest' name='chest4' x='1620' y='1580'>
+                <action command='openChest' name='Open.'>
+                    <args>chest4,bucket,
+                        @! You got a BUCKET!
+                        @! Gross. Who would leave this here? That doesn't seem very sanitary.
+                    </args>
+                </action>
+            </sprite>
 
 
             <!-- other sprites -->
