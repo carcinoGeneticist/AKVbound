@@ -603,7 +603,11 @@
             
 
             <sprite class='door' name='door1' x='272' y='1309' collidable='true'>
-                
+                <action command='talk' name='Open.'>
+                    <args>
+                        @! Hey, hey, slow down! You can't go through here yet! Aren't you needed somewhere else?
+                    </args>
+                </action>
             </sprite>
 
             <sprite name='gradient' x="1000" y="2000" width="86" height="100" collidable="false" depthing='2'>
@@ -639,6 +643,9 @@
             </sprite>
             <character class='case' x='2680' y='244'>
                 <action class='AKVEgg1' command='talk' name='Ask Karkat Voice'>
+                    <action command='removeSprite'>
+                                                <args>block3,lab2</args>
+                                            </action>
                 </action>
             </character>
 

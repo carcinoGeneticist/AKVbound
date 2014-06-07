@@ -197,23 +197,20 @@
                                 <args>
                                     @! The recuperacoon is very inviting and you are very tired. You prepare yourself for sleep and crawl inside...
                                 </args>
-                                <action command='fadeOut'>
+                                <action command='removeSprite'>
+                                    <args>block1,lab1</args>
                                     <action command='removeSprite'>
-                                        <args>block1,lab1</args>
-                                        <action command='removeSprite'>
-                                            <args>block2,lab1</args>
-                                            <action command='removeSprite'>
-                                                <args>block3,lab2</args>
-                                                <action command='talk'>
-                                                    <args>
-                                                        @! You certainly feel refreshed, if covered in slime.
-                                                        @! It's not long before you hear strange sounds from far down the hallways.
-                                                        @! You wonder what you missed and what could still be going on in this place.
-                                                        @! It might be a good idea to check up on some things.
-                                                    </args>
-                                                    <action command='setGameState'>
-                                                        <args>sleep,true</args>
-                                                    </action>
+                                        <args>block2,lab1</args>
+                                        <action command='fadeOut'>
+                                            <action command='talk'>
+                                                <args>
+                                                    @! You certainly feel refreshed, if covered in slime.
+                                                    @! It's not long before you hear strange sounds from far down the hallways.
+                                                    @! You wonder what you missed and what could still be going on in this place.
+                                                    @! It might be a good idea to check up on some things.
+                                                </args>
+                                                <action command='setGameState'>
+                                                    <args>sleep,true</args>
                                                 </action>
                                             </action>
                                         </action>
@@ -230,7 +227,7 @@
             <sprite class='o_sink' name='o_sink' x='1312' y='1100' collidable='true'>
                 
             </sprite>
-            <sprite class='o_toilet' name='o_toilet' x='1150' y='1100' collidable='true'>
+            <sprite class='o_toilet' name='o_toilet' x='1157' y='1100' collidable='true'>
                 <action command='talk' name='Examine load gaper.'>
                     <args>
                         @! You're lucky you don't have to use this right now, seeing as there is someone staring down at you this very moment. 
@@ -238,7 +235,7 @@
                 </action>
             </sprite>
 
-            <sprite class='o_ablut' name='o_ablut' x='1200' y='970' collidable='true'>
+            <sprite class='o_ablut' name='o_ablut' x='1192' y='970' collidable='true'>
                 <action command='talk' name='Examine ablution trap.'>
                     <args>
                         @! Humans have some similar contraption to this. They call it a /“shower,/” or a /“bathtub/”.
@@ -295,7 +292,7 @@
             <character class='karkat' x='215' y='1730'>
                 <action class='beKarkat'/>
             </character>
-        -->
+    -->    
             
             <sprite name='labCG_BG'>
                 <animation sheet='labCG_BG' sliced='true' numCols='6' numRows='5' colSize='500' rowSize='500'/>

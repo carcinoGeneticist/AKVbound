@@ -188,6 +188,8 @@
                 <trigger>spriteProperty,char,y&gt;2250
                     <trigger>spriteProperty,char,y&lt;2300
                         <trigger detonate='true'>spriteProperty,char,x&lt;500
+                            <action command='removeSprite'>
+                                    <args>dave,lab2</args>
                             <action command='talk'>
                                 <args>
                                     @karkat_talk KARKAT: DAVE?
@@ -215,18 +217,14 @@
                                     @dave_talk DAVE: then check this out follow me 
                                 </args>
                                 
-                                   
-                                        <action command='removeSprite'>
-                                            <args>dave,lab2</args>
-                                        </action>
-                                    
+                                </action>
                             </action>
                         </trigger>
                     </trigger>
                 </trigger>
 
-                <trigger>spriteProperty,char,x&lt;500
-                    <trigger detonate='true'>spriteProperty,char,y&gt;2900
+                <trigger>spriteProperty,char,x&lt;850
+                    <trigger detonate='true'>spriteProperty,char,y&gt;2800
                         <action command='talk'>
                             <args>
                                 @! What's that sound? Is that a voice?
@@ -234,6 +232,8 @@
                         </action>
                     </trigger>
                 </trigger>
+
+
 
 
             </triggers>
@@ -757,7 +757,7 @@
                         @dave_talk DAVE: whoa youve never been to the classy lounge area
                         @dave_talk DAVE: are you trying to say youve never once pressed ctrl t
                         @karkat_talk KARKAT: NO I HAVEN’T. I DON’T EVEN-
-                        @dave_talk DAVE: then check this out follow me -->
+                        @dave_talk DAVE: then check this out follow me 
 
                     </args>
                     <action command='moveSprite'>
@@ -772,7 +772,10 @@
                             </action>
                         </action>
                     </action>
-                </action>
+                </action>-->
+
+            </args>
+        </action>
 
 
 
@@ -801,7 +804,7 @@
                         @case_talk CASE: Denten is a pro. Then again, anyone in Dust: An Elysian Tail is pro. He’s also the greatest John voice actor by objectionable fact because his name is John and also because he’s a fantastic voice actor. His casting intuition is pretty damn formidable as well.
                         @case_idle CASE: Denten - Denten02.tumblr.com
                         @case_talk CASE: Finally, major co-developer of this game, Andrew. I met him through this project and shortly found out what an awesome person he was. Let the fact that this game even got done be a testament to that.
-                        @case_idle CASE: Andrew - mageOfForm.tumblr.com
+                        @case_idle CASE: Andrew - halfedge.tumblr.com
                         @case_slytalk CASE: You know what else you guys should check out that most of these guys have worked on? Featherbent. I do music and voice things for it.
                         @case_idle CASE: Featherbent - Featherbent.com
                         @case_talk CASE: And a few more odd special thanks just to tack you guys on, since people probably know where to find you anyway. All the other VAs and people I've met and done projects with, Jane, Tamara, Cat, James, Luke, Maddi, Kira, Grant, Jess, Ed, Cory, Tyler, Jay, Mark, Stu, Kami, Klone, Brennan... I'm gonna forget someone if I keep going.
