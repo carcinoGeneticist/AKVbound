@@ -341,6 +341,17 @@
                 </sprite>
 
             <!-- chests -->
+            <sprite class='chest' name='coffMach1' x='383' y='154'>
+                <action command='openChest' name='Open.'>
+                    <args>coffMach1,obj01,
+                        @! You got some COFFEE!
+                        @! Man, this is some cheap coffee. You’ve kept trying to drink coffee to keep you awake but usually it doesn’t wake you up at all. It just multiplies your inferiority complex and adds some anxious jittering. Never the less you occasionally still drink it to try to build tolerance.
+                        @! You still hang around the place as you drink it.
+                    </args>
+                </action>
+            </sprite>
+
+
 
             <!-- other sprites -->
 <!--CASE: place the chest/whatever in the room tag, fuck with the x and y until it is where you want.  "name='open.'" can be changed to whatever you want the option to be when you activate it.  spaces don't have to be escaped.-->
