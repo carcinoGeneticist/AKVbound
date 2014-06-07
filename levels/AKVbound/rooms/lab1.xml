@@ -299,7 +299,7 @@
                                     <action command='addAction'>
                                         <args>teleporterPad,
                                             <action name='Teleport' command='changeRoomRemote'>
-                                                <args>rooms/lab2.xml,lab2,1229,2112</args>
+                                                <args>rooms/lab2.xml,lab2,1235,2112</args>
                                             </action>
                                         </args>
                                         <action command='unfollow'>
