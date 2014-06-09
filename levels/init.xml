@@ -1,10 +1,10 @@
-<sburb name="AKVbound" version="1.0" description="initialization"
+<!--ß<sburb name="AKVbound" version="1.0" description="initialization"
 	char='karkat' scale='2' bgm='karkatSong' 
 	levelPath='levels/AKVbound' resourcePath='resources/AKVbound'> 
-<!--
+-->
 	<sburb name="AKVbound" version="1.0" description="initialization"
 	char='karkat' scale='2' 
-	levelPath='levels/AKVbound' resourcePath='resources/AKVbound'> -->
+	levelPath='levels/AKVbound' resourcePath='resources/AKVbound'> 
 
 
 	<dependencies>
